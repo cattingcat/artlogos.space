@@ -8,6 +8,7 @@ RUN npm ci --no-audit --no-fund
 COPY index.html tsconfig*.json vite.config.ts ./
 COPY src ./src
 COPY public ./public
+COPY scripts/prerender.mjs scripts/check-seo.mjs ./scripts/
 RUN npm run build
 
 FROM nginxinc/nginx-unprivileged:stable-alpine@sha256:15c994d10d6d78658721c3bcafff14cb281fba2a4bdf9d5ba92c416a472516e3 AS runtime

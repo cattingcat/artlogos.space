@@ -1,0 +1,666 @@
+{
+  "source": "Портфолио.zip",
+  "notes": "Archive photo mapping preserved. Published titles and descriptions verified against DeviantArt, with Saatchi Art checked as a fallback. Source text is plain text with repeated social and video promotion removed. Descriptive titles remain only when no publication was matched. Tags follow visible subjects and explicit author context; no prices or availability are inferred.",
+  "artworks": [
+    {
+      "id": "azure",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/Azure.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Azure-1301565916",
+        "title": "Azure",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "forest-figure",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Figures/1111.jpg",
+          "view": "Full painting"
+        },
+        {
+          "file": "Портфолио/Figures/IMG_5891.JPG",
+          "view": "Canvas view"
+        },
+        {
+          "file": "Портфолио/Figures/IMG_5885.JPG",
+          "view": "Figure detail"
+        },
+        {
+          "file": "Портфолио/Figures/IMG_5893.JPG",
+          "view": "On the easel"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Midday-Vision-1338756809",
+        "title": "Midday Vision",
+        "descriptionAvailable": true,
+        "matchEvidence": "Matched to the public blurred DeviantArt thumbnail by distinctive figure placement, raised arms, tree layout and color distribution. Low-resolution pixel comparison against all 36 local covers produced MSE 0.0004 for this work versus 0.0168 for the next candidate. Fine details could not be verified in the blurred source."
+      }
+    },
+    {
+      "id": "winter-garden",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/dllo445-e3ea81e0-94e6-4012-afc9-e39fc882e65a.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/March-snow-1306186709",
+        "title": "March snow",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1306186709 encoded in supplied archive filename Портфолио/Cityscapes/dllo445-e3ea81e0-94e6-4012-afc9-e39fc882e65a.jpg"
+      }
+    },
+    {
+      "id": "portrait-blue-scarf",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Portrait/dl3ykfr-bfe64052-79cb-4653-9332-8892f3fe2c8a.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/In-the-museum-1276441335",
+        "title": "In the museum",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1276441335 encoded in supplied archive filename Портфолио/Portrait/dl3ykfr-bfe64052-79cb-4653-9332-8892f3fe2c8a.jpg"
+      }
+    },
+    {
+      "id": "countryside",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/Countryside.png",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Low-sky-1277359757",
+        "title": "Low sky",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "golden-autumn",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/IMG_8196.JPG",
+          "view": "Full painting"
+        },
+        {
+          "file": "Портфолио/Cityscapes/IMG_8200.JPG",
+          "view": "Painted detail"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Maple-at-dusk-1386680330",
+        "title": "Maple at dusk",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "by-the-water",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Figures/dkxreva-567a5397-beb9-44fa-8742-dee2e32ade80.jpg",
+          "view": "Full painting"
+        },
+        {
+          "file": "Портфолио/Figures/IMG_2083.JPG",
+          "view": "Figure detail"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Meeting-1266029830",
+        "title": "Meeting",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1266029830 encoded in supplied archive filename Портфолио/Figures/dkxreva-567a5397-beb9-44fa-8742-dee2e32ade80.jpg"
+      }
+    },
+    {
+      "id": "fountain-garden",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/dl77ug6-ef8a2f18-18a1-4a2d-bdbc-a0221b47654d.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/What-is-your-name-1281913062",
+        "title": "What is your name?",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1281913062 encoded in supplied archive filename Портфолио/Cityscapes/dl77ug6-ef8a2f18-18a1-4a2d-bdbc-a0221b47654d.jpg"
+      }
+    },
+    {
+      "id": "about-zero",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/about_zero_by_alinaivy_dla1v2u-fullview.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/About-Zero-1286672790",
+        "title": "About Zero",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1286672790 encoded in supplied archive filename Портфолио/Cityscapes/about_zero_by_alinaivy_dla1v2u-fullview.jpg"
+      }
+    },
+    {
+      "id": "cloud-catcher",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/cloud_catcher_by_alinaivy_dl8gs09-pre.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Cloud-catcher-1284009417",
+        "title": "Cloud catcher",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1284009417 encoded in supplied archive filename Портфолио/Пастораль/cloud_catcher_by_alinaivy_dl8gs09-pre.jpg"
+      }
+    },
+    {
+      "id": "venus",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Figures/Venus.jpg",
+          "view": "Full painting"
+        },
+        {
+          "file": "Портфолио/Figures/IMG_4825.JPG",
+          "view": "Painted detail"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Venus-1289340649",
+        "title": "Venus",
+        "descriptionAvailable": true,
+        "matchEvidence": "Matched to the public blurred DeviantArt thumbnail by figure placement, red drapery, blue architecture and color distribution, consistent with the archive filename Venus. Low-resolution pixel comparison against all 36 local covers produced MSE 0.0008 versus 0.0205 for the next candidate. Fine details could not be verified in the blurred DeviantArt source."
+      }
+    },
+    {
+      "id": "city-portrait",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Portrait/IMG_5983.JPG",
+          "view": "Full painting"
+        },
+        {
+          "file": "Портфолио/Portrait/IMG_6010.JPG",
+          "view": "On the easel"
+        },
+        {
+          "file": "Портфолио/Portrait/IMG_6011.JPG",
+          "view": "Closer view"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Portrait-of-my-dad-1344138963",
+        "title": "Portrait of my dad",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "saltspring",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/saltspring.jpg",
+          "view": "Full painting"
+        },
+        {
+          "file": "Портфолио/Пастораль/saltspringFRAME.jpg",
+          "view": "In the frame"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Salt-spring-1278915826",
+        "title": "Salt spring",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "village-evening",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/IMG_7382.JPG",
+          "view": "Full painting"
+        },
+        {
+          "file": "Портфолио/Пастораль/side.jpg",
+          "view": "Angled view"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/At-5-a.m-1387821362",
+        "title": "At 5 a.m",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "my-room",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/my_room__by_alinaivy_dkz9e2c-pre.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/My-room-1268548212",
+        "title": "My room",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1268548212 encoded in supplied archive filename Портфолио/my_room__by_alinaivy_dkz9e2c-pre.jpg"
+      }
+    },
+    {
+      "id": "village-church",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/dlchnj3-544742ef-542d-4b75-b9f8-de9517106af7.jpg",
+          "view": "Full painting"
+        },
+        {
+          "file": "Портфолио/Пастораль/IMG_4878.JPG",
+          "view": "Church detail"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Before-the-storm-1290768735",
+        "title": "Before the storm",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1290768735 encoded in supplied archive filename Портфолио/Пастораль/dlchnj3-544742ef-542d-4b75-b9f8-de9517106af7.jpg"
+      }
+    },
+    {
+      "id": "blue-night",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/IMG_3916.JPG",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/At-dawn-1279213656",
+        "title": "At dawn",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "morning-mist",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/morning_mist_by_alinaivy_dmbe3pt-fullview.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Morning-Mist-1349389649",
+        "title": "Morning Mist",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1349389649 encoded in supplied archive filename Портфолио/Пастораль/morning_mist_by_alinaivy_dmbe3pt-fullview.jpg"
+      }
+    },
+    {
+      "id": "sunlit-trees",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/au.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/November-5th-1273844159",
+        "title": "November 5th",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "boats-under-pines",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/dhk1ydp-978b3230-86d3-45cf-aad3-0eaae152a856.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Closed-for-the-season-1061608525",
+        "title": "Closed for the season",
+        "descriptionAvailable": false,
+        "matchEvidence": "Exact DeviantArt deviation ID 1061608525 encoded in supplied archive filename Портфолио/Cityscapes/dhk1ydp-978b3230-86d3-45cf-aad3-0eaae152a856.jpg"
+      }
+    },
+    {
+      "id": "riverboat",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/dkzhlga-7e533baa-3acf-4c38-8f8f-abfe22d6830c.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Riverboat-Yunga-2-1268931034",
+        "title": "Riverboat Yunga #2",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1268931034 encoded in supplied archive filename Портфолио/Cityscapes/dkzhlga-7e533baa-3acf-4c38-8f8f-abfe22d6830c.jpg"
+      }
+    },
+    {
+      "id": "night-park",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/dlglm9f-8258e4b0-63e1-45da-a8c1-e41e989be985.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Anywhere-1297672179",
+        "title": "Anywhere",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1297672179 encoded in supplied archive filename Портфолио/Cityscapes/dlglm9f-8258e4b0-63e1-45da-a8c1-e41e989be985.jpg"
+      }
+    },
+    {
+      "id": "park-river",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/dlsy89s-c732980f-94ca-4aa1-a319-030cce76df93.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/August-8-1318415968",
+        "title": "August 8",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1318415968 encoded in supplied archive filename Портфолио/Cityscapes/dlsy89s-c732980f-94ca-4aa1-a319-030cce76df93.jpg"
+      }
+    },
+    {
+      "id": "rainy-walk",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Cityscapes/IMG_6955.JPG",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Downpour-1354522481",
+        "title": "Downpour",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      },
+      "additionalPublication": {
+        "url": "https://www.saatchiart.com/art/Painting-Downpour/3032781/14297211/view",
+        "matchEvidence": "Parent agent verified the publicly rendered Saatchi page image against IMG_6955.JPG / rainy-walk: grey-green trees at left, solitary street lamp at right, couple on reddish rain-soaked path. Full description read after expanding READ MORE."
+      }
+    },
+    {
+      "id": "forest-bather",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Figures/IMG_5697.JPG",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Eve-1325780803",
+        "title": "Eve",
+        "descriptionAvailable": true,
+        "matchEvidence": "DeviantArt thumbnail is blurred; figure placement, cascade and colors match the local painting. Independently confirmed using the full, unblurred image on the artist’s Saatchi Art Eve listing: identical pose with hands at chest and abdomen, rocks, foliage and composition."
+      },
+      "additionalPublication": {
+        "url": "https://www.saatchiart.com/art/Painting-Eve/3032781/14007451/view",
+        "matchEvidence": "Parent agent verified publicly rendered Saatchi page image against IMG_5697.JPG / forest-bather: pale nude by rock cascade, right hand at chest and left at abdomen; rock, foliage, pose and exact composition match. Full description read after expanding READ MORE."
+      }
+    },
+    {
+      "id": "red-haired-portrait",
+      "titleSource": "descriptive",
+      "sources": [
+        {
+          "file": "Портфолио/Portrait/IMG_4916.JPG",
+          "view": "Full painting"
+        }
+      ]
+    },
+    {
+      "id": "breaking-waves",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/tumblr_e242b345e5ac5b3d5040201ad17687e6_bf90a9d5_1536.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/W-a-v-e-s-1063043857",
+        "title": "W a v e s",
+        "descriptionAvailable": false,
+        "matchEvidence": "Exact visual match: turquoise breaking waves, rocks, dark rock outcrop on right with two figures, mountains across the bay; local original index 28 and DeviantArt contact-3.jpg W a v e s."
+      }
+    },
+    {
+      "id": "sculpture-at-night",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Архитектура/dl11yiz-4d437dc9-71c4-47de-bd17-19734a379cec.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Cupid-and-Psyche-1271560715",
+        "title": "Cupid and Psyche",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1271560715 encoded in supplied archive filename Портфолио/Архитектура/dl11yiz-4d437dc9-71c4-47de-bd17-19734a379cec.jpg"
+      }
+    },
+    {
+      "id": "church-interior",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Архитектура/IMG_6203.JPG",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Saint-Sophia-Cathedral-1353325061",
+        "title": "Saint Sophia Cathedral",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "cloudy-evening",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/cloudy evening.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Cloudy-evening-1321292163",
+        "title": "Cloudy evening",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "spring-thaw",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/dlwvviz-ea4fa25b-10b8-4c0b-972a-3340583fe830.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Spring-etude-1325024603",
+        "title": "Spring etude",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1325024603 encoded in supplied archive filename Портфолио/Пастораль/dlwvviz-ea4fa25b-10b8-4c0b-972a-3340583fe830.jpg"
+      }
+    },
+    {
+      "id": "willow-reflections",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/dlzwqgm-c3eb54e2-8d89-464d-bce5-d7448ffdb8a7.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/The-boat-1330103542",
+        "title": "The boat",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1330103542 encoded in supplied archive filename Портфолио/Пастораль/dlzwqgm-c3eb54e2-8d89-464d-bce5-d7448ffdb8a7.jpg"
+      }
+    },
+    {
+      "id": "mountain-valley",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/IMG_4960.JPG",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Mountains-of-Armenia-1303071009",
+        "title": "Mountains of Armenia",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "winter-moonlight",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/IMG_5053.JPG",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "descriptive",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Night-1304259013",
+        "title": "Night",
+        "descriptionAvailable": true,
+        "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
+      }
+    },
+    {
+      "id": "autumn-domes",
+      "titleSource": "descriptive",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/IMG_7297.JPG",
+          "view": "Full painting"
+        }
+      ]
+    },
+    {
+      "id": "sailboat",
+      "titleSource": "DeviantArt",
+      "sources": [
+        {
+          "file": "Портфолио/Пастораль/sailboat_by_alinaivy_dl9cdxp-fullview.jpg",
+          "view": "Full painting"
+        }
+      ],
+      "initialTitleSource": "filename",
+      "publication": {
+        "url": "https://www.deviantart.com/alinaivy/art/Sailboat-1285484173",
+        "title": "Sailboat",
+        "descriptionAvailable": true,
+        "matchEvidence": "Exact DeviantArt deviation ID 1285484173 encoded in supplied archive filename Портфолио/Пастораль/sailboat_by_alinaivy_dl9cdxp-fullview.jpg"
+      }
+    }
+  ],
+  "editorial": [
+    "Портфолио/5303144069569649574.jpg",
+    "Портфолио/workshop.JPG"
+  ],
+  "omitted": [
+    {
+      "file": "Портфолио/Архитектура/IMG_62032.JPG",
+      "reason": "Lower-resolution copy of the same church interior; higher-resolution IMG_6203.JPG is used."
+    }
+  ]
+}

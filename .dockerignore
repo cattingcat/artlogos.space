@@ -10,3 +10,6 @@
 !src/**
 !public/
 !public/**
+!scripts/
+!scripts/prerender.mjs
+!scripts/check-seo.mjs

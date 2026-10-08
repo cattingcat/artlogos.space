@@ -1,0 +1,1048 @@
+[
+  {
+    "id": "azure",
+    "title": "Azure",
+    "category": "Landscapes",
+    "tags": [
+      "Spring",
+      "Water",
+      "Trees"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/azure/01.webp",
+        "thumbnail": "/portfolio/azure/01-preview.webp",
+        "alt": "Azure — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 2200
+      }
+    ],
+    "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas\n\nI painted this landscape using almost dry egg-oil tempera over acrylic gesso. The result is completely matte.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Azure-1301565916"
+      }
+    ]
+  },
+  {
+    "id": "forest-figure",
+    "title": "Midday Vision",
+    "category": "Figures",
+    "tags": [
+      "People",
+      "Trees",
+      "Summer"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/forest-figure/01.webp",
+        "thumbnail": "/portfolio/forest-figure/01-preview.webp",
+        "alt": "Midday Vision — full painting",
+        "label": "Full painting",
+        "width": 1182,
+        "height": 1623
+      },
+      {
+        "src": "/portfolio/forest-figure/02.webp",
+        "thumbnail": "/portfolio/forest-figure/02-preview.webp",
+        "alt": "Midday Vision — canvas view",
+        "label": "Canvas view",
+        "width": 1566,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/forest-figure/03.webp",
+        "thumbnail": "/portfolio/forest-figure/03-preview.webp",
+        "alt": "Midday Vision — figure detail",
+        "label": "Figure detail",
+        "width": 1467,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/forest-figure/04.webp",
+        "thumbnail": "/portfolio/forest-figure/04-preview.webp",
+        "alt": "Midday Vision — on the easel",
+        "label": "On the easel",
+        "width": 1467,
+        "height": 2200
+      }
+    ],
+    "description": "40*30 cm\nEgg-oil tempera on canvas\n\nIn some areas of this painting the canvas shows through cause I got tired of mixing the brown tones and simply scraped the paint off.\nI also used cobalt yellow for the body and a cheaper cadmium yellow for the greenery.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Midday-Vision-1338756809"
+      }
+    ]
+  },
+  {
+    "id": "winter-garden",
+    "title": "March snow",
+    "category": "Cityscapes",
+    "tags": [
+      "Spring",
+      "Architecture",
+      "Trees"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/winter-garden/01.webp",
+        "thumbnail": "/portfolio/winter-garden/01-preview.webp",
+        "alt": "March snow — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1659
+      }
+    ],
+    "description": "Palette knife painting\n18*24 cm\nEgg-oil tempera on canvas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/March-snow-1306186709"
+      }
+    ]
+  },
+  {
+    "id": "portrait-blue-scarf",
+    "title": "In the museum",
+    "category": "Portraits",
+    "tags": [
+      "People",
+      "Interiors"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/portrait-blue-scarf/01.webp",
+        "thumbnail": "/portfolio/portrait-blue-scarf/01-preview.webp",
+        "alt": "In the museum — full painting",
+        "label": "Full painting",
+        "width": 1650,
+        "height": 2200
+      }
+    ],
+    "description": "Portrait of my sister\n\n50*40 cm, oil on canvas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/In-the-museum-1276441335"
+      }
+    ]
+  },
+  {
+    "id": "countryside",
+    "title": "Low sky",
+    "category": "Landscapes",
+    "tags": [
+      "Countryside",
+      "Clouds",
+      "Summer"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/countryside/01.webp",
+        "thumbnail": "/portfolio/countryside/01-preview.webp",
+        "alt": "Low sky — full painting",
+        "label": "Full painting",
+        "width": 1769,
+        "height": 2200
+      }
+    ],
+    "description": "30*25 cm,\nTempera grassa on cardboard",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Low-sky-1277359757"
+      }
+    ]
+  },
+  {
+    "id": "golden-autumn",
+    "title": "Maple at dusk",
+    "category": "Landscapes",
+    "tags": [
+      "Autumn",
+      "Trees"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/golden-autumn/01.webp",
+        "thumbnail": "/portfolio/golden-autumn/01-preview.webp",
+        "alt": "Maple at dusk — full painting",
+        "label": "Full painting",
+        "width": 1806,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/golden-autumn/02.webp",
+        "thumbnail": "/portfolio/golden-autumn/02-preview.webp",
+        "alt": "Maple at dusk — painted detail",
+        "label": "Painted detail",
+        "width": 2200,
+        "height": 1467
+      }
+    ],
+    "description": "30*25 cm\nOil on canvas\nPalette knife painting\n\nThis was about a year ago. I was walking home in the evening, and the maple leaves looked so bright in the darkness, almost like they were on fire.\nThis became one of my favorite memories of that year. It was a cold and quiet october and not much else left such an impression on me.\n\nSo I painted this in about two hours. A couple of days later the surface was almost dry, but still had a nice sheen thanks to the alkyd medium i'd mixed into the paint. Btw I'd never used a synthetic medium before, but I could not find dammar resin anywhere while I was traveling.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Maple-at-dusk-1386680330"
+      }
+    ]
+  },
+  {
+    "id": "by-the-water",
+    "title": "Meeting",
+    "category": "Figures",
+    "tags": [
+      "People",
+      "Water",
+      "Trees"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/by-the-water/01.webp",
+        "thumbnail": "/portfolio/by-the-water/01-preview.webp",
+        "alt": "Meeting — full painting",
+        "label": "Full painting",
+        "width": 1467,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/by-the-water/02.webp",
+        "thumbnail": "/portfolio/by-the-water/02-preview.webp",
+        "alt": "Meeting — figure detail",
+        "label": "Figure detail",
+        "width": 2200,
+        "height": 1465
+      }
+    ],
+    "description": "60*50\nOil on canvas\n\nI began this painting at the end of July with a charcoal sketch and then left it for a long time cause I didn’t know which fixative to choose.\nIn the end I just used my hairspray when I couldn’t find a better alternative ._. After that I covered it with imprimatura of yellow ochre and continued painting in oils as usual.\nBut the summer landscape gradually turned into an autumn one cause I fell a bit behind the season change 🐌",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Meeting-1266029830"
+      }
+    ]
+  },
+  {
+    "id": "fountain-garden",
+    "title": "What is your name?",
+    "category": "Cityscapes",
+    "tags": [
+      "Architecture",
+      "Water",
+      "Summer"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/fountain-garden/01.webp",
+        "thumbnail": "/portfolio/fountain-garden/01-preview.webp",
+        "alt": "What is your name? — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1713
+      }
+    ],
+    "description": "In the spring, I tried to get there once more. I liked that after many years this place had remained untouched. But the guard wouldn’t let me in.\nWell, I’ll keep the memory here.\n\nJune, 2008",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/What-is-your-name-1281913062"
+      }
+    ]
+  },
+  {
+    "id": "about-zero",
+    "title": "About Zero",
+    "category": "Cityscapes",
+    "tags": [
+      "Winter",
+      "Trees",
+      "Architecture"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/about-zero/01.webp",
+        "thumbnail": "/portfolio/about-zero/01-preview.webp",
+        "alt": "About Zero — full painting",
+        "label": "Full painting",
+        "width": 1280,
+        "height": 1267
+      }
+    ],
+    "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas\n\nA memory from January 4th, 2016",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/About-Zero-1286672790"
+      }
+    ]
+  },
+  {
+    "id": "cloud-catcher",
+    "title": "Cloud catcher",
+    "category": "Landscapes",
+    "tags": [
+      "Water",
+      "Countryside",
+      "Clouds"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/cloud-catcher/01.webp",
+        "thumbnail": "/portfolio/cloud-catcher/01-preview.webp",
+        "alt": "Cloud catcher — full painting",
+        "label": "Full painting",
+        "width": 1099,
+        "height": 727
+      }
+    ],
+    "description": "20*30 cm\noil+egg emulsion on canvas\n\nI added an egg emulsion with boiled oil and venetian turpentine to my tube oil paints. This mixture allows impasto painting while keeping the colors bright and the paint thick.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Cloud-catcher-1284009417"
+      }
+    ]
+  },
+  {
+    "id": "venus",
+    "title": "Venus",
+    "category": "Figures",
+    "tags": [
+      "People",
+      "Water",
+      "Architecture"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/venus/01.webp",
+        "thumbnail": "/portfolio/venus/01-preview.webp",
+        "alt": "Venus — full painting",
+        "label": "Full painting",
+        "width": 1000,
+        "height": 1447
+      },
+      {
+        "src": "/portfolio/venus/02.webp",
+        "thumbnail": "/portfolio/venus/02-preview.webp",
+        "alt": "Venus — painted detail",
+        "label": "Painted detail",
+        "width": 1467,
+        "height": 2200
+      }
+    ],
+    "description": "I used the sculpture “Venus Removing Her Sandal” by Ivan Vitali as a reference. At first, I intended to make a figure study, but later I added a background and some details. Hope that soon I’ll be able to make it in a large format, when I move my canvases and stretcher frames.\n\n35*25 cm\nEgg-oil tempera on canvas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Venus-1289340649"
+      }
+    ]
+  },
+  {
+    "id": "city-portrait",
+    "title": "Portrait of my dad",
+    "category": "Portraits",
+    "tags": [
+      "People",
+      "Architecture"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/city-portrait/01.webp",
+        "thumbnail": "/portfolio/city-portrait/01-preview.webp",
+        "alt": "Portrait of my dad — full painting",
+        "label": "Full painting",
+        "width": 1772,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/city-portrait/02.webp",
+        "thumbnail": "/portfolio/city-portrait/02-preview.webp",
+        "alt": "Portrait of my dad — on the easel",
+        "label": "On the easel",
+        "width": 1467,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/city-portrait/03.webp",
+        "thumbnail": "/portfolio/city-portrait/03-preview.webp",
+        "alt": "Portrait of my dad — closer view",
+        "label": "Closer view",
+        "width": 1467,
+        "height": 2200
+      }
+    ],
+    "description": "Egg-oil tempera on canvas\n\n50*40 cm\n\nI finally finished this portrait!  And it was my first time painting with a limited color palette.\nSo, I used only four colors for this piece: cadmium red, yellow ochre, titanium white, and payne’s grey, which is currently my favorite black. I’ll try other black pigments for portraits in the future and see how they compare.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Portrait-of-my-dad-1344138963"
+      }
+    ]
+  },
+  {
+    "id": "saltspring",
+    "title": "Salt spring",
+    "category": "Landscapes",
+    "tags": [
+      "Water",
+      "Countryside",
+      "Clouds"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/saltspring/01.webp",
+        "thumbnail": "/portfolio/saltspring/01-preview.webp",
+        "alt": "Salt spring — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1669
+      },
+      {
+        "src": "/portfolio/saltspring/02.webp",
+        "thumbnail": "/portfolio/saltspring/02-preview.webp",
+        "alt": "Salt spring — in the frame",
+        "label": "In the frame",
+        "width": 2200,
+        "height": 1803
+      }
+    ],
+    "description": "Oil+egg tempera on fiberboard\n20*25 cm",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Salt-spring-1278915826"
+      }
+    ]
+  },
+  {
+    "id": "village-evening",
+    "title": "At 5 a.m",
+    "category": "Landscapes",
+    "tags": [
+      "Countryside",
+      "Morning",
+      "Summer"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/village-evening/01.webp",
+        "thumbnail": "/portfolio/village-evening/01-preview.webp",
+        "alt": "At 5 a.m — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1467
+      },
+      {
+        "src": "/portfolio/village-evening/02.webp",
+        "thumbnail": "/portfolio/village-evening/02-preview.webp",
+        "alt": "At 5 a.m — angled view",
+        "label": "Angled view",
+        "width": 1990,
+        "height": 1505
+      }
+    ],
+    "description": "Another superthick palette knife painting. For this one I mixed my oil paints with a homemade painting medium: dammar, stand oil and refined turpentine - the mix I turn to when I have to move or feel too tired/lazy to prepare an egg emulsion.\n\nI doubt I’ll ever see these places again. When I was a child, I loved visiting my uncle in the countryside near lake Ilmen cause I was absolutly free to explore the fields and woods near his house and come back whenever I liked. He didn’t mind.\n\nOil on canvas\n18*24 cm",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/At-5-a.m-1387821362"
+      }
+    ]
+  },
+  {
+    "id": "my-room",
+    "title": "My room",
+    "category": "Interiors",
+    "tags": [
+      "Interiors",
+      "Winter"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/my-room/01.webp",
+        "thumbnail": "/portfolio/my-room/01-preview.webp",
+        "alt": "My room — full painting",
+        "label": "Full painting",
+        "width": 1095,
+        "height": 730
+      }
+    ],
+    "description": "40*30 cm\nOil on canvas\nI hope I'll come back here again.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/My-room-1268548212"
+      }
+    ]
+  },
+  {
+    "id": "village-church",
+    "title": "Before the storm",
+    "category": "Landscapes",
+    "tags": [
+      "Countryside",
+      "Architecture",
+      "Clouds"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/village-church/01.webp",
+        "thumbnail": "/portfolio/village-church/01-preview.webp",
+        "alt": "Before the storm — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1498
+      },
+      {
+        "src": "/portfolio/village-church/02.webp",
+        "thumbnail": "/portfolio/village-church/02-preview.webp",
+        "alt": "Before the storm — church detail",
+        "label": "Church detail",
+        "width": 2200,
+        "height": 1467
+      }
+    ],
+    "description": "Palette knife painting;\n20*30 cm\nEgg-oil tempera on canvas\n\nThis painting was done on a transparent acrylic ground. I would also like to try painting with egg-oil tempera on a sized wood panel without any ground.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Before-the-storm-1290768735"
+      }
+    ]
+  },
+  {
+    "id": "blue-night",
+    "title": "At dawn",
+    "category": "Landscapes",
+    "tags": [
+      "Winter",
+      "Morning",
+      "Trees"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/blue-night/01.webp",
+        "thumbnail": "/portfolio/blue-night/01-preview.webp",
+        "alt": "At dawn — full painting",
+        "label": "Full painting",
+        "width": 1758,
+        "height": 2200
+      }
+    ],
+    "description": "30*25 cm,\noil on canvas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/At-dawn-1279213656"
+      }
+    ]
+  },
+  {
+    "id": "morning-mist",
+    "title": "Morning Mist",
+    "category": "Landscapes",
+    "tags": [
+      "Countryside",
+      "Morning",
+      "Flowers"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/morning-mist/01.webp",
+        "thumbnail": "/portfolio/morning-mist/01-preview.webp",
+        "alt": "Morning Mist — full painting",
+        "label": "Full painting",
+        "width": 1280,
+        "height": 955
+      }
+    ],
+    "description": "18*24 cm\nOil etude",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Morning-Mist-1349389649"
+      }
+    ]
+  },
+  {
+    "id": "sunlit-trees",
+    "title": "November 5th",
+    "category": "Landscapes",
+    "tags": [
+      "Trees",
+      "Autumn",
+      "Evening"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/sunlit-trees/01.webp",
+        "thumbnail": "/portfolio/sunlit-trees/01-preview.webp",
+        "alt": "November 5th — full painting",
+        "label": "Full painting",
+        "width": 1746,
+        "height": 2200
+      }
+    ],
+    "description": "Evening in the park\n30*25 cm, oil on canvas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/November-5th-1273844159"
+      }
+    ]
+  },
+  {
+    "id": "boats-under-pines",
+    "title": "Closed for the season",
+    "category": "Landscapes",
+    "tags": [
+      "Sea",
+      "Boats",
+      "Trees"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/boats-under-pines/01.webp",
+        "thumbnail": "/portfolio/boats-under-pines/01-preview.webp",
+        "alt": "Closed for the season — full painting",
+        "label": "Full painting",
+        "width": 2183,
+        "height": 2200
+      }
+    ],
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Closed-for-the-season-1061608525"
+      }
+    ]
+  },
+  {
+    "id": "riverboat",
+    "title": "Riverboat Yunga #2",
+    "category": "Landscapes",
+    "tags": [
+      "Water",
+      "Boats",
+      "Summer"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/riverboat/01.webp",
+        "thumbnail": "/portfolio/riverboat/01-preview.webp",
+        "alt": "Riverboat Yunga #2 — full painting",
+        "label": "Full painting",
+        "width": 1692,
+        "height": 2200
+      }
+    ],
+    "description": "I often dream of that view from the bridge.\n25*30 cm\nOil on cardboard",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Riverboat-Yunga-2-1268931034"
+      }
+    ]
+  },
+  {
+    "id": "night-park",
+    "title": "Anywhere",
+    "category": "Cityscapes",
+    "tags": [
+      "Night",
+      "Winter",
+      "Trees"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/night-park/01.webp",
+        "thumbnail": "/portfolio/night-park/01-preview.webp",
+        "alt": "Anywhere — full painting",
+        "label": "Full painting",
+        "width": 2156,
+        "height": 2200
+      }
+    ],
+    "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Anywhere-1297672179"
+      }
+    ]
+  },
+  {
+    "id": "park-river",
+    "title": "August 8",
+    "category": "Landscapes",
+    "tags": [
+      "Water",
+      "Trees",
+      "Architecture"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/park-river/01.webp",
+        "thumbnail": "/portfolio/park-river/01-preview.webp",
+        "alt": "August 8 — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1761
+      }
+    ],
+    "description": "Alexandrino Manor, Saint Petersburg\n\n25*30 cm\nEgg-oil tempera on canvas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/August-8-1318415968"
+      }
+    ]
+  },
+  {
+    "id": "rainy-walk",
+    "title": "Downpour",
+    "category": "Cityscapes",
+    "tags": [
+      "People",
+      "Water",
+      "Autumn"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/rainy-walk/01.webp",
+        "thumbnail": "/portfolio/rainy-walk/01-preview.webp",
+        "alt": "Downpour — full painting",
+        "label": "Full painting",
+        "width": 1816,
+        "height": 2200
+      }
+    ],
+    "description": "30*25 cm\nPalette knife painting, egg-oil tempera on canvas\n\nOne of my painting teachers once recommended making a small painting before starting the main work - just to warm up a bit. Unfortunately, by the time I finished that little etude, it was already evening",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Downpour-1354522481"
+      },
+      {
+        "label": "Saatchi Art",
+        "url": "https://www.saatchiart.com/art/Painting-Downpour/3032781/14297211/view"
+      }
+    ]
+  },
+  {
+    "id": "forest-bather",
+    "title": "Eve",
+    "category": "Figures",
+    "tags": [
+      "People",
+      "Water",
+      "Trees"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/forest-bather/01.webp",
+        "thumbnail": "/portfolio/forest-bather/01-preview.webp",
+        "alt": "Eve — full painting",
+        "label": "Full painting",
+        "width": 1657,
+        "height": 2200
+      }
+    ],
+    "description": "40*30 cm\nEgg-oil tempera on canvas\n\nI painted the underdrawing with antique green earth for the first time, and I really liked its tones —it’s somewhat similar to a warm glauconite. I should try using this paint for a portrait.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Eve-1325780803"
+      },
+      {
+        "label": "Saatchi Art",
+        "url": "https://www.saatchiart.com/art/Painting-Eve/3032781/14007451/view"
+      }
+    ]
+  },
+  {
+    "id": "red-haired-portrait",
+    "title": "Portrait in Sunlight",
+    "category": "Portraits",
+    "tags": [
+      "People",
+      "Summer"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/red-haired-portrait/01.webp",
+        "thumbnail": "/portfolio/red-haired-portrait/01-preview.webp",
+        "alt": "Portrait in Sunlight — full painting",
+        "label": "Full painting",
+        "width": 1764,
+        "height": 2200
+      }
+    ]
+  },
+  {
+    "id": "breaking-waves",
+    "title": "W a v e s",
+    "category": "Landscapes",
+    "tags": [
+      "Sea",
+      "Mountains",
+      "Water"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/breaking-waves/01.webp",
+        "thumbnail": "/portfolio/breaking-waves/01-preview.webp",
+        "alt": "W a v e s — full painting",
+        "label": "Full painting",
+        "width": 1536,
+        "height": 2048
+      }
+    ],
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/W-a-v-e-s-1063043857"
+      }
+    ]
+  },
+  {
+    "id": "sculpture-at-night",
+    "title": "Cupid and Psyche",
+    "category": "Interiors",
+    "tags": [
+      "Sculpture",
+      "Interiors",
+      "Night"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/sculpture-at-night/01.webp",
+        "thumbnail": "/portfolio/sculpture-at-night/01-preview.webp",
+        "alt": "Cupid and Psyche — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1819
+      }
+    ],
+    "description": "45*55 cm, oil on canvas\n\nThe painting depicts the statue of italian sculptor Antonio Canova Psyche revived by Cupid’s kiss from the Hermitage. This is my first experience with oil paints mixed in mastic varnish. Its very different from dammar varnish; the painting has a noble and kinda glass-like sheen.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Cupid-and-Psyche-1271560715"
+      }
+    ]
+  },
+  {
+    "id": "church-interior",
+    "title": "Saint Sophia Cathedral",
+    "category": "Interiors",
+    "tags": [
+      "Architecture",
+      "Interiors"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/church-interior/01.webp",
+        "thumbnail": "/portfolio/church-interior/01-preview.webp",
+        "alt": "Saint Sophia Cathedral — full painting",
+        "label": "Full painting",
+        "width": 1743,
+        "height": 2200
+      }
+    ],
+    "description": "Saint Sophia Cathedral, Veliky Novgorod.\n50*40 cm\nEgg-oil tempera on canvas\n\nSurprisingly, I painted this piece…alla prima. A traditional dead-coloring method would probably have been a better fit for the architecture, but I don’t like rigid constraints.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Saint-Sophia-Cathedral-1353325061"
+      }
+    ]
+  },
+  {
+    "id": "cloudy-evening",
+    "title": "Cloudy evening",
+    "category": "Landscapes",
+    "tags": [
+      "Countryside",
+      "Evening",
+      "Clouds"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/cloudy-evening/01.webp",
+        "thumbnail": "/portfolio/cloudy-evening/01-preview.webp",
+        "alt": "Cloudy evening — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1638
+      }
+    ],
+    "description": "18*24 cm\nEgg-oil tempera on canvas\n\nSeptember 27\nChurch of St. Nicholas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Cloudy-evening-1321292163"
+      }
+    ]
+  },
+  {
+    "id": "spring-thaw",
+    "title": "Spring etude",
+    "category": "Landscapes",
+    "tags": [
+      "Spring",
+      "Water",
+      "Trees"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/spring-thaw/01.webp",
+        "thumbnail": "/portfolio/spring-thaw/01-preview.webp",
+        "alt": "Spring etude — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1628
+      }
+    ],
+    "description": "18*24 cm\nEgg-oil tempera on canvas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Spring-etude-1325024603"
+      }
+    ]
+  },
+  {
+    "id": "willow-reflections",
+    "title": "The boat",
+    "category": "Landscapes",
+    "tags": [
+      "Trees",
+      "Water",
+      "Summer"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/willow-reflections/01.webp",
+        "thumbnail": "/portfolio/willow-reflections/01-preview.webp",
+        "alt": "The boat — full painting",
+        "label": "Full painting",
+        "width": 1665,
+        "height": 2200
+      }
+    ],
+    "description": "24*18 cm\nEgg-oil tempera on canvas\n…\nThis impasto is… extremely thick! I think I could make small stands out of boxes so that impasto paintings can dry without worrying about dust.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/The-boat-1330103542"
+      }
+    ]
+  },
+  {
+    "id": "mountain-valley",
+    "title": "Mountains of Armenia",
+    "category": "Landscapes",
+    "tags": [
+      "Mountains",
+      "Water",
+      "Clouds"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/mountain-valley/01.webp",
+        "thumbnail": "/portfolio/mountain-valley/01-preview.webp",
+        "alt": "Mountains of Armenia — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1481
+      }
+    ],
+    "description": "In memory of our little trip.\nPalette knife painting on acrylic gesso panel\n20*30 cm\n\nEgg-oil tempera…as usual. I added a few drops of clove oil to help the emulsion last longer.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Mountains-of-Armenia-1303071009"
+      }
+    ]
+  },
+  {
+    "id": "winter-moonlight",
+    "title": "Night",
+    "category": "Landscapes",
+    "tags": [
+      "Winter",
+      "Night",
+      "Countryside"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/winter-moonlight/01.webp",
+        "thumbnail": "/portfolio/winter-moonlight/01-preview.webp",
+        "alt": "Night — full painting",
+        "label": "Full painting",
+        "width": 2200,
+        "height": 1757
+      }
+    ],
+    "description": "Palette knife painting\n24*30 cm\nEgg-oil tempera on canvas",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Night-1304259013"
+      }
+    ]
+  },
+  {
+    "id": "autumn-domes",
+    "title": "Domes through Autumn Leaves",
+    "category": "Landscapes",
+    "tags": [
+      "Autumn",
+      "Architecture",
+      "Water"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/autumn-domes/01.webp",
+        "thumbnail": "/portfolio/autumn-domes/01-preview.webp",
+        "alt": "Domes through Autumn Leaves — full painting",
+        "label": "Full painting",
+        "width": 943,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "sailboat",
+    "title": "Sailboat",
+    "category": "Landscapes",
+    "tags": [
+      "Winter",
+      "Water",
+      "People"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/sailboat/01.webp",
+        "thumbnail": "/portfolio/sailboat/01-preview.webp",
+        "alt": "Sailboat — full painting",
+        "label": "Full painting",
+        "width": 1280,
+        "height": 1644
+      }
+    ],
+    "description": "30*25 cm\nOil+egg tempera on canvas\n\nWherever I go, I’ll bring winter with me.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/Sailboat-1285484173"
+      }
+    ]
+  }
+]
