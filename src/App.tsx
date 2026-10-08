@@ -119,7 +119,7 @@ function Gallery() {
       <main>
         <section id="work" className="work-section page-width" aria-labelledby="collection-heading">
           <div className="breadcrumbs"><a href="?category=all" onClick={event => { event.preventDefault(); chooseCategory('All works') }}>Works</a><Chevron /><span>{location.category}</span></div>
-          <div className="collection-heading"><h1 id="collection-heading">{location.category === 'All works' ? site.artistName : location.category}</h1><p>{site.collectionDescription}</p></div>
+          <div className="collection-heading"><h1 id="collection-heading">{location.category === 'All works' ? site.artistName : location.category}</h1></div>
           <div className="gallery-layout">
             <aside className={`sidebar ${filtersOpen ? 'is-open' : ''}`} id="collection-filters" aria-label="Browse and filter artworks">
               <div className="category-navigation">
