@@ -70,8 +70,11 @@
       "titleSource": "DeviantArt",
       "sources": [
         {
-          "file": "Портфолио/Portrait/dl3ykfr-bfe64052-79cb-4653-9332-8892f3fe2c8a.jpg",
-          "view": "Full painting"
+          "file": "sis.jpg",
+          "view": "Full painting",
+          "supersedes": "Портфолио/Portrait/dl3ykfr-bfe64052-79cb-4653-9332-8892f3fe2c8a.jpg",
+          "sha256": "d4d9f300f39e484f98f3840e895c4c53b0d8fae4fb219af46461f2edb8d4dd34",
+          "note": "Higher-resolution replacement supplied by the site owner on 2026-10-08; full image dimensions preserved."
         }
       ],
       "initialTitleSource": "descriptive",
