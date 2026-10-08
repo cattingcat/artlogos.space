@@ -5,6 +5,7 @@ import ArtworkDialog from './components/ArtworkDialog'
 import ArtistSchema from './components/ArtistSchema'
 import SocialLinks from './components/SocialLinks'
 import ArtworkPage from './components/ArtworkPage'
+import BrandLink from './components/BrandLink'
 import { artworkPath } from './content/artwork-pages'
 
 type Sort = 'curated' | 'title'
@@ -104,9 +105,7 @@ function Gallery() {
       <ArtistSchema />
       <a className="skip-link" href="#work">Skip to artworks</a>
       <header className="site-header">
-        <a href="#work" className="wordmark" aria-label={`${site.name} home`} onClick={() => { setMenuOpen(false); chooseCategory('All works') }}>
-          <span>{site.name}</span><span className="wordmark-caption">{site.subtitle}</span>
-        </a>
+        <BrandLink href="#work" onClick={() => { setMenuOpen(false); chooseCategory('All works') }} />
         <button className="menu-button" aria-expanded={menuOpen} aria-controls="main-navigation" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? 'Close' : 'Menu'}<span>{menuOpen ? '−' : '+'}</span></button>
         <nav id="main-navigation" className={menuOpen ? 'main-navigation is-open' : 'main-navigation'} aria-label="Main navigation">
           <a href="#work" className="current" onClick={() => setMenuOpen(false)}>Works</a>

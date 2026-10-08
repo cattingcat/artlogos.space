@@ -2,6 +2,7 @@ import type { Artwork } from '../content/artworks'
 import { site } from '../content/site'
 import ArtistSchema from './ArtistSchema'
 import SocialLinks from './SocialLinks'
+import BrandLink from './BrandLink'
 import './ArtworkPage.css'
 
 export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
@@ -9,7 +10,7 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
     <ArtistSchema artwork={artwork} />
     <a className="skip-link" href="#painting">Skip to painting</a>
     <header className="site-header painting-header">
-      <a href="/" className="wordmark" aria-label={`${site.name} home`}><span>{site.name}</span><span className="wordmark-caption">{site.subtitle}</span></a>
+      <BrandLink />
       <nav className="main-navigation" aria-label="Main navigation"><a href="/">All works</a><a href="/#about">About</a><a href="#contact">Contact</a></nav>
       <span className="header-note">{site.headerNote}</span>
     </header>
