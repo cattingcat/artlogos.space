@@ -14,6 +14,18 @@
 @media(max-width:359px){.page-width{padding-inline:16px}.site-header{padding-inline:16px}.wordmark-symbol{width:38px;height:38px}.wordmark{gap:8px}.wordmark-name{font-size:29px}.artwork-grid{gap:25px 12px}.sort-control>span{display:none}.artwork-caption h3{font-size:12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
+.collection-heading .collection-introduction {
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: -.4px;
+}
+@media (max-width: 899px) {
+  .collection-heading .collection-introduction { font-size: 25px; }
+}
+@media (max-width: 659px) {
+  .collection-heading .collection-introduction { font-size: 24px; }
+}
+
 /* Collection subjects and grouped photographs. */
 .filter-hint {
   padding-bottom: 18px;
