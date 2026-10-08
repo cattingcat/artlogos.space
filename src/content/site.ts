@@ -11,7 +11,7 @@ export const site = {
   pageTitle: 'Alina Logos (Alina Pliushcheva) — Artist & Paintings',
   description: 'Explore original paintings by Alina Logos (Alina Pliushcheva): landscapes, portraits and figurative works in oil and egg tempera. View the portfolio and contact the artist.',
   subtitle: 'Paintings',
-  headerNote: 'Paintings by Alina Pliushcheva.',
+  collectionHeading: 'Paintings by Alina Pliushcheva.',
   sidebarNote: 'One painting. Many perspectives.',
   email: '',
   socialLinks: [

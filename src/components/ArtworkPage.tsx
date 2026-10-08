@@ -12,7 +12,6 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
     <header className="site-header painting-header">
       <BrandLink />
       <nav className="main-navigation" aria-label="Main navigation"><a href="/">All works</a><a href="/#about">About</a><a href="#contact">Contact</a></nav>
-      <span className="header-note">{site.headerNote}</span>
     </header>
     <main id="painting" className="painting-page page-width">
       <div className="breadcrumbs"><a href="/">Works</a><span aria-hidden="true">/</span><span>{artwork.title}</span></div>
