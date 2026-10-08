@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import type { Artwork } from '../content/artworks'
+import { artworkPath } from '../content/artwork-pages'
 import './ArtworkDialog.css'
 
 type Props = {
@@ -131,6 +132,7 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
         <div className="viewer-information">
           <span className="eyebrow">{artwork.category}</span>
           <h2 id="artwork-title">{artwork.title}</h2>
+          <a className="underlined-link" href={artworkPath(artwork)}>Painting page ↗</a>
           {artwork.description && <div className="viewer-description">
             {artwork.description.split(/\n\s*\n/).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
           </div>}

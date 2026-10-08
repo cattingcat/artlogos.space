@@ -1,6 +1,8 @@
 import { site } from '../content/site'
+import type { Artwork } from '../content/artworks'
+import { artworkPageDescription, artworkPageTitle, artworkUrl } from '../content/artwork-pages'
 
-export default function ArtistSchema() {
+export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
   const artistId = `${site.url}#artist`
   const websiteId = `${site.url}#website`
   const data = {
@@ -25,7 +27,33 @@ export default function ArtistSchema() {
         publisher: { '@id': artistId },
         inLanguage: 'en',
       },
-      {
+      ...(artwork ? [{
+        '@type': 'WebPage',
+        '@id': `${artworkUrl(artwork)}#page`,
+        url: artworkUrl(artwork),
+        name: artworkPageTitle(artwork),
+        description: artworkPageDescription(artwork),
+        mainEntity: { '@id': `${artworkUrl(artwork)}#artwork` },
+        isPartOf: { '@id': websiteId },
+      }, {
+        '@type': 'VisualArtwork',
+        '@id': `${artworkUrl(artwork)}#artwork`,
+        url: artworkUrl(artwork),
+        name: artwork.title,
+        ...(artwork.description ? { description: artwork.description } : {}),
+        creator: { '@id': artistId },
+        artform: 'Painting',
+        keywords: artwork.tags,
+        image: artwork.images.map(image => ({
+          '@type': 'ImageObject',
+          contentUrl: new URL(image.src, site.url).href,
+          thumbnailUrl: new URL(image.thumbnail, site.url).href,
+          caption: image.alt,
+          width: image.width,
+          height: image.height,
+        })),
+        ...(artwork.sources?.length ? { sameAs: artwork.sources.map(source => source.url) } : {}),
+      }] : [{
         '@type': 'ProfilePage',
         '@id': `${site.url}#profile`,
         url: site.url,
@@ -33,7 +61,7 @@ export default function ArtistSchema() {
         description: site.description,
         mainEntity: { '@id': artistId },
         isPartOf: { '@id': websiteId },
-      },
+      }]),
     ],
   }
 

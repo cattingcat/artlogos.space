@@ -42,6 +42,8 @@ class Page(HTMLParser):
         self.title = []
         self.body_text = []
         self.schemas = []
+        self.images = []
+        self.links = []
         self.artwork_cards = 0
         self.prerendered = False
         self.in_body = False
@@ -68,6 +70,10 @@ class Page(HTMLParser):
             self.artwork_cards += 1
         if tag == "meta":
             self.metadata[attrs.get("name") or attrs.get("property")] = attrs.get("content", "")
+        if tag == "img":
+            self.images.append(attrs)
+        if tag == "a":
+            self.links.append(attrs.get("href"))
         if tag == "link" and "canonical" in attrs.get("rel", "").split():
             self.canonicals.append(attrs.get("href"))
         path = attrs.get("src") if tag == "script" else attrs.get("href") if tag == "link" else None
@@ -166,8 +172,51 @@ assert status == 200 and "xml" in headers.get("Content-Type", ""), "Missing XML 
 sitemap = ElementTree.fromstring(body)
 namespace = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
 assert sitemap.tag == namespace + "urlset", "Invalid sitemap root"
-assert [node.text for node in sitemap.findall(f"{namespace}url/{namespace}loc")] == [canonical_url], "Sitemap must list only the canonical homepage"
+expected_pages = [canonical_url, *[f"{canonical_url}works/{work['id']}/" for work in portfolio]]
+assert sorted(node.text for node in sitemap.findall(f"{namespace}url/{namespace}loc")) == sorted(expected_pages), "Sitemap must discover the homepage and every artwork"
 assert "max-age=3600" in headers.get("Cache-Control", ""), "Sitemap cache policy is incorrect"
+
+for work in portfolio:
+    path = f"/works/{work['id']}/"
+    assert path in page.links, f"Homepage does not link to the static artwork: {path}"
+    status, headers, body = fetch(path)
+    assert status == 200 and body != html, f"Artwork URL must return its own HTML: {path}"
+    assert "text/html" in headers.get("Content-Type", ""), f"Wrong artwork content type: {path}"
+    assert "no-cache" in headers.get("Cache-Control", ""), f"Artwork HTML must be revalidated: {path}"
+    detail = Page()
+    detail.feed(body.decode())
+    assert detail.prerendered, f"Artwork must be prerendered: {path}"
+    assert detail.canonicals == [canonical_url.rstrip("/") + path], f"Wrong artwork canonical: {path}"
+    for name in (*artist_names, work["title"]):
+        assert name in "".join(detail.title), f"Artwork title is missing {name}: {path}"
+    visible = " ".join(" ".join(detail.body_text).split())
+    if work.get("description"):
+        assert " ".join(work["description"].split()) in visible, f"Artwork description is inaccessible without JS: {path}"
+    for image in work["images"]:
+        assert any(img.get("src") == image["src"] and img.get("alt") for img in detail.images), f"Full photograph is inaccessible without JS: {image['src']}"
+        assert image["src"] in detail.links, f"Missing full image link: {image['src']}"
+    assert any(node.get("@type") == "VisualArtwork" and node.get("name") == work["title"] for node in schema_nodes(detail.schemas)), f"Missing artwork schema: {path}"
+
+# Test actual nginx routing, not only the existence of generated build files.
+status, headers, _ = fetch("/works/church-interior?source=smoke")
+assert status == 301 and headers.get("Location") == "/works/church-interior/?source=smoke", "Directory redirect must preserve HTTPS by staying relative, and preserve the query"
+status, headers, _ = fetch("/works/azure/index.html?source=smoke")
+assert status == 301 and headers.get("Location") == "/works/azure/?source=smoke", "Physical index URLs must canonicalize before client hydration"
+for work_id in ("church-interior", "portrait-blue-scarf", "forest-figure"):
+    work = next(work for work in portfolio if work["id"] == work_id)
+    for image in work["images"]:
+        for path in (image["src"], image["thumbnail"]):
+            status, headers, body = fetch(path)
+            assert status == 200 and body.startswith(b"RIFF") and body[8:12] == b"WEBP", f"Artwork file must be a real WebP: {path}"
+            assert "image/webp" in headers.get("Content-Type", ""), f"Wrong image content type: {path}"
+
+for path in ("/llms.txt", "/llms-full.txt"):
+    status, headers, body = fetch(path)
+    assert status == 200 and "text/plain" in headers.get("Content-Type", ""), f"Missing text catalogue: {path}"
+    assert "no-cache" in headers.get("Cache-Control", ""), f"Text catalogue must be revalidated: {path}"
+    text = body.decode()
+    assert all(name in text for name in artist_names), f"Text catalogue must identify both names: {path}"
+    assert all(f"{canonical_url}works/{work['id']}/" in text for work in portfolio), f"Text catalogue omits artwork links: {path}"
 
 for category in ("all", "landscapes", "cityscapes", "figures", "portraits", "interiors"):
     for suffix in ("", "/"):
@@ -179,6 +228,8 @@ assert status == 200 and body == html, "Query-based artwork navigation is broken
 
 for path in (
     "/not-a-real-page",
+    "/works/not-a-real-painting/",
+    "/works/azure/not-a-real-page/",
     "/category/not-a-real-category",
     "/category/figures/not-a-real-page",
     "/assets/not-a-real-bundle.js",
@@ -192,4 +243,4 @@ status, headers, _ = fetch(redirect_path, {"Host": "www.artlogos.space"})
 assert status == 301, "www host must permanently redirect"
 assert headers.get("Location") == canonical_url.rstrip("/") + redirect_path, "www redirect must preserve path and query"
 
-print(f"Smoke checks passed: health, prerendered HTML, artist metadata, {len(page.assets)} assets, cache headers, crawler files, routes, 404s, www redirect")
+print(f"Smoke checks passed: health, {len(portfolio)} static artwork pages, descriptions and photographs without JS, text catalogues, metadata, assets, cache headers, routes, 404s and redirects")

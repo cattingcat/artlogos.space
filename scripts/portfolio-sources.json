@@ -531,8 +531,11 @@
       "titleSource": "DeviantArt",
       "sources": [
         {
-          "file": "Портфолио/Архитектура/IMG_6203.JPG",
-          "view": "Full painting"
+          "file": "truesize.png",
+          "view": "Full painting",
+          "supersedes": "Портфолио/Архитектура/IMG_6203.JPG",
+          "sha256": "4fee47aec79e4ea7ad258beebc2cbdb5104d85b105754ee69272ecc0271d7aa9",
+          "note": "2026-10-08: replacement supplied by the owner; higher-resolution, more final version."
         }
       ],
       "initialTitleSource": "descriptive",

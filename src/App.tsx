@@ -4,6 +4,8 @@ import { site } from './content/site'
 import ArtworkDialog from './components/ArtworkDialog'
 import ArtistSchema from './components/ArtistSchema'
 import SocialLinks from './components/SocialLinks'
+import ArtworkPage from './components/ArtworkPage'
+import { artworkPath } from './content/artwork-pages'
 
 type Sort = 'curated' | 'title'
 const slugs: Record<Category, string> = {
@@ -29,7 +31,12 @@ function Chevron({ down = false }: { down?: boolean }) {
   return <svg className={down ? 'chevron down' : 'chevron'} width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="m5 2 5 5-5 5" stroke="currentColor" strokeWidth="1" /></svg>
 }
 
-export default function App() {
+export default function App({ artworkId }: { artworkId?: string }) {
+  const artwork = artworks.find(work => work.id === artworkId)
+  return artwork ? <ArtworkPage artwork={artwork} /> : <Gallery />
+}
+
+function Gallery() {
   // The first client render matches the build-time HTML. Restore URL state after hydration.
   const [location, setLocation] = useState<{ category: Category; work: string | null }>({ category: 'All works', work: null })
   const [sort, setSort] = useState<Sort>('curated')
@@ -148,7 +155,7 @@ export default function App() {
               {filtered.length ? <div className="artwork-grid">{filtered.map((work, index) => {
                 const preview = work.images[0]
                 return <article className="artwork-card" key={work.id}>
-                  <a href={`?category=${slugs[location.category]}&work=${work.id}`} className="artwork-link" onClick={event => {
+                  <a href={artworkPath(work)} className="artwork-link" onClick={event => {
                     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
                     event.preventDefault()
                     navigate(location.category, work.id)
