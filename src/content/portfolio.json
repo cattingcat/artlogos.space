@@ -105,28 +105,29 @@
     ]
   },
   {
-    "id": "portrait-blue-scarf",
-    "title": "In the museum",
-    "category": "Portraits",
+    "id": "blue-night",
+    "title": "At dawn",
+    "category": "Landscapes",
     "tags": [
-      "People",
-      "Interiors"
+      "Winter",
+      "Morning",
+      "Trees"
     ],
     "images": [
       {
-        "src": "/portfolio/portrait-blue-scarf/01-d4d9f300f39e.webp",
-        "thumbnail": "/portfolio/portrait-blue-scarf/01-d4d9f300f39e-preview.webp",
-        "alt": "In the museum — full painting",
+        "src": "/portfolio/blue-night/01.webp",
+        "thumbnail": "/portfolio/blue-night/01-preview.webp",
+        "alt": "At dawn — full painting",
         "label": "Full painting",
-        "width": 2848,
-        "height": 4218
+        "width": 1758,
+        "height": 2200
       }
     ],
-    "description": "Portrait of my sister\n\n50*40 cm, oil on canvas",
+    "description": "30*25 cm,\noil on canvas",
     "sources": [
       {
         "label": "DeviantArt",
-        "url": "https://www.deviantart.com/alinaivy/art/In-the-museum-1276441335"
+        "url": "https://www.deviantart.com/alinaivy/art/At-dawn-1279213656"
       }
     ]
   },
@@ -344,44 +345,28 @@
     ]
   },
   {
-    "id": "city-portrait",
-    "title": "Portrait of my dad",
-    "category": "Portraits",
+    "id": "boats-under-pines",
+    "title": "Closed for the season",
+    "category": "Landscapes",
     "tags": [
-      "People",
-      "Architecture"
+      "Sea",
+      "Boats",
+      "Trees"
     ],
     "images": [
       {
-        "src": "/portfolio/city-portrait/01.webp",
-        "thumbnail": "/portfolio/city-portrait/01-preview.webp",
-        "alt": "Portrait of my dad — full painting",
+        "src": "/portfolio/boats-under-pines/01.webp",
+        "thumbnail": "/portfolio/boats-under-pines/01-preview.webp",
+        "alt": "Closed for the season — full painting",
         "label": "Full painting",
-        "width": 1772,
-        "height": 2200
-      },
-      {
-        "src": "/portfolio/city-portrait/02.webp",
-        "thumbnail": "/portfolio/city-portrait/02-preview.webp",
-        "alt": "Portrait of my dad — on the easel",
-        "label": "On the easel",
-        "width": 1467,
-        "height": 2200
-      },
-      {
-        "src": "/portfolio/city-portrait/03.webp",
-        "thumbnail": "/portfolio/city-portrait/03-preview.webp",
-        "alt": "Portrait of my dad — closer view",
-        "label": "Closer view",
-        "width": 1467,
+        "width": 2183,
         "height": 2200
       }
     ],
-    "description": "Egg-oil tempera on canvas\n\n50*40 cm\n\nI finally finished this portrait!  And it was my first time painting with a limited color palette.\nSo, I used only four colors for this piece: cadmium red, yellow ochre, titanium white, and payne’s grey, which is currently my favorite black. I’ll try other black pigments for portraits in the future and see how they compare.",
     "sources": [
       {
         "label": "DeviantArt",
-        "url": "https://www.deviantart.com/alinaivy/art/Portrait-of-my-dad-1344138963"
+        "url": "https://www.deviantart.com/alinaivy/art/Closed-for-the-season-1061608525"
       }
     ]
   },
@@ -517,29 +502,28 @@
     ]
   },
   {
-    "id": "blue-night",
-    "title": "At dawn",
-    "category": "Landscapes",
+    "id": "portrait-blue-scarf",
+    "title": "In the museum",
+    "category": "Portraits",
     "tags": [
-      "Winter",
-      "Morning",
-      "Trees"
+      "People",
+      "Interiors"
     ],
     "images": [
       {
-        "src": "/portfolio/blue-night/01.webp",
-        "thumbnail": "/portfolio/blue-night/01-preview.webp",
-        "alt": "At dawn — full painting",
+        "src": "/portfolio/portrait-blue-scarf/01-d4d9f300f39e.webp",
+        "thumbnail": "/portfolio/portrait-blue-scarf/01-d4d9f300f39e-preview.webp",
+        "alt": "In the museum — full painting",
         "label": "Full painting",
-        "width": 1758,
-        "height": 2200
+        "width": 2848,
+        "height": 4218
       }
     ],
-    "description": "30*25 cm,\noil on canvas",
+    "description": "Portrait of my sister\n\n50*40 cm, oil on canvas",
     "sources": [
       {
         "label": "DeviantArt",
-        "url": "https://www.deviantart.com/alinaivy/art/At-dawn-1279213656"
+        "url": "https://www.deviantart.com/alinaivy/art/In-the-museum-1276441335"
       }
     ]
   },
@@ -598,28 +582,44 @@
     ]
   },
   {
-    "id": "boats-under-pines",
-    "title": "Closed for the season",
-    "category": "Landscapes",
+    "id": "city-portrait",
+    "title": "Portrait of my dad",
+    "category": "Portraits",
     "tags": [
-      "Sea",
-      "Boats",
-      "Trees"
+      "People",
+      "Architecture"
     ],
     "images": [
       {
-        "src": "/portfolio/boats-under-pines/01.webp",
-        "thumbnail": "/portfolio/boats-under-pines/01-preview.webp",
-        "alt": "Closed for the season — full painting",
+        "src": "/portfolio/city-portrait/01.webp",
+        "thumbnail": "/portfolio/city-portrait/01-preview.webp",
+        "alt": "Portrait of my dad — full painting",
         "label": "Full painting",
-        "width": 2183,
+        "width": 1772,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/city-portrait/02.webp",
+        "thumbnail": "/portfolio/city-portrait/02-preview.webp",
+        "alt": "Portrait of my dad — on the easel",
+        "label": "On the easel",
+        "width": 1467,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/city-portrait/03.webp",
+        "thumbnail": "/portfolio/city-portrait/03-preview.webp",
+        "alt": "Portrait of my dad — closer view",
+        "label": "Closer view",
+        "width": 1467,
         "height": 2200
       }
     ],
+    "description": "Egg-oil tempera on canvas\n\n50*40 cm\n\nI finally finished this portrait!  And it was my first time painting with a limited color palette.\nSo, I used only four colors for this piece: cadmium red, yellow ochre, titanium white, and payne’s grey, which is currently my favorite black. I’ll try other black pigments for portraits in the future and see how they compare.",
     "sources": [
       {
         "label": "DeviantArt",
-        "url": "https://www.deviantart.com/alinaivy/art/Closed-for-the-season-1061608525"
+        "url": "https://www.deviantart.com/alinaivy/art/Portrait-of-my-dad-1344138963"
       }
     ]
   },
@@ -767,20 +767,29 @@
     ]
   },
   {
-    "id": "red-haired-portrait",
-    "title": "Portrait in Sunlight",
-    "category": "Portraits",
+    "id": "willow-reflections",
+    "title": "The boat",
+    "category": "Landscapes",
     "tags": [
-      "People"
+      "Trees",
+      "Water",
+      "Summer"
     ],
     "images": [
       {
-        "src": "/portfolio/red-haired-portrait/01.webp",
-        "thumbnail": "/portfolio/red-haired-portrait/01-preview.webp",
-        "alt": "Portrait in Sunlight — full painting",
+        "src": "/portfolio/willow-reflections/01.webp",
+        "thumbnail": "/portfolio/willow-reflections/01-preview.webp",
+        "alt": "The boat — full painting",
         "label": "Full painting",
-        "width": 1764,
+        "width": 1665,
         "height": 2200
+      }
+    ],
+    "description": "24*18 cm\nEgg-oil tempera on canvas\n…\nThis impasto is… extremely thick! I think I could make small stands out of boxes so that impasto paintings can dry without worrying about dust.",
+    "sources": [
+      {
+        "label": "DeviantArt",
+        "url": "https://www.deviantart.com/alinaivy/art/The-boat-1330103542"
       }
     ]
   },
@@ -918,29 +927,20 @@
     ]
   },
   {
-    "id": "willow-reflections",
-    "title": "The boat",
-    "category": "Landscapes",
+    "id": "red-haired-portrait",
+    "title": "Portrait in Sunlight",
+    "category": "Portraits",
     "tags": [
-      "Trees",
-      "Water",
-      "Summer"
+      "People"
     ],
     "images": [
       {
-        "src": "/portfolio/willow-reflections/01.webp",
-        "thumbnail": "/portfolio/willow-reflections/01-preview.webp",
-        "alt": "The boat — full painting",
+        "src": "/portfolio/red-haired-portrait/01.webp",
+        "thumbnail": "/portfolio/red-haired-portrait/01-preview.webp",
+        "alt": "Portrait in Sunlight — full painting",
         "label": "Full painting",
-        "width": 1665,
+        "width": 1764,
         "height": 2200
-      }
-    ],
-    "description": "24*18 cm\nEgg-oil tempera on canvas\n…\nThis impasto is… extremely thick! I think I could make small stands out of boxes so that impasto paintings can dry without worrying about dust.",
-    "sources": [
-      {
-        "label": "DeviantArt",
-        "url": "https://www.deviantart.com/alinaivy/art/The-boat-1330103542"
       }
     ]
   },
