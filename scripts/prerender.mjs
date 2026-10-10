@@ -91,7 +91,7 @@ try {
   await writeFile(new URL('sitemap.xml', dist), sitemap)
 
   const artistIntroduction = `# ${site.artistName} (${site.fullName})\n\n${site.about.paragraphs[0]}\n\nOfficial portfolio: ${site.url}`
-  const profiles = `## Artist profiles and contact\n\n${site.socialLinks.map(link => `- [${markdownLabel(link.name)}](${link.url})`).join('\n')}`
+  const profiles = `## Artist profiles and contact\n\n- [Email: ${site.email}](mailto:${site.email})\n- [Telegram: @${site.telegram.username}](${site.telegram.url})\n- Discord: ${site.discord}\n${site.socialLinks.map(link => `- [${markdownLabel(link.name)}](${link.url})`).join('\n')}`
   const llms = [
     artistIntroduction,
     `## Portfolio\n\n- [All paintings](${site.url})\n- [Complete text catalogue, descriptions and image links](${new URL('llms-full.txt', site.url).href})`,

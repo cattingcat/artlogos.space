@@ -4,6 +4,7 @@ import { site } from './content/site'
 import ArtworkDialog from './components/ArtworkDialog'
 import ArtistSchema from './components/ArtistSchema'
 import SocialLinks from './components/SocialLinks'
+import ContactMethods from './components/ContactMethods'
 import ArtworkPage from './components/ArtworkPage'
 import BrandLink from './components/BrandLink'
 import { artworkPath } from './content/artwork-pages'
@@ -184,7 +185,7 @@ function Gallery() {
 
         <section id="contact" className="contact-section page-width" aria-labelledby="contact-heading">
           <div><span className="eyebrow">{site.contact.eyebrow}</span><h2 id="contact-heading">{site.contact.title}</h2></div>
-          <div className="contact-copy"><p>{site.contact.description}</p>{site.email && <a className="contact-email" href={`mailto:${site.email}`}>{site.email}</a>}<SocialLinks links={site.socialLinks} /></div>
+          <div className="contact-copy"><p>{site.contact.description}</p><ContactMethods /><SocialLinks links={site.socialLinks} /></div>
         </section>
       </main>
 

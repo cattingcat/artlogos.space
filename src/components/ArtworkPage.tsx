@@ -2,6 +2,7 @@ import type { Artwork } from '../content/artworks'
 import { site } from '../content/site'
 import ArtistSchema from './ArtistSchema'
 import SocialLinks from './SocialLinks'
+import ContactMethods from './ContactMethods'
 import BrandLink from './BrandLink'
 import './ArtworkPage.css'
 
@@ -34,7 +35,7 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
         </div>
       </div>
     </main>
-    <section id="contact" className="contact-section page-width" aria-labelledby="contact-heading"><div><span className="eyebrow">{site.contact.eyebrow}</span><h2 id="contact-heading">{site.contact.title}</h2></div><div className="contact-copy"><p>{site.contact.description}</p>{site.email && <a className="contact-email" href={`mailto:${site.email}`}>{site.email}</a>}<SocialLinks links={site.socialLinks} /></div></section>
+    <section id="contact" className="contact-section page-width" aria-labelledby="contact-heading"><div><span className="eyebrow">{site.contact.eyebrow}</span><h2 id="contact-heading">{site.contact.title}</h2></div><div className="contact-copy"><p>{site.contact.description}</p><ContactMethods /><SocialLinks links={site.socialLinks} /></div></section>
     <footer className="site-footer page-width"><div><span>{site.name}</span><span>© {site.copyrightYear}</span></div><p>{site.footerNote}</p><a href="#painting">Back to top ↑</a></footer>
   </>
 }

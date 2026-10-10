@@ -13,7 +13,9 @@ export const site = {
   subtitle: 'Paintings',
   collectionHeading: 'Paintings by Alina Pliushcheva',
   sidebarNote: 'One painting. Many perspectives.',
-  email: '',
+  email: 'alinalogosart@gmail.com',
+  telegram: { username: 'alinalogos', url: 'https://t.me/alinalogos' },
+  discord: '@alina_logos',
   socialLinks: [
     { name: 'Instagram', icon: 'instagram', url: 'https://www.instagram.com/alina_logos4/' },
     { name: 'DeviantArt', icon: 'deviantart', url: 'https://www.deviantart.com/alinaivy' },

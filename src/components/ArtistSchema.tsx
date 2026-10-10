@@ -16,7 +16,8 @@ export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
         url: site.url,
         jobTitle: 'Artist',
         description: site.about.paragraphs[0],
-        sameAs: site.socialLinks.map(link => link.url),
+        email: site.email,
+        sameAs: [...site.socialLinks.map(link => link.url), site.telegram.url],
       },
       {
         '@type': 'WebSite',
