@@ -21,7 +21,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 
 .site-header{max-width:1560px; margin:auto; min-height:144px; display:flex; align-items:center; padding:32px 56px; gap:40px; border-bottom:1px solid var(--line)}
 .wordmark{display:block; flex-shrink:0}
-.wordmark-logo{width:160px; height:auto; object-fit:contain; filter:var(--logo-filter)}
+.wordmark-logo{width:auto; height:100px; object-fit:contain; filter:var(--logo-filter)}
 .main-navigation{display:flex; align-items:center; gap:32px; margin-left:auto}
 .main-navigation a{font-size:14px; padding:10px 0; color:var(--color-text-muted); position:relative; transition:color .2s}
 .main-navigation a:hover,.main-navigation a.current{color:var(--ink)}
@@ -126,7 +126,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 
 @media(max-width:899px){.page-width{padding-inline:28px}
 .site-header{min-height:122px; padding-inline:28px}
-.wordmark-logo{width:132px}
+.wordmark-logo{height:83px}
 .main-navigation{gap:22px}
 .main-navigation a{font-size:12px}
 .collection-heading h1{font-size:50px}
@@ -148,7 +148,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 @media(max-width:659px){html{scroll-padding-top:20px}
 .page-width{padding-inline:22px}
 .site-header{min-height:104px; padding:24px 22px; flex-wrap:wrap; justify-content:space-between; gap:0}
-.wordmark-logo{width:120px}
+.wordmark-logo{height:76px}
 .menu-button{display:flex; gap:8px; align-items:center; justify-content:center; min-width:44px; min-height:44px; font-size:12px; padding:0}
 .menu-button .menu-mark{font-size:23px; line-height:1}
 .site-header>.main-navigation{display:none; width:100%; margin:0; padding-top:25px; justify-content:space-between; gap:10px; flex-wrap:wrap}
