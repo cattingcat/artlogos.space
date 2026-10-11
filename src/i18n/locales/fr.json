@@ -1,0 +1,548 @@
+{
+  "ui": {
+    "home": "Accueil de {name}",
+    "language": "Langue",
+    "skipArtworks": "Aller aux œuvres",
+    "skipPainting": "Aller au tableau",
+    "mainNavigation": "Navigation principale",
+    "works": "Œuvres",
+    "allWorks": "Toutes les œuvres",
+    "about": "À propos",
+    "studio": "Atelier",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Fermer",
+    "browseFilter": "Parcourir et filtrer les œuvres",
+    "browseBy": "Parcourir par",
+    "artworkCategories": "Catégories d’œuvres",
+    "filterBy": "Filtrer par",
+    "clear": "Effacer",
+    "subject": "Sujet",
+    "filterHint": "Les œuvres correspondent à tous les sujets sélectionnés.",
+    "workCount_one": "{count} œuvre",
+    "workCount_other": "{count} œuvres",
+    "workCount_few": "{count} œuvres",
+    "workCount_many": "{count} œuvres",
+    "filtered": "après filtrage",
+    "browseAndFilter": "Parcourir et filtrer",
+    "sortBy": "Trier par :",
+    "sortArtworks": "Trier les œuvres",
+    "curatedOrder": "Sélection de l’artiste",
+    "titleOrder": "Titre : A–Z",
+    "selectedSubjects": "Sujets sélectionnés",
+    "removeFilter": "Retirer le filtre « {tag} »",
+    "clearAll": "Tout effacer",
+    "viewArtwork": "Voir « {title} »",
+    "photoCount_one": "{count} photo",
+    "photoCount_other": "{count} photos",
+    "photoCount_few": "{count} photos",
+    "photoCount_many": "{count} photos",
+    "viewArtworkButton": "Voir l’œuvre",
+    "noWorks": "Aucune œuvre dans cette sélection.",
+    "removeSubjects": "Retirez un sujet ou effacez les filtres pour voir la collection.",
+    "clearFilters": "Effacer les filtres",
+    "endCollection": "Fin de la collection",
+    "backToTop": "Retour en haut",
+    "getInTouch": "Me contacter",
+    "exploreCollection": "Découvrir la collection",
+    "closeArtwork": "Fermer l’œuvre",
+    "photosOf": "Photos de « {title} »",
+    "photosSoon": "Photos à venir.",
+    "previousPhoto": "Photo précédente",
+    "nextPhoto": "Photo suivante",
+    "photoPosition": "Photo {current} sur {total}",
+    "choosePhoto": "Choisir une photo",
+    "viewPhoto": "Voir la photo {number} : {label}",
+    "paintingPage": "Page du tableau",
+    "artworkSubjects": "Sujets de l’œuvre",
+    "viewOn": "Voir sur {source}",
+    "viewerHint": "Découvrez le tableau à travers {count} photographies. Choisissez une vue sous l’image ou utilisez les touches fléchées.",
+    "browseArtworks": "Parcourir les œuvres",
+    "artworkPosition": "Œuvre {current} sur {total}",
+    "previousArtwork": "Œuvre précédente",
+    "nextArtwork": "Œuvre suivante",
+    "openFullImage": "Ouvrir l’image complète : {label}",
+    "viewFullImage": "Voir l’image complète",
+    "by": "Par",
+    "viewsPainting": "Vues du tableau",
+    "photographs": "Photographies",
+    "exploreAll": "Découvrir tous les tableaux",
+    "findArtist": "Retrouver l’artiste en ligne",
+    "opensNewTab": "s’ouvre dans un nouvel onglet",
+    "contactArtist": "Contacter l’artiste",
+    "email": "E-mail",
+    "artistJob": "Artiste peintre",
+    "paintingArtform": "Peinture",
+    "paintingIntro": "« {title} », un tableau d’Alina Logos (Alina Pliushcheva).",
+    "paintingFallback": "Découvrez le tableau et ses photographies.",
+    "officialPortfolio": "Portfolio officiel",
+    "portfolio": "Portfolio",
+    "completeCatalogue": "Catalogue textuel complet, descriptions et liens vers les images",
+    "paintings": "Tableaux",
+    "artistProfiles": "Profils de l’artiste et contact",
+    "page": "Page",
+    "artist": "Artiste",
+    "category": "Catégorie",
+    "subjects": "Sujets",
+    "description": "Description",
+    "dimensions": "Dimensions",
+    "pixels": "pixels",
+    "publications": "Publications",
+    "languageVersions": "Autres langues"
+  },
+  "site": {
+    "pageTitle": "Alina Logos (Alina Pliushcheva) — Artiste peintre et tableaux",
+    "description": "Découvrez les tableaux originaux d’Alina Logos (Alina Pliushcheva) : paysages, portraits et peintures figuratives à l’huile et à la tempera à l’œuf. Parcourez le portfolio et contactez l’artiste.",
+    "collectionHeading": "Tableaux d’Alina Pliushcheva",
+    "sidebarNote": "Un tableau. Plusieurs regards.",
+    "aboutEyebrow": "À propos de l’artiste · Alina Logos",
+    "aboutTitle": "Alina Pliushcheva",
+    "aboutImageAlt": "Dans la galerie",
+    "aboutCaption": "Dans la galerie",
+    "aboutParagraphs": [
+      "Alina Pliushcheva, également connue sous le nom d’Alina Logos, peint à l’huile et à la tempera à l’œuf. Son travail réunit paysages, scènes urbaines, portraits, figures et intérieurs familiers.",
+      "Découvrez ses tableaux, lisez les histoires qui les accompagnent et observez-les de plus près à travers leurs détails et différents points de vue. Pour toute question sur les œuvres, contactez Alina via ses profils ci-dessous."
+    ],
+    "studioEyebrow": "Atelier",
+    "studioTitle": "Un lieu pour peindre.",
+    "studioParagraphs": [
+      "Une fenêtre, un chevalet et l’espace autour d’un tableau. Un aperçu de l’atelier où naissent les œuvres de la collection."
+    ],
+    "studioImageAlt": "Un chevalet et un espace de peinture près d’une fenêtre",
+    "contactEyebrow": "La conversation commence ici",
+    "contactTitle": "Me contacter.",
+    "contactDescription": "Pour poser une question sur les tableaux ou suivre les nouvelles œuvres et la vie de l’atelier.",
+    "footerNote": "Tableaux d’Alina Logos · Alina Pliushcheva."
+  },
+  "categories": {
+    "All works": "Toutes les œuvres",
+    "Landscapes": "Paysages",
+    "Cityscapes": "Paysages urbains",
+    "Figures": "Figures",
+    "Portraits": "Portraits",
+    "Interiors": "Intérieurs"
+  },
+  "tags": {
+    "Architecture": "Architecture",
+    "Autumn": "Automne",
+    "Boats": "Bateaux",
+    "Clouds": "Nuages",
+    "Countryside": "Campagne",
+    "Evening": "Soir",
+    "Flowers": "Fleurs",
+    "Interiors": "Intérieurs",
+    "Morning": "Matin",
+    "Mountains": "Montagnes",
+    "Night": "Nuit",
+    "People": "Personnes",
+    "Sculpture": "Sculpture",
+    "Sea": "Mer",
+    "Spring": "Printemps",
+    "Summer": "Été",
+    "Trees": "Arbres",
+    "Water": "Eau",
+    "Winter": "Hiver"
+  },
+  "artworks": {
+    "azure": {
+      "title": "Azur",
+      "description": "Peinture au couteau\n30*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nJ’ai peint ce paysage avec une tempera à l’œuf et à l’huile presque sèche sur un gesso acrylique. Le résultat est entièrement mat.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Azur — tableau entier"
+        }
+      ]
+    },
+    "forest-figure": {
+      "title": "Vision de midi",
+      "description": "40*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nPar endroits, la toile apparaît : j’en avais assez de mélanger les tons bruns et j’ai tout simplement gratté la peinture.\nJ’ai aussi utilisé du jaune de cobalt pour le corps et du jaune de cadmium, moins cher, pour la verdure.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Vision de midi — tableau entier"
+        },
+        {
+          "label": "Vue de la toile",
+          "alt": "Vision de midi — vue de la toile"
+        },
+        {
+          "label": "Détail de la figure",
+          "alt": "Vision de midi — détail de la figure"
+        },
+        {
+          "label": "Sur le chevalet",
+          "alt": "Vision de midi — sur le chevalet"
+        }
+      ]
+    },
+    "winter-garden": {
+      "title": "Neige de mars",
+      "description": "Peinture au couteau\n18*24 cm\nTempera à l’œuf et à l’huile sur toile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Neige de mars — tableau entier"
+        }
+      ]
+    },
+    "blue-night": {
+      "title": "À l’aube",
+      "description": "30*25 cm,\nhuile sur toile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "À l’aube — tableau entier"
+        }
+      ]
+    },
+    "countryside": {
+      "title": "Ciel bas",
+      "description": "30*25 cm,\ntempera grasse sur carton",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Ciel bas — tableau entier"
+        }
+      ]
+    },
+    "golden-autumn": {
+      "title": "Érable au crépuscule",
+      "description": "30*25 cm\nHuile sur toile\nPeinture au couteau\n\nC’était il y a environ un an. Je rentrais chez moi le soir, et les feuilles d’érable étaient si lumineuses dans l’obscurité qu’elles semblaient presque en feu.\nC’est devenu l’un de mes souvenirs préférés de cette année-là. C’était un mois d’octobre froid et calme, et peu d’autres choses m’avaient autant marquée.\n\nJ’ai donc peint ce tableau en deux heures environ. Quelques jours plus tard, la surface était presque sèche, mais elle gardait un bel éclat grâce au médium alkyde que j’avais mélangé à la peinture. D’ailleurs, je n’avais jamais utilisé de médium synthétique auparavant, mais je ne trouvais de résine dammar nulle part pendant mon voyage.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Érable au crépuscule — tableau entier"
+        },
+        {
+          "label": "Détail du tableau",
+          "alt": "Érable au crépuscule — détail du tableau"
+        }
+      ]
+    },
+    "by-the-water": {
+      "title": "Rencontre",
+      "description": "60*50\nHuile sur toile\n\nJ’ai commencé ce tableau à la fin du mois de juillet par une esquisse au fusain, puis je l’ai laissé de côté pendant longtemps parce que je ne savais pas quel fixatif choisir.\nFinalement, faute de meilleure solution, j’ai simplement utilisé ma laque pour cheveux ._. J’ai ensuite recouvert l’esquisse d’une imprimatura à l’ocre jaune et continué à peindre à l’huile comme d’habitude.\nMais le paysage d’été s’est peu à peu transformé en paysage d’automne, car j’avais un peu de retard sur le changement de saison 🐌",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Rencontre — tableau entier"
+        },
+        {
+          "label": "Détail de la figure",
+          "alt": "Rencontre — détail de la figure"
+        }
+      ]
+    },
+    "fountain-garden": {
+      "title": "Comment t’appelles-tu ?",
+      "description": "Au printemps, j’ai essayé d’y retourner une fois encore. J’aimais le fait que cet endroit soit resté intact après tant d’années. Mais le gardien ne m’a pas laissée entrer.\nAlors, je garderai ce souvenir ici.\n\nJuin, 2008",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Comment t’appelles-tu ? — tableau entier"
+        }
+      ]
+    },
+    "about-zero": {
+      "title": "Autour de zéro",
+      "description": "Peinture au couteau\n30*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nUn souvenir du 4 janvier 2016",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Autour de zéro — tableau entier"
+        }
+      ]
+    },
+    "cloud-catcher": {
+      "title": "Attrape-nuages",
+      "description": "20*30 cm\nHuile et émulsion à l’œuf sur toile\n\nJ’ai ajouté à mes couleurs à l’huile en tubes une émulsion à l’œuf avec de l’huile cuite et de la térébenthine de Venise. Ce mélange permet de peindre en empâtements tout en conservant des couleurs lumineuses et une pâte épaisse.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Attrape-nuages — tableau entier"
+        }
+      ]
+    },
+    "venus": {
+      "title": "Vénus",
+      "description": "J’ai pris pour modèle la sculpture « Vénus ôtant sa sandale » d’Ivan Vitali. Au départ, je voulais faire une étude de figure, mais j’ai ensuite ajouté un fond et quelques détails. J’espère pouvoir bientôt la réaliser en grand format, une fois mes toiles et mes châssis transportés.\n\n35*25 cm\nTempera à l’œuf et à l’huile sur toile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Vénus — tableau entier"
+        },
+        {
+          "label": "Détail du tableau",
+          "alt": "Vénus — détail du tableau"
+        }
+      ]
+    },
+    "boats-under-pines": {
+      "title": "Fermé pour la saison",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Fermé pour la saison — tableau entier"
+        }
+      ]
+    },
+    "saltspring": {
+      "title": "Source salée",
+      "description": "Huile et tempera à l’œuf sur panneau de fibres\n20*25 cm",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Source salée — tableau entier"
+        },
+        {
+          "label": "Dans son cadre",
+          "alt": "Source salée — dans son cadre"
+        }
+      ]
+    },
+    "village-evening": {
+      "title": "À 5 heures du matin",
+      "description": "Encore une peinture au couteau aux empâtements très épais. Pour celle-ci, j’ai mélangé mes couleurs à l’huile à un médium fait maison : dammar, huile polymérisée et essence de térébenthine rectifiée. C’est le mélange que j’utilise quand je dois déménager ou que je suis trop fatiguée, ou trop paresseuse, pour préparer une émulsion à l’œuf.\n\nJe doute de revoir un jour ces endroits. Enfant, j’adorais rendre visite à mon oncle à la campagne, près du lac Ilmen, car j’étais totalement libre d’explorer les champs et les bois autour de sa maison et de rentrer quand je le voulais. Cela ne le dérangeait pas.\n\nHuile sur toile\n18*24 cm",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "À 5 heures du matin — tableau entier"
+        },
+        {
+          "label": "Vue de biais",
+          "alt": "À 5 heures du matin — vue de biais"
+        }
+      ]
+    },
+    "my-room": {
+      "title": "Ma chambre",
+      "description": "40*30 cm\nHuile sur toile\nJ’espère revenir ici un jour.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Ma chambre — tableau entier"
+        }
+      ]
+    },
+    "village-church": {
+      "title": "Avant l’orage",
+      "description": "Peinture au couteau ;\n20*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nCe tableau a été peint sur un apprêt acrylique transparent. J’aimerais aussi essayer de peindre à la tempera à l’œuf et à l’huile sur un panneau de bois encollé, sans apprêt.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Avant l’orage — tableau entier"
+        },
+        {
+          "label": "Détail de l’église",
+          "alt": "Avant l’orage — détail de l’église"
+        }
+      ]
+    },
+    "portrait-blue-scarf": {
+      "title": "Au musée",
+      "description": "Portrait de ma sœur\n\n50*40 cm, huile sur toile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Au musée — tableau entier"
+        }
+      ]
+    },
+    "morning-mist": {
+      "title": "Brume matinale",
+      "description": "18*24 cm\nÉtude à l’huile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Brume matinale — tableau entier"
+        }
+      ]
+    },
+    "sunlit-trees": {
+      "title": "5 novembre",
+      "description": "Soirée au parc\n30*25 cm, huile sur toile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "5 novembre — tableau entier"
+        }
+      ]
+    },
+    "city-portrait": {
+      "title": "Portrait de mon père",
+      "description": "Tempera à l’œuf et à l’huile sur toile\n\n50*40 cm\n\nJ’ai enfin terminé ce portrait ! C’était aussi la première fois que je peignais avec une palette restreinte.\nJe n’ai donc utilisé que quatre couleurs pour cette œuvre : rouge de cadmium, ocre jaune, blanc de titane et gris de Payne, qui est actuellement mon noir préféré. J’essaierai d’autres pigments noirs pour mes futurs portraits et je verrai comment ils se comparent.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Portrait de mon père — tableau entier"
+        },
+        {
+          "label": "Sur le chevalet",
+          "alt": "Portrait de mon père — sur le chevalet"
+        },
+        {
+          "label": "Vue rapprochée",
+          "alt": "Portrait de mon père — vue rapprochée"
+        }
+      ]
+    },
+    "riverboat": {
+      "title": "Bateau fluvial Yunga n°2",
+      "description": "Je rêve souvent de cette vue depuis le pont.\n25*30 cm\nHuile sur carton",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Bateau fluvial Yunga n°2 — tableau entier"
+        }
+      ]
+    },
+    "night-park": {
+      "title": "N’importe où",
+      "description": "Peinture au couteau\n30*30 cm\nTempera à l’œuf et à l’huile sur toile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "N’importe où — tableau entier"
+        }
+      ]
+    },
+    "park-river": {
+      "title": "8 août",
+      "description": "Manoir d’Alexandrino, Saint-Pétersbourg\n\n25*30 cm\nTempera à l’œuf et à l’huile sur toile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "8 août — tableau entier"
+        }
+      ]
+    },
+    "rainy-walk": {
+      "title": "Averse",
+      "description": "30*25 cm\nPeinture au couteau, tempera à l’œuf et à l’huile sur toile\n\nUn de mes professeurs de peinture m’a un jour recommandé de réaliser un petit tableau avant de commencer le travail principal, juste pour m’échauffer un peu. Malheureusement, lorsque j’ai terminé cette petite étude, il était déjà le soir.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Averse — tableau entier"
+        }
+      ]
+    },
+    "forest-bather": {
+      "title": "Ève",
+      "description": "40*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nPour la première fois, j’ai réalisé le dessin préparatoire à la terre verte antique, et j’ai beaucoup aimé ses nuances : elle ressemble un peu à une glauconite aux tons chauds. Je devrais essayer cette couleur pour un portrait.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Ève — tableau entier"
+        }
+      ]
+    },
+    "willow-reflections": {
+      "title": "La barque",
+      "description": "24*18 cm\nTempera à l’œuf et à l’huile sur toile\n…\nCet empâtement est… extrêmement épais ! Je pense que je pourrais fabriquer de petits supports avec des boîtes pour laisser sécher les peintures en empâtements sans me soucier de la poussière.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "La barque — tableau entier"
+        }
+      ]
+    },
+    "breaking-waves": {
+      "title": "V a g u e s",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "V a g u e s — tableau entier"
+        }
+      ]
+    },
+    "sculpture-at-night": {
+      "title": "Amour et Psyché",
+      "description": "45*55 cm, huile sur toile\n\nLe tableau représente la sculpture « Psyché ranimée par le baiser de l’Amour » du sculpteur italien Antonio Canova, conservée à l’Ermitage. C’est ma première expérience avec des couleurs à l’huile mélangées à du vernis mastic. Il est très différent du vernis dammar : la peinture a un éclat noble, presque vitreux.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Amour et Psyché — tableau entier"
+        }
+      ]
+    },
+    "church-interior": {
+      "title": "Cathédrale Sainte-Sophie",
+      "description": "Cathédrale Sainte-Sophie, Veliki Novgorod.\n50*40 cm\nTempera à l’œuf et à l’huile sur toile\n\nÉtonnamment, j’ai peint cette œuvre… alla prima. Une méthode traditionnelle avec une ébauche en tons sourds aurait sans doute mieux convenu à l’architecture, mais je n’aime pas les contraintes rigides.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Cathédrale Sainte-Sophie — tableau entier"
+        }
+      ]
+    },
+    "cloudy-evening": {
+      "title": "Soir nuageux",
+      "description": "18*24 cm\nTempera à l’œuf et à l’huile sur toile\n\n27 septembre\nÉglise Saint-Nicolas",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Soir nuageux — tableau entier"
+        }
+      ]
+    },
+    "spring-thaw": {
+      "title": "Étude de printemps",
+      "description": "18*24 cm\nTempera à l’œuf et à l’huile sur toile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Étude de printemps — tableau entier"
+        }
+      ]
+    },
+    "red-haired-portrait": {
+      "title": "Portrait au soleil",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Portrait au soleil — tableau entier"
+        }
+      ]
+    },
+    "mountain-valley": {
+      "title": "Montagnes d’Arménie",
+      "description": "En souvenir de notre petite excursion.\nPeinture au couteau sur panneau enduit de gesso acrylique\n20*30 cm\n\nDe la tempera à l’œuf et à l’huile… comme d’habitude. J’ai ajouté quelques gouttes d’huile de girofle pour que l’émulsion se conserve plus longtemps.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Montagnes d’Arménie — tableau entier"
+        }
+      ]
+    },
+    "winter-moonlight": {
+      "title": "Nuit",
+      "description": "Peinture au couteau\n24*30 cm\nTempera à l’œuf et à l’huile sur toile",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Nuit — tableau entier"
+        }
+      ]
+    },
+    "autumn-domes": {
+      "title": "Coupoles à travers les feuilles d’automne",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Coupoles à travers les feuilles d’automne — tableau entier"
+        }
+      ]
+    },
+    "sailboat": {
+      "title": "Voilier",
+      "description": "30*25 cm\nHuile et tempera à l’œuf sur toile\n\nOù que j’aille, j’emporterai l’hiver avec moi.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Voilier — tableau entier"
+        }
+      ]
+    }
+  }
+}

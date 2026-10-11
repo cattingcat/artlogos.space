@@ -1,0 +1,548 @@
+{
+  "ui": {
+    "home": "{name}のホーム",
+    "language": "言語",
+    "skipArtworks": "作品一覧へ移動",
+    "skipPainting": "絵画へ移動",
+    "mainNavigation": "メインナビゲーション",
+    "works": "作品",
+    "allWorks": "すべての作品",
+    "about": "作家について",
+    "studio": "アトリエ",
+    "contact": "お問い合わせ",
+    "menu": "メニュー",
+    "close": "閉じる",
+    "browseFilter": "作品の閲覧と絞り込み",
+    "browseBy": "カテゴリーから探す",
+    "artworkCategories": "作品カテゴリー",
+    "filterBy": "絞り込み",
+    "clear": "解除",
+    "subject": "モチーフ",
+    "filterHint": "選択したすべてのモチーフに一致する作品を表示します。",
+    "workCount_one": "{count}作品",
+    "workCount_other": "{count}作品",
+    "workCount_few": "{count}作品",
+    "workCount_many": "{count}作品",
+    "filtered": "絞り込み中",
+    "browseAndFilter": "作品を探す・絞り込む",
+    "sortBy": "並び順：",
+    "sortArtworks": "作品を並び替える",
+    "curatedOrder": "おすすめ順",
+    "titleOrder": "タイトル順",
+    "selectedSubjects": "選択中のモチーフ",
+    "removeFilter": "「{tag}」の絞り込みを解除",
+    "clearAll": "すべて解除",
+    "viewArtwork": "「{title}」を見る",
+    "photoCount_one": "写真{count}枚",
+    "photoCount_other": "写真{count}枚",
+    "photoCount_few": "写真{count}枚",
+    "photoCount_many": "写真{count}枚",
+    "viewArtworkButton": "作品を見る",
+    "noWorks": "この条件に一致する作品はありません。",
+    "removeSubjects": "モチーフを減らすか、絞り込みを解除すると作品をご覧いただけます。",
+    "clearFilters": "絞り込みを解除",
+    "endCollection": "作品一覧はここまでです",
+    "backToTop": "ページ上部へ",
+    "getInTouch": "お問い合わせ",
+    "exploreCollection": "作品集を見る",
+    "closeArtwork": "作品を閉じる",
+    "photosOf": "「{title}」の写真",
+    "photosSoon": "写真は近日公開予定です。",
+    "previousPhoto": "前の写真",
+    "nextPhoto": "次の写真",
+    "photoPosition": "写真{total}枚中{current}枚目",
+    "choosePhoto": "写真を選ぶ",
+    "viewPhoto": "写真{number}を見る：{label}",
+    "paintingPage": "絵画のページ",
+    "artworkSubjects": "作品のモチーフ",
+    "viewOn": "{source}で見る",
+    "viewerHint": "{count}枚の写真で作品をご覧いただけます。画像の下から写真を選ぶか、矢印キーで切り替えられます。",
+    "browseArtworks": "作品を探す",
+    "artworkPosition": "{total}作品中{current}作品目",
+    "previousArtwork": "前の作品",
+    "nextArtwork": "次の作品",
+    "openFullImage": "フルサイズの画像を開く：{label}",
+    "viewFullImage": "フルサイズの画像を見る",
+    "by": "作者",
+    "viewsPainting": "さまざまな角度から",
+    "photographs": "写真",
+    "exploreAll": "すべての絵画を見る",
+    "findArtist": "作家のオンラインプロフィール",
+    "opensNewTab": "新しいタブで開きます",
+    "contactArtist": "作家へのお問い合わせ",
+    "email": "メール",
+    "artistJob": "画家",
+    "paintingArtform": "絵画",
+    "paintingIntro": "「{title}」は、Alina Logos（Alina Pliushcheva）による絵画です。",
+    "paintingFallback": "絵画とその写真をご覧ください。",
+    "officialPortfolio": "公式ポートフォリオ",
+    "portfolio": "ポートフォリオ",
+    "completeCatalogue": "作品解説と画像リンクを含む全作品のテキストカタログ",
+    "paintings": "絵画",
+    "artistProfiles": "作家プロフィール・お問い合わせ",
+    "page": "ページ",
+    "artist": "作家",
+    "category": "カテゴリー",
+    "subjects": "モチーフ",
+    "description": "作品解説",
+    "dimensions": "サイズ",
+    "pixels": "ピクセル",
+    "publications": "掲載情報",
+    "languageVersions": "ほかの言語"
+  },
+  "site": {
+    "pageTitle": "Alina Logos（Alina Pliushcheva）— 画家・絵画作品",
+    "description": "Alina Logos（Alina Pliushcheva）による油彩・卵テンペラの絵画作品。風景画、肖像画、人物画をご覧いただけます。作品集と作家へのお問い合わせはこちら。",
+    "collectionHeading": "Alina Pliushchevaの絵画",
+    "sidebarNote": "一枚の絵を、さまざまな視点から。",
+    "aboutEyebrow": "作家について · Alina Logos",
+    "aboutTitle": "Alina Pliushcheva",
+    "aboutImageAlt": "ギャラリーにて",
+    "aboutCaption": "ギャラリーにて",
+    "aboutParagraphs": [
+      "Alina Logosの名でも活動するAlina Pliushchevaは、油彩と卵テンペラで制作しています。風景、街並み、肖像、人物、身近な室内の情景を描いています。",
+      "作品を眺め、その背景にある物語を読み、細部やさまざまな角度から絵の世界をお楽しみください。作品に関するご質問は、下記の作家プロフィールからAlinaまでご連絡ください。"
+    ],
+    "studioEyebrow": "アトリエ",
+    "studioTitle": "絵を描く場所。",
+    "studioParagraphs": [
+      "窓とイーゼル、そして一枚の絵を取り囲む空間。作品が生まれる制作の場を、少しだけご紹介します。"
+    ],
+    "studioImageAlt": "窓辺のイーゼルと絵画制作のスペース",
+    "contactEyebrow": "ここから始まる対話",
+    "contactTitle": "お問い合わせ。",
+    "contactDescription": "作品に関するご質問や、新作・アトリエの日々の様子はこちらから。",
+    "footerNote": "絵画：Alina Logos · Alina Pliushcheva。"
+  },
+  "categories": {
+    "All works": "すべての作品",
+    "Landscapes": "風景画",
+    "Cityscapes": "都市風景画",
+    "Figures": "人物画",
+    "Portraits": "肖像画",
+    "Interiors": "室内画"
+  },
+  "tags": {
+    "Architecture": "建築",
+    "Autumn": "秋",
+    "Boats": "船",
+    "Clouds": "雲",
+    "Countryside": "田園",
+    "Evening": "夕暮れ",
+    "Flowers": "花",
+    "Interiors": "室内",
+    "Morning": "朝",
+    "Mountains": "山",
+    "Night": "夜",
+    "People": "人物",
+    "Sculpture": "彫刻",
+    "Sea": "海",
+    "Spring": "春",
+    "Summer": "夏",
+    "Trees": "木々",
+    "Water": "水",
+    "Winter": "冬"
+  },
+  "artworks": {
+    "azure": {
+      "title": "空色",
+      "description": "ペインティングナイフによる絵画\n30*30 cm\nキャンバスに卵油テンペラ\n\nアクリルジェッソの上に、ほとんど乾いた卵油テンペラを使ってこの風景を描きました。仕上がりは完全なつや消しです。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「空色」— 作品全体"
+        }
+      ]
+    },
+    "forest-figure": {
+      "title": "真昼の幻影",
+      "description": "40*30 cm\nキャンバスに卵油テンペラ\n\nこの絵の一部ではキャンバスが透けて見えます。茶色の調色に疲れてしまい、絵具を削り取ったからです。\nまた、身体にはコバルトイエローを、草木にはより安価なカドミウムイエローを使いました。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「真昼の幻影」— 作品全体"
+        },
+        {
+          "label": "キャンバス全体の様子",
+          "alt": "「真昼の幻影」— キャンバス全体の様子"
+        },
+        {
+          "label": "人物の細部",
+          "alt": "「真昼の幻影」— 人物の細部"
+        },
+        {
+          "label": "イーゼルに置いた作品",
+          "alt": "「真昼の幻影」— イーゼルに置いた作品"
+        }
+      ]
+    },
+    "winter-garden": {
+      "title": "3月の雪",
+      "description": "ペインティングナイフによる絵画\n18*24 cm\nキャンバスに卵油テンペラ",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「3月の雪」— 作品全体"
+        }
+      ]
+    },
+    "blue-night": {
+      "title": "夜明けに",
+      "description": "30*25 cm、\nキャンバスに油彩",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「夜明けに」— 作品全体"
+        }
+      ]
+    },
+    "countryside": {
+      "title": "低い空",
+      "description": "30*25 cm、\n厚紙にテンペラ・グラッサ",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「低い空」— 作品全体"
+        }
+      ]
+    },
+    "golden-autumn": {
+      "title": "夕闇のカエデ",
+      "description": "30*25 cm\nキャンバスに油彩\nペインティングナイフによる絵画\n\n1年ほど前のことです。夕方、家に向かって歩いていると、カエデの葉が暗闇の中でとても鮮やかに見えて、まるで燃えているようでした。\nその年の特に好きな思い出のひとつになりました。寒く静かな10月で、それほど心に残る出来事はほかにあまりなかったのです。\n\nそこで、この絵を2時間ほどで描きました。2日ほどすると表面はほぼ乾いていましたが、絵具に混ぜたアルキドメディウムのおかげで、きれいな光沢が残っていました。それまで合成メディウムは使ったことがなかったのですが、旅の途中でダンマル樹脂がどうしても見つからなかったのです。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「夕闇のカエデ」— 作品全体"
+        },
+        {
+          "label": "絵の細部",
+          "alt": "「夕闇のカエデ」— 絵の細部"
+        }
+      ]
+    },
+    "by-the-water": {
+      "title": "出会い",
+      "description": "60*50\nキャンバスに油彩\n\n7月末に木炭で下描きをして描き始めたのですが、どの定着液を使えばよいのかわからず、長い間そのままにしていました。\n結局、ほかによいものが見つからず、自分のヘアスプレーを使いました ._. その後、イエローオーカーでインプリマトゥーラを施し、いつものように油彩で描き進めました。\nでも、季節の移り変わりに少し遅れてしまい、夏の風景がだんだん秋の風景になっていきました 🐌",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「出会い」— 作品全体"
+        },
+        {
+          "label": "人物の細部",
+          "alt": "「出会い」— 人物の細部"
+        }
+      ]
+    },
+    "fountain-garden": {
+      "title": "あなたの名前は？",
+      "description": "春に、もう一度あの場所へ行こうとしました。何年も経つのに変わらず残っているところが好きでした。でも、警備員に入れてもらえませんでした。\nそれなら、ここに思い出を残しておこうと思います。\n\n2008年6月",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「あなたの名前は？」— 作品全体"
+        }
+      ]
+    },
+    "about-zero": {
+      "title": "ゼロ近く",
+      "description": "ペインティングナイフによる絵画\n30*30 cm\nキャンバスに卵油テンペラ\n\n2016年1月4日の思い出",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「ゼロ近く」— 作品全体"
+        }
+      ]
+    },
+    "cloud-catcher": {
+      "title": "雲をつかまえて",
+      "description": "20*30 cm\nキャンバスに油彩と卵のエマルション\n\nチューブ入りの油絵具に、煮油とベネチアンテレピンを加えた卵のエマルションを混ぜました。この配合なら、色の鮮やかさと絵具の粘りを保ちながら厚塗りできます。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「雲をつかまえて」— 作品全体"
+        }
+      ]
+    },
+    "venus": {
+      "title": "ヴィーナス",
+      "description": "イワン・ヴィタリの彫刻「サンダルを脱ぐヴィーナス」を参考にしました。最初は人物の習作にするつもりでしたが、後から背景や細部を加えました。キャンバスや木枠を運んでこられたら、近いうちに大きなサイズでも描けたらと思っています。\n\n35*25 cm\nキャンバスに卵油テンペラ",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「ヴィーナス」— 作品全体"
+        },
+        {
+          "label": "絵の細部",
+          "alt": "「ヴィーナス」— 絵の細部"
+        }
+      ]
+    },
+    "boats-under-pines": {
+      "title": "シーズン終了",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「シーズン終了」— 作品全体"
+        }
+      ]
+    },
+    "saltspring": {
+      "title": "塩の泉",
+      "description": "繊維板に油彩と卵テンペラ\n20*25 cm",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「塩の泉」— 作品全体"
+        },
+        {
+          "label": "額装した作品",
+          "alt": "「塩の泉」— 額装した作品"
+        }
+      ]
+    },
+    "village-evening": {
+      "title": "午前5時",
+      "description": "今回もペインティングナイフで、とても厚く絵具を重ねた作品です。油絵具に、ダンマル樹脂、スタンドオイル、精製テレピン油を使った自家製の画用液を混ぜました。引っ越しを控えているときや、疲れていたり面倒だったりして卵のエマルションを作る気になれないときに使う配合です。\n\nこの場所を見ることは、もうないかもしれません。子どもの頃、イリメニ湖の近くの田舎に住むおじを訪ねるのが大好きでした。家の周りの野原や森を自由に探検して、好きなときに帰ってこられたからです。おじは気にしませんでした。\n\nキャンバスに油彩\n18*24 cm",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「午前5時」— 作品全体"
+        },
+        {
+          "label": "斜めから見た作品",
+          "alt": "「午前5時」— 斜めから見た作品"
+        }
+      ]
+    },
+    "my-room": {
+      "title": "私の部屋",
+      "description": "40*30 cm\nキャンバスに油彩\nまたここに戻ってこられますように。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「私の部屋」— 作品全体"
+        }
+      ]
+    },
+    "village-church": {
+      "title": "嵐の前",
+      "description": "ペインティングナイフによる絵画\n20*30 cm\nキャンバスに卵油テンペラ\n\nこの絵は透明なアクリル地塗り材の上に描きました。にじみ止めだけを施した、地塗りのない木製パネルにも卵油テンペラで描いてみたいです。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「嵐の前」— 作品全体"
+        },
+        {
+          "label": "教会の細部",
+          "alt": "「嵐の前」— 教会の細部"
+        }
+      ]
+    },
+    "portrait-blue-scarf": {
+      "title": "美術館にて",
+      "description": "私の姉妹の肖像\n\n50*40 cm、キャンバスに油彩",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「美術館にて」— 作品全体"
+        }
+      ]
+    },
+    "morning-mist": {
+      "title": "朝霧",
+      "description": "18*24 cm\n油彩の習作",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「朝霧」— 作品全体"
+        }
+      ]
+    },
+    "sunlit-trees": {
+      "title": "11月5日",
+      "description": "公園の夕暮れ\n30*25 cm、キャンバスに油彩",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「11月5日」— 作品全体"
+        }
+      ]
+    },
+    "city-portrait": {
+      "title": "父の肖像",
+      "description": "キャンバスに卵油テンペラ\n\n50*40 cm\n\nようやくこの肖像画を描き終えました！限られた色数で描くのは初めてでした。\nこの作品では、カドミウムレッド、イエローオーカー、チタニウムホワイト、そして今いちばん気に入っている黒の代わりになる色、ペインズグレーの4色だけを使いました。今後は肖像画にほかの黒色顔料も使ってみて、違いを比べたいと思っています。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「父の肖像」— 作品全体"
+        },
+        {
+          "label": "イーゼルに置いた作品",
+          "alt": "「父の肖像」— イーゼルに置いた作品"
+        },
+        {
+          "label": "近くから見た作品",
+          "alt": "「父の肖像」— 近くから見た作品"
+        }
+      ]
+    },
+    "riverboat": {
+      "title": "川船ユンガ #2",
+      "description": "橋の上から見たあの景色を、よく夢に見ます。\n25*30 cm\n厚紙に油彩",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「川船ユンガ #2」— 作品全体"
+        }
+      ]
+    },
+    "night-park": {
+      "title": "どこでも",
+      "description": "ペインティングナイフによる絵画\n30*30 cm\nキャンバスに卵油テンペラ",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「どこでも」— 作品全体"
+        }
+      ]
+    },
+    "park-river": {
+      "title": "8月8日",
+      "description": "アレクサンドリノ邸、サンクトペテルブルク\n\n25*30 cm\nキャンバスに卵油テンペラ",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「8月8日」— 作品全体"
+        }
+      ]
+    },
+    "rainy-walk": {
+      "title": "土砂降り",
+      "description": "30*25 cm\nペインティングナイフによる絵画、キャンバスに卵油テンペラ\n\n絵の先生のひとりから、本制作に入る前に、少し手を慣らすために小さな絵を描くとよいと言われたことがあります。残念ながら、その小さな習作を描き終えた頃には、もう夕方になっていました。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「土砂降り」— 作品全体"
+        }
+      ]
+    },
+    "forest-bather": {
+      "title": "イヴ",
+      "description": "40*30 cm\nキャンバスに卵油テンペラ\n\n初めてアンティーク・グリーンアースで下描きをしてみて、その色調がとても気に入りました。暖かみのあるグローコナイトに少し似ています。この絵具を肖像画にも使ってみたいです。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「イヴ」— 作品全体"
+        }
+      ]
+    },
+    "willow-reflections": {
+      "title": "船",
+      "description": "24*18 cm\nキャンバスに卵油テンペラ\n…\nこの絵具の盛り上がりは…ものすごい厚さです！箱で小さな台を作れば、ほこりを気にせず厚塗りの絵を乾かせそうです。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「船」— 作品全体"
+        }
+      ]
+    },
+    "breaking-waves": {
+      "title": "波",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「波」— 作品全体"
+        }
+      ]
+    },
+    "sculpture-at-night": {
+      "title": "キューピッドとプシュケ",
+      "description": "45*55 cm、キャンバスに油彩\n\nエルミタージュ美術館にある、イタリアの彫刻家アントニオ・カノーヴァの「キューピッドの口づけで蘇るプシュケ」を描きました。油絵具にマスチックワニスを混ぜて描くのは初めてです。ダンマルワニスとは大きく違い、絵に上品で、どこかガラスのような光沢が生まれました。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「キューピッドとプシュケ」— 作品全体"
+        }
+      ]
+    },
+    "church-interior": {
+      "title": "聖ソフィア大聖堂",
+      "description": "聖ソフィア大聖堂、ヴェリーキー・ノヴゴロド。\n50*40 cm\nキャンバスに卵油テンペラ\n\n驚くことに、この絵は…アラ・プリマで描きました。建築には、彩度を抑えた下塗りを用いる伝統的なデッドカラーの手法のほうが合っていたかもしれませんが、厳密な制約は好きではありません。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「聖ソフィア大聖堂」— 作品全体"
+        }
+      ]
+    },
+    "cloudy-evening": {
+      "title": "曇り空の夕暮れ",
+      "description": "18*24 cm\nキャンバスに卵油テンペラ\n\n9月27日\n聖ニコライ聖堂",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「曇り空の夕暮れ」— 作品全体"
+        }
+      ]
+    },
+    "spring-thaw": {
+      "title": "春の習作",
+      "description": "18*24 cm\nキャンバスに卵油テンペラ",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「春の習作」— 作品全体"
+        }
+      ]
+    },
+    "red-haired-portrait": {
+      "title": "陽光の中の肖像",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「陽光の中の肖像」— 作品全体"
+        }
+      ]
+    },
+    "mountain-valley": {
+      "title": "アルメニアの山々",
+      "description": "私たちの小さな旅の思い出に。\nアクリルジェッソを塗ったパネルに、ペインティングナイフで制作\n20*30 cm\n\nいつものように…卵油テンペラです。エマルションが長持ちするように、クローブオイルを数滴加えました。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「アルメニアの山々」— 作品全体"
+        }
+      ]
+    },
+    "winter-moonlight": {
+      "title": "夜",
+      "description": "ペインティングナイフによる絵画\n24*30 cm\nキャンバスに卵油テンペラ",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「夜」— 作品全体"
+        }
+      ]
+    },
+    "autumn-domes": {
+      "title": "秋の葉の向こうのドーム",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「秋の葉の向こうのドーム」— 作品全体"
+        }
+      ]
+    },
+    "sailboat": {
+      "title": "帆船",
+      "description": "30*25 cm\nキャンバスに油彩と卵テンペラ\n\nどこへ行っても、冬を連れていきます。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「帆船」— 作品全体"
+        }
+      ]
+    }
+  }
+}

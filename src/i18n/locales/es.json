@@ -1,0 +1,548 @@
+{
+  "ui": {
+    "home": "Inicio de {name}",
+    "language": "Idioma",
+    "skipArtworks": "Ir a las obras",
+    "skipPainting": "Ir a la pintura",
+    "mainNavigation": "Navegación principal",
+    "works": "Obras",
+    "allWorks": "Todas las obras",
+    "about": "Sobre mí",
+    "studio": "Estudio",
+    "contact": "Contacto",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "browseFilter": "Explorar y filtrar obras",
+    "browseBy": "Explorar por",
+    "artworkCategories": "Categorías de obras",
+    "filterBy": "Filtrar por",
+    "clear": "Borrar",
+    "subject": "Tema",
+    "filterHint": "Se muestran las obras que coinciden con todos los temas seleccionados.",
+    "workCount_one": "{count} obra",
+    "workCount_other": "{count} obras",
+    "workCount_few": "{count} obras",
+    "workCount_many": "{count} obras",
+    "filtered": "con filtros",
+    "browseAndFilter": "Explorar y filtrar",
+    "sortBy": "Ordenar por:",
+    "sortArtworks": "Ordenar obras",
+    "curatedOrder": "Orden de la colección",
+    "titleOrder": "Título: A–Z",
+    "selectedSubjects": "Temas seleccionados",
+    "removeFilter": "Quitar el filtro {tag}",
+    "clearAll": "Borrar todo",
+    "viewArtwork": "Ver {title}",
+    "photoCount_one": "{count} foto",
+    "photoCount_other": "{count} fotos",
+    "photoCount_few": "{count} fotos",
+    "photoCount_many": "{count} fotos",
+    "viewArtworkButton": "Ver obra",
+    "noWorks": "No hay obras en esta selección.",
+    "removeSubjects": "Quita un tema o borra los filtros para ver la colección.",
+    "clearFilters": "Borrar filtros",
+    "endCollection": "Fin de la colección",
+    "backToTop": "Volver arriba",
+    "getInTouch": "Contactar",
+    "exploreCollection": "Explorar la colección",
+    "closeArtwork": "Cerrar obra",
+    "photosOf": "Fotos de {title}",
+    "photosSoon": "Fotos próximamente.",
+    "previousPhoto": "Foto anterior",
+    "nextPhoto": "Foto siguiente",
+    "photoPosition": "Foto {current} de {total}",
+    "choosePhoto": "Elegir una foto",
+    "viewPhoto": "Ver foto {number}: {label}",
+    "paintingPage": "Página de la pintura",
+    "artworkSubjects": "Temas de la obra",
+    "viewOn": "Ver en {source}",
+    "viewerHint": "Explora la pintura a través de {count} fotografías. Elige una vista debajo de la imagen o usa las teclas de flecha.",
+    "browseArtworks": "Explorar obras",
+    "artworkPosition": "Obra {current} de {total}",
+    "previousArtwork": "Obra anterior",
+    "nextArtwork": "Obra siguiente",
+    "openFullImage": "Abrir imagen completa: {label}",
+    "viewFullImage": "Ver imagen completa",
+    "by": "Por",
+    "viewsPainting": "Vistas de la pintura",
+    "photographs": "Fotografías",
+    "exploreAll": "Explorar todas las pinturas",
+    "findArtist": "Encuentra a la artista en internet",
+    "opensNewTab": "se abre en una pestaña nueva",
+    "contactArtist": "Contactar con la artista",
+    "email": "Correo electrónico",
+    "artistJob": "Artista",
+    "paintingArtform": "Pintura",
+    "paintingIntro": "{title}, una pintura de Alina Logos (Alina Pliushcheva).",
+    "paintingFallback": "Descubre la pintura y sus fotografías.",
+    "officialPortfolio": "Portafolio oficial",
+    "portfolio": "Portafolio",
+    "completeCatalogue": "Catálogo completo en texto, descripciones y enlaces a imágenes",
+    "paintings": "Pinturas",
+    "artistProfiles": "Perfiles de la artista y contacto",
+    "page": "Página",
+    "artist": "Artista",
+    "category": "Categoría",
+    "subjects": "Temas",
+    "description": "Descripción",
+    "dimensions": "Dimensiones",
+    "pixels": "píxeles",
+    "publications": "Publicaciones",
+    "languageVersions": "Otros idiomas"
+  },
+  "site": {
+    "pageTitle": "Alina Logos (Alina Pliushcheva) — Artista y pinturas",
+    "description": "Descubre las pinturas originales de Alina Logos (Alina Pliushcheva): paisajes, retratos y figuras al óleo y al temple al huevo. Explora el portafolio y contacta con la artista.",
+    "collectionHeading": "Pinturas de Alina Pliushcheva",
+    "sidebarNote": "Una pintura. Muchas perspectivas.",
+    "aboutEyebrow": "Sobre la artista · Alina Logos",
+    "aboutTitle": "Alina Pliushcheva",
+    "aboutImageAlt": "En la galería",
+    "aboutCaption": "En la galería",
+    "aboutParagraphs": [
+      "Alina Pliushcheva, también conocida como Alina Logos, pinta al óleo y al temple al huevo. Su obra reúne paisajes, escenas urbanas, retratos, figuras e interiores familiares.",
+      "Explora sus pinturas, descubre las historias que hay detrás y acércate a los detalles a través de distintas vistas. Si tienes alguna pregunta sobre las obras, contacta con Alina a través de sus perfiles de artista, que encontrarás más abajo."
+    ],
+    "studioEyebrow": "Estudio",
+    "studioTitle": "Un lugar para pintar.",
+    "studioParagraphs": [
+      "Una ventana, un caballete y el espacio que rodea una pintura. Una mirada al lugar de trabajo donde nace la colección."
+    ],
+    "studioImageAlt": "Un caballete y un espacio de trabajo para pintar junto a una ventana",
+    "contactEyebrow": "Una conversación empieza aquí",
+    "contactTitle": "Hablemos.",
+    "contactDescription": "Para preguntar por las pinturas o seguir las nuevas obras y la vida en el estudio.",
+    "footerNote": "Pinturas de Alina Logos · Alina Pliushcheva."
+  },
+  "categories": {
+    "All works": "Todas las obras",
+    "Landscapes": "Paisajes",
+    "Cityscapes": "Paisajes urbanos",
+    "Figures": "Figuras",
+    "Portraits": "Retratos",
+    "Interiors": "Interiores"
+  },
+  "tags": {
+    "Architecture": "Arquitectura",
+    "Autumn": "Otoño",
+    "Boats": "Barcos",
+    "Clouds": "Nubes",
+    "Countryside": "Campo",
+    "Evening": "Atardecer",
+    "Flowers": "Flores",
+    "Interiors": "Interiores",
+    "Morning": "Mañana",
+    "Mountains": "Montañas",
+    "Night": "Noche",
+    "People": "Personas",
+    "Sculpture": "Escultura",
+    "Sea": "Mar",
+    "Spring": "Primavera",
+    "Summer": "Verano",
+    "Trees": "Árboles",
+    "Water": "Agua",
+    "Winter": "Invierno"
+  },
+  "artworks": {
+    "azure": {
+      "title": "Azur",
+      "description": "Pintura con espátula\n30*30 cm\nTemple de huevo y aceite sobre lienzo\n\nPinté este paisaje con temple de huevo y aceite casi seco sobre gesso acrílico. El resultado es completamente mate.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Azur — pintura completa"
+        }
+      ]
+    },
+    "forest-figure": {
+      "title": "Visión del mediodía",
+      "description": "40*30 cm\nTemple de huevo y aceite sobre lienzo\n\nEn algunas zonas de esta pintura se ve el lienzo porque me cansé de mezclar los tonos marrones y simplemente raspé la pintura.\nTambién utilicé amarillo de cobalto para el cuerpo y un amarillo de cadmio más económico para la vegetación.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Visión del mediodía — pintura completa"
+        },
+        {
+          "label": "Vista del lienzo",
+          "alt": "Visión del mediodía — vista del lienzo"
+        },
+        {
+          "label": "Detalle de la figura",
+          "alt": "Visión del mediodía — detalle de la figura"
+        },
+        {
+          "label": "En el caballete",
+          "alt": "Visión del mediodía — en el caballete"
+        }
+      ]
+    },
+    "winter-garden": {
+      "title": "Nieve de marzo",
+      "description": "Pintura con espátula\n18*24 cm\nTemple de huevo y aceite sobre lienzo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Nieve de marzo — pintura completa"
+        }
+      ]
+    },
+    "blue-night": {
+      "title": "Al amanecer",
+      "description": "30*25 cm,\nóleo sobre lienzo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Al amanecer — pintura completa"
+        }
+      ]
+    },
+    "countryside": {
+      "title": "Cielo bajo",
+      "description": "30*25 cm,\nTemple graso sobre cartón",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Cielo bajo — pintura completa"
+        }
+      ]
+    },
+    "golden-autumn": {
+      "title": "Arce al anochecer",
+      "description": "30*25 cm\nÓleo sobre lienzo\nPintura con espátula\n\nFue hace aproximadamente un año. Volvía a casa al anochecer y las hojas del arce brillaban tanto en la oscuridad que casi parecían arder.\nSe convirtió en uno de mis recuerdos favoritos de aquel año. Fue un octubre frío y tranquilo, y pocas cosas me dejaron una impresión tan profunda.\n\nAsí que pinté esto en unas dos horas. Un par de días después, la superficie estaba casi seca, pero conservaba un bonito brillo gracias al médium alquídico que había mezclado con la pintura. Por cierto, nunca había usado un médium sintético, pero durante el viaje no encontré resina de damar por ninguna parte.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Arce al anochecer — pintura completa"
+        },
+        {
+          "label": "Detalle de la pintura",
+          "alt": "Arce al anochecer — detalle de la pintura"
+        }
+      ]
+    },
+    "by-the-water": {
+      "title": "Encuentro",
+      "description": "60*50\nÓleo sobre lienzo\n\nEmpecé esta pintura a finales de julio con un boceto al carboncillo y luego la dejé durante mucho tiempo porque no sabía qué fijador elegir.\nAl final utilicé mi laca para el pelo, ya que no encontré una alternativa mejor ._. Después la cubrí con una imprimatura de ocre amarillo y seguí pintando al óleo como de costumbre.\nPero el paisaje de verano se fue convirtiendo en uno otoñal porque me quedé un poco atrás con el cambio de estación 🐌",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Encuentro — pintura completa"
+        },
+        {
+          "label": "Detalle de la figura",
+          "alt": "Encuentro — detalle de la figura"
+        }
+      ]
+    },
+    "fountain-garden": {
+      "title": "¿Cómo te llamas?",
+      "description": "En primavera intenté volver una vez más. Me gustaba que, después de tantos años, aquel lugar siguiera intacto. Pero el vigilante no me dejó entrar.\nBueno, guardaré el recuerdo aquí.\n\nJunio de 2008",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "¿Cómo te llamas? — pintura completa"
+        }
+      ]
+    },
+    "about-zero": {
+      "title": "Cerca de cero",
+      "description": "Pintura con espátula\n30*30 cm\nTemple de huevo y aceite sobre lienzo\n\nUn recuerdo del 4 de enero de 2016",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Cerca de cero — pintura completa"
+        }
+      ]
+    },
+    "cloud-catcher": {
+      "title": "Atrapando nubes",
+      "description": "20*30 cm\nÓleo y emulsión de huevo sobre lienzo\n\nAñadí una emulsión de huevo con aceite cocido y trementina de Venecia a mis óleos de tubo. Esta mezcla permite pintar con empaste, manteniendo los colores vivos y la pintura espesa.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Atrapando nubes — pintura completa"
+        }
+      ]
+    },
+    "venus": {
+      "title": "Venus",
+      "description": "Tomé como referencia la escultura «Venus quitándose la sandalia», de Iván Vitali. Al principio quería hacer un estudio de figura, pero después añadí un fondo y algunos detalles. Espero poder realizarla pronto en gran formato, cuando traslade mis lienzos y bastidores.\n\n35*25 cm\nTemple de huevo y aceite sobre lienzo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Venus — pintura completa"
+        },
+        {
+          "label": "Detalle de la pintura",
+          "alt": "Venus — detalle de la pintura"
+        }
+      ]
+    },
+    "boats-under-pines": {
+      "title": "Cerrado por fin de temporada",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Cerrado por fin de temporada — pintura completa"
+        }
+      ]
+    },
+    "saltspring": {
+      "title": "Manantial salino",
+      "description": "Óleo y temple al huevo sobre tablero de fibra\n20*25 cm",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Manantial salino — pintura completa"
+        },
+        {
+          "label": "Enmarcada",
+          "alt": "Manantial salino — enmarcada"
+        }
+      ]
+    },
+    "village-evening": {
+      "title": "A las 5 de la mañana",
+      "description": "Otra pintura con espátula y un empaste muy grueso. Para esta mezclé mis óleos con un médium casero: damar, aceite polimerizado y esencia de trementina rectificada. Es la mezcla a la que recurro cuando tengo que mudarme o estoy demasiado cansada o perezosa para preparar una emulsión de huevo.\n\nDudo que vuelva a ver estos lugares. De niña me encantaba visitar a mi tío en el campo, cerca del lago Ilmen, porque tenía total libertad para explorar los campos y bosques junto a su casa y volver cuando quisiera. A él no le importaba.\n\nÓleo sobre lienzo\n18*24 cm",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "A las 5 de la mañana — pintura completa"
+        },
+        {
+          "label": "Vista en ángulo",
+          "alt": "A las 5 de la mañana — vista en ángulo"
+        }
+      ]
+    },
+    "my-room": {
+      "title": "Mi habitación",
+      "description": "40*30 cm\nÓleo sobre lienzo\nEspero volver aquí algún día.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Mi habitación — pintura completa"
+        }
+      ]
+    },
+    "village-church": {
+      "title": "Antes de la tormenta",
+      "description": "Pintura con espátula;\n20*30 cm\nTemple de huevo y aceite sobre lienzo\n\nPinté esta obra sobre una preparación acrílica transparente. También me gustaría probar el temple de huevo y aceite sobre una tabla de madera encolada, sin ninguna capa de preparación.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Antes de la tormenta — pintura completa"
+        },
+        {
+          "label": "Detalle de la iglesia",
+          "alt": "Antes de la tormenta — detalle de la iglesia"
+        }
+      ]
+    },
+    "portrait-blue-scarf": {
+      "title": "En el museo",
+      "description": "Retrato de mi hermana\n\n50*40 cm, óleo sobre lienzo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "En el museo — pintura completa"
+        }
+      ]
+    },
+    "morning-mist": {
+      "title": "Niebla matinal",
+      "description": "18*24 cm\nEstudio al óleo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Niebla matinal — pintura completa"
+        }
+      ]
+    },
+    "sunlit-trees": {
+      "title": "5 de noviembre",
+      "description": "Atardecer en el parque\n30*25 cm, óleo sobre lienzo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "5 de noviembre — pintura completa"
+        }
+      ]
+    },
+    "city-portrait": {
+      "title": "Retrato de mi padre",
+      "description": "Temple de huevo y aceite sobre lienzo\n\n50*40 cm\n\n¡Por fin terminé este retrato! Era la primera vez que pintaba con una paleta limitada.\nPara esta obra utilicé solo cuatro colores: rojo de cadmio, ocre amarillo, blanco de titanio y gris de Payne, que actualmente es mi negro favorito. En el futuro probaré otros pigmentos negros para los retratos y veré cómo se comparan.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Retrato de mi padre — pintura completa"
+        },
+        {
+          "label": "En el caballete",
+          "alt": "Retrato de mi padre — en el caballete"
+        },
+        {
+          "label": "Vista de cerca",
+          "alt": "Retrato de mi padre — vista de cerca"
+        }
+      ]
+    },
+    "riverboat": {
+      "title": "Barco fluvial Yunga n.º 2",
+      "description": "A menudo sueño con aquella vista desde el puente.\n25*30 cm\nÓleo sobre cartón",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Barco fluvial Yunga n.º 2 — pintura completa"
+        }
+      ]
+    },
+    "night-park": {
+      "title": "En cualquier lugar",
+      "description": "Pintura con espátula\n30*30 cm\nTemple de huevo y aceite sobre lienzo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "En cualquier lugar — pintura completa"
+        }
+      ]
+    },
+    "park-river": {
+      "title": "8 de agosto",
+      "description": "Finca de Alexandrino, San Petersburgo\n\n25*30 cm\nTemple de huevo y aceite sobre lienzo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "8 de agosto — pintura completa"
+        }
+      ]
+    },
+    "rainy-walk": {
+      "title": "Aguacero",
+      "description": "30*25 cm\nPintura con espátula, temple de huevo y aceite sobre lienzo\n\nUna de las personas que me enseñaron a pintar me recomendó una vez hacer una pequeña pintura antes de empezar la obra principal, solo para calentar un poco. Por desgracia, cuando terminé aquel pequeño estudio, ya había caído la tarde.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Aguacero — pintura completa"
+        }
+      ]
+    },
+    "forest-bather": {
+      "title": "Eva",
+      "description": "40*30 cm\nTemple de huevo y aceite sobre lienzo\n\nPor primera vez pinté el dibujo preparatorio con tierra verde antigua y me gustaron mucho sus tonos: recuerdan un poco a una glauconita cálida. Debería probar esta pintura en un retrato.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Eva — pintura completa"
+        }
+      ]
+    },
+    "willow-reflections": {
+      "title": "La barca",
+      "description": "24*18 cm\nTemple de huevo y aceite sobre lienzo\n…\n¡Este empaste es… increíblemente grueso! Creo que podría fabricar pequeños soportes con cajas para dejar secar las pinturas con empaste sin preocuparme por el polvo.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "La barca — pintura completa"
+        }
+      ]
+    },
+    "breaking-waves": {
+      "title": "O l a s",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "O l a s — pintura completa"
+        }
+      ]
+    },
+    "sculpture-at-night": {
+      "title": "Cupido y Psique",
+      "description": "45*55 cm, óleo sobre lienzo\n\nLa pintura representa la escultura «Psique reanimada por el beso del Amor», del escultor italiano Antonio Canova, que se encuentra en el Hermitage. Es mi primera experiencia con óleos mezclados con barniz de almáciga. Es muy distinto del barniz de damar; la pintura tiene un brillo noble, casi vítreo.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Cupido y Psique — pintura completa"
+        }
+      ]
+    },
+    "church-interior": {
+      "title": "Catedral de Santa Sofía",
+      "description": "Catedral de Santa Sofía, Veliki Nóvgorod.\n50*40 cm\nTemple de huevo y aceite sobre lienzo\n\nSorprendentemente, pinté esta obra… alla prima. Un método tradicional con una subpintura de tonos apagados probablemente habría sido más adecuado para la arquitectura, pero no me gustan las restricciones rígidas.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Catedral de Santa Sofía — pintura completa"
+        }
+      ]
+    },
+    "cloudy-evening": {
+      "title": "Atardecer nublado",
+      "description": "18*24 cm\nTemple de huevo y aceite sobre lienzo\n\n27 de septiembre\nIglesia de San Nicolás",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Atardecer nublado — pintura completa"
+        }
+      ]
+    },
+    "spring-thaw": {
+      "title": "Estudio de primavera",
+      "description": "18*24 cm\nTemple de huevo y aceite sobre lienzo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Estudio de primavera — pintura completa"
+        }
+      ]
+    },
+    "red-haired-portrait": {
+      "title": "Retrato a la luz del sol",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Retrato a la luz del sol — pintura completa"
+        }
+      ]
+    },
+    "mountain-valley": {
+      "title": "Montañas de Armenia",
+      "description": "En recuerdo de nuestro pequeño viaje.\nPintura con espátula sobre tabla preparada con gesso acrílico\n20*30 cm\n\nTemple de huevo y aceite… como de costumbre. Añadí unas gotas de aceite de clavo para que la emulsión durara más.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Montañas de Armenia — pintura completa"
+        }
+      ]
+    },
+    "winter-moonlight": {
+      "title": "Noche",
+      "description": "Pintura con espátula\n24*30 cm\nTemple de huevo y aceite sobre lienzo",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Noche — pintura completa"
+        }
+      ]
+    },
+    "autumn-domes": {
+      "title": "Cúpulas entre hojas de otoño",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Cúpulas entre hojas de otoño — pintura completa"
+        }
+      ]
+    },
+    "sailboat": {
+      "title": "Velero",
+      "description": "30*25 cm\nÓleo y temple al huevo sobre lienzo\n\nVaya donde vaya, llevaré el invierno conmigo.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Velero — pintura completa"
+        }
+      ]
+    }
+  }
+}

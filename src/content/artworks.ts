@@ -23,6 +23,6 @@ export type Artwork = {
   images: ArtworkImage[]
 }
 
-// Titles and descriptions can be edited in portfolio.json.
+// Shared artwork metadata lives in portfolio.json; displayed text lives in i18n/locales.
 // Unmatched works retain descriptive working titles; sources identify verified publications.
 export const artworks = collection as Artwork[]

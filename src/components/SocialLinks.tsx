@@ -1,4 +1,5 @@
 import { socialIconPaths, type SocialPlatform } from '../content/socialIcons'
+import { useI18n } from '../i18n/context'
 import './SocialLinks.css'
 
 export type SocialLink = {
@@ -21,10 +22,11 @@ function SocialIcon({ platform }: { platform: SocialPlatform }) {
 }
 
 export default function SocialLinks({ links }: { links: readonly SocialLink[] }) {
-  return <nav className="social-links" aria-label="Find the artist online">
+  const { t } = useI18n()
+  return <nav className="social-links" aria-label={t('findArtist')}>
     <ul>
       {links.map(link => <li key={link.icon}>
-        <a href={link.url} target="_blank" rel="noopener noreferrer" aria-label={`${link.name} (opens in a new tab)`}>
+        <a href={link.url} target="_blank" rel="noopener noreferrer" aria-label={`${link.name} (${t('opensNewTab')})`}>
           <SocialIcon platform={link.icon} />
           <span>{link.name}</span>
           <span className="social-link-arrow" aria-hidden="true">↗</span>

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { Artwork } from '../content/artworks'
 import { artworkPath } from '../content/artwork-pages'
+import { useI18n } from '../i18n/context'
 import './ArtworkDialog.css'
 
 type Props = {
@@ -12,6 +13,7 @@ type Props = {
 }
 
 export default function ArtworkDialog({ artwork, index, total, onClose, onMove }: Props) {
+  const { locale, t, category, tag } = useI18n()
   const dialog = useRef<HTMLDialogElement>(null)
   const thumbnails = useRef<HTMLDivElement>(null)
   const activeThumbnail = useRef<HTMLButtonElement>(null)
@@ -76,9 +78,9 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
       }}
     >
       <div className="artwork-viewer-inner">
-        <button className="viewer-close" onClick={onClose} aria-label="Close artwork" autoFocus>×</button>
+        <button className="viewer-close" onClick={onClose} aria-label={t('closeArtwork')} autoFocus>×</button>
 
-        <section className="viewer-gallery" aria-label={`Photos of ${artwork.title}`}>
+        <section className="viewer-gallery" aria-label={t('photosOf', { title: artwork.title })}>
           <div
             className="viewer-photo-stage"
             onPointerDown={event => {
@@ -100,25 +102,25 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
           >
             {photo
               ? <img key={photo.src} src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} draggable={false} />
-              : <p className="viewer-no-photo">Photos coming soon.</p>}
+              : <p className="viewer-no-photo">{t('photosSoon')}</p>}
           </div>
 
           {photo && <div className={`viewer-photo-navigation${hasMultiplePhotos ? '' : ' is-single'}`}>
-            {hasMultiplePhotos && <button className="viewer-photo-arrow" onClick={() => movePhoto(-1)} aria-label="Previous photo">←</button>}
+            {hasMultiplePhotos && <button className="viewer-photo-arrow" onClick={() => movePhoto(-1)} aria-label={t('previousPhoto')}>←</button>}
             <div className="viewer-photo-caption" role="status" aria-live="polite" aria-atomic="true">
               <span className="viewer-photo-label">{photo.label}</span>
-              <span className="viewer-photo-count">Photo {activePhoto + 1} of {photoCount}</span>
+              <span className="viewer-photo-count">{t('photoPosition', { current: activePhoto + 1, total: photoCount })}</span>
             </div>
-            {hasMultiplePhotos && <button className="viewer-photo-arrow" onClick={() => movePhoto(1)} aria-label="Next photo">→</button>}
+            {hasMultiplePhotos && <button className="viewer-photo-arrow" onClick={() => movePhoto(1)} aria-label={t('nextPhoto')}>→</button>}
           </div>}
 
-          {hasMultiplePhotos && <div className="viewer-thumbnails" ref={thumbnails} role="group" aria-label="Choose a photo">
+          {hasMultiplePhotos && <div className="viewer-thumbnails" ref={thumbnails} role="group" aria-label={t('choosePhoto')}>
             {artwork.images.map((image, photoIndex) => (
               <button
                 key={image.src}
                 ref={photoIndex === activePhoto ? activeThumbnail : undefined}
                 className="viewer-thumbnail"
-                aria-label={`View photo ${photoIndex + 1}: ${image.label}`}
+                aria-label={t('viewPhoto', { number: photoIndex + 1, label: image.label })}
                 aria-pressed={photoIndex === activePhoto}
                 title={image.label}
                 onClick={() => selectPhoto(photoIndex)}
@@ -130,24 +132,24 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
         </section>
 
         <div className="viewer-information">
-          <span className="eyebrow">{artwork.category}</span>
+          <span className="eyebrow">{category(artwork.category)}</span>
           <h2 id="artwork-title">{artwork.title}</h2>
-          <a className="underlined-link" href={artworkPath(artwork)}>Painting page ↗</a>
+          <a className="underlined-link" href={artworkPath(artwork, locale)}>{t('paintingPage')} ↗</a>
           {artwork.description && <div className="viewer-description">
             {artwork.description.split(/\n\s*\n/).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
           </div>}
-          {artwork.tags.length > 0 && <ul className="viewer-tags" aria-label="Artwork subjects">
-            {artwork.tags.map(tag => <li key={tag}>{tag}</li>)}
+          {artwork.tags.length > 0 && <ul className="viewer-tags" aria-label={t('artworkSubjects')}>
+            {artwork.tags.map(value => <li key={value}>{tag(value)}</li>)}
           </ul>}
           {artwork.sources && artwork.sources.length > 0 && <div className="viewer-sources">
-            {artwork.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">View on {source.label} <span aria-hidden="true">↗</span></a>)}
+            {artwork.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{t('viewOn', { source: source.label })} <span aria-hidden="true">↗</span></a>)}
           </div>}
-          {hasMultiplePhotos && <p className="viewer-hint">Explore the painting through {photoCount} photographs. Choose a view below the image or use the arrow keys.</p>}
-          {total > 1 && <nav className="viewer-artwork-navigation" aria-label="Browse artworks">
-            <p>Artwork {index + 1} of {total}</p>
+          {hasMultiplePhotos && <p className="viewer-hint">{t('viewerHint', { count: photoCount })}</p>}
+          {total > 1 && <nav className="viewer-artwork-navigation" aria-label={t('browseArtworks')}>
+            <p>{t('artworkPosition', { current: index + 1, total })}</p>
             <div>
-              <button onClick={() => onMove(-1)}><span aria-hidden="true">←</span> Previous artwork</button>
-              <button onClick={() => onMove(1)}>Next artwork <span aria-hidden="true">→</span></button>
+              <button onClick={() => onMove(-1)}><span aria-hidden="true">←</span> {t('previousArtwork')}</button>
+              <button onClick={() => onMove(1)}>{t('nextArtwork')} <span aria-hidden="true">→</span></button>
             </div>
           </nav>}
         </div>

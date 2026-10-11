@@ -1,0 +1,548 @@
+{
+  "ui": {
+    "home": "{name} – Startseite",
+    "language": "Sprache",
+    "skipArtworks": "Zu den Werken springen",
+    "skipPainting": "Zum Gemälde springen",
+    "mainNavigation": "Hauptnavigation",
+    "works": "Werke",
+    "allWorks": "Alle Werke",
+    "about": "Über die Künstlerin",
+    "studio": "Atelier",
+    "contact": "Kontakt",
+    "menu": "Menü",
+    "close": "Schließen",
+    "browseFilter": "Werke ansehen und filtern",
+    "browseBy": "Durchsuchen nach",
+    "artworkCategories": "Werkkategorien",
+    "filterBy": "Filtern nach",
+    "clear": "Zurücksetzen",
+    "subject": "Motiv",
+    "filterHint": "Zeigt Werke mit allen ausgewählten Motiven.",
+    "workCount_one": "{count} Werk",
+    "workCount_other": "{count} Werke",
+    "workCount_few": "{count} Werke",
+    "workCount_many": "{count} Werke",
+    "filtered": "gefiltert",
+    "browseAndFilter": "Ansehen & filtern",
+    "sortBy": "Sortieren nach:",
+    "sortArtworks": "Werke sortieren",
+    "curatedOrder": "Kuratierte Reihenfolge",
+    "titleOrder": "Titel: A–Z",
+    "selectedSubjects": "Ausgewählte Motive",
+    "removeFilter": "Filter „{tag}“ entfernen",
+    "clearAll": "Alle zurücksetzen",
+    "viewArtwork": "{title} ansehen",
+    "photoCount_one": "{count} Foto",
+    "photoCount_other": "{count} Fotos",
+    "photoCount_few": "{count} Fotos",
+    "photoCount_many": "{count} Fotos",
+    "viewArtworkButton": "Werk ansehen",
+    "noWorks": "Keine Werke in dieser Auswahl.",
+    "removeSubjects": "Entfernen Sie ein Motiv oder setzen Sie die Filter zurück, um die Sammlung zu sehen.",
+    "clearFilters": "Filter zurücksetzen",
+    "endCollection": "Ende der Sammlung",
+    "backToTop": "Nach oben",
+    "getInTouch": "Kontakt aufnehmen",
+    "exploreCollection": "Sammlung entdecken",
+    "closeArtwork": "Werk schließen",
+    "photosOf": "Fotos von {title}",
+    "photosSoon": "Fotos folgen bald.",
+    "previousPhoto": "Vorheriges Foto",
+    "nextPhoto": "Nächstes Foto",
+    "photoPosition": "Foto {current} von {total}",
+    "choosePhoto": "Ein Foto auswählen",
+    "viewPhoto": "Foto {number} ansehen: {label}",
+    "paintingPage": "Seite zum Gemälde",
+    "artworkSubjects": "Motive des Werks",
+    "viewOn": "Auf {source} ansehen",
+    "viewerHint": "Entdecken Sie das Gemälde auf {count} Fotos. Wählen Sie eine Ansicht unter dem Bild oder nutzen Sie die Pfeiltasten.",
+    "browseArtworks": "Werke durchblättern",
+    "artworkPosition": "Werk {current} von {total}",
+    "previousArtwork": "Vorheriges Werk",
+    "nextArtwork": "Nächstes Werk",
+    "openFullImage": "Vollständiges Bild öffnen: {label}",
+    "viewFullImage": "Vollständiges Bild ansehen",
+    "by": "Von",
+    "viewsPainting": "Ansichten des Gemäldes",
+    "photographs": "Fotos",
+    "exploreAll": "Alle Gemälde entdecken",
+    "findArtist": "Die Künstlerin im Netz",
+    "opensNewTab": "öffnet in einem neuen Tab",
+    "contactArtist": "Kontakt zur Künstlerin",
+    "email": "E-Mail",
+    "artistJob": "Künstlerin",
+    "paintingArtform": "Malerei",
+    "paintingIntro": "{title}, ein Gemälde von Alina Logos (Alina Pliushcheva).",
+    "paintingFallback": "Das Gemälde und seine Fotos ansehen.",
+    "officialPortfolio": "Offizielles Portfolio",
+    "portfolio": "Portfolio",
+    "completeCatalogue": "Vollständiger Textkatalog mit Beschreibungen und Bildlinks",
+    "paintings": "Gemälde",
+    "artistProfiles": "Künstlerprofile und Kontakt",
+    "page": "Seite",
+    "artist": "Künstlerin",
+    "category": "Kategorie",
+    "subjects": "Motive",
+    "description": "Beschreibung",
+    "dimensions": "Maße",
+    "pixels": "Pixel",
+    "publications": "Veröffentlichungen",
+    "languageVersions": "Weitere Sprachen"
+  },
+  "site": {
+    "pageTitle": "Alina Logos (Alina Pliushcheva) — Künstlerin & Gemälde",
+    "description": "Entdecken Sie Originalgemälde von Alina Logos (Alina Pliushcheva): Landschaften, Porträts und figurative Werke in Öl und Eitempera. Sehen Sie sich das Portfolio an und kontaktieren Sie die Künstlerin.",
+    "collectionHeading": "Gemälde von Alina Pliushcheva",
+    "sidebarNote": "Ein Gemälde. Viele Blickwinkel.",
+    "aboutEyebrow": "Über die Künstlerin · Alina Logos",
+    "aboutTitle": "Alina Pliushcheva",
+    "aboutImageAlt": "In der Galerie",
+    "aboutCaption": "In der Galerie",
+    "aboutParagraphs": [
+      "Alina Pliushcheva, auch bekannt als Alina Logos, malt in Öl und Eitempera. Ihr Werk umfasst Landschaften, Stadtszenen, Porträts, Figuren und vertraute Innenräume.",
+      "Entdecken Sie ihre Gemälde, lesen Sie die Geschichten dahinter und betrachten Sie die Werke in Details und aus verschiedenen Blickwinkeln. Bei Fragen zu ihren Arbeiten erreichen Sie Alina über die unten verlinkten Künstlerprofile."
+    ],
+    "studioEyebrow": "Atelier",
+    "studioTitle": "Ein Ort zum Malen.",
+    "studioParagraphs": [
+      "Ein Fenster, eine Staffelei und der Raum um ein Gemälde. Ein Einblick in den Arbeitsort, an dem die Sammlung entsteht."
+    ],
+    "studioImageAlt": "Eine Staffelei und ein Malplatz neben einem Fenster",
+    "contactEyebrow": "Hier beginnt ein Gespräch",
+    "contactTitle": "Kontakt aufnehmen.",
+    "contactDescription": "Für Fragen zu den Gemälden oder um neue Arbeiten und das Leben im Atelier zu verfolgen.",
+    "footerNote": "Gemälde von Alina Logos · Alina Pliushcheva."
+  },
+  "categories": {
+    "All works": "Alle Werke",
+    "Landscapes": "Landschaften",
+    "Cityscapes": "Stadtansichten",
+    "Figures": "Figuren",
+    "Portraits": "Porträts",
+    "Interiors": "Innenräume"
+  },
+  "tags": {
+    "Architecture": "Architektur",
+    "Autumn": "Herbst",
+    "Boats": "Boote",
+    "Clouds": "Wolken",
+    "Countryside": "Ländliche Motive",
+    "Evening": "Abend",
+    "Flowers": "Blumen",
+    "Interiors": "Innenräume",
+    "Morning": "Morgen",
+    "Mountains": "Berge",
+    "Night": "Nacht",
+    "People": "Menschen",
+    "Sculpture": "Skulptur",
+    "Sea": "Meer",
+    "Spring": "Frühling",
+    "Summer": "Sommer",
+    "Trees": "Bäume",
+    "Water": "Wasser",
+    "Winter": "Winter"
+  },
+  "artworks": {
+    "azure": {
+      "title": "Azur",
+      "description": "Spachtelmalerei\n30*30 cm\nEi-Öl-Tempera auf Leinwand\n\nIch habe diese Landschaft mit fast trockener Ei-Öl-Tempera auf Acrylgesso gemalt. Das Ergebnis ist vollkommen matt.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Azur — Gesamtansicht"
+        }
+      ]
+    },
+    "forest-figure": {
+      "title": "Vision am Mittag",
+      "description": "40*30 cm\nEi-Öl-Tempera auf Leinwand\n\nAn manchen Stellen dieses Gemäldes scheint die Leinwand durch, weil ich es leid war, Brauntöne zu mischen, und die Farbe einfach abgekratzt habe.\nFür den Körper habe ich außerdem Kobaltgelb verwendet und für das Grün ein günstigeres Kadmiumgelb.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Vision am Mittag — Gesamtansicht"
+        },
+        {
+          "label": "Ansicht der Leinwand",
+          "alt": "Vision am Mittag — Ansicht der Leinwand"
+        },
+        {
+          "label": "Detail der Figur",
+          "alt": "Vision am Mittag — Detail der Figur"
+        },
+        {
+          "label": "Auf der Staffelei",
+          "alt": "Vision am Mittag — Auf der Staffelei"
+        }
+      ]
+    },
+    "winter-garden": {
+      "title": "Märzschnee",
+      "description": "Spachtelmalerei\n18*24 cm\nEi-Öl-Tempera auf Leinwand",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Märzschnee — Gesamtansicht"
+        }
+      ]
+    },
+    "blue-night": {
+      "title": "Im Morgengrauen",
+      "description": "30*25 cm,\nÖl auf Leinwand",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Im Morgengrauen — Gesamtansicht"
+        }
+      ]
+    },
+    "countryside": {
+      "title": "Tiefer Himmel",
+      "description": "30*25 cm,\nTempera grassa auf Karton",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Tiefer Himmel — Gesamtansicht"
+        }
+      ]
+    },
+    "golden-autumn": {
+      "title": "Ahorn in der Dämmerung",
+      "description": "30*25 cm\nÖl auf Leinwand\nSpachtelmalerei\n\nDas war vor ungefähr einem Jahr. Ich ging abends nach Hause, und die Ahornblätter leuchteten so hell in der Dunkelheit, als würden sie brennen.\nDas wurde eine meiner liebsten Erinnerungen an dieses Jahr. Es war ein kalter, stiller Oktober, und kaum etwas anderes hat mich so beeindruckt.\n\nAlso malte ich dieses Bild in etwa zwei Stunden. Ein paar Tage später war die Oberfläche fast trocken, hatte aber noch einen schönen Glanz dank des Alkydmalmittels, das ich der Farbe beigemischt hatte. Übrigens hatte ich zuvor noch nie ein synthetisches Malmittel verwendet, aber unterwegs konnte ich nirgends Dammarharz finden.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Ahorn in der Dämmerung — Gesamtansicht"
+        },
+        {
+          "label": "Detail des Gemäldes",
+          "alt": "Ahorn in der Dämmerung — Detail des Gemäldes"
+        }
+      ]
+    },
+    "by-the-water": {
+      "title": "Begegnung",
+      "description": "60*50\nÖl auf Leinwand\n\nIch begann dieses Gemälde Ende Juli mit einer Kohleskizze und ließ es dann lange liegen, weil ich nicht wusste, welches Fixativ ich nehmen sollte.\nAm Ende habe ich einfach mein Haarspray benutzt, weil ich keine bessere Alternative finden konnte ._. Danach legte ich eine Imprimitur aus gelbem Ocker darüber und malte wie gewohnt mit Ölfarben weiter.\nAber die Sommerlandschaft verwandelte sich nach und nach in eine Herbstlandschaft, weil ich dem Wechsel der Jahreszeiten etwas hinterherhinkte 🐌",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Begegnung — Gesamtansicht"
+        },
+        {
+          "label": "Detail der Figur",
+          "alt": "Begegnung — Detail der Figur"
+        }
+      ]
+    },
+    "fountain-garden": {
+      "title": "Wie heißt du?",
+      "description": "Im Frühling versuchte ich noch einmal, dorthin zu kommen. Mir gefiel, dass dieser Ort nach so vielen Jahren unverändert geblieben war. Aber der Wachmann ließ mich nicht hinein.\nNun bewahre ich die Erinnerung hier auf.\n\nJuni, 2008",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Wie heißt du? — Gesamtansicht"
+        }
+      ]
+    },
+    "about-zero": {
+      "title": "Um null",
+      "description": "Spachtelmalerei\n30*30 cm\nEi-Öl-Tempera auf Leinwand\n\nEine Erinnerung an den 4. Januar 2016",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Um null — Gesamtansicht"
+        }
+      ]
+    },
+    "cloud-catcher": {
+      "title": "Wolkenfänger",
+      "description": "20*30 cm\nÖl + Eiemulsion auf Leinwand\n\nIch habe meinen Ölfarben aus der Tube eine Eiemulsion mit gekochtem Öl und Venezianer Terpentin beigemischt. Mit dieser Mischung kann ich pastos malen, während die Farben leuchtend und die Farbmasse dick bleiben.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Wolkenfänger — Gesamtansicht"
+        }
+      ]
+    },
+    "venus": {
+      "title": "Venus",
+      "description": "Als Vorlage habe ich die Skulptur „Venus beim Ablegen ihrer Sandale“ von Ivan Vitali verwendet. Zuerst wollte ich eine Figurenstudie malen, doch später ergänzte ich einen Hintergrund und einige Details. Ich hoffe, dass ich das bald im Großformat umsetzen kann, sobald ich meine Leinwände und Keilrahmen zu mir geholt habe.\n\n35*25 cm\nEi-Öl-Tempera auf Leinwand",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Venus — Gesamtansicht"
+        },
+        {
+          "label": "Detail des Gemäldes",
+          "alt": "Venus — Detail des Gemäldes"
+        }
+      ]
+    },
+    "boats-under-pines": {
+      "title": "Für diese Saison geschlossen",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Für diese Saison geschlossen — Gesamtansicht"
+        }
+      ]
+    },
+    "saltspring": {
+      "title": "Salzquelle",
+      "description": "Öl + Eitempera auf Hartfaserplatte\n20*25 cm",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Salzquelle — Gesamtansicht"
+        },
+        {
+          "label": "Im Rahmen",
+          "alt": "Salzquelle — Im Rahmen"
+        }
+      ]
+    },
+    "village-evening": {
+      "title": "Um 5 Uhr morgens",
+      "description": "Noch eine Spachtelmalerei mit sehr dickem Farbauftrag. Hier habe ich meine Ölfarben mit einem selbst gemachten Malmittel vermischt: Dammar, Standöl und gereinigtes Terpentinöl – die Mischung, auf die ich zurückgreife, wenn ich umziehen muss oder zu müde oder zu faul bin, um eine Eiemulsion anzurühren.\n\nIch bezweifle, dass ich diese Orte je wiedersehen werde. Als Kind besuchte ich meinen Onkel auf dem Land in der Nähe des Ilmensees sehr gern, weil ich die Felder und Wälder rund um sein Haus völlig frei erkunden und zurückkommen konnte, wann ich wollte. Ihn störte das nicht.\n\nÖl auf Leinwand\n18*24 cm",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Um 5 Uhr morgens — Gesamtansicht"
+        },
+        {
+          "label": "Schrägansicht",
+          "alt": "Um 5 Uhr morgens — Schrägansicht"
+        }
+      ]
+    },
+    "my-room": {
+      "title": "Mein Zimmer",
+      "description": "40*30 cm\nÖl auf Leinwand\nIch hoffe, dass ich eines Tages hierher zurückkehre.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Mein Zimmer — Gesamtansicht"
+        }
+      ]
+    },
+    "village-church": {
+      "title": "Vor dem Sturm",
+      "description": "Spachtelmalerei;\n20*30 cm\nEi-Öl-Tempera auf Leinwand\n\nDieses Gemälde entstand auf einer transparenten Acrylgrundierung. Ich würde auch gern ausprobieren, mit Ei-Öl-Tempera auf einer geleimten Holztafel ohne Grundierung zu malen.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Vor dem Sturm — Gesamtansicht"
+        },
+        {
+          "label": "Detail der Kirche",
+          "alt": "Vor dem Sturm — Detail der Kirche"
+        }
+      ]
+    },
+    "portrait-blue-scarf": {
+      "title": "Im Museum",
+      "description": "Porträt meiner Schwester\n\n50*40 cm, Öl auf Leinwand",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Im Museum — Gesamtansicht"
+        }
+      ]
+    },
+    "morning-mist": {
+      "title": "Morgennebel",
+      "description": "18*24 cm\nÖlstudie",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Morgennebel — Gesamtansicht"
+        }
+      ]
+    },
+    "sunlit-trees": {
+      "title": "5. November",
+      "description": "Abend im Park\n30*25 cm, Öl auf Leinwand",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "5. November — Gesamtansicht"
+        }
+      ]
+    },
+    "city-portrait": {
+      "title": "Porträt meines Vaters",
+      "description": "Ei-Öl-Tempera auf Leinwand\n\n50*40 cm\n\nEndlich habe ich dieses Porträt fertiggestellt! Zum ersten Mal habe ich mit einer begrenzten Farbpalette gemalt.\nFür dieses Bild habe ich also nur vier Farben verwendet: Kadmiumrot, gelben Ocker, Titanweiß und Paynesgrau, das derzeit mein liebstes Schwarz ist. Künftig werde ich bei Porträts auch andere Schwarzpigmente ausprobieren und sehen, wie sie sich unterscheiden.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Porträt meines Vaters — Gesamtansicht"
+        },
+        {
+          "label": "Auf der Staffelei",
+          "alt": "Porträt meines Vaters — Auf der Staffelei"
+        },
+        {
+          "label": "Nahansicht",
+          "alt": "Porträt meines Vaters — Nahansicht"
+        }
+      ]
+    },
+    "riverboat": {
+      "title": "Flussschiff Yunga #2",
+      "description": "Ich träume oft von diesem Blick von der Brücke.\n25*30 cm\nÖl auf Karton",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Flussschiff Yunga #2 — Gesamtansicht"
+        }
+      ]
+    },
+    "night-park": {
+      "title": "Irgendwo",
+      "description": "Spachtelmalerei\n30*30 cm\nEi-Öl-Tempera auf Leinwand",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Irgendwo — Gesamtansicht"
+        }
+      ]
+    },
+    "park-river": {
+      "title": "8. August",
+      "description": "Herrenhaus Alexandrino, Sankt Petersburg\n\n25*30 cm\nEi-Öl-Tempera auf Leinwand",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "8. August — Gesamtansicht"
+        }
+      ]
+    },
+    "rainy-walk": {
+      "title": "Wolkenbruch",
+      "description": "30*25 cm\nSpachtelmalerei, Ei-Öl-Tempera auf Leinwand\n\nEiner meiner Mallehrer empfahl mir einmal, vor dem eigentlichen Werk ein kleines Bild zu malen – einfach, um ein bisschen warm zu werden. Leider war es schon Abend, als ich diese kleine Studie fertig hatte.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Wolkenbruch — Gesamtansicht"
+        }
+      ]
+    },
+    "forest-bather": {
+      "title": "Eva",
+      "description": "40*30 cm\nEi-Öl-Tempera auf Leinwand\n\nZum ersten Mal habe ich die Vorzeichnung mit antiker grüner Erde gemalt, und mir gefielen ihre Farbtöne sehr – sie erinnert ein wenig an einen warmen Glaukonit. Ich sollte diese Farbe einmal für ein Porträt ausprobieren.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Eva — Gesamtansicht"
+        }
+      ]
+    },
+    "willow-reflections": {
+      "title": "Das Boot",
+      "description": "24*18 cm\nEi-Öl-Tempera auf Leinwand\n…\nDieser pastose Farbauftrag ist … unglaublich dick! Ich könnte kleine Halterungen aus Schachteln basteln, damit pastos gemalte Bilder trocknen können, ohne dass ich mir Sorgen um Staub machen muss.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Das Boot — Gesamtansicht"
+        }
+      ]
+    },
+    "breaking-waves": {
+      "title": "W e l l e n",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "W e l l e n — Gesamtansicht"
+        }
+      ]
+    },
+    "sculpture-at-night": {
+      "title": "Amor und Psyche",
+      "description": "45*55 cm, Öl auf Leinwand\n\nDas Gemälde zeigt die Skulptur „Psyche, durch Amors Kuss wiederbelebt“ des italienischen Bildhauers Antonio Canova aus der Eremitage. Hier habe ich zum ersten Mal Ölfarben mit Mastixfirnis vermischt. Er unterscheidet sich sehr von Dammarfirnis; das Gemälde hat einen edlen, fast glasartigen Glanz.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Amor und Psyche — Gesamtansicht"
+        }
+      ]
+    },
+    "church-interior": {
+      "title": "Sophienkathedrale",
+      "description": "Sophienkathedrale, Weliki Nowgorod.\n50*40 cm\nEi-Öl-Tempera auf Leinwand\n\nÜberraschenderweise habe ich dieses Bild … alla prima gemalt. Eine traditionelle Untermalung in gedämpften Farben hätte wahrscheinlich besser zur Architektur gepasst, aber ich mag keine starren Vorgaben.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Sophienkathedrale — Gesamtansicht"
+        }
+      ]
+    },
+    "cloudy-evening": {
+      "title": "Bewölkter Abend",
+      "description": "18*24 cm\nEi-Öl-Tempera auf Leinwand\n\n27. September\nNikolauskirche",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Bewölkter Abend — Gesamtansicht"
+        }
+      ]
+    },
+    "spring-thaw": {
+      "title": "Frühlingsstudie",
+      "description": "18*24 cm\nEi-Öl-Tempera auf Leinwand",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Frühlingsstudie — Gesamtansicht"
+        }
+      ]
+    },
+    "red-haired-portrait": {
+      "title": "Porträt im Sonnenlicht",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Porträt im Sonnenlicht — Gesamtansicht"
+        }
+      ]
+    },
+    "mountain-valley": {
+      "title": "Berge Armeniens",
+      "description": "Zur Erinnerung an unseren kleinen Ausflug.\nSpachtelmalerei auf einer mit Acrylgesso grundierten Malplatte\n20*30 cm\n\nEi-Öl-Tempera … wie immer. Ich habe ein paar Tropfen Nelkenöl hinzugefügt, damit die Emulsion länger hält.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Berge Armeniens — Gesamtansicht"
+        }
+      ]
+    },
+    "winter-moonlight": {
+      "title": "Nacht",
+      "description": "Spachtelmalerei\n24*30 cm\nEi-Öl-Tempera auf Leinwand",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Nacht — Gesamtansicht"
+        }
+      ]
+    },
+    "autumn-domes": {
+      "title": "Kuppeln hinter Herbstlaub",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Kuppeln hinter Herbstlaub — Gesamtansicht"
+        }
+      ]
+    },
+    "sailboat": {
+      "title": "Segelboot",
+      "description": "30*25 cm\nÖl + Eitempera auf Leinwand\n\nWohin ich auch gehe, ich nehme den Winter mit.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Segelboot — Gesamtansicht"
+        }
+      ]
+    }
+  }
+}

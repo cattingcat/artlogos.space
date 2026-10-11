@@ -1,0 +1,548 @@
+{
+  "ui": {
+    "home": "{name} home",
+    "language": "Language",
+    "skipArtworks": "Skip to artworks",
+    "skipPainting": "Skip to painting",
+    "mainNavigation": "Main navigation",
+    "works": "Works",
+    "allWorks": "All works",
+    "about": "About",
+    "studio": "Studio",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close",
+    "browseFilter": "Browse and filter artworks",
+    "browseBy": "Browse by",
+    "artworkCategories": "Artwork categories",
+    "filterBy": "Filter by",
+    "clear": "Clear",
+    "subject": "Subject",
+    "filterHint": "Matches all selected subjects.",
+    "workCount_one": "{count} work",
+    "workCount_other": "{count} works",
+    "workCount_few": "{count} works",
+    "workCount_many": "{count} works",
+    "filtered": "filtered",
+    "browseAndFilter": "Browse & filter",
+    "sortBy": "Sort by:",
+    "sortArtworks": "Sort artworks",
+    "curatedOrder": "Curated order",
+    "titleOrder": "Title: A–Z",
+    "selectedSubjects": "Selected subjects",
+    "removeFilter": "Remove {tag} filter",
+    "clearAll": "Clear all",
+    "viewArtwork": "View {title}",
+    "photoCount_one": "{count} photo",
+    "photoCount_other": "{count} photos",
+    "photoCount_few": "{count} photos",
+    "photoCount_many": "{count} photos",
+    "viewArtworkButton": "View artwork",
+    "noWorks": "No works in this selection.",
+    "removeSubjects": "Remove a subject or clear the filters to see the collection.",
+    "clearFilters": "Clear filters",
+    "endCollection": "End of collection",
+    "backToTop": "Back to top",
+    "getInTouch": "Get in touch",
+    "exploreCollection": "Explore the collection",
+    "closeArtwork": "Close artwork",
+    "photosOf": "Photos of {title}",
+    "photosSoon": "Photos coming soon.",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo",
+    "photoPosition": "Photo {current} of {total}",
+    "choosePhoto": "Choose a photo",
+    "viewPhoto": "View photo {number}: {label}",
+    "paintingPage": "Painting page",
+    "artworkSubjects": "Artwork subjects",
+    "viewOn": "View on {source}",
+    "viewerHint": "Explore the painting through {count} photographs. Choose a view below the image or use the arrow keys.",
+    "browseArtworks": "Browse artworks",
+    "artworkPosition": "Artwork {current} of {total}",
+    "previousArtwork": "Previous artwork",
+    "nextArtwork": "Next artwork",
+    "openFullImage": "Open full image: {label}",
+    "viewFullImage": "View full image",
+    "by": "By",
+    "viewsPainting": "Views of the painting",
+    "photographs": "Photographs",
+    "exploreAll": "Explore all paintings",
+    "findArtist": "Find the artist online",
+    "opensNewTab": "opens in a new tab",
+    "contactArtist": "Contact the artist",
+    "email": "Email",
+    "artistJob": "Artist",
+    "paintingArtform": "Painting",
+    "paintingIntro": "{title}, a painting by Alina Logos (Alina Pliushcheva).",
+    "paintingFallback": "View the painting and its photographs.",
+    "officialPortfolio": "Official portfolio",
+    "portfolio": "Portfolio",
+    "completeCatalogue": "Complete text catalogue, descriptions and image links",
+    "paintings": "Paintings",
+    "artistProfiles": "Artist profiles and contact",
+    "page": "Page",
+    "artist": "Artist",
+    "category": "Category",
+    "subjects": "Subjects",
+    "description": "Description",
+    "dimensions": "Dimensions",
+    "pixels": "pixels",
+    "publications": "Publications",
+    "languageVersions": "Other languages"
+  },
+  "site": {
+    "pageTitle": "Alina Logos (Alina Pliushcheva) — Artist & Paintings",
+    "description": "Explore original paintings by Alina Logos (Alina Pliushcheva): landscapes, portraits and figurative works in oil and egg tempera. View the portfolio and contact the artist.",
+    "collectionHeading": "Paintings by Alina Pliushcheva",
+    "sidebarNote": "One painting. Many perspectives.",
+    "aboutEyebrow": "About the artist · Alina Logos",
+    "aboutTitle": "Alina Pliushcheva",
+    "aboutImageAlt": "In the gallery",
+    "aboutCaption": "In the gallery",
+    "aboutParagraphs": [
+      "Alina Pliushcheva, also known as Alina Logos, paints in oil and egg tempera. Her work brings together landscapes, city scenes, portraits, figures and familiar interiors.",
+      "Explore her paintings, read the stories behind them and look closer through details and different views. For questions about the work, contact Alina through her artist profiles below."
+    ],
+    "studioEyebrow": "Studio",
+    "studioTitle": "A place for painting.",
+    "studioParagraphs": [
+      "A window, an easel and the space around a painting. A glimpse into the workspace behind the collection."
+    ],
+    "studioImageAlt": "An easel and painting workspace beside a window",
+    "contactEyebrow": "A conversation starts here",
+    "contactTitle": "Get in touch.",
+    "contactDescription": "For questions about the paintings, or to follow new work and life in the studio.",
+    "footerNote": "Paintings by Alina Logos · Alina Pliushcheva."
+  },
+  "categories": {
+    "All works": "All works",
+    "Landscapes": "Landscapes",
+    "Cityscapes": "Cityscapes",
+    "Figures": "Figures",
+    "Portraits": "Portraits",
+    "Interiors": "Interiors"
+  },
+  "tags": {
+    "Architecture": "Architecture",
+    "Autumn": "Autumn",
+    "Boats": "Boats",
+    "Clouds": "Clouds",
+    "Countryside": "Countryside",
+    "Evening": "Evening",
+    "Flowers": "Flowers",
+    "Interiors": "Interiors",
+    "Morning": "Morning",
+    "Mountains": "Mountains",
+    "Night": "Night",
+    "People": "People",
+    "Sculpture": "Sculpture",
+    "Sea": "Sea",
+    "Spring": "Spring",
+    "Summer": "Summer",
+    "Trees": "Trees",
+    "Water": "Water",
+    "Winter": "Winter"
+  },
+  "artworks": {
+    "azure": {
+      "title": "Azure",
+      "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas\n\nI painted this landscape using almost dry egg-oil tempera over acrylic gesso. The result is completely matte.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Azure — full painting"
+        }
+      ]
+    },
+    "forest-figure": {
+      "title": "Midday Vision",
+      "description": "40*30 cm\nEgg-oil tempera on canvas\n\nIn some areas of this painting the canvas shows through cause I got tired of mixing the brown tones and simply scraped the paint off.\nI also used cobalt yellow for the body and a cheaper cadmium yellow for the greenery.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Midday Vision — full painting"
+        },
+        {
+          "label": "Canvas view",
+          "alt": "Midday Vision — canvas view"
+        },
+        {
+          "label": "Figure detail",
+          "alt": "Midday Vision — figure detail"
+        },
+        {
+          "label": "On the easel",
+          "alt": "Midday Vision — on the easel"
+        }
+      ]
+    },
+    "winter-garden": {
+      "title": "March snow",
+      "description": "Palette knife painting\n18*24 cm\nEgg-oil tempera on canvas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "March snow — full painting"
+        }
+      ]
+    },
+    "blue-night": {
+      "title": "At dawn",
+      "description": "30*25 cm,\noil on canvas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "At dawn — full painting"
+        }
+      ]
+    },
+    "countryside": {
+      "title": "Low sky",
+      "description": "30*25 cm,\nTempera grassa on cardboard",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Low sky — full painting"
+        }
+      ]
+    },
+    "golden-autumn": {
+      "title": "Maple at dusk",
+      "description": "30*25 cm\nOil on canvas\nPalette knife painting\n\nThis was about a year ago. I was walking home in the evening, and the maple leaves looked so bright in the darkness, almost like they were on fire.\nThis became one of my favorite memories of that year. It was a cold and quiet october and not much else left such an impression on me.\n\nSo I painted this in about two hours. A couple of days later the surface was almost dry, but still had a nice sheen thanks to the alkyd medium i'd mixed into the paint. Btw I'd never used a synthetic medium before, but I could not find dammar resin anywhere while I was traveling.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Maple at dusk — full painting"
+        },
+        {
+          "label": "Painted detail",
+          "alt": "Maple at dusk — painted detail"
+        }
+      ]
+    },
+    "by-the-water": {
+      "title": "Meeting",
+      "description": "60*50\nOil on canvas\n\nI began this painting at the end of July with a charcoal sketch and then left it for a long time cause I didn’t know which fixative to choose.\nIn the end I just used my hairspray when I couldn’t find a better alternative ._. After that I covered it with imprimatura of yellow ochre and continued painting in oils as usual.\nBut the summer landscape gradually turned into an autumn one cause I fell a bit behind the season change 🐌",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Meeting — full painting"
+        },
+        {
+          "label": "Figure detail",
+          "alt": "Meeting — figure detail"
+        }
+      ]
+    },
+    "fountain-garden": {
+      "title": "What is your name?",
+      "description": "In the spring, I tried to get there once more. I liked that after many years this place had remained untouched. But the guard wouldn’t let me in.\nWell, I’ll keep the memory here.\n\nJune, 2008",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "What is your name? — full painting"
+        }
+      ]
+    },
+    "about-zero": {
+      "title": "About Zero",
+      "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas\n\nA memory from January 4th, 2016",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "About Zero — full painting"
+        }
+      ]
+    },
+    "cloud-catcher": {
+      "title": "Cloud catcher",
+      "description": "20*30 cm\noil+egg emulsion on canvas\n\nI added an egg emulsion with boiled oil and venetian turpentine to my tube oil paints. This mixture allows impasto painting while keeping the colors bright and the paint thick.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Cloud catcher — full painting"
+        }
+      ]
+    },
+    "venus": {
+      "title": "Venus",
+      "description": "I used the sculpture “Venus Removing Her Sandal” by Ivan Vitali as a reference. At first, I intended to make a figure study, but later I added a background and some details. Hope that soon I’ll be able to make it in a large format, when I move my canvases and stretcher frames.\n\n35*25 cm\nEgg-oil tempera on canvas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Venus — full painting"
+        },
+        {
+          "label": "Painted detail",
+          "alt": "Venus — painted detail"
+        }
+      ]
+    },
+    "boats-under-pines": {
+      "title": "Closed for the season",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Closed for the season — full painting"
+        }
+      ]
+    },
+    "saltspring": {
+      "title": "Salt spring",
+      "description": "Oil+egg tempera on fiberboard\n20*25 cm",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Salt spring — full painting"
+        },
+        {
+          "label": "In the frame",
+          "alt": "Salt spring — in the frame"
+        }
+      ]
+    },
+    "village-evening": {
+      "title": "At 5 a.m",
+      "description": "Another superthick palette knife painting. For this one I mixed my oil paints with a homemade painting medium: dammar, stand oil and refined turpentine - the mix I turn to when I have to move or feel too tired/lazy to prepare an egg emulsion.\n\nI doubt I’ll ever see these places again. When I was a child, I loved visiting my uncle in the countryside near lake Ilmen cause I was absolutly free to explore the fields and woods near his house and come back whenever I liked. He didn’t mind.\n\nOil on canvas\n18*24 cm",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "At 5 a.m — full painting"
+        },
+        {
+          "label": "Angled view",
+          "alt": "At 5 a.m — angled view"
+        }
+      ]
+    },
+    "my-room": {
+      "title": "My room",
+      "description": "40*30 cm\nOil on canvas\nI hope I'll come back here again.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "My room — full painting"
+        }
+      ]
+    },
+    "village-church": {
+      "title": "Before the storm",
+      "description": "Palette knife painting;\n20*30 cm\nEgg-oil tempera on canvas\n\nThis painting was done on a transparent acrylic ground. I would also like to try painting with egg-oil tempera on a sized wood panel without any ground.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Before the storm — full painting"
+        },
+        {
+          "label": "Church detail",
+          "alt": "Before the storm — church detail"
+        }
+      ]
+    },
+    "portrait-blue-scarf": {
+      "title": "In the museum",
+      "description": "Portrait of my sister\n\n50*40 cm, oil on canvas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "In the museum — full painting"
+        }
+      ]
+    },
+    "morning-mist": {
+      "title": "Morning Mist",
+      "description": "18*24 cm\nOil etude",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Morning Mist — full painting"
+        }
+      ]
+    },
+    "sunlit-trees": {
+      "title": "November 5th",
+      "description": "Evening in the park\n30*25 cm, oil on canvas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "November 5th — full painting"
+        }
+      ]
+    },
+    "city-portrait": {
+      "title": "Portrait of my dad",
+      "description": "Egg-oil tempera on canvas\n\n50*40 cm\n\nI finally finished this portrait!  And it was my first time painting with a limited color palette.\nSo, I used only four colors for this piece: cadmium red, yellow ochre, titanium white, and payne’s grey, which is currently my favorite black. I’ll try other black pigments for portraits in the future and see how they compare.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Portrait of my dad — full painting"
+        },
+        {
+          "label": "On the easel",
+          "alt": "Portrait of my dad — on the easel"
+        },
+        {
+          "label": "Closer view",
+          "alt": "Portrait of my dad — closer view"
+        }
+      ]
+    },
+    "riverboat": {
+      "title": "Riverboat Yunga #2",
+      "description": "I often dream of that view from the bridge.\n25*30 cm\nOil on cardboard",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Riverboat Yunga #2 — full painting"
+        }
+      ]
+    },
+    "night-park": {
+      "title": "Anywhere",
+      "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Anywhere — full painting"
+        }
+      ]
+    },
+    "park-river": {
+      "title": "August 8",
+      "description": "Alexandrino Manor, Saint Petersburg\n\n25*30 cm\nEgg-oil tempera on canvas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "August 8 — full painting"
+        }
+      ]
+    },
+    "rainy-walk": {
+      "title": "Downpour",
+      "description": "30*25 cm\nPalette knife painting, egg-oil tempera on canvas\n\nOne of my painting teachers once recommended making a small painting before starting the main work - just to warm up a bit. Unfortunately, by the time I finished that little etude, it was already evening",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Downpour — full painting"
+        }
+      ]
+    },
+    "forest-bather": {
+      "title": "Eve",
+      "description": "40*30 cm\nEgg-oil tempera on canvas\n\nI painted the underdrawing with antique green earth for the first time, and I really liked its tones —it’s somewhat similar to a warm glauconite. I should try using this paint for a portrait.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Eve — full painting"
+        }
+      ]
+    },
+    "willow-reflections": {
+      "title": "The boat",
+      "description": "24*18 cm\nEgg-oil tempera on canvas\n…\nThis impasto is… extremely thick! I think I could make small stands out of boxes so that impasto paintings can dry without worrying about dust.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "The boat — full painting"
+        }
+      ]
+    },
+    "breaking-waves": {
+      "title": "W a v e s",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "W a v e s — full painting"
+        }
+      ]
+    },
+    "sculpture-at-night": {
+      "title": "Cupid and Psyche",
+      "description": "45*55 cm, oil on canvas\n\nThe painting depicts the statue of italian sculptor Antonio Canova Psyche revived by Cupid’s kiss from the Hermitage. This is my first experience with oil paints mixed in mastic varnish. Its very different from dammar varnish; the painting has a noble and kinda glass-like sheen.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Cupid and Psyche — full painting"
+        }
+      ]
+    },
+    "church-interior": {
+      "title": "Saint Sophia Cathedral",
+      "description": "Saint Sophia Cathedral, Veliky Novgorod.\n50*40 cm\nEgg-oil tempera on canvas\n\nSurprisingly, I painted this piece…alla prima. A traditional dead-coloring method would probably have been a better fit for the architecture, but I don’t like rigid constraints.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Saint Sophia Cathedral — full painting"
+        }
+      ]
+    },
+    "cloudy-evening": {
+      "title": "Cloudy evening",
+      "description": "18*24 cm\nEgg-oil tempera on canvas\n\nSeptember 27\nChurch of St. Nicholas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Cloudy evening — full painting"
+        }
+      ]
+    },
+    "spring-thaw": {
+      "title": "Spring etude",
+      "description": "18*24 cm\nEgg-oil tempera on canvas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Spring etude — full painting"
+        }
+      ]
+    },
+    "red-haired-portrait": {
+      "title": "Portrait in Sunlight",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Portrait in Sunlight — full painting"
+        }
+      ]
+    },
+    "mountain-valley": {
+      "title": "Mountains of Armenia",
+      "description": "In memory of our little trip.\nPalette knife painting on acrylic gesso panel\n20*30 cm\n\nEgg-oil tempera…as usual. I added a few drops of clove oil to help the emulsion last longer.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Mountains of Armenia — full painting"
+        }
+      ]
+    },
+    "winter-moonlight": {
+      "title": "Night",
+      "description": "Palette knife painting\n24*30 cm\nEgg-oil tempera on canvas",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Night — full painting"
+        }
+      ]
+    },
+    "autumn-domes": {
+      "title": "Domes through Autumn Leaves",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Domes through Autumn Leaves — full painting"
+        }
+      ]
+    },
+    "sailboat": {
+      "title": "Sailboat",
+      "description": "30*25 cm\nOil+egg tempera on canvas\n\nWherever I go, I’ll bring winter with me.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Sailboat — full painting"
+        }
+      ]
+    }
+  }
+}

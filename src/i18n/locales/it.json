@@ -1,0 +1,548 @@
+{
+  "ui": {
+    "home": "{name} — pagina iniziale",
+    "language": "Lingua",
+    "skipArtworks": "Vai alle opere",
+    "skipPainting": "Vai al dipinto",
+    "mainNavigation": "Navigazione principale",
+    "works": "Opere",
+    "allWorks": "Tutte le opere",
+    "about": "L’artista",
+    "studio": "Atelier",
+    "contact": "Contatti",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "browseFilter": "Esplora e filtra le opere",
+    "browseBy": "Esplora per",
+    "artworkCategories": "Categorie delle opere",
+    "filterBy": "Filtra per",
+    "clear": "Azzera",
+    "subject": "Soggetto",
+    "filterHint": "Mostra le opere con tutti i soggetti selezionati.",
+    "workCount_one": "{count} opera",
+    "workCount_other": "{count} opere",
+    "workCount_few": "{count} opere",
+    "workCount_many": "{count} opere",
+    "filtered": "con filtri attivi",
+    "browseAndFilter": "Esplora e filtra",
+    "sortBy": "Ordina per:",
+    "sortArtworks": "Ordina le opere",
+    "curatedOrder": "Ordine della collezione",
+    "titleOrder": "Titolo: A–Z",
+    "selectedSubjects": "Soggetti selezionati",
+    "removeFilter": "Rimuovi il filtro {tag}",
+    "clearAll": "Azzera tutto",
+    "viewArtwork": "Guarda {title}",
+    "photoCount_one": "{count} foto",
+    "photoCount_other": "{count} foto",
+    "photoCount_few": "{count} foto",
+    "photoCount_many": "{count} foto",
+    "viewArtworkButton": "Guarda l’opera",
+    "noWorks": "Nessuna opera in questa selezione.",
+    "removeSubjects": "Rimuovi un soggetto o azzera i filtri per vedere la collezione.",
+    "clearFilters": "Azzera i filtri",
+    "endCollection": "Fine della collezione",
+    "backToTop": "Torna in alto",
+    "getInTouch": "Contattami",
+    "exploreCollection": "Esplora la collezione",
+    "closeArtwork": "Chiudi l’opera",
+    "photosOf": "Foto di {title}",
+    "photosSoon": "Le foto saranno disponibili a breve.",
+    "previousPhoto": "Foto precedente",
+    "nextPhoto": "Foto successiva",
+    "photoPosition": "Foto {current} di {total}",
+    "choosePhoto": "Scegli una foto",
+    "viewPhoto": "Guarda la foto {number}: {label}",
+    "paintingPage": "Pagina del dipinto",
+    "artworkSubjects": "Soggetti dell’opera",
+    "viewOn": "Guarda su {source}",
+    "viewerHint": "Esplora il dipinto attraverso {count} fotografie. Scegli una vista sotto l’immagine o usa i tasti freccia.",
+    "browseArtworks": "Sfoglia le opere",
+    "artworkPosition": "Opera {current} di {total}",
+    "previousArtwork": "Opera precedente",
+    "nextArtwork": "Opera successiva",
+    "openFullImage": "Apri l’immagine completa: {label}",
+    "viewFullImage": "Guarda l’immagine completa",
+    "by": "Di",
+    "viewsPainting": "Viste del dipinto",
+    "photographs": "Fotografie",
+    "exploreAll": "Esplora tutti i dipinti",
+    "findArtist": "L’artista online",
+    "opensNewTab": "si apre in una nuova scheda",
+    "contactArtist": "Contatta l’artista",
+    "email": "Email",
+    "artistJob": "Artista",
+    "paintingArtform": "Pittura",
+    "paintingIntro": "{title}, un dipinto di Alina Logos (Alina Pliushcheva).",
+    "paintingFallback": "Guarda il dipinto e le sue fotografie.",
+    "officialPortfolio": "Portfolio ufficiale",
+    "portfolio": "Portfolio",
+    "completeCatalogue": "Catalogo testuale completo, descrizioni e link alle immagini",
+    "paintings": "Dipinti",
+    "artistProfiles": "Profili dell’artista e contatti",
+    "page": "Pagina",
+    "artist": "Artista",
+    "category": "Categoria",
+    "subjects": "Soggetti",
+    "description": "Descrizione",
+    "dimensions": "Dimensioni",
+    "pixels": "pixel",
+    "publications": "Pubblicazioni",
+    "languageVersions": "Altre lingue"
+  },
+  "site": {
+    "pageTitle": "Alina Logos (Alina Pliushcheva) — Artista e dipinti",
+    "description": "Scopri i dipinti originali di Alina Logos (Alina Pliushcheva): paesaggi, ritratti e opere figurative a olio e tempera all’uovo. Esplora il portfolio e contatta l’artista.",
+    "collectionHeading": "Dipinti di Alina Pliushcheva",
+    "sidebarNote": "Un dipinto. Molte prospettive.",
+    "aboutEyebrow": "L’artista · Alina Logos",
+    "aboutTitle": "Alina Pliushcheva",
+    "aboutImageAlt": "In galleria",
+    "aboutCaption": "In galleria",
+    "aboutParagraphs": [
+      "Alina Pliushcheva, conosciuta anche come Alina Logos, dipinge a olio e a tempera all’uovo. Il suo lavoro riunisce paesaggi, scene urbane, ritratti, figure e interni familiari.",
+      "Esplora i suoi dipinti, leggi le storie che li accompagnano e osservali da vicino attraverso dettagli e diverse vedute. Per domande sulle opere, contatta Alina tramite i suoi profili artistici qui sotto."
+    ],
+    "studioEyebrow": "Atelier",
+    "studioTitle": "Un luogo per dipingere.",
+    "studioParagraphs": [
+      "Una finestra, un cavalletto e lo spazio intorno a un dipinto. Uno sguardo sul luogo di lavoro in cui nasce la collezione."
+    ],
+    "studioImageAlt": "Un cavalletto e uno spazio per dipingere accanto a una finestra",
+    "contactEyebrow": "Una conversazione inizia qui",
+    "contactTitle": "Contattami.",
+    "contactDescription": "Per domande sui dipinti o per seguire le nuove opere e la vita in atelier.",
+    "footerNote": "Dipinti di Alina Logos · Alina Pliushcheva."
+  },
+  "categories": {
+    "All works": "Tutte le opere",
+    "Landscapes": "Paesaggi",
+    "Cityscapes": "Paesaggi urbani",
+    "Figures": "Figure",
+    "Portraits": "Ritratti",
+    "Interiors": "Interni"
+  },
+  "tags": {
+    "Architecture": "Architettura",
+    "Autumn": "Autunno",
+    "Boats": "Barche",
+    "Clouds": "Nuvole",
+    "Countryside": "Campagna",
+    "Evening": "Sera",
+    "Flowers": "Fiori",
+    "Interiors": "Interni",
+    "Morning": "Mattina",
+    "Mountains": "Montagne",
+    "Night": "Notte",
+    "People": "Persone",
+    "Sculpture": "Scultura",
+    "Sea": "Mare",
+    "Spring": "Primavera",
+    "Summer": "Estate",
+    "Trees": "Alberi",
+    "Water": "Acqua",
+    "Winter": "Inverno"
+  },
+  "artworks": {
+    "azure": {
+      "title": "Azzurro",
+      "description": "Pittura a spatola\n30*30 cm\nTempera all’uovo e olio su tela\n\nHo dipinto questo paesaggio con tempera all’uovo e olio quasi asciutta su un fondo di gesso acrilico. Il risultato è completamente opaco.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Azzurro — Dipinto completo"
+        }
+      ]
+    },
+    "forest-figure": {
+      "title": "Visione di mezzogiorno",
+      "description": "40*30 cm\nTempera all’uovo e olio su tela\n\nIn alcune zone del dipinto si intravede la tela, perché mi ero stancata di mescolare i toni del marrone e ho semplicemente raschiato via il colore.\nHo usato anche il giallo di cobalto per il corpo e un giallo di cadmio più economico per la vegetazione.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Visione di mezzogiorno — Dipinto completo"
+        },
+        {
+          "label": "Vista della tela",
+          "alt": "Visione di mezzogiorno — Vista della tela"
+        },
+        {
+          "label": "Dettaglio della figura",
+          "alt": "Visione di mezzogiorno — Dettaglio della figura"
+        },
+        {
+          "label": "Sul cavalletto",
+          "alt": "Visione di mezzogiorno — Sul cavalletto"
+        }
+      ]
+    },
+    "winter-garden": {
+      "title": "Neve di marzo",
+      "description": "Pittura a spatola\n18*24 cm\nTempera all’uovo e olio su tela",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Neve di marzo — Dipinto completo"
+        }
+      ]
+    },
+    "blue-night": {
+      "title": "All’alba",
+      "description": "30*25 cm,\nolio su tela",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "All’alba — Dipinto completo"
+        }
+      ]
+    },
+    "countryside": {
+      "title": "Cielo basso",
+      "description": "30*25 cm,\nTempera grassa su cartone",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Cielo basso — Dipinto completo"
+        }
+      ]
+    },
+    "golden-autumn": {
+      "title": "Acero al crepuscolo",
+      "description": "30*25 cm\nOlio su tela\nPittura a spatola\n\nEra circa un anno fa. Tornavo a casa a piedi di sera e le foglie dell’acero sembravano così luminose nel buio, quasi fossero in fiamme.\nÈ diventato uno dei miei ricordi preferiti di quell’anno. Era un ottobre freddo e tranquillo e poche altre cose mi avevano colpita così tanto.\n\nCosì ho dipinto questo quadro in circa due ore. Un paio di giorni dopo, la superficie era quasi asciutta, ma aveva ancora una bella lucentezza grazie al medium alchidico che avevo mescolato al colore. Tra l’altro, non avevo mai usato un medium sintetico prima, ma durante il viaggio non riuscivo a trovare la resina dammar da nessuna parte.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Acero al crepuscolo — Dipinto completo"
+        },
+        {
+          "label": "Dettaglio del dipinto",
+          "alt": "Acero al crepuscolo — Dettaglio del dipinto"
+        }
+      ]
+    },
+    "by-the-water": {
+      "title": "Incontro",
+      "description": "60*50\nOlio su tela\n\nHo iniziato questo dipinto alla fine di luglio con uno schizzo a carboncino, poi l’ho lasciato da parte a lungo perché non sapevo quale fissativo scegliere.\nAlla fine ho usato semplicemente la mia lacca per capelli, non riuscendo a trovare un’alternativa migliore ._. Poi ho steso un’imprimitura di ocra gialla e ho continuato a dipingere a olio come al solito.\nMa il paesaggio estivo si è trasformato gradualmente in uno autunnale, perché sono rimasta un po’ indietro rispetto al cambio di stagione 🐌",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Incontro — Dipinto completo"
+        },
+        {
+          "label": "Dettaglio della figura",
+          "alt": "Incontro — Dettaglio della figura"
+        }
+      ]
+    },
+    "fountain-garden": {
+      "title": "Come ti chiami?",
+      "description": "In primavera ho provato a tornarci ancora una volta. Mi piaceva che, dopo tanti anni, quel luogo fosse rimasto intatto. Ma il custode non mi ha lasciata entrare.\nAllora ne conserverò qui il ricordo.\n\nGiugno, 2008",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Come ti chiami? — Dipinto completo"
+        }
+      ]
+    },
+    "about-zero": {
+      "title": "Intorno allo zero",
+      "description": "Pittura a spatola\n30*30 cm\nTempera all’uovo e olio su tela\n\nUn ricordo del 4 gennaio 2016",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Intorno allo zero — Dipinto completo"
+        }
+      ]
+    },
+    "cloud-catcher": {
+      "title": "Acchiappanuvole",
+      "description": "20*30 cm\nOlio + emulsione all’uovo su tela\n\nHo aggiunto ai miei colori a olio in tubetto un’emulsione all’uovo con olio cotto e trementina veneta. Questa miscela permette di dipingere a impasto mantenendo i colori brillanti e la consistenza densa.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Acchiappanuvole — Dipinto completo"
+        }
+      ]
+    },
+    "venus": {
+      "title": "Venere",
+      "description": "Ho usato come riferimento la scultura “Venere che si toglie il sandalo” di Ivan Vitali. All’inizio volevo fare uno studio di figura, ma poi ho aggiunto uno sfondo e alcuni dettagli. Spero di riuscire presto a realizzarlo in grande formato, quando avrò trasferito le mie tele e i telai.\n\n35*25 cm\nTempera all’uovo e olio su tela",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Venere — Dipinto completo"
+        },
+        {
+          "label": "Dettaglio del dipinto",
+          "alt": "Venere — Dettaglio del dipinto"
+        }
+      ]
+    },
+    "boats-under-pines": {
+      "title": "Chiuso per la stagione",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Chiuso per la stagione — Dipinto completo"
+        }
+      ]
+    },
+    "saltspring": {
+      "title": "Sorgente salina",
+      "description": "Olio + tempera all’uovo su pannello di fibra di legno\n20*25 cm",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Sorgente salina — Dipinto completo"
+        },
+        {
+          "label": "Nella cornice",
+          "alt": "Sorgente salina — Nella cornice"
+        }
+      ]
+    },
+    "village-evening": {
+      "title": "Alle 5 del mattino",
+      "description": "Un altro dipinto a spatola con uno strato di colore molto spesso. Per questo ho mescolato i miei colori a olio con un medium fatto in casa: dammar, olio polimerizzato ed essenza di trementina rettificata. È la miscela a cui ricorro quando devo traslocare o mi sento troppo stanca o pigra per preparare un’emulsione all’uovo.\n\nDubito che rivedrò mai questi luoghi. Da bambina adoravo andare a trovare mio zio nella campagna vicino al lago Ilmen, perché ero completamente libera di esplorare i campi e i boschi intorno a casa sua e tornare quando volevo. A lui andava bene così.\n\nOlio su tela\n18*24 cm",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Alle 5 del mattino — Dipinto completo"
+        },
+        {
+          "label": "Vista angolata",
+          "alt": "Alle 5 del mattino — Vista angolata"
+        }
+      ]
+    },
+    "my-room": {
+      "title": "La mia stanza",
+      "description": "40*30 cm\nOlio su tela\nSpero di tornarci ancora.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "La mia stanza — Dipinto completo"
+        }
+      ]
+    },
+    "village-church": {
+      "title": "Prima della tempesta",
+      "description": "Pittura a spatola;\n20*30 cm\nTempera all’uovo e olio su tela\n\nHo realizzato questo dipinto su un fondo acrilico trasparente. Vorrei anche provare a dipingere con tempera all’uovo e olio su una tavola di legno trattata con colla, senza alcuna preparazione di fondo.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Prima della tempesta — Dipinto completo"
+        },
+        {
+          "label": "Dettaglio della chiesa",
+          "alt": "Prima della tempesta — Dettaglio della chiesa"
+        }
+      ]
+    },
+    "portrait-blue-scarf": {
+      "title": "Nel museo",
+      "description": "Ritratto di mia sorella\n\n50*40 cm, olio su tela",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Nel museo — Dipinto completo"
+        }
+      ]
+    },
+    "morning-mist": {
+      "title": "Nebbia mattutina",
+      "description": "18*24 cm\nStudio a olio",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Nebbia mattutina — Dipinto completo"
+        }
+      ]
+    },
+    "sunlit-trees": {
+      "title": "5 novembre",
+      "description": "Sera nel parco\n30*25 cm, olio su tela",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "5 novembre — Dipinto completo"
+        }
+      ]
+    },
+    "city-portrait": {
+      "title": "Ritratto di mio padre",
+      "description": "Tempera all’uovo e olio su tela\n\n50*40 cm\n\nHo finalmente finito questo ritratto! Ed è stata la prima volta che ho dipinto con una tavolozza limitata.\nPer quest’opera ho usato solo quattro colori: rosso di cadmio, ocra gialla, bianco di titanio e grigio di Payne, che al momento è il mio nero preferito. In futuro proverò altri pigmenti neri per i ritratti e vedrò come si confrontano.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Ritratto di mio padre — Dipinto completo"
+        },
+        {
+          "label": "Sul cavalletto",
+          "alt": "Ritratto di mio padre — Sul cavalletto"
+        },
+        {
+          "label": "Vista ravvicinata",
+          "alt": "Ritratto di mio padre — Vista ravvicinata"
+        }
+      ]
+    },
+    "riverboat": {
+      "title": "Battello fluviale Yunga #2",
+      "description": "Sogno spesso quella vista dal ponte.\n25*30 cm\nOlio su cartone",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Battello fluviale Yunga #2 — Dipinto completo"
+        }
+      ]
+    },
+    "night-park": {
+      "title": "Ovunque",
+      "description": "Pittura a spatola\n30*30 cm\nTempera all’uovo e olio su tela",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Ovunque — Dipinto completo"
+        }
+      ]
+    },
+    "park-river": {
+      "title": "8 agosto",
+      "description": "Tenuta di Alexandrino, San Pietroburgo\n\n25*30 cm\nTempera all’uovo e olio su tela",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "8 agosto — Dipinto completo"
+        }
+      ]
+    },
+    "rainy-walk": {
+      "title": "Acquazzone",
+      "description": "30*25 cm\nPittura a spatola, tempera all’uovo e olio su tela\n\nUno dei miei insegnanti di pittura mi consigliò una volta di fare un piccolo dipinto prima di iniziare il lavoro principale, giusto per scaldarmi un po’. Purtroppo, quando ho finito quel piccolo studio, era già sera.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Acquazzone — Dipinto completo"
+        }
+      ]
+    },
+    "forest-bather": {
+      "title": "Eva",
+      "description": "40*30 cm\nTempera all’uovo e olio su tela\n\nPer la prima volta ho dipinto il disegno preparatorio con terra verde antica e mi sono piaciute molto le sue tonalità: ricorda un po’ una glauconite dai toni caldi. Dovrei provare a usare questo colore per un ritratto.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Eva — Dipinto completo"
+        }
+      ]
+    },
+    "willow-reflections": {
+      "title": "La barca",
+      "description": "24*18 cm\nTempera all’uovo e olio su tela\n…\nQuesto impasto è… incredibilmente spesso! Penso che potrei costruire dei piccoli supporti con delle scatole, così i dipinti a impasto potrebbero asciugare senza che debba preoccuparmi della polvere.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "La barca — Dipinto completo"
+        }
+      ]
+    },
+    "breaking-waves": {
+      "title": "O n d e",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "O n d e — Dipinto completo"
+        }
+      ]
+    },
+    "sculpture-at-night": {
+      "title": "Amore e Psiche",
+      "description": "45*55 cm, olio su tela\n\nIl dipinto raffigura la scultura “Psiche rianimata dal bacio di Amore” dello scultore italiano Antonio Canova, conservata all’Ermitage. È la mia prima esperienza con colori a olio mescolati a vernice mastice. È molto diversa dalla vernice dammar: il dipinto ha una lucentezza raffinata e quasi vitrea.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Amore e Psiche — Dipinto completo"
+        }
+      ]
+    },
+    "church-interior": {
+      "title": "Cattedrale di Santa Sofia",
+      "description": "Cattedrale di Santa Sofia, Velikij Novgorod.\n50*40 cm\nTempera all’uovo e olio su tela\n\nSorprendentemente, ho dipinto quest’opera… alla prima. Un metodo tradizionale con un abbozzo a tinte smorte sarebbe probabilmente stato più adatto all’architettura, ma non mi piacciono i vincoli rigidi.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Cattedrale di Santa Sofia — Dipinto completo"
+        }
+      ]
+    },
+    "cloudy-evening": {
+      "title": "Serata nuvolosa",
+      "description": "18*24 cm\nTempera all’uovo e olio su tela\n\n27 settembre\nChiesa di San Nicola",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Serata nuvolosa — Dipinto completo"
+        }
+      ]
+    },
+    "spring-thaw": {
+      "title": "Studio di primavera",
+      "description": "18*24 cm\nTempera all’uovo e olio su tela",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Studio di primavera — Dipinto completo"
+        }
+      ]
+    },
+    "red-haired-portrait": {
+      "title": "Ritratto alla luce del sole",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Ritratto alla luce del sole — Dipinto completo"
+        }
+      ]
+    },
+    "mountain-valley": {
+      "title": "Montagne dell’Armenia",
+      "description": "In ricordo della nostra piccola gita.\nPittura a spatola su pannello preparato con gesso acrilico\n20*30 cm\n\nTempera all’uovo e olio… come al solito. Ho aggiunto qualche goccia di olio di chiodi di garofano per far durare più a lungo l’emulsione.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Montagne dell’Armenia — Dipinto completo"
+        }
+      ]
+    },
+    "winter-moonlight": {
+      "title": "Notte",
+      "description": "Pittura a spatola\n24*30 cm\nTempera all’uovo e olio su tela",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Notte — Dipinto completo"
+        }
+      ]
+    },
+    "autumn-domes": {
+      "title": "Cupole tra le foglie d’autunno",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Cupole tra le foglie d’autunno — Dipinto completo"
+        }
+      ]
+    },
+    "sailboat": {
+      "title": "Barca a vela",
+      "description": "30*25 cm\nOlio + tempera all’uovo su tela\n\nOvunque vada, porterò l’inverno con me.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Barca a vela — Dipinto completo"
+        }
+      ]
+    }
+  }
+}

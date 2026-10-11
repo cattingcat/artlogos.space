@@ -1,8 +1,11 @@
-import { site } from '../content/site'
+import { useI18n } from '../i18n/context'
+import { homePath, locales } from '../i18n/locale'
 import type { Artwork } from '../content/artworks'
 import { artworkPageDescription, artworkPageTitle, artworkUrl } from '../content/artwork-pages'
 
 export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
+  const { locale, site, t, tag } = useI18n()
+  const localizedUrl = new URL(homePath(locale), site.url).href
   const artistId = `${site.url}#artist`
   const websiteId = `${site.url}#website`
   const data = {
@@ -14,7 +17,7 @@ export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
         name: site.artistName,
         alternateName: site.fullName,
         url: site.url,
-        jobTitle: 'Artist',
+        jobTitle: t('artistJob'),
         description: site.about.paragraphs[0],
         email: site.email,
         sameAs: [...site.socialLinks.map(link => link.url), site.telegram.url],
@@ -26,25 +29,27 @@ export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
         name: site.artistName,
         alternateName: site.name,
         publisher: { '@id': artistId },
-        inLanguage: 'en',
+        inLanguage: locales,
       },
       ...(artwork ? [{
         '@type': 'WebPage',
-        '@id': `${artworkUrl(artwork)}#page`,
-        url: artworkUrl(artwork),
+        inLanguage: locale,
+        '@id': `${artworkUrl(artwork, locale)}#page`,
+        url: artworkUrl(artwork, locale),
         name: artworkPageTitle(artwork),
-        description: artworkPageDescription(artwork),
-        mainEntity: { '@id': `${artworkUrl(artwork)}#artwork` },
+        description: artworkPageDescription(artwork, locale),
+        mainEntity: { '@id': `${artworkUrl(artwork, locale)}#artwork` },
         isPartOf: { '@id': websiteId },
       }, {
         '@type': 'VisualArtwork',
-        '@id': `${artworkUrl(artwork)}#artwork`,
-        url: artworkUrl(artwork),
+        inLanguage: locale,
+        '@id': `${artworkUrl(artwork, locale)}#artwork`,
+        url: artworkUrl(artwork, locale),
         name: artwork.title,
         ...(artwork.description ? { description: artwork.description } : {}),
         creator: { '@id': artistId },
-        artform: 'Painting',
-        keywords: artwork.tags,
+        artform: t('paintingArtform'),
+        keywords: artwork.tags.map(tag),
         image: artwork.images.map(image => ({
           '@type': 'ImageObject',
           contentUrl: new URL(image.src, site.url).href,
@@ -56,8 +61,9 @@ export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
         ...(artwork.sources?.length ? { sameAs: artwork.sources.map(source => source.url) } : {}),
       }] : [{
         '@type': 'ProfilePage',
-        '@id': `${site.url}#profile`,
-        url: site.url,
+        inLanguage: locale,
+        '@id': `${localizedUrl}#profile`,
+        url: localizedUrl,
         name: site.pageTitle,
         description: site.description,
         mainEntity: { '@id': artistId },
