@@ -88,7 +88,10 @@
     "dimensions": "Maße",
     "pixels": "Pixel",
     "publications": "Veröffentlichungen",
-    "languageVersions": "Weitere Sprachen"
+    "languageVersions": "Weitere Sprachen",
+    "darkTheme": "Dunkles Design",
+    "switchToLight": "Zum hellen Design wechseln",
+    "switchToDark": "Zum dunklen Design wechseln"
   },
   "site": {
     "pageTitle": "Alina Logos (Alina Pliushcheva) — Künstlerin & Gemälde",

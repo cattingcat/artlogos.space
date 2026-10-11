@@ -2,6 +2,7 @@ import type { Artwork } from '../content/artworks'
 import { useI18n } from '../i18n/context'
 import { homePath } from '../i18n/locale'
 import LanguageSwitcher from './LanguageSwitcher'
+import ThemeSwitcher from './ThemeSwitcher'
 import ArtistSchema from './ArtistSchema'
 import SocialLinks from './SocialLinks'
 import ContactMethods from './ContactMethods'
@@ -17,7 +18,7 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
     <header className="site-header painting-header">
       <BrandLink />
       <nav className="main-navigation" aria-label={t('mainNavigation')}><a href={home}>{t('allWorks')}</a><a href={`${home}#about`}>{t('about')}</a><a href="#contact">{t('contact')}</a></nav>
-      <div className="header-controls"><LanguageSwitcher artworkId={artwork.id} /></div>
+      <div className="header-controls"><LanguageSwitcher artworkId={artwork.id} /><ThemeSwitcher /></div>
     </header>
     <main id="painting" className="painting-page page-width">
       <div className="breadcrumbs"><a href={home}>{t('works')}</a><span aria-hidden="true">/</span><span>{artwork.title}</span></div>

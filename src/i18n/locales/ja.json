@@ -88,7 +88,10 @@
     "dimensions": "サイズ",
     "pixels": "ピクセル",
     "publications": "掲載情報",
-    "languageVersions": "ほかの言語"
+    "languageVersions": "ほかの言語",
+    "darkTheme": "ダークテーマ",
+    "switchToLight": "ライトテーマに切り替える",
+    "switchToDark": "ダークテーマに切り替える"
   },
   "site": {
     "pageTitle": "Alina Logos（Alina Pliushcheva）— 画家・絵画作品",

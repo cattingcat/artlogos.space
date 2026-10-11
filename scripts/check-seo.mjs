@@ -6,6 +6,9 @@ const origin = 'https://artlogos.space/'
 const locales = ['en', 'ru', 'fr', 'de', 'it', 'es', 'ja']
 const ogLocales = { en: 'en_US', ru: 'ru_RU', fr: 'fr_FR', de: 'de_DE', it: 'it_IT', es: 'es_ES', ja: 'ja_JP' }
 const names = ['Alina Logos', 'Alina Pliushcheva']
+const template = await readFile(new URL('../index.html', import.meta.url), 'utf8')
+const themeBootstrap = template.match(/<script id="theme-init">([\s\S]*?)<\/script>/)?.[1].trim()
+assert.ok(themeBootstrap, 'Source HTML must contain the prepaint theme bootstrap')
 const portfolio = JSON.parse(await readFile(new URL('../src/content/portfolio.json', import.meta.url), 'utf8'))
 const dictionaries = Object.fromEntries(await Promise.all(locales.map(async locale => [locale, JSON.parse(await readFile(new URL(`../src/i18n/locales/${locale}.json`, import.meta.url), 'utf8'))])))
 const absolute = path => new URL(path, origin).href
@@ -108,6 +111,32 @@ async function checkLocalLink(href, base, html) {
   }
 }
 
+function checkTheme(html, dictionary, label) {
+  const scripts = [...html.matchAll(/(<script\b[^>]*>)([\s\S]*?)<\/script>/gi)]
+  const initializers = scripts.filter(match => attributes(match[1]).id === 'theme-init')
+  assert.equal(initializers.length, 1, `Missing or duplicate theme bootstrap: ${label}`)
+  const initializer = initializers[0]
+  const scriptAttributes = attributes(initializer[1])
+  assert.equal(initializer[2].trim(), themeBootstrap, `Build changed the theme bootstrap: ${label}`)
+  assert.ok(!scriptAttributes.src && (!scriptAttributes.type || scriptAttributes.type === 'text/javascript'), `Theme bootstrap must be an inline classic script: ${label}`)
+  assert.doesNotMatch(initializer[1], /\s(?:async|defer)(?:\s|=|>)/i, `Theme bootstrap must block parsing: ${label}`)
+  assert.ok(initializer.index > html.indexOf('<head>') && initializer.index < html.indexOf('</head>'), `Theme bootstrap must run in the head: ${label}`)
+  const stylesheets = [...html.matchAll(/<link\b[^>]*>/gi)].filter(match => attributes(match[0]).rel === 'stylesheet')
+  const modules = scripts.filter(match => attributes(match[1]).type === 'module')
+  assert.ok(stylesheets.length && modules.length, `Page must load its stylesheet and application module: ${label}`)
+  for (const resource of [...stylesheets, ...modules]) assert.ok(initializer.index < resource.index, `Theme bootstrap runs after a stylesheet or application module: ${label}`)
+  const themeMetadata = tags('meta', html).filter(meta => meta.name === 'theme-color')
+  assert.deepEqual(themeMetadata.map(meta => meta.content), ['#E9E3D8'], `Missing or incorrect initial theme-color metadata: ${label}`)
+  assert.ok(html.indexOf('<meta name="theme-color"') < initializer.index, `Theme-color metadata must exist before initialization: ${label}`)
+  const header = html.match(/<header\b[^>]*>([\s\S]*?)<\/header>/i)?.[1] ?? ''
+  const buttons = tags('button', header).filter(button => button.class?.split(/\s+/).includes('theme-switcher'))
+  assert.equal(buttons.length, 1, `Missing or duplicate theme switch in the page header: ${label}`)
+  assert.equal(buttons[0].type, 'button', `Theme switch must be a native button: ${label}`)
+  assert.equal(buttons[0]['aria-label'], dictionary.ui.darkTheme, `Theme switch has an untranslated accessible label: ${label}`)
+  assert.equal(buttons[0]['aria-pressed'], 'false', `Theme switch must have a stable server-rendered toggle state: ${label}`)
+  assert.equal(buttons[0].title, dictionary.ui.switchToDark, `Theme switch has an untranslated action label: ${label}`)
+}
+
 const expectedPages = new Map()
 for (const locale of locales) {
   const dictionary = dictionaries[locale]
@@ -116,6 +145,7 @@ for (const locale of locales) {
     const path = `${pagePath(locale, work)}index.html`
     const url = pageUrl(locale, work)
     const html = await readBuilt(path)
+    checkTheme(html, dictionary, label)
     const body = bodyOf(html)
     const visibleText = textContent(body)
     const translated = work && dictionary.artworks[work.id]
@@ -233,7 +263,9 @@ for (const locale of locales) {
 // Previously shared links remain readable, with canonical and hreflang pointing to the localized pages.
 for (const work of [undefined, ...portfolio]) {
   const path = work ? `/works/${work.id}/index.html` : '/index.html'
-  assert.equal(await readBuilt(path), await readBuilt(`${pagePath('en', work)}index.html`), `Legacy URL differs from its English canonical: ${path}`)
+  const html = await readBuilt(path)
+  checkTheme(html, dictionaries.en, path)
+  assert.equal(html, await readBuilt(`${pagePath('en', work)}index.html`), `Legacy URL differs from its English canonical: ${path}`)
 }
 const htmlFiles = (await readdir(dist, { recursive: true })).filter(path => path.endsWith('.html'))
 assert.equal(htmlFiles.length, (locales.length + 1) * (portfolio.length + 1), 'Unexpected or missing static HTML pages')
@@ -280,4 +312,4 @@ for (const locale of locales) {
 }
 for (const name of ['llms.txt', 'llms-full.txt']) assert.equal(await readBuilt(`/${name}`), await readBuilt(`/en/${name}`), `Root ${name} must preserve the English catalogue alias`)
 
-console.log(`SEO checks passed: ${locales.length} complete dictionaries, ${expectedPages.size} localized pages and ${portfolio.length + 1} legacy pages; translated static content, metadata and schemas; reciprocal hreflang, self-canonical URLs, real links/assets, multilingual sitemap and catalogues`)
+console.log(`SEO checks passed: ${locales.length} complete dictionaries, ${expectedPages.size} localized pages and ${portfolio.length + 1} legacy pages; prepaint theme bootstrap and accessible theme switches; translated static content, metadata and schemas; reciprocal hreflang, self-canonical URLs, real links/assets, multilingual sitemap and catalogues`)

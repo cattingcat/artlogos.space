@@ -88,7 +88,10 @@
     "dimensions": "Размеры",
     "pixels": "пикселей",
     "publications": "Публикации",
-    "languageVersions": "Другие языки"
+    "languageVersions": "Другие языки",
+    "darkTheme": "Тёмная тема",
+    "switchToLight": "Включить светлую тему",
+    "switchToDark": "Включить тёмную тему"
   },
   "site": {
     "pageTitle": "Alina Logos (Alina Pliushcheva) — художница и картины",

@@ -88,7 +88,10 @@
     "dimensions": "Dimensioni",
     "pixels": "pixel",
     "publications": "Pubblicazioni",
-    "languageVersions": "Altre lingue"
+    "languageVersions": "Altre lingue",
+    "darkTheme": "Tema scuro",
+    "switchToLight": "Passa al tema chiaro",
+    "switchToDark": "Passa al tema scuro"
   },
   "site": {
     "pageTitle": "Alina Logos (Alina Pliushcheva) — Artista e dipinti",

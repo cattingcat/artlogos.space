@@ -3,6 +3,7 @@ import { artworks as collection, categories, type Artwork, type Category } from 
 import { LocaleProvider, useI18n } from './i18n/context'
 import { homePath, type Locale } from './i18n/locale'
 import LanguageSwitcher from './components/LanguageSwitcher'
+import ThemeSwitcher from './components/ThemeSwitcher'
 import ArtworkDialog from './components/ArtworkDialog'
 import ArtistSchema from './components/ArtistSchema'
 import SocialLinks from './components/SocialLinks'
@@ -147,7 +148,7 @@ function Gallery() {
           <a href="#studio" onClick={() => setMenuOpen(false)}>{t('studio')}</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>{t('contact')}</a>
         </nav>
-        <div className="header-controls"><LanguageSwitcher query={query} /><button className="menu-button" aria-expanded={menuOpen} aria-controls="main-navigation" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? t('close') : t('menu')}<span>{menuOpen ? '−' : '+'}</span></button></div>
+        <div className="header-controls"><LanguageSwitcher query={query} /><ThemeSwitcher /><button className="menu-button" aria-label={menuOpen ? t('close') : t('menu')} aria-expanded={menuOpen} aria-controls="main-navigation" onClick={() => setMenuOpen(!menuOpen)}><span className="menu-label">{menuOpen ? t('close') : t('menu')}</span><span className="menu-mark">{menuOpen ? '−' : '+'}</span></button></div>
       </header>
 
       <main>
@@ -195,10 +196,8 @@ function Gallery() {
                   }} aria-label={`${t('viewArtwork', { title: work.title })}${work.images.length > 1 ? `, ${count('photoCount', work.images.length)}` : ''}`}>
                     <div className="artwork-image-wrap">
                       <img src={preview.thumbnail} alt={preview.alt} width={preview.width} height={preview.height} className="artwork-image" loading={index < 4 ? 'eager' : 'lazy'} decoding="async" />
-                      {work.images.length > 1 && <span className="photo-count">{count('photoCount', work.images.length)}</span>}
-                      <span className="view-artwork">{t('viewArtworkButton')} <span>+</span></span>
                     </div>
-                    <div className="artwork-caption"><h3>{work.title}</h3><p>{categoryLabel(work.category)}</p>{work.tags.length > 0 && <p className="artwork-tags">{work.tags.map(tagLabel).join(' · ')}</p>}</div>
+                    <div className="artwork-caption"><h3>{work.title}</h3><p className="artwork-caption-meta"><span>{categoryLabel(work.category)}</span>{work.images.length > 1 && <span className="photo-count">{count('photoCount', work.images.length)}</span>}</p>{work.tags.length > 0 && <p className="artwork-tags">{work.tags.map(tagLabel).join(' · ')}</p>}</div>
                   </a>
                 </article>
               })}</div> : <div className="empty-state"><h2>{t('noWorks')}</h2><p>{t('removeSubjects')}</p><button className="outline-button" onClick={resetFilters}>{t('clearFilters')}</button></div>}
