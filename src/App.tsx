@@ -5,7 +5,6 @@ import { homePath, type Locale } from './i18n/locale'
 import LanguageSwitcher from './components/LanguageSwitcher'
 import ThemeSwitcher from './components/ThemeSwitcher'
 import ArtworkDialog from './components/ArtworkDialog'
-import ImageLightbox from './components/ImageLightbox'
 import ImageZoomHint from './components/ImageZoomHint'
 import ArtistSchema from './components/ArtistSchema'
 import SocialLinks from './components/SocialLinks'
@@ -70,11 +69,9 @@ function Gallery() {
   const [filtersOpen, setFiltersOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [locationRestored, setLocationRestored] = useState(false)
-  const [zoomedArtwork, setZoomedArtwork] = useState<Artwork | null>(null)
 
   useEffect(() => {
     const restore = () => {
-      setZoomedArtwork(null)
       const next = readLocation()
       setLocation({ category: next.category, work: next.work })
       setSelectedTags(next.tags)
@@ -193,11 +190,11 @@ function Gallery() {
               {filtered.length ? <div className="artwork-grid">{filtered.map((work, index) => {
                 const preview = work.images[0]
                 return <article className="artwork-card" key={work.id}>
-                  <a href={artworkPath(work, locale)} className="artwork-image-wrap image-zoom-trigger" aria-label={t('enlargeImage', { label: work.title })} aria-haspopup="dialog" onClick={event => {
+                  <a href={artworkPath(work, locale)} className="artwork-image-wrap image-zoom-trigger" aria-label={t('viewArtwork', { title: work.title })} aria-haspopup="dialog" onClick={event => {
                     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
                     event.preventDefault()
                     event.currentTarget.focus({ preventScroll: true })
-                    setZoomedArtwork(work)
+                    navigate(location.category, work.id)
                   }}>
                     <img src={preview.thumbnail} alt={preview.alt} width={preview.width} height={preview.height} className="artwork-image" loading={index < 4 ? 'eager' : 'lazy'} decoding="async" />
                     <ImageZoomHint />
@@ -235,7 +232,6 @@ function Gallery() {
 
       <footer className="site-footer page-width"><div><span>{site.name}</span><span>© {site.copyrightYear}</span></div><p>{site.footerNote}</p><a href="#work">{t('backToTop')} ↑</a></footer>
       {selectedArtwork && <ArtworkDialog artwork={selectedArtwork} index={Math.max(0, selectedIndex)} total={viewerWorks.length} onClose={closeArtwork} onMove={moveArtwork} />}
-      {zoomedArtwork && <ImageLightbox images={zoomedArtwork.images} title={zoomedArtwork.title} onClose={() => setZoomedArtwork(null)} />}
     </>
   )
 }
