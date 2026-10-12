@@ -22,10 +22,10 @@ try {
   function renderPage(locale, work) {
     const site = getSite(locale)
     const image = work?.images[0] ?? getArtworks(locale)[0].images[0]
-    const title = work ? artworkPageTitle(work) : site.pageTitle
+    const title = work ? artworkPageTitle(work, locale) : site.pageTitle
     const description = work ? artworkPageDescription(work, locale) : site.description
     const url = pageUrl(locale, work)
-    const meta = new Map(Object.entries({ description, 'og:title': title, 'og:description': description, 'og:url': url,
+    const meta = new Map(Object.entries({ description, author: `${site.artistName} (${site.fullName})`, 'og:title': title, 'og:description': description, 'og:url': url,
       'og:image': absolute(image.src), 'og:image:width': image.width, 'og:image:height': image.height, 'og:image:alt': image.alt,
       'twitter:title': title, 'twitter:description': description, 'twitter:image': absolute(image.src), 'twitter:image:alt': image.alt,
     }))

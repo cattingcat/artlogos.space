@@ -1,6 +1,7 @@
 import { useI18n } from '../i18n/context'
 import { homePath, locales } from '../i18n/locale'
 import type { Artwork } from '../content/artworks'
+import { site as canonicalSite } from '../content/site'
 import { artworkPageDescription, artworkPageTitle, artworkUrl } from '../content/artwork-pages'
 
 export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
@@ -15,7 +16,7 @@ export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
         '@type': 'Person',
         '@id': artistId,
         name: site.artistName,
-        alternateName: site.fullName,
+        alternateName: locale === 'ru' ? [site.fullName, canonicalSite.fullName] : site.fullName,
         url: site.url,
         jobTitle: t('artistJob'),
         description: site.about.paragraphs[0],
@@ -36,7 +37,7 @@ export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
         inLanguage: locale,
         '@id': `${artworkUrl(artwork, locale)}#page`,
         url: artworkUrl(artwork, locale),
-        name: artworkPageTitle(artwork),
+        name: artworkPageTitle(artwork, locale),
         description: artworkPageDescription(artwork, locale),
         mainEntity: { '@id': `${artworkUrl(artwork, locale)}#artwork` },
         isPartOf: { '@id': websiteId },

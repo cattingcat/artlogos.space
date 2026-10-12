@@ -16,8 +16,16 @@ locales = ("en", "ru", "fr", "de", "it", "es", "ja")
 og_locales = dict(zip(locales, ("en_US", "ru_RU", "fr_FR", "de_DE", "it_IT", "es_ES", "ja_JP")))
 root = Path(__file__).resolve().parent.parent
 dictionaries = {locale: json.loads((root / f"src/i18n/locales/{locale}.json").read_text()) for locale in locales}
-artist_names = ("Alina Logos", "Alina Pliushcheva")
 portfolio = json.loads((root / "src/content/portfolio.json").read_text())
+
+
+def artist_names_for(locale):
+    return ("Alina Logos", "Алина Плющева" if locale == "ru" else "Alina Pliushcheva")
+
+
+def verify_name_localization(text, locale, context):
+    if locale != "ru":
+        assert not any(name in text for name in ("Алина Плющева", "Алины Плющевой")), f"Russian artist name leaked into another language: {context}"
 
 
 class NoRedirect(HTTPRedirectHandler):
@@ -163,6 +171,8 @@ def verify_page(path, locale, work=None):
     page.feed(body.decode())
     expected_url = absolute(page_path(locale, work))
     messages = dictionaries[locale]
+    artist_names = artist_names_for(locale)
+    assert messages["site"]["fullName"] == artist_names[1], f"Wrong localized artist full name: {path}"
     translated = messages["artworks"][work["id"]] if work else None
     assert page.prerendered, f"Missing prerendered React entrypoint: {path}"
     assert page.lang == locale, f"Wrong HTML language: {path}"
@@ -175,6 +185,11 @@ def verify_page(path, locale, work=None):
     verify_alternates(page.alternates, work, path)
     title = "".join(page.title)
     visible = " ".join(" ".join(page.body_text).split())
+    for field in ("og:title", "twitter:title"):
+        assert page.metadata.get(field) == title, f"Wrong social title {field}: {path}"
+    assert page.metadata.get("author") == f"{artist_names[0]} ({artist_names[1]})", f"Untranslated or incorrect author: {path}"
+    for field, value in (("title", title), ("description", page.metadata["description"]), ("author", page.metadata["author"]), ("visible text", visible)):
+        verify_name_localization(value, locale, f"{path}: {field}")
     for name in artist_names:
         assert name in visible, f"Artist name missing from visible HTML: {name}: {path}"
         assert name in title, f"Artist name missing from title: {name}: {path}"
@@ -192,10 +207,19 @@ def verify_page(path, locale, work=None):
         )
         for person in people
     ), f"Structured data must connect both artist names to one Person: {path}"
+    if locale == "ru":
+        assert any(
+            person.get("name") == artist_names[0]
+            and isinstance(person.get("alternateName"), list)
+            and all(name in person["alternateName"] for name in ("Алина Плющева", "Alina Pliushcheva"))
+            for person in people
+        ), f"Russian Person schema must retain the Latin artist alias: {path}"
+    verify_name_localization(json.dumps(page.schemas, ensure_ascii=False), locale, f"{path}: schema")
     assert any(node.get("@type") == "WebSite" and node.get("inLanguage") == list(locales) for node in nodes), f"Website schema must declare all languages: {path}"
     page_type = "WebPage" if work else "ProfilePage"
-    assert any(node.get("@type") == page_type and node.get("url") == expected_url and node.get("inLanguage") == locale for node in nodes), f"Missing localized page schema: {path}"
+    assert any(node.get("@type") == page_type and node.get("url") == expected_url and node.get("inLanguage") == locale and node.get("name") == title for node in nodes), f"Missing or incorrect localized page schema: {path}"
     if work:
+        assert title == f'{translated["title"]} — {artist_names[0]} ({artist_names[1]})', f"Wrong localized artwork page title: {path}"
         assert translated["title"] in title and translated["title"] in visible, f"Missing localized artwork title: {path}"
         if translated.get("description"):
             assert " ".join(translated["description"].split()) in visible, f"Description inaccessible without JavaScript: {path}"
@@ -299,7 +323,8 @@ for prefix, locale in [("", "en"), *[(f"/{locale}", locale) for locale in locale
         assert status == 200 and "text/plain" in headers.get("Content-Type", ""), f"Missing text catalogue: {path}"
         assert "no-cache" in headers.get("Cache-Control", ""), f"Text catalogue must be revalidated: {path}"
         text = body.decode()
-        assert all(name in text for name in artist_names), f"Text catalogue must identify both names: {path}"
+        assert all(name in text for name in artist_names_for(locale)), f"Text catalogue must identify both names: {path}"
+        verify_name_localization(text, locale, path)
         assert all(absolute(page_path(locale, work)) in text for work in portfolio), f"Text catalogue omits localized artwork links: {path}"
         assert dictionaries[locale]["site"]["aboutParagraphs"][0] in text, f"Text catalogue introduction must be translated: {path}"
         for work in portfolio:

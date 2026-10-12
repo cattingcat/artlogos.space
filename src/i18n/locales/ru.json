@@ -76,7 +76,7 @@
     "email": "Почта",
     "artistJob": "Художница",
     "paintingArtform": "Живопись",
-    "paintingIntro": "«{title}» — картина Alina Logos (Alina Pliushcheva).",
+    "paintingIntro": "«{title}». Автор картины — Алина Плющева (Alina Logos).",
     "paintingFallback": "Посмотрите картину и её фотографии.",
     "officialPortfolio": "Официальное портфолио",
     "portfolio": "Портфолио",
@@ -97,16 +97,17 @@
     "switchToDark": "Включить тёмную тему"
   },
   "site": {
-    "pageTitle": "Alina Logos (Alina Pliushcheva) — художница и картины",
-    "description": "Авторские картины Alina Logos (Alina Pliushcheva): пейзажи, портреты и фигуративная живопись маслом и яичной темперой. Посмотрите портфолио и свяжитесь с художницей.",
-    "collectionHeading": "Картины Alina Pliushcheva",
+    "fullName": "Алина Плющева",
+    "pageTitle": "Алина Плющева (Alina Logos) — художница и картины",
+    "description": "Алина Плющева (Alina Logos): авторские картины маслом и яичной темперой — пейзажи, портреты и фигуративная живопись. Портфолио и контакты художницы.",
+    "collectionHeading": "Картины Алины Плющевой",
     "sidebarNote": "Одна картина. Разные ракурсы.",
     "aboutEyebrow": "Об авторе · Alina Logos",
-    "aboutTitle": "Alina Pliushcheva",
+    "aboutTitle": "Алина Плющева",
     "aboutImageAlt": "В галерее",
     "aboutCaption": "В галерее",
     "aboutParagraphs": [
-      "Alina Pliushcheva, также известная как Alina Logos, пишет маслом и яичной темперой. В её работах встречаются пейзажи, городские сцены, портреты, фигуры людей и знакомые интерьеры.",
+      "Алина Плющева, также известная как Alina Logos, пишет маслом и яичной темперой. В её работах встречаются пейзажи, городские сцены, портреты, фигуры людей и знакомые интерьеры.",
       "Посмотрите её картины, прочитайте истории их создания и рассмотрите детали с разных ракурсов. Если у вас есть вопросы о работах, свяжитесь с Алиной через её профили ниже."
     ],
     "studioEyebrow": "Мастерская",
@@ -118,7 +119,7 @@
     "contactEyebrow": "Здесь начинается разговор",
     "contactTitle": "Связаться.",
     "contactDescription": "Задайте вопрос о картинах или следите за новыми работами и жизнью мастерской.",
-    "footerNote": "Картины Alina Logos · Alina Pliushcheva."
+    "footerNote": "Картины Alina Logos · Алина Плющева."
   },
   "categories": {
     "All works": "Все работы",

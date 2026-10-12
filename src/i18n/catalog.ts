@@ -40,7 +40,7 @@ export function getArtworks(locale: Locale) {
 }
 export function getSite(locale: Locale) {
   const copy = dictionaries[locale].site
-  return { ...site, pageTitle: copy.pageTitle, description: copy.description, collectionHeading: copy.collectionHeading, sidebarNote: copy.sidebarNote, footerNote: copy.footerNote,
+  return { ...site, fullName: copy.fullName, pageTitle: copy.pageTitle, description: copy.description, collectionHeading: copy.collectionHeading, sidebarNote: copy.sidebarNote, footerNote: copy.footerNote,
     about: { ...site.about, eyebrow: copy.aboutEyebrow, title: copy.aboutTitle, imageAlt: copy.aboutImageAlt, caption: copy.aboutCaption, paragraphs: copy.aboutParagraphs },
     studio: { ...site.studio, eyebrow: copy.studioEyebrow, title: copy.studioTitle, imageAlt: copy.studioImageAlt, paragraphs: copy.studioParagraphs },
     contact: { ...site.contact, eyebrow: copy.contactEyebrow, title: copy.contactTitle, description: copy.contactDescription },

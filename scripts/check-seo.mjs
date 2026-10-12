@@ -5,7 +5,12 @@ const dist = new URL('../dist/', import.meta.url)
 const origin = 'https://artlogos.space/'
 const locales = ['en', 'ru', 'fr', 'de', 'it', 'es', 'ja']
 const ogLocales = { en: 'en_US', ru: 'ru_RU', fr: 'fr_FR', de: 'de_DE', it: 'it_IT', es: 'es_ES', ja: 'ja_JP' }
-const names = ['Alina Logos', 'Alina Pliushcheva']
+const fullName = locale => locale === 'ru' ? 'Алина Плющева' : 'Alina Pliushcheva'
+const namesFor = locale => ['Alina Logos', fullName(locale)]
+const russianNames = ['Алина Плющева', 'Алины Плющевой']
+const assertNameLocalization = (text, locale, label) => {
+  if (locale !== 'ru') for (const name of russianNames) assert.ok(!text.includes(name), `Russian artist name leaked into another language: ${label}`)
+}
 const template = await readFile(new URL('../index.html', import.meta.url), 'utf8')
 const themeBootstrap = template.match(/<script id="theme-init">([\s\S]*?)<\/script>/)?.[1].trim()
 assert.ok(themeBootstrap, 'Source HTML must contain the prepaint theme bootstrap')
@@ -62,11 +67,14 @@ assert.ok(portfolio.length > 0, 'Portfolio must not be empty')
 assert.equal(new Set(portfolio.map(work => work.id)).size, portfolio.length, 'Artwork IDs must be unique')
 for (const locale of locales) {
   const dictionary = dictionaries[locale]
+  const names = namesFor(locale)
+  assert.equal(dictionary.site.fullName, fullName(locale), `Wrong localized artist full name: ${locale}`)
   validateDictionary(dictionaries.en, dictionary, locale)
   assert.deepEqual(Object.keys(dictionary.artworks).sort(), portfolio.map(work => work.id).sort(), `Dictionary omits or invents a painting: ${locale}`)
   for (const name of names) {
     for (const value of [dictionary.site.pageTitle, dictionary.site.description, dictionary.ui.paintingIntro]) {
       assert.ok(value.includes(name), `Metadata must preserve ${name}: ${locale}`)
+      assertNameLocalization(value, locale, `dictionary ${locale}`)
     }
   }
   for (const work of portfolio) {
@@ -140,6 +148,7 @@ function checkTheme(html, dictionary, label) {
 const expectedPages = new Map()
 for (const locale of locales) {
   const dictionary = dictionaries[locale]
+  const names = namesFor(locale)
   for (const work of [undefined, ...portfolio]) {
     const label = `${locale}/${work?.id ?? 'home'}`
     const path = `${pagePath(locale, work)}index.html`
@@ -168,6 +177,8 @@ for (const locale of locales) {
     assert.match(html, /<div\b[^>]*id="root"[^>]*data-prerendered="true"[^>]*>\s*</, `React content is absent without JavaScript: ${label}`)
     assert.equal(titleOf(html), title, `Untranslated or incorrect title: ${label}`)
     assert.equal(meta('description'), description, `Untranslated or incorrect description: ${label}`)
+    assert.equal(meta('author'), `${names[0]} (${names[1]})`, `Untranslated or incorrect author: ${label}`)
+    for (const [field, value] of [['title', title], ['description', description], ['author', meta('author')], ['visible text', visibleText]]) assertNameLocalization(value, locale, `${label} ${field}`)
     for (const name of names) {
       assert.ok(title.includes(name) && description.includes(name), `Metadata omits artist identity ${name}: ${label}`)
       assert.ok(visibleText.includes(name), `Visible content omits artist identity ${name}: ${label}`)
@@ -191,8 +202,11 @@ for (const locale of locales) {
 
     const schemas = structuredData(html)
     const person = schemaOf(schemas, 'Person', label)
+    assert.equal(person.name, 'Alina Logos', `Artist brand must remain unchanged: ${label}`)
     const identity = [person.name, ...[person.alternateName ?? []].flat()]
     for (const name of names) assert.ok(identity.includes(name), `Person identity omits ${name}: ${label}`)
+    if (locale === 'ru') assert.ok(identity.includes('Alina Pliushcheva'), `Russian Person schema must retain the Latin artist alias: ${label}`)
+    assertNameLocalization(JSON.stringify(schemas), locale, `${label} schema`)
     assert.equal(person['@id'], `${origin}#artist`, `Artist identity must be shared across locales: ${label}`)
     assert.equal(person.description, dictionary.site.aboutParagraphs[0], `Untranslated artist schema description: ${label}`)
     assert.equal(person.jobTitle, dictionary.ui.artistJob, `Untranslated artist schema job title: ${label}`)
@@ -288,10 +302,12 @@ for (const [index, page] of sitemapPages.entries()) {
 }
 for (const locale of locales) {
   const dictionary = dictionaries[locale]
+  const names = namesFor(locale)
   const index = await readBuilt(`/${locale}/llms.txt`)
   const catalogue = await readBuilt(`/${locale}/llms-full.txt`)
   for (const name of names) assert.ok(index.includes(name) && catalogue.includes(name), `Text catalogue omits artist identity: ${locale}/${name}`)
   for (const text of [index, catalogue]) {
+    assertNameLocalization(text, locale, `${locale} text catalogue`)
     assert.ok(text.includes(dictionary.site.aboutParagraphs[0]), `Untranslated catalogue introduction: ${locale}`)
     assert.ok(text.includes(pageUrl(locale)), `Catalogue omits localized homepage: ${locale}`)
     for (const language of locales) assert.ok(text.includes(absolute(`/${language}/llms-full.txt`)), `Catalogue omits language ${language}: ${locale}`)
