@@ -12,6 +12,7 @@ import ContactMethods from './components/ContactMethods'
 import ArtworkPage from './components/ArtworkPage'
 import BrandLink from './components/BrandLink'
 import { artworkPath } from './content/artwork-pages'
+import { useMasonryGrid } from './hooks/useMasonryGrid'
 
 type Sort = 'curated' | 'title'
 const slugs: Record<Category, string> = {
@@ -116,6 +117,7 @@ function Gallery() {
     if (sort === 'title') result.sort((a, b) => a.title.localeCompare(b.title, locale))
     return result
   }, [categoryWorks, selectedTags, sort, locale])
+  const gridRef = useMasonryGrid(`${locale}:${filtered.map(work => work.id).join(',')}`)
 
   const selectedArtwork = artworks.find(work => work.id === location.work)
   const viewerWorks = selectedArtwork && !filtered.some(work => work.id === selectedArtwork.id) ? artworks : filtered
@@ -187,7 +189,7 @@ function Gallery() {
                 {selectedTags.map(tag => <button className="filter-chip" key={tag} onClick={() => toggleTag(tag)} aria-label={t('removeFilter', { tag: tagLabel(tag) })}>{tagLabel(tag)}<span aria-hidden="true">×</span></button>)}
                 <button className="text-button" onClick={resetFilters}>{t('clearAll')}</button>
               </div>}
-              {filtered.length ? <div className="artwork-grid">{filtered.map((work, index) => {
+              {filtered.length ? <div className="artwork-grid" ref={gridRef}>{filtered.map((work, index) => {
                 const preview = work.images[0]
                 return <article className="artwork-card" key={work.id}>
                   <a href={artworkPath(work, locale)} className="artwork-link" aria-label={`${t('viewArtwork', { title: work.title })}${work.images.length > 1 ? `, ${count('photoCount', work.images.length)}` : ''}`} aria-haspopup="dialog" onClick={event => {

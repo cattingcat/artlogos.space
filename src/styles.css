@@ -68,7 +68,9 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 .sort-control .chevron{pointer-events:none; position:absolute; right:0; width:11px}
 .chevron.down{transform:rotate(90deg)}
 .mobile-filter-button{display:none}
-.artwork-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:42px 28px; align-items:start}
+.artwork-grid{--artwork-row-size:1px; --artwork-gap:34px; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); grid-auto-flow:row; gap:var(--artwork-gap) 28px; align-items:start}
+/* Each measured span reserves the vertical gap; gaps between 1px tracks must be zero. */
+.artwork-grid[data-masonry]{grid-auto-rows:var(--artwork-row-size); row-gap:0}
 .artwork-card{align-self:start}
 .artwork-link{display:block}
 .artwork-mat{margin:0; padding:14px 14px 0; background:var(--color-image-mat)}
@@ -117,7 +119,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 .site-header>.header-controls{margin-left:auto}
 .header-note{display:none}
 .gallery-layout{grid-template-columns:160px minmax(0,1fr); gap:32px}
-.artwork-grid{grid-template-columns:repeat(2,minmax(0,1fr)); gap:36px 24px}
+.artwork-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .about-section,.studio-inner,.contact-section{gap:60px}
 .editorial-copy h2{font-size:43px}
 .studio-copy h2{font-size:39px}
@@ -131,7 +133,6 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 .collection-heading h1{font-size:50px}
 .collection-heading>p{font-size:13px}
 .gallery-layout{gap:28px; grid-template-columns:146px minmax(0,1fr)}
-.artwork-grid{grid-template-columns:repeat(2,minmax(0,1fr)); gap:32px 20px}
 .about-section{margin-top:75px; padding-top:60px; padding-bottom:65px; gap:40px}
 .about-image{padding:22px 22px 0}
 .editorial-copy h2{font-size:37px}
@@ -171,7 +172,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 .mobile-filter-button span{font-size:19px}
 .sort-control{font-size:13px}
 .sort-control select{font-size:13px; max-width:170px}
-.artwork-grid{grid-template-columns:minmax(0,1fr); gap:36px}
+.artwork-grid{grid-template-columns:minmax(0,1fr)}
 .artwork-mat{padding:10px 10px 0}
 .artwork-title{padding:10px 0 12px}
 .artwork-caption{padding-top:10px}
