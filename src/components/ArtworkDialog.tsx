@@ -2,6 +2,9 @@ import { useEffect, useRef, useState } from 'react'
 import type { Artwork } from '../content/artworks'
 import { artworkPath } from '../content/artwork-pages'
 import { useI18n } from '../i18n/context'
+import ImageLightbox from './ImageLightbox'
+import ImageZoomHint from './ImageZoomHint'
+import { useModalDialog } from './useModalDialog'
 import './ArtworkDialog.css'
 
 type Props = {
@@ -18,8 +21,13 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
   const thumbnails = useRef<HTMLDivElement>(null)
   const activeThumbnail = useRef<HTMLButtonElement>(null)
   const swipeStart = useRef<{ pointerId: number; x: number; y: number } | null>(null)
+  const suppressZoomClick = useRef(false)
   const [selection, setSelection] = useState({ artworkId: artwork.id, photo: 0 })
-  if (selection.artworkId !== artwork.id) setSelection({ artworkId: artwork.id, photo: 0 })
+  const [zoomedPhoto, setZoomedPhoto] = useState<number | null>(null)
+  if (selection.artworkId !== artwork.id) {
+    setSelection({ artworkId: artwork.id, photo: 0 })
+    setZoomedPhoto(null)
+  }
   const photoCount = artwork.images.length
   const activePhoto = selection.artworkId === artwork.id
     ? Math.min(selection.photo, Math.max(0, photoCount - 1))
@@ -39,18 +47,7 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
     }))
   }
 
-  useEffect(() => {
-    const element = dialog.current!
-    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null
-    const previousOverflow = document.body.style.overflow
-    if (!element.open) element.showModal()
-    document.body.style.overflow = 'hidden'
-    return () => {
-      element.close()
-      document.body.style.overflow = previousOverflow
-      if (previousFocus?.isConnected) previousFocus.focus({ preventScroll: true })
-    }
-  }, [])
+  useModalDialog(dialog)
 
   useEffect(() => {
     const strip = thumbnails.current
@@ -70,7 +67,7 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
       onCancel={event => { event.preventDefault(); onClose() }}
       onClick={event => { if (event.target === event.currentTarget) onClose() }}
       onKeyDown={event => {
-        if (event.altKey || event.ctrlKey || event.metaKey || !hasMultiplePhotos) return
+        if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || !hasMultiplePhotos) return
         if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
           event.preventDefault()
           movePhoto(event.key === 'ArrowRight' ? 1 : -1)
@@ -84,9 +81,9 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
           <div
             className="viewer-photo-stage"
             onPointerDown={event => {
+              suppressZoomClick.current = false
               if (!hasMultiplePhotos || event.pointerType !== 'touch' || !event.isPrimary) return
               swipeStart.current = { pointerId: event.pointerId, x: event.clientX, y: event.clientY }
-              event.currentTarget.setPointerCapture(event.pointerId)
             }}
             onPointerUp={event => {
               const start = swipeStart.current
@@ -95,13 +92,23 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
               const deltaX = event.clientX - start.x
               const deltaY = event.clientY - start.y
               if (Math.abs(deltaX) >= 48 && Math.abs(deltaX) > Math.abs(deltaY) * 1.5) {
+                suppressZoomClick.current = true
                 movePhoto(deltaX < 0 ? 1 : -1)
               }
             }}
-            onPointerCancel={() => { swipeStart.current = null }}
+            onPointerCancel={() => { swipeStart.current = null; suppressZoomClick.current = false }}
           >
             {photo
-              ? <img key={photo.src} src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} draggable={false} />
+              ? <a className="viewer-photo-zoom image-zoom-trigger" href={photo.src} aria-label={t('enlargeImage', { label: `${artwork.title} — ${photo.label}` })} aria-haspopup="dialog" onClick={event => {
+                if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+                event.preventDefault()
+                if (suppressZoomClick.current && event.detail > 0) {
+                  suppressZoomClick.current = false
+                  return
+                }
+                event.currentTarget.focus({ preventScroll: true })
+                setZoomedPhoto(activePhoto)
+              }}><img key={photo.src} src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} draggable={false} /><ImageZoomHint /></a>
               : <p className="viewer-no-photo">{t('photosSoon')}</p>}
           </div>
 
@@ -154,6 +161,7 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
           </nav>}
         </div>
       </div>
+      {zoomedPhoto !== null && <ImageLightbox images={artwork.images} initialIndex={zoomedPhoto} title={artwork.title} onClose={() => setZoomedPhoto(null)} />}
     </dialog>
   )
 }

@@ -61,7 +61,8 @@
   -webkit-user-select: none;
 }
 
-.viewer-photo-stage > img {
+.viewer-photo-zoom,
+.viewer-photo-zoom > img {
   display: block;
   width: 100%;
   height: 100%;

@@ -1,3 +1,4 @@
+import { useState, type MouseEvent } from 'react'
 import type { Artwork } from '../content/artworks'
 import { useI18n } from '../i18n/context'
 import { homePath } from '../i18n/locale'
@@ -7,11 +8,20 @@ import ArtistSchema from './ArtistSchema'
 import SocialLinks from './SocialLinks'
 import ContactMethods from './ContactMethods'
 import BrandLink from './BrandLink'
+import ImageLightbox from './ImageLightbox'
+import ImageZoomHint from './ImageZoomHint'
 import './ArtworkPage.css'
 
 export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
   const { locale, site, t, category, tag } = useI18n()
   const home = homePath(locale)
+  const [zoomedPhoto, setZoomedPhoto] = useState<number | null>(null)
+  const enlargePhoto = (event: MouseEvent<HTMLAnchorElement>, index: number) => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+    event.preventDefault()
+    event.currentTarget.focus({ preventScroll: true })
+    setZoomedPhoto(index)
+  }
   return <>
     <ArtistSchema artwork={artwork} />
     <a className="skip-link" href="#painting">{t('skipPainting')}</a>
@@ -25,8 +35,8 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
       <div className="painting-layout">
         <div className="painting-photographs" aria-label={t('photosOf', { title: artwork.title })}>
           {artwork.images.map((image, index) => <figure key={image.src} id={`photo-${index + 1}`}>
-            <a className="painting-full-image" href={image.src} aria-label={t('openFullImage', { label: image.label })}><img src={image.src} alt={image.alt} width={image.width} height={image.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" /></a>
-            <figcaption><span>{image.label}</span><a href={image.src}>{t('viewFullImage')} ↗</a></figcaption>
+            <a className="painting-full-image image-zoom-trigger" href={image.src} aria-label={t('openFullImage', { label: image.label })} aria-haspopup="dialog" onClick={event => enlargePhoto(event, index)}><img src={image.src} alt={image.alt} width={image.width} height={image.height} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" /><ImageZoomHint /></a>
+            <figcaption><span>{image.label}</span><a href={image.src} aria-haspopup="dialog" onClick={event => enlargePhoto(event, index)}>{t('viewFullImage')} ↗</a></figcaption>
           </figure>)}
         </div>
         <div className="painting-information">
@@ -43,5 +53,6 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
     </main>
     <section id="contact" className="contact-section page-width" aria-labelledby="contact-heading"><div><span className="eyebrow">{site.contact.eyebrow}</span><h2 id="contact-heading">{site.contact.title}</h2></div><div className="contact-copy"><p>{site.contact.description}</p><ContactMethods /><SocialLinks links={site.socialLinks} /></div></section>
     <footer className="site-footer page-width"><div><span>{site.name}</span><span>© {site.copyrightYear}</span></div><p>{site.footerNote}</p><a href="#painting">{t('backToTop')} ↑</a></footer>
+    {zoomedPhoto !== null && <ImageLightbox images={artwork.images} initialIndex={zoomedPhoto} title={artwork.title} onClose={() => setZoomedPhoto(null)} />}
   </>
 }
