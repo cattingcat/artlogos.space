@@ -190,22 +190,20 @@ function Gallery() {
               {filtered.length ? <div className="artwork-grid">{filtered.map((work, index) => {
                 const preview = work.images[0]
                 return <article className="artwork-card" key={work.id}>
-                  <a href={artworkPath(work, locale)} className="artwork-image-wrap image-zoom-trigger" aria-label={t('viewArtwork', { title: work.title })} aria-haspopup="dialog" onClick={event => {
+                  <a href={artworkPath(work, locale)} className="artwork-link" aria-label={`${t('viewArtwork', { title: work.title })}${work.images.length > 1 ? `, ${count('photoCount', work.images.length)}` : ''}`} aria-haspopup="dialog" onClick={event => {
                     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
                     event.preventDefault()
                     event.currentTarget.focus({ preventScroll: true })
                     navigate(location.category, work.id)
                   }}>
-                    <img src={preview.thumbnail} alt={preview.alt} width={preview.width} height={preview.height} className="artwork-image" loading={index < 4 ? 'eager' : 'lazy'} decoding="async" />
-                    <ImageZoomHint />
-                  </a>
-                  <a href={artworkPath(work, locale)} className="artwork-link artwork-caption" onClick={event => {
-                    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
-                    event.preventDefault()
-                    event.currentTarget.focus({ preventScroll: true })
-                    navigate(location.category, work.id)
-                  }} aria-label={`${t('viewArtwork', { title: work.title })}${work.images.length > 1 ? `, ${count('photoCount', work.images.length)}` : ''}`}>
-                    <h3>{work.title}</h3><p className="artwork-caption-meta"><span>{categoryLabel(work.category)}</span>{work.images.length > 1 && <span className="photo-count">{count('photoCount', work.images.length)}</span>}</p>{work.tags.length > 0 && <p className="artwork-tags">{work.tags.map(tagLabel).join(' · ')}</p>}
+                    <figure className="artwork-mat">
+                      <div className="artwork-image-wrap image-zoom-trigger">
+                        <img src={preview.thumbnail} alt={preview.alt} width={preview.width} height={preview.height} className="artwork-image" loading={index < 4 ? 'eager' : 'lazy'} decoding="async" />
+                        <ImageZoomHint />
+                      </div>
+                      <figcaption className="artwork-title"><h3>{work.title}</h3></figcaption>
+                    </figure>
+                    <div className="artwork-caption"><p className="artwork-caption-meta"><span>{categoryLabel(work.category)}</span>{work.images.length > 1 && <span className="photo-count">{count('photoCount', work.images.length)}</span>}</p>{work.tags.length > 0 && <p className="artwork-tags">{work.tags.map(tagLabel).join(' · ')}</p>}</div>
                   </a>
                 </article>
               })}</div> : <div className="empty-state"><h2>{t('noWorks')}</h2><p>{t('removeSubjects')}</p><button className="outline-button" onClick={resetFilters}>{t('clearFilters')}</button></div>}

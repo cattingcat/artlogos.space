@@ -69,12 +69,15 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 .chevron.down{transform:rotate(90deg)}
 .mobile-filter-button{display:none}
 .artwork-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:42px 28px; align-items:start}
+.artwork-card{align-self:start}
 .artwork-link{display:block}
-.artwork-image-wrap{position:relative; aspect-ratio:4/5; overflow:hidden; background:var(--color-image-mat); isolation:isolate; display:flex; align-items:center; justify-content:center; padding:12px}
-.artwork-image{width:100%; height:100%; object-fit:contain}
-.artwork-caption{padding-top:15px}
-.artwork-caption h3{font-size:15px; font-weight:400; line-height:1.5}
-.artwork-caption p{font-size:13px; line-height:1.4; margin-top:6px; color:var(--muted)}
+.artwork-mat{margin:0; padding:14px 14px 0; background:var(--color-image-mat)}
+.artwork-image-wrap{position:relative; isolation:isolate}
+.artwork-image{width:100%; height:auto}
+.artwork-title{padding:12px 0 16px; color:var(--color-text-muted)}
+.artwork-title h3{font-size:14px; font-weight:400; line-height:20px; overflow-wrap:anywhere}
+.artwork-caption{padding-top:12px}
+.artwork-caption p{font-size:13px; line-height:1.4; color:var(--muted)}
 .collection-end{border-top:1px solid var(--line); margin-top:46px; padding-top:18px; display:flex; justify-content:space-between; gap:20px; font-size:12px; color:var(--muted)}
 .empty-state{text-align:center; border:1px solid var(--line); padding:70px 30px; min-height:350px}
 .empty-state h2{font:32px/1.2 var(--serif)}
@@ -107,10 +110,6 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 .site-footer>div{display:flex; gap:18px}
 .site-footer>div>span:first-child{color:var(--color-text)}
 
-
-@media(min-width:1700px){.artwork-caption h3{font-size:15px}
-.artwork-caption p{font-size:13px}
-}
 
 @media(max-width:1199px){.page-width{padding-inline:36px}
 .site-header{padding-inline:36px; gap:24px; flex-wrap:wrap}
@@ -173,9 +172,9 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 .sort-control{font-size:12px}
 .sort-control select{font-size:12px; max-width:140px}
 .artwork-grid{grid-template-columns:minmax(0,1fr); gap:36px}
-.artwork-caption{padding-top:14px}
-.artwork-caption h3{font-size:15px; line-height:1.55}
-.artwork-caption p{font-size:13px; margin-top:5px}
+.artwork-mat{padding:10px 10px 0}
+.artwork-title{padding:10px 0 12px}
+.artwork-caption{padding-top:10px}
 .collection-end{margin-top:33px; font-size:12px}
 .about-section{grid-template-columns:1fr; margin-top:60px; padding-top:45px; padding-bottom:50px; gap:34px}
 .about-image{max-width:none; padding:28px 35px 0}
@@ -201,7 +200,6 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 .menu-button .menu-label{display:none}
 .category-navigation nav{grid-template-columns:minmax(0,1fr)}
 .sort-control>span{display:none}
-.artwork-caption h3{font-size:15px}
 }
 
 
@@ -283,7 +281,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,
 ::selection { color: var(--color-text); }
 
 /* Interface color transitions never transform or recolor the paintings. */
-body, .site-header, .site-footer, .studio-section, .about-image, .artwork-image-wrap,
+body, .site-header, .site-footer, .studio-section, .about-image, .artwork-mat,
 .main-navigation a, .category-navigation a, .filter-chip, .outline-button,
 .language-switcher nav, .language-switcher nav a, .theme-switcher,
 .artwork-viewer, .viewer-gallery, .viewer-close, .viewer-photo-arrow,
@@ -301,6 +299,7 @@ body, .site-header, .site-footer, .studio-section, .about-image, .artwork-image-
 
 .artwork-caption-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; }
 .artwork-link:focus-visible h3 { text-decoration: underline; text-decoration-color: var(--color-accent); text-underline-offset: 4px; }
+.artwork-link:focus-visible .image-zoom-indicator { opacity: 1; }
 @media (hover: hover) {
   .artwork-link:hover h3 { text-decoration: underline; text-decoration-color: var(--color-accent); text-underline-offset: 4px; }
 }
