@@ -1,6 +1,6 @@
 .contact-methods { list-style: none; margin: 24px 0 0; padding: 0; display: grid; gap: 16px; }
-.contact-method { display: flex; align-items: center; gap: 12px; width: fit-content; max-width: 100%; font-size: 14px; line-height: 1.55; }
+.contact-method { display: flex; align-items: center; gap: 12px; width: fit-content; max-width: 100%; font-size: 15px; line-height: 1.55; }
 .contact-method svg { width: 19px; height: 19px; flex-shrink: 0; }
 .contact-method > span { min-width: 0; overflow-wrap: anywhere; }
-.contact-method-label { display: block; color: var(--color-text-muted); font-size: 12px; }
+.contact-method-label { display: block; color: var(--color-text-muted); font-size: 13px; }
 a.contact-method:hover { text-decoration: underline; text-decoration-color: var(--color-accent); text-underline-offset: 4px; }

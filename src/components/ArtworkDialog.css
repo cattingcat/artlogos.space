@@ -70,7 +70,7 @@
 }
 
 .viewer-no-photo {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--color-text-muted);
 }
 
@@ -106,12 +106,12 @@
 }
 
 .viewer-photo-label {
-  font-size: 13px;
+  font-size: 14px;
   overflow-wrap: anywhere;
 }
 
 .viewer-photo-count {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--color-text-muted);
   font-variant-numeric: tabular-nums;
 }
@@ -164,7 +164,7 @@
 
 .viewer-information .eyebrow {
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
 }
 
@@ -177,7 +177,7 @@
 .viewer-description {
   margin-top: 24px;
   color: var(--color-text-muted);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.85;
   overflow-wrap: anywhere;
   white-space: pre-line;
@@ -192,7 +192,7 @@
   flex-wrap: wrap;
   gap: 8px 18px;
   margin-top: 20px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.6;
 }
 
@@ -218,7 +218,7 @@
   padding: 6px 10px;
   border: 1px solid var(--color-border);
   color: var(--color-text-muted);
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.4;
   overflow-wrap: anywhere;
 }
@@ -226,7 +226,7 @@
 .viewer-hint {
   margin-top: 28px;
   color: var(--color-text-muted);
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -240,7 +240,7 @@
   padding-top: 18px;
   border-top: 1px solid var(--color-border);
   color: var(--color-text-muted);
-  font-size: 12px;
+  font-size: 13px;
   font-variant-numeric: tabular-nums;
 }
 
@@ -259,7 +259,7 @@
   gap: 9px;
   min-height: 44px;
   padding: 6px 0;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -345,7 +345,7 @@
 
   .viewer-hint {
     margin-top: 18px;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .viewer-artwork-navigation {
