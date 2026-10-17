@@ -18,6 +18,7 @@ export const site = {
   discord: '@alina_logos',
   socialLinks: [
     { name: 'Instagram', icon: 'instagram', url: 'https://www.instagram.com/alina_logos4/' },
+    { name: 'X', icon: 'x', url: 'https://x.com/Logos_IV' },
     { name: 'DeviantArt', icon: 'deviantart', url: 'https://www.deviantart.com/alinaivy' },
     { name: 'Tumblr', icon: 'tumblr', url: 'https://www.tumblr.com/alina-logos' },
     { name: 'Pinterest', icon: 'pinterest', url: 'https://www.pinterest.com/Alina_Logos' },

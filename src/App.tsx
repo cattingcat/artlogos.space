@@ -8,6 +8,7 @@ import ArtworkDialog from './components/ArtworkDialog'
 import ImageZoomHint from './components/ImageZoomHint'
 import ArtistSchema from './components/ArtistSchema'
 import SocialLinks from './components/SocialLinks'
+import HeaderSocialLinks from './components/HeaderSocialLinks'
 import ContactMethods from './components/ContactMethods'
 import ArtworkPage from './components/ArtworkPage'
 import BrandLink from './components/BrandLink'
@@ -151,6 +152,7 @@ function Gallery() {
           <a href="#studio" onClick={() => setMenuOpen(false)}>{t('studio')}</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>{t('contact')}</a>
         </nav>
+        <HeaderSocialLinks />
         <div className="header-controls"><LanguageSwitcher query={query} /><ThemeSwitcher /><button className="menu-button" aria-label={menuOpen ? t('close') : t('menu')} aria-expanded={menuOpen} aria-controls="main-navigation" onClick={() => setMenuOpen(!menuOpen)}><span className="menu-label">{menuOpen ? t('close') : t('menu')}</span><span className="menu-mark">{menuOpen ? '−' : '+'}</span></button></div>
       </header>
 

@@ -8,7 +8,7 @@ export type SocialLink = {
   icon: SocialPlatform
 }
 
-function SocialIcon({ platform }: { platform: SocialPlatform }) {
+export function SocialIcon({ platform }: { platform: SocialPlatform }) {
   // Original art symbols for platforms outside the Simple Icons collection.
   if (platform === 'cara' || platform === 'saatchiart') {
     return <svg className="social-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">

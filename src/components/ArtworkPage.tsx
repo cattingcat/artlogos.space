@@ -6,6 +6,7 @@ import LanguageSwitcher from './LanguageSwitcher'
 import ThemeSwitcher from './ThemeSwitcher'
 import ArtistSchema from './ArtistSchema'
 import SocialLinks from './SocialLinks'
+import HeaderSocialLinks from './HeaderSocialLinks'
 import ContactMethods from './ContactMethods'
 import BrandLink from './BrandLink'
 import ImageLightbox from './ImageLightbox'
@@ -28,6 +29,7 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
     <header className="site-header painting-header">
       <BrandLink />
       <nav className="main-navigation" aria-label={t('mainNavigation')}><a href={home}>{t('allWorks')}</a><a href={`${home}#about`}>{t('about')}</a><a href="#contact">{t('contact')}</a></nav>
+      <HeaderSocialLinks />
       <div className="header-controls"><LanguageSwitcher artworkId={artwork.id} /><ThemeSwitcher /></div>
     </header>
     <main id="painting" className="painting-page page-width">

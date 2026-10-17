@@ -1,0 +1,10 @@
+.header-social-links { flex-shrink: 0; }
+.header-social-links ul { display: flex; align-items: center; gap: 2px; list-style: none; margin: 0; padding: 0; }
+.header-social-links a { display: grid; place-items: center; width: 44px; height: 44px; color: var(--color-text-muted); }
+.header-social-links svg { width: 19px; height: 19px; }
+.header-social-links a:hover { color: var(--color-text); background: var(--color-hover); }
+.header-social-links a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+@media (max-width: 659px) {
+  .site-header > .header-social-links { order: 2; flex-basis: 100%; margin-top: 12px; }
+  .header-social-links ul { justify-content: flex-end; }
+}
