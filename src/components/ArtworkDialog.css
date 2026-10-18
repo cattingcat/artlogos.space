@@ -187,24 +187,6 @@
   margin-top: 14px;
 }
 
-.viewer-sources {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 18px;
-  margin-top: 20px;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.viewer-sources a {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  min-height: 44px;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
 .viewer-tags {
   display: flex;
   flex-wrap: wrap;

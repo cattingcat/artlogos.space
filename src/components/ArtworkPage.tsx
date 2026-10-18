@@ -7,6 +7,7 @@ import ThemeSwitcher from './ThemeSwitcher'
 import ArtistSchema from './ArtistSchema'
 import SocialLinks from './SocialLinks'
 import HeaderSocialLinks from './HeaderSocialLinks'
+import SocialIconLinks from './SocialIconLinks'
 import ContactMethods from './ContactMethods'
 import BrandLink from './BrandLink'
 import ImageLightbox from './ImageLightbox'
@@ -48,7 +49,7 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
           {artwork.description && <div className="painting-description">{artwork.description.split(/\n\s*\n/).map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>}
           {artwork.tags.length > 0 && <ul className="painting-tags" aria-label={t('artworkSubjects')}>{artwork.tags.map(value => <li key={value}>{tag(value)}</li>)}</ul>}
           {artwork.images.length > 1 && <nav className="painting-photo-index" aria-label={t('photographs')}><h2>{t('viewsPainting')}</h2>{artwork.images.map((image, index) => <a key={image.src} href={`#photo-${index + 1}`}>{index + 1}. {image.label}</a>)}</nav>}
-          {artwork.sources && artwork.sources.length > 0 && <div className="painting-sources">{artwork.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{t('viewOn', { source: source.label })} ↗</a>)}</div>}
+          <SocialIconLinks className="artwork-social-links" sources={artwork.sources} />
           <a href={home} className="underlined-link">← {t('exploreAll')}</a>
         </div>
       </div>

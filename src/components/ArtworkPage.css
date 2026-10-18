@@ -19,8 +19,6 @@
 .painting-photo-index { margin-top: 28px; display: grid; gap: 12px; font-size: 14px; }
 .painting-photo-index h2 { font-size: 14px; font-weight: 500; margin-bottom: 4px; }
 .painting-photo-index a { color: var(--color-text-muted); text-decoration: underline; text-underline-offset: 4px; }
-.painting-sources { display: grid; gap: 12px; margin-top: 28px; font-size: 14px; }
-.painting-sources a { width: fit-content; border-bottom: 1px solid var(--color-border); padding-bottom: 5px; overflow-wrap: anywhere; }
 .painting-information a:hover, .painting-photographs figcaption a:hover { text-decoration-color: var(--color-accent); border-color: var(--color-accent); }
 .painting-page + .contact-section { border-top: 1px solid var(--color-border); }
 @media (max-width: 1199px) { .painting-layout { gap: 40px; } .painting-information h1 { font-size: 46px; } }

@@ -4,6 +4,7 @@ import { artworkPath } from '../content/artwork-pages'
 import { useI18n } from '../i18n/context'
 import ImageLightbox from './ImageLightbox'
 import ImageZoomHint from './ImageZoomHint'
+import SocialIconLinks from './SocialIconLinks'
 import { useModalDialog } from './useModalDialog'
 import './ArtworkDialog.css'
 
@@ -148,9 +149,7 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
           {artwork.tags.length > 0 && <ul className="viewer-tags" aria-label={t('artworkSubjects')}>
             {artwork.tags.map(value => <li key={value}>{tag(value)}</li>)}
           </ul>}
-          {artwork.sources && artwork.sources.length > 0 && <div className="viewer-sources">
-            {artwork.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{t('viewOn', { source: source.label })} <span aria-hidden="true">↗</span></a>)}
-          </div>}
+          <SocialIconLinks className="artwork-social-links" sources={artwork.sources} />
           {hasMultiplePhotos && <p className="viewer-hint">{t('viewerHint', { count: photoCount })}</p>}
           {total > 1 && <nav className="viewer-artwork-navigation" aria-label={t('browseArtworks')}>
             <p>{t('artworkPosition', { current: index + 1, total })}</p>

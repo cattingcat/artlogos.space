@@ -1,0 +1,6 @@
+.social-icon-links ul { display: flex; flex-wrap: wrap; align-items: center; gap: 2px; list-style: none; margin: 0; padding: 0; }
+.social-icon-links a { display: grid; place-items: center; width: 44px; height: 44px; color: var(--color-text-muted); }
+.social-icon-links svg { width: 19px; height: 19px; }
+.social-icon-links a:hover { color: var(--color-text); background: var(--color-hover); }
+.social-icon-links a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.artwork-social-links { margin-top: 24px; }
