@@ -151,6 +151,36 @@
     "Winter": "Winter"
   },
   "artworks": {
+    "voice": {
+      "title": "Voice",
+      "description": "80 × 60 cm\nOil on canvas\n\nShe’s the largest figure I’ve painted so far. And somehow I finished her in just a couple of days.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Voice — full painting"
+        },
+        {
+          "label": "Framed painting",
+          "alt": "Voice — framed painting"
+        },
+        {
+          "label": "Figure detail",
+          "alt": "Voice — figure detail"
+        },
+        {
+          "label": "Arm and hair detail",
+          "alt": "Voice — arm and hair detail"
+        },
+        {
+          "label": "Hair and legs detail",
+          "alt": "Voice — hair and legs detail"
+        },
+        {
+          "label": "Water detail",
+          "alt": "Voice — water detail"
+        }
+      ]
+    },
     "azure": {
       "title": "Azure",
       "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas\n\nI painted this landscape using almost dry egg-oil tempera over acrylic gesso. The result is completely matte.",

@@ -151,6 +151,36 @@
     "Winter": "Winter"
   },
   "artworks": {
+    "voice": {
+      "title": "Stimme",
+      "description": "80 × 60 cm\nÖl auf Leinwand\n\nSie ist die größte Figur, die ich bisher gemalt habe. Und irgendwie habe ich sie in nur ein paar Tagen fertiggestellt.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Stimme — langhaarige Frau sitzt unter Bäumen am Wasser"
+        },
+        {
+          "label": "Gerahmtes Gemälde",
+          "alt": "Stimme — gerahmtes Gemälde an der Wand"
+        },
+        {
+          "label": "Detail der Figur",
+          "alt": "Stimme — Nahaufnahme von Gesicht, Händen und Oberkörper"
+        },
+        {
+          "label": "Detail von Arm und Haaren",
+          "alt": "Stimme — Nahaufnahme von Arm und Haaren"
+        },
+        {
+          "label": "Detail von Haaren und Beinen",
+          "alt": "Stimme — Nahaufnahme von Haaren und Beinen"
+        },
+        {
+          "label": "Detail am Wasser",
+          "alt": "Stimme — Beine am Wasserrand"
+        }
+      ]
+    },
     "azure": {
       "title": "Azur",
       "description": "Spachtelmalerei\n30*30 cm\nEi-Öl-Tempera auf Leinwand\n\nIch habe diese Landschaft mit fast trockener Ei-Öl-Tempera auf Acrylgesso gemalt. Das Ergebnis ist vollkommen matt.",

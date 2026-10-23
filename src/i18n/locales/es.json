@@ -151,6 +151,36 @@
     "Winter": "Invierno"
   },
   "artworks": {
+    "voice": {
+      "title": "Voz",
+      "description": "80 × 60 cm\nÓleo sobre lienzo\n\nEs la figura más grande que he pintado hasta ahora. Y, de alguna manera, la terminé en solo un par de días.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Voz — mujer de pelo largo sentada junto al agua bajo los árboles"
+        },
+        {
+          "label": "Pintura enmarcada",
+          "alt": "Voz — pintura enmarcada colgada en la pared"
+        },
+        {
+          "label": "Detalle de la figura",
+          "alt": "Voz — primer plano del rostro, las manos y la parte superior del cuerpo"
+        },
+        {
+          "label": "Detalle del brazo y el pelo",
+          "alt": "Voz — primer plano del brazo y el pelo"
+        },
+        {
+          "label": "Detalle del pelo y las piernas",
+          "alt": "Voz — primer plano del pelo y las piernas"
+        },
+        {
+          "label": "Detalle del agua",
+          "alt": "Voz — piernas a la orilla del agua"
+        }
+      ]
+    },
     "azure": {
       "title": "Azur",
       "description": "Pintura con espátula\n30*30 cm\nTemple de huevo y aceite sobre lienzo\n\nPinté este paisaje con temple de huevo y aceite casi seco sobre gesso acrílico. El resultado es completamente mate.",

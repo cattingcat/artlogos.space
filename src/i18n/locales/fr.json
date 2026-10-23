@@ -151,6 +151,36 @@
     "Winter": "Hiver"
   },
   "artworks": {
+    "voice": {
+      "title": "Voix",
+      "description": "80 × 60 cm\nHuile sur toile\n\nC’est la plus grande figure que j’ai peinte jusqu’ici. Et, je ne sais trop comment, je l’ai terminée en seulement deux jours.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Voix — femme aux cheveux longs assise au bord de l’eau sous les arbres"
+        },
+        {
+          "label": "Tableau encadré",
+          "alt": "Voix — tableau encadré accroché au mur"
+        },
+        {
+          "label": "Détail de la figure",
+          "alt": "Voix — gros plan du visage, des mains et du haut du corps"
+        },
+        {
+          "label": "Détail du bras et des cheveux",
+          "alt": "Voix — gros plan du bras et des cheveux"
+        },
+        {
+          "label": "Détail des cheveux et des jambes",
+          "alt": "Voix — gros plan des cheveux et des jambes"
+        },
+        {
+          "label": "Détail de l’eau",
+          "alt": "Voix — jambes au bord de l’eau"
+        }
+      ]
+    },
     "azure": {
       "title": "Azur",
       "description": "Peinture au couteau\n30*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nJ’ai peint ce paysage avec une tempera à l’œuf et à l’huile presque sèche sur un gesso acrylique. Le résultat est entièrement mat.",

@@ -151,6 +151,36 @@
     "Winter": "Inverno"
   },
   "artworks": {
+    "voice": {
+      "title": "Voce",
+      "description": "80 × 60 cm\nOlio su tela\n\nÈ la figura più grande che abbia mai dipinto. E in qualche modo l’ho finita in appena un paio di giorni.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Voce — donna dai capelli lunghi seduta vicino all’acqua sotto gli alberi"
+        },
+        {
+          "label": "Dipinto incorniciato",
+          "alt": "Voce — dipinto incorniciato appeso alla parete"
+        },
+        {
+          "label": "Dettaglio della figura",
+          "alt": "Voce — primo piano del viso, delle mani e della parte superiore del corpo"
+        },
+        {
+          "label": "Dettaglio del braccio e dei capelli",
+          "alt": "Voce — primo piano del braccio e dei capelli"
+        },
+        {
+          "label": "Dettaglio dei capelli e delle gambe",
+          "alt": "Voce — primo piano dei capelli e delle gambe"
+        },
+        {
+          "label": "Dettaglio dell’acqua",
+          "alt": "Voce — gambe sul bordo dell’acqua"
+        }
+      ]
+    },
     "azure": {
       "title": "Azzurro",
       "description": "Pittura a spatola\n30*30 cm\nTempera all’uovo e olio su tela\n\nHo dipinto questo paesaggio con tempera all’uovo e olio quasi asciutta su un fondo di gesso acrilico. Il risultato è completamente opaco.",

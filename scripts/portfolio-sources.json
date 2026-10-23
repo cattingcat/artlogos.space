@@ -3,6 +3,44 @@
   "notes": "Archive photo mapping preserved. Published titles and descriptions verified against DeviantArt, with Saatchi Art checked as a fallback. Source text is plain text with repeated social and video promotion removed. Descriptive titles remain only when no publication was matched. Tags follow visible subjects and explicit author context; no prices or availability are inferred.",
   "artworks": [
     {
+      "id": "voice",
+      "titleSource": "site owner",
+      "descriptionSource": "site owner",
+      "sources": [
+        {
+          "file": "untitled folder/VoiceBigSize2B.png",
+          "view": "Full painting",
+          "sha256": "f9e235aabce2cbf93d8a046db991898fd32c5e89234d811edc702e6d9d44442d"
+        },
+        {
+          "file": "untitled folder/IMG_8799.JPG",
+          "view": "Framed painting",
+          "sha256": "490ae589b1789e1311483373444823877f0b469b052bfa649cc193d20edfcdd0"
+        },
+        {
+          "file": "untitled folder/IMG_8623.JPG",
+          "view": "Figure detail",
+          "sha256": "f75cdc33b15b602f569b500c20932a3061c7742e9a27e6508a95c73c78fb06db"
+        },
+        {
+          "file": "untitled folder/1791744780250.JPG",
+          "view": "Arm and hair detail",
+          "sha256": "da89fc519fb986ad544d2f72983bf28f64a3e55adfdd2e55031e35a2aa46d1e1"
+        },
+        {
+          "file": "untitled folder/1791744490900.JPG",
+          "view": "Hair and legs detail",
+          "sha256": "00c3f7e85e55c6937f0c7ae21185fbd3bae8db9a2fc5f576be4777689447df98"
+        },
+        {
+          "file": "untitled folder/IMG_1082.JPG",
+          "view": "Water detail",
+          "sha256": "b468066a542cfeae5e64f727b952ec843c0068222a69ecddaa8496884a56d14a"
+        }
+      ],
+      "note": "Title, dimensions, medium and artist statement supplied by the site owner on 2026-10-23. Cover preserves full source resolution; other views fit within 2200 px and previews within 720 px. EXIF orientation normalized and embedded color profiles converted to sRGB. Original files unchanged."
+    },
+    {
       "id": "azure",
       "titleSource": "DeviantArt",
       "sources": [

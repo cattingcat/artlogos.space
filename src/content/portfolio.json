@@ -1,5 +1,66 @@
 [
   {
+    "id": "voice",
+    "title": "Voice",
+    "category": "Figures",
+    "tags": [
+      "People",
+      "Trees",
+      "Water"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/voice/01.webp",
+        "thumbnail": "/portfolio/voice/01-preview.webp",
+        "alt": "Voice — full painting",
+        "label": "Full painting",
+        "width": 2771,
+        "height": 3719
+      },
+      {
+        "src": "/portfolio/voice/02.webp",
+        "thumbnail": "/portfolio/voice/02-preview.webp",
+        "alt": "Voice — framed painting",
+        "label": "Framed painting",
+        "width": 1467,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/voice/03.webp",
+        "thumbnail": "/portfolio/voice/03-preview.webp",
+        "alt": "Voice — figure detail",
+        "label": "Figure detail",
+        "width": 1467,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/voice/04.webp",
+        "thumbnail": "/portfolio/voice/04-preview.webp",
+        "alt": "Voice — arm and hair detail",
+        "label": "Arm and hair detail",
+        "width": 1467,
+        "height": 2200
+      },
+      {
+        "src": "/portfolio/voice/05.webp",
+        "thumbnail": "/portfolio/voice/05-preview.webp",
+        "alt": "Voice — hair and legs detail",
+        "label": "Hair and legs detail",
+        "width": 2200,
+        "height": 1467
+      },
+      {
+        "src": "/portfolio/voice/06.webp",
+        "thumbnail": "/portfolio/voice/06-preview.webp",
+        "alt": "Voice — water detail",
+        "label": "Water detail",
+        "width": 2200,
+        "height": 1776
+      }
+    ],
+    "description": "80 × 60 cm\nOil on canvas\n\nShe’s the largest figure I’ve painted so far. And somehow I finished her in just a couple of days."
+  },
+  {
     "id": "azure",
     "title": "Azure",
     "category": "Landscapes",
