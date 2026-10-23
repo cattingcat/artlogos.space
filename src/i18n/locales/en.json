@@ -151,6 +151,16 @@
     "Winter": "Winter"
   },
   "artworks": {
+    "night": {
+      "title": "Night",
+      "description": "50 × 60 cm\nOil on canvas\nPalette knife painting",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Night — canal and bridge with reflections of streetlights"
+        }
+      ]
+    },
     "voice": {
       "title": "Voice",
       "description": "80 × 60 cm\nOil on canvas\n\nShe’s the largest figure I’ve painted so far. And somehow I finished her in just a couple of days.",
@@ -345,6 +355,10 @@
         {
           "label": "Full painting",
           "alt": "At 5 a.m — full painting"
+        },
+        {
+          "label": "Canvas view",
+          "alt": "At 5 a.m — canvas view"
         },
         {
           "label": "Angled view",

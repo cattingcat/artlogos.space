@@ -151,6 +151,16 @@
     "Winter": "Winter"
   },
   "artworks": {
+    "night": {
+      "title": "Nacht",
+      "description": "50 × 60 cm\nÖl auf Leinwand\nSpachtelmalerei",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Nacht — nächtlicher Kanal, Brücke und Lichtreflexionen"
+        }
+      ]
+    },
     "voice": {
       "title": "Stimme",
       "description": "80 × 60 cm\nÖl auf Leinwand\n\nSie ist die größte Figur, die ich bisher gemalt habe. Und irgendwie habe ich sie in nur ein paar Tagen fertiggestellt.",
@@ -345,6 +355,10 @@
         {
           "label": "Gesamtansicht",
           "alt": "Um 5 Uhr morgens — Gesamtansicht"
+        },
+        {
+          "label": "Ansicht der Leinwand",
+          "alt": "Um 5 Uhr morgens — Ansicht der Leinwand"
         },
         {
           "label": "Schrägansicht",

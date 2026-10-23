@@ -1,5 +1,26 @@
 [
   {
+    "id": "night",
+    "title": "Night",
+    "category": "Cityscapes",
+    "tags": [
+      "Night",
+      "Architecture",
+      "Water"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/night/01.webp",
+        "thumbnail": "/portfolio/night/01-preview.webp",
+        "alt": "Night — canal and bridge with reflections of streetlights",
+        "label": "Full painting",
+        "width": 2560,
+        "height": 2118
+      }
+    ],
+    "description": "50 × 60 cm\nOil on canvas\nPalette knife painting"
+  },
+  {
     "id": "voice",
     "title": "Voice",
     "category": "Figures",
@@ -477,10 +498,18 @@
     ],
     "images": [
       {
-        "src": "/portfolio/village-evening/01.webp",
-        "thumbnail": "/portfolio/village-evening/01-preview.webp",
+        "src": "/portfolio/village-evening/cover-c7624c770f1a.webp",
+        "thumbnail": "/portfolio/village-evening/cover-c7624c770f1a-preview.webp",
         "alt": "At 5 a.m — full painting",
         "label": "Full painting",
+        "width": 3627,
+        "height": 2774
+      },
+      {
+        "src": "/portfolio/village-evening/01.webp",
+        "thumbnail": "/portfolio/village-evening/01-preview.webp",
+        "alt": "At 5 a.m — canvas view",
+        "label": "Canvas view",
         "width": 2200,
         "height": 1467
       },
@@ -996,12 +1025,12 @@
     ],
     "images": [
       {
-        "src": "/portfolio/red-haired-portrait/01.webp",
-        "thumbnail": "/portfolio/red-haired-portrait/01-preview.webp",
+        "src": "/portfolio/red-haired-portrait/01-f63927bd8659.webp",
+        "thumbnail": "/portfolio/red-haired-portrait/01-f63927bd8659-preview.webp",
         "alt": "Portrait in Sunlight — full painting",
         "label": "Full painting",
-        "width": 1764,
-        "height": 2200
+        "width": 2817,
+        "height": 3601
       }
     ]
   },

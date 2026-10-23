@@ -151,6 +151,16 @@
     "Winter": "Hiver"
   },
   "artworks": {
+    "night": {
+      "title": "Nuit",
+      "description": "50 × 60 cm\nHuile sur toile\nPeinture au couteau",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Nuit — canal de nuit, pont et reflets des lumières"
+        }
+      ]
+    },
     "voice": {
       "title": "Voix",
       "description": "80 × 60 cm\nHuile sur toile\n\nC’est la plus grande figure que j’ai peinte jusqu’ici. Et, je ne sais trop comment, je l’ai terminée en seulement deux jours.",
@@ -345,6 +355,10 @@
         {
           "label": "Tableau entier",
           "alt": "À 5 heures du matin — tableau entier"
+        },
+        {
+          "label": "Vue de la toile",
+          "alt": "À 5 heures du matin — vue de la toile"
         },
         {
           "label": "Vue de biais",

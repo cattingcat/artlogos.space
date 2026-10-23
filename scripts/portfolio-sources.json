@@ -3,6 +3,19 @@
   "notes": "Archive photo mapping preserved. Published titles and descriptions verified against DeviantArt, with Saatchi Art checked as a fallback. Source text is plain text with repeated social and video promotion removed. Descriptive titles remain only when no publication was matched. Tags follow visible subjects and explicit author context; no prices or availability are inferred.",
   "artworks": [
     {
+      "id": "night",
+      "titleSource": "site owner",
+      "descriptionSource": "site owner",
+      "sources": [
+        {
+          "file": "Night 2.png",
+          "view": "Full painting",
+          "sha256": "d27d124b53b23db29131d73e9aaec44d67b514ddf68741aaa626acb16446d06d"
+        }
+      ],
+      "note": "Title, dimensions, medium and palette knife technique supplied by the site owner on 2026-10-23. Full source resolution preserved; preview fits within 720 px. Embedded color profile converted to sRGB. Original file unchanged."
+    },
+    {
       "id": "voice",
       "titleSource": "site owner",
       "descriptionSource": "site owner",
@@ -305,8 +318,14 @@
       "titleSource": "DeviantArt",
       "sources": [
         {
+          "file": "IMG_7372.JPG",
+          "view": "Full painting",
+          "sha256": "c7624c770f1ae9e465a2499be314fb26e2ca6fe09cce544d49e20f492c675361",
+          "note": "New primary photograph supplied by the site owner on 2026-10-23; full source resolution preserved, preview within 720 px. The previous canvas and angled views remain in the gallery."
+        },
+        {
           "file": "Портфолио/Пастораль/IMG_7382.JPG",
-          "view": "Full painting"
+          "view": "Canvas view"
         },
         {
           "file": "Портфолио/Пастораль/side.jpg",
@@ -525,8 +544,11 @@
       "titleSource": "descriptive",
       "sources": [
         {
-          "file": "Портфолио/Portrait/IMG_4916.JPG",
-          "view": "Full painting"
+          "file": "Port.jpg",
+          "view": "Full painting",
+          "supersedes": "Портфолио/Portrait/IMG_4916.JPG",
+          "sha256": "f63927bd86591c877a5ea119c2a212b563898cdc97dbdae9459a8786f169932c",
+          "note": "Higher-resolution replacement supplied by the site owner on 2026-10-23; full image dimensions preserved. Artwork identity, title and gallery order unchanged."
         }
       ]
     },

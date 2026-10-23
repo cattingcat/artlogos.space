@@ -151,6 +151,16 @@
     "Winter": "Invierno"
   },
   "artworks": {
+    "night": {
+      "title": "Noche",
+      "description": "50 × 60 cm\nÓleo sobre lienzo\nPintura con espátula",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Noche — canal de noche, puente y reflejos de luces"
+        }
+      ]
+    },
     "voice": {
       "title": "Voz",
       "description": "80 × 60 cm\nÓleo sobre lienzo\n\nEs la figura más grande que he pintado hasta ahora. Y, de alguna manera, la terminé en solo un par de días.",
@@ -345,6 +355,10 @@
         {
           "label": "Pintura completa",
           "alt": "A las 5 de la mañana — pintura completa"
+        },
+        {
+          "label": "Vista del lienzo",
+          "alt": "A las 5 de la mañana — vista del lienzo"
         },
         {
           "label": "Vista en ángulo",
