@@ -1,7 +1,7 @@
 [
   {
     "id": "night",
-    "title": "Night",
+    "title": "An Evening in St Petersburg",
     "category": "Cityscapes",
     "tags": [
       "Night",
@@ -12,7 +12,7 @@
       {
         "src": "/portfolio/night/01.webp",
         "thumbnail": "/portfolio/night/01-preview.webp",
-        "alt": "Night — canal and bridge with reflections of streetlights",
+        "alt": "An Evening in St Petersburg — canal and bridge with reflections of streetlights",
         "label": "Full painting",
         "width": 2560,
         "height": 2118
