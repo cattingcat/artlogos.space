@@ -68,7 +68,9 @@
         "title": "Azure",
         "descriptionAvailable": true,
         "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
-      }
+      },
+      "descriptionSource": "site owner",
+      "descriptionUpdatedAt": "2026-10-24"
     },
     {
       "id": "forest-figure",
@@ -689,7 +691,9 @@
         "title": "Night",
         "descriptionAvailable": true,
         "matchEvidence": "Visual match of supplied painting with publication thumbnail: composition, colors and painted details. Verified in local and public-source contact sheets."
-      }
+      },
+      "descriptionSource": "site owner",
+      "descriptionUpdatedAt": "2026-10-24"
     },
     {
       "id": "autumn-domes",
