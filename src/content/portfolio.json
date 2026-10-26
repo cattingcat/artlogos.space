@@ -98,6 +98,14 @@
         "label": "Full painting",
         "width": 2200,
         "height": 2200
+      },
+      {
+        "src": "/portfolio/azure/detail-9bd00b520f18.webp",
+        "thumbnail": "/portfolio/azure/detail-9bd00b520f18-preview.webp",
+        "alt": "Azure — church detail",
+        "label": "Church detail",
+        "width": 4272,
+        "height": 2848
       }
     ],
     "description": "30*30 cm\nEgg-oil tempera on canvas, palette knife painting.\n\nPainting of a village church beyond a small wooden footbridge. Blue runs through the sky, the domes, and even the earth and melting snow, growing purer towards the horizon - a blue that carries the breath of spring.",
@@ -354,6 +362,14 @@
         "label": "Full painting",
         "width": 1280,
         "height": 1267
+      },
+      {
+        "src": "/portfolio/about-zero/detail-5dd4dbc7b5c9.webp",
+        "thumbnail": "/portfolio/about-zero/detail-5dd4dbc7b5c9-preview.webp",
+        "alt": "About Zero — church and snow detail",
+        "label": "Church and snow detail",
+        "width": 4102,
+        "height": 2848
       }
     ],
     "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas\n\nA memory from January 4th, 2016",
@@ -1125,6 +1141,14 @@
         "label": "Full painting",
         "width": 1280,
         "height": 1644
+      },
+      {
+        "src": "/portfolio/sailboat/detail-90eeae3f5814.webp",
+        "thumbnail": "/portfolio/sailboat/detail-90eeae3f5814-preview.webp",
+        "alt": "Sailboat — figures and reflections detail",
+        "label": "Figures and reflections detail",
+        "width": 2848,
+        "height": 4272
       }
     ],
     "description": "30*25 cm\nOil+egg tempera on canvas\n\nWherever I go, I’ll bring winter with me.",

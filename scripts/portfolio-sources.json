@@ -60,6 +60,12 @@
         {
           "file": "Портфолио/Пастораль/Azure.jpg",
           "view": "Full painting"
+        },
+        {
+          "file": "IMG_5342.JPG",
+          "view": "Church detail",
+          "sha256": "9bd00b520f189bbb47e124ee566e3090a23e095bf914bd29a01b7c93f59d507e",
+          "note": "Additional detail photograph supplied by the site owner on 2026-10-26. Full source resolution preserved; preview fits within 720 px. EXIF orientation normalized and embedded color profile converted to sRGB when present. Original file unchanged."
         }
       ],
       "initialTitleSource": "filename",
@@ -221,6 +227,12 @@
         {
           "file": "Портфолио/Cityscapes/about_zero_by_alinaivy_dla1v2u-fullview.jpg",
           "view": "Full painting"
+        },
+        {
+          "file": "IMG_4619.JPG",
+          "view": "Church and snow detail",
+          "sha256": "5dd4dbc7b5c9e2a691aaa43857d0cff0d0497ce48d04e378f3555b57ceae96ff",
+          "note": "Additional detail photograph supplied by the site owner on 2026-10-26. Full source resolution preserved; preview fits within 720 px. EXIF orientation normalized and embedded color profile converted to sRGB when present. Original file unchanged."
         }
       ],
       "initialTitleSource": "filename",
@@ -712,6 +724,12 @@
         {
           "file": "Портфолио/Пастораль/sailboat_by_alinaivy_dl9cdxp-fullview.jpg",
           "view": "Full painting"
+        },
+        {
+          "file": "IMG_4594.JPG",
+          "view": "Figures and reflections detail",
+          "sha256": "90eeae3f5814e060b08ef079513f5dd57bbf5b574e6b24e4e9a7d0c1269c09c9",
+          "note": "Additional detail photograph supplied by the site owner on 2026-10-26. Full source resolution preserved; preview fits within 720 px. EXIF orientation normalized and embedded color profile converted to sRGB when present. Original file unchanged."
         }
       ],
       "initialTitleSource": "filename",

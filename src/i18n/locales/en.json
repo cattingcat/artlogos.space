@@ -198,6 +198,10 @@
         {
           "label": "Full painting",
           "alt": "Azure — full painting"
+        },
+        {
+          "label": "Church detail",
+          "alt": "Azure — church detail"
         }
       ]
     },
@@ -298,6 +302,10 @@
         {
           "label": "Full painting",
           "alt": "About Zero — full painting"
+        },
+        {
+          "label": "Church and snow detail",
+          "alt": "About Zero — church and snow detail"
         }
       ]
     },
@@ -592,6 +600,10 @@
         {
           "label": "Full painting",
           "alt": "Sailboat — full painting"
+        },
+        {
+          "label": "Figures and reflections detail",
+          "alt": "Sailboat — figures and reflections detail"
         }
       ]
     }

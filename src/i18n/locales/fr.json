@@ -198,6 +198,10 @@
         {
           "label": "Tableau entier",
           "alt": "Azur — tableau entier"
+        },
+        {
+          "label": "Détail de l’église",
+          "alt": "Azur — détail de l’église"
         }
       ]
     },
@@ -298,6 +302,10 @@
         {
           "label": "Tableau entier",
           "alt": "Autour de zéro — tableau entier"
+        },
+        {
+          "label": "Détail de l’église et de la neige",
+          "alt": "Autour de zéro — détail de l’église et de la neige"
         }
       ]
     },
@@ -592,6 +600,10 @@
         {
           "label": "Tableau entier",
           "alt": "Voilier — tableau entier"
+        },
+        {
+          "label": "Détail des personnages et des reflets",
+          "alt": "Voilier — détail des personnages et des reflets"
         }
       ]
     }

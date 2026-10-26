@@ -198,6 +198,10 @@
         {
           "label": "Pintura completa",
           "alt": "Azur — pintura completa"
+        },
+        {
+          "label": "Detalle de la iglesia",
+          "alt": "Azur — detalle de la iglesia"
         }
       ]
     },
@@ -298,6 +302,10 @@
         {
           "label": "Pintura completa",
           "alt": "Cerca de cero — pintura completa"
+        },
+        {
+          "label": "Detalle de la iglesia y la nieve",
+          "alt": "Cerca de cero — detalle de la iglesia y la nieve"
         }
       ]
     },
@@ -592,6 +600,10 @@
         {
           "label": "Pintura completa",
           "alt": "Velero — pintura completa"
+        },
+        {
+          "label": "Detalle de las figuras y los reflejos",
+          "alt": "Velero — detalle de las figuras y los reflejos"
         }
       ]
     }
