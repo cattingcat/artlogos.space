@@ -3,12 +3,14 @@ import { homePath, locales } from '../i18n/locale'
 import type { Artwork } from '../content/artworks'
 import { site as canonicalSite } from '../content/site'
 import { artworkPageDescription, artworkPageTitle, artworkUrl } from '../content/artwork-pages'
+import { artworkDescriptionText } from '../content/artwork-details'
 
 export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
   const { locale, site, t, tag } = useI18n()
   const localizedUrl = new URL(homePath(locale), site.url).href
   const artistId = `${site.url}#artist`
   const websiteId = `${site.url}#website`
+  const artworkDescription = artwork && artworkDescriptionText(artwork)
   const data = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -47,7 +49,8 @@ export default function ArtistSchema({ artwork }: { artwork?: Artwork }) {
         '@id': `${artworkUrl(artwork, locale)}#artwork`,
         url: artworkUrl(artwork, locale),
         name: artwork.title,
-        ...(artwork.description ? { description: artwork.description } : {}),
+        ...(artworkDescription ? { description: artworkDescription } : {}),
+        ...(artwork.material ? { artMedium: artwork.material } : {}),
         creator: { '@id': artistId },
         artform: t('paintingArtform'),
         keywords: artwork.tags.map(tag),

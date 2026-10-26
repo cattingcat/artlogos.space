@@ -77,6 +77,8 @@ try {
     const catalogue = [intro, ...works.map(work => [
       `## ${work.title}`,
       `${t('page')}: ${artworkUrl(work, locale)}\n${t('artist')}: ${site.artistName} (${site.fullName})\n${t('category')}: ${messages.categories[work.category]}\n${t('subjects')}: ${work.tags.map(tag => messages.tags[tag]).join(', ')}`,
+      ...(work.size ? [`${t('artworkSize')}: ${work.size}`] : []),
+      ...(work.material ? [`${t('artworkMaterial')}: ${work.material}`] : []),
       ...(work.description ? [work.description] : []),
       `${t('photographs')}:\n${work.images.map(image => `- ${image.label}: ${absolute(image.src)}\n  ${t('description')}: ${image.alt}\n  ${t('dimensions')}: ${image.width} × ${image.height} ${t('pixels')}`).join('\n')}`,
       ...(work.sources?.length ? [`${t('publications')}:\n${work.sources.map(source => `- ${source.label}: ${source.url}`).join('\n')}`] : []),

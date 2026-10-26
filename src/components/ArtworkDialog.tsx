@@ -7,6 +7,7 @@ import ImageZoomHint from './ImageZoomHint'
 import SocialIconLinks from './SocialIconLinks'
 import { useModalDialog } from './useModalDialog'
 import './ArtworkDialog.css'
+import ArtworkFacts from './ArtworkFacts'
 
 type Props = {
   artwork: Artwork
@@ -143,6 +144,7 @@ export default function ArtworkDialog({ artwork, index, total, onClose, onMove }
           <span className="eyebrow">{category(artwork.category)}</span>
           <h2 id="artwork-title">{artwork.title}</h2>
           <a className="underlined-link" href={artworkPath(artwork, locale)}>{t('paintingPage')} ↗</a>
+          <ArtworkFacts artwork={artwork} />
           {artwork.description && <div className="viewer-description">
             {artwork.description.split(/\n\s*\n/).map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
           </div>}

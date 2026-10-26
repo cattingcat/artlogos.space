@@ -18,7 +18,8 @@
         "height": 2118
       }
     ],
-    "description": "50 × 60 cm\nOil on canvas\nPalette knife painting"
+    "size": "50x60 cm",
+    "material": "Oil on canvas\nPalette knife painting"
   },
   {
     "id": "voice",
@@ -79,7 +80,9 @@
         "height": 1776
       }
     ],
-    "description": "80 × 60 cm\nOil on canvas\n\nShe’s the largest figure I’ve painted so far. And somehow I finished her in just a couple of days."
+    "size": "80x60 cm",
+    "material": "Oil on canvas",
+    "description": "She’s the largest figure I’ve painted so far. And somehow I finished her in just a couple of days."
   },
   {
     "id": "azure",
@@ -108,7 +111,9 @@
         "height": 2848
       }
     ],
-    "description": "30*30 cm\nEgg-oil tempera on canvas, palette knife painting.\n\nPainting of a village church beyond a small wooden footbridge. Blue runs through the sky, the domes, and even the earth and melting snow, growing purer towards the horizon - a blue that carries the breath of spring.",
+    "size": "30x30 cm",
+    "material": "Egg-oil tempera on canvas, palette knife painting.",
+    "description": "Painting of a village church beyond a small wooden footbridge. Blue runs through the sky, the domes, and even the earth and melting snow, growing purer towards the horizon - a blue that carries the breath of spring.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -159,7 +164,9 @@
         "height": 2200
       }
     ],
-    "description": "40*30 cm\nEgg-oil tempera on canvas\n\nIn some areas of this painting the canvas shows through cause I got tired of mixing the brown tones and simply scraped the paint off.\nI also used cobalt yellow for the body and a cheaper cadmium yellow for the greenery.",
+    "size": "40x30 cm",
+    "material": "Egg-oil tempera on canvas",
+    "description": "In some areas of this painting the canvas shows through cause I got tired of mixing the brown tones and simply scraped the paint off.\nI also used cobalt yellow for the body and a cheaper cadmium yellow for the greenery.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -186,7 +193,8 @@
         "height": 1659
       }
     ],
-    "description": "Palette knife painting\n18*24 cm\nEgg-oil tempera on canvas",
+    "size": "18x24 cm",
+    "material": "Palette knife painting\nEgg-oil tempera on canvas",
     "sources": [
       {
         "label": "DeviantArt",
@@ -213,7 +221,8 @@
         "height": 2200
       }
     ],
-    "description": "30*25 cm,\noil on canvas",
+    "size": "30x25 cm",
+    "material": "oil on canvas",
     "sources": [
       {
         "label": "DeviantArt",
@@ -240,7 +249,8 @@
         "height": 2200
       }
     ],
-    "description": "30*25 cm,\nTempera grassa on cardboard",
+    "size": "30x25 cm",
+    "material": "Tempera grassa on cardboard",
     "sources": [
       {
         "label": "DeviantArt",
@@ -274,7 +284,9 @@
         "height": 1467
       }
     ],
-    "description": "30*25 cm\nOil on canvas\nPalette knife painting\n\nThis was about a year ago. I was walking home in the evening, and the maple leaves looked so bright in the darkness, almost like they were on fire.\nThis became one of my favorite memories of that year. It was a cold and quiet october and not much else left such an impression on me.\n\nSo I painted this in about two hours. A couple of days later the surface was almost dry, but still had a nice sheen thanks to the alkyd medium i'd mixed into the paint. Btw I'd never used a synthetic medium before, but I could not find dammar resin anywhere while I was traveling.",
+    "size": "30x25 cm",
+    "material": "Oil on canvas\nPalette knife painting",
+    "description": "This was about a year ago. I was walking home in the evening, and the maple leaves looked so bright in the darkness, almost like they were on fire.\nThis became one of my favorite memories of that year. It was a cold and quiet october and not much else left such an impression on me.\n\nSo I painted this in about two hours. A couple of days later the surface was almost dry, but still had a nice sheen thanks to the alkyd medium i'd mixed into the paint. Btw I'd never used a synthetic medium before, but I could not find dammar resin anywhere while I was traveling.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -310,7 +322,9 @@
         "height": 1465
       }
     ],
-    "description": "60*50\nOil on canvas\n\nI began this painting at the end of July with a charcoal sketch and then left it for a long time cause I didn’t know which fixative to choose.\nIn the end I just used my hairspray when I couldn’t find a better alternative ._. After that I covered it with imprimatura of yellow ochre and continued painting in oils as usual.\nBut the summer landscape gradually turned into an autumn one cause I fell a bit behind the season change 🐌",
+    "size": "60x50",
+    "material": "Oil on canvas",
+    "description": "I began this painting at the end of July with a charcoal sketch and then left it for a long time cause I didn’t know which fixative to choose.\nIn the end I just used my hairspray when I couldn’t find a better alternative ._. After that I covered it with imprimatura of yellow ochre and continued painting in oils as usual.\nBut the summer landscape gradually turned into an autumn one cause I fell a bit behind the season change 🐌",
     "sources": [
       {
         "label": "DeviantArt",
@@ -372,7 +386,9 @@
         "height": 2848
       }
     ],
-    "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas\n\nA memory from January 4th, 2016",
+    "size": "30x30 cm",
+    "material": "Palette knife painting\nEgg-oil tempera on canvas",
+    "description": "A memory from January 4th, 2016",
     "sources": [
       {
         "label": "DeviantArt",
@@ -399,7 +415,9 @@
         "height": 727
       }
     ],
-    "description": "20*30 cm\noil+egg emulsion on canvas\n\nI added an egg emulsion with boiled oil and venetian turpentine to my tube oil paints. This mixture allows impasto painting while keeping the colors bright and the paint thick.",
+    "size": "20x30 cm",
+    "material": "oil+egg emulsion on canvas",
+    "description": "I added an egg emulsion with boiled oil and venetian turpentine to my tube oil paints. This mixture allows impasto painting while keeping the colors bright and the paint thick.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -434,7 +452,9 @@
         "height": 2200
       }
     ],
-    "description": "I used the sculpture “Venus Removing Her Sandal” by Ivan Vitali as a reference. At first, I intended to make a figure study, but later I added a background and some details. Hope that soon I’ll be able to make it in a large format, when I move my canvases and stretcher frames.\n\n35*25 cm\nEgg-oil tempera on canvas",
+    "size": "35x25 cm",
+    "material": "Egg-oil tempera on canvas",
+    "description": "I used the sculpture “Venus Removing Her Sandal” by Ivan Vitali as a reference. At first, I intended to make a figure study, but later I added a background and some details. Hope that soon I’ll be able to make it in a large format, when I move my canvases and stretcher frames.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -495,7 +515,8 @@
         "height": 1803
       }
     ],
-    "description": "Oil+egg tempera on fiberboard\n20*25 cm",
+    "size": "20x25 cm",
+    "material": "Oil+egg tempera on fiberboard",
     "sources": [
       {
         "label": "DeviantArt",
@@ -538,7 +559,9 @@
         "height": 1505
       }
     ],
-    "description": "Another superthick palette knife painting. For this one I mixed my oil paints with a homemade painting medium: dammar, stand oil and refined turpentine - the mix I turn to when I have to move or feel too tired/lazy to prepare an egg emulsion.\n\nI doubt I’ll ever see these places again. When I was a child, I loved visiting my uncle in the countryside near lake Ilmen cause I was absolutly free to explore the fields and woods near his house and come back whenever I liked. He didn’t mind.\n\nOil on canvas\n18*24 cm",
+    "size": "18x24 cm",
+    "material": "Oil on canvas",
+    "description": "Another superthick palette knife painting. For this one I mixed my oil paints with a homemade painting medium: dammar, stand oil and refined turpentine - the mix I turn to when I have to move or feel too tired/lazy to prepare an egg emulsion.\n\nI doubt I’ll ever see these places again. When I was a child, I loved visiting my uncle in the countryside near lake Ilmen cause I was absolutly free to explore the fields and woods near his house and come back whenever I liked. He didn’t mind.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -564,7 +587,9 @@
         "height": 730
       }
     ],
-    "description": "40*30 cm\nOil on canvas\nI hope I'll come back here again.",
+    "size": "40x30 cm",
+    "material": "Oil on canvas",
+    "description": "I hope I'll come back here again.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -599,7 +624,9 @@
         "height": 1467
       }
     ],
-    "description": "Palette knife painting;\n20*30 cm\nEgg-oil tempera on canvas\n\nThis painting was done on a transparent acrylic ground. I would also like to try painting with egg-oil tempera on a sized wood panel without any ground.",
+    "size": "20x30 cm",
+    "material": "Palette knife painting;\nEgg-oil tempera on canvas",
+    "description": "This painting was done on a transparent acrylic ground. I would also like to try painting with egg-oil tempera on a sized wood panel without any ground.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -625,7 +652,9 @@
         "height": 4218
       }
     ],
-    "description": "Portrait of my sister\n\n50*40 cm, oil on canvas",
+    "size": "50x40 cm",
+    "material": "oil on canvas",
+    "description": "Portrait of my sister",
     "sources": [
       {
         "label": "DeviantArt",
@@ -652,7 +681,8 @@
         "height": 955
       }
     ],
-    "description": "18*24 cm\nOil etude",
+    "size": "18x24 cm",
+    "material": "Oil etude",
     "sources": [
       {
         "label": "DeviantArt",
@@ -679,7 +709,9 @@
         "height": 2200
       }
     ],
-    "description": "Evening in the park\n30*25 cm, oil on canvas",
+    "size": "30x25 cm",
+    "material": "oil on canvas",
+    "description": "Evening in the park",
     "sources": [
       {
         "label": "DeviantArt",
@@ -721,7 +753,9 @@
         "height": 2200
       }
     ],
-    "description": "Egg-oil tempera on canvas\n\n50*40 cm\n\nI finally finished this portrait!  And it was my first time painting with a limited color palette.\nSo, I used only four colors for this piece: cadmium red, yellow ochre, titanium white, and payne’s grey, which is currently my favorite black. I’ll try other black pigments for portraits in the future and see how they compare.",
+    "size": "50x40 cm",
+    "material": "Egg-oil tempera on canvas",
+    "description": "I finally finished this portrait!  And it was my first time painting with a limited color palette.\nSo, I used only four colors for this piece: cadmium red, yellow ochre, titanium white, and payne’s grey, which is currently my favorite black. I’ll try other black pigments for portraits in the future and see how they compare.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -748,7 +782,9 @@
         "height": 2200
       }
     ],
-    "description": "I often dream of that view from the bridge.\n25*30 cm\nOil on cardboard",
+    "size": "25x30 cm",
+    "material": "Oil on cardboard",
+    "description": "I often dream of that view from the bridge.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -775,7 +811,8 @@
         "height": 2200
       }
     ],
-    "description": "Palette knife painting\n30*30 cm\nEgg-oil tempera on canvas",
+    "size": "30x30 cm",
+    "material": "Palette knife painting\nEgg-oil tempera on canvas",
     "sources": [
       {
         "label": "DeviantArt",
@@ -802,7 +839,9 @@
         "height": 1761
       }
     ],
-    "description": "Alexandrino Manor, Saint Petersburg\n\n25*30 cm\nEgg-oil tempera on canvas",
+    "size": "25x30 cm",
+    "material": "Egg-oil tempera on canvas",
+    "description": "Alexandrino Manor, Saint Petersburg",
     "sources": [
       {
         "label": "DeviantArt",
@@ -829,7 +868,9 @@
         "height": 2200
       }
     ],
-    "description": "30*25 cm\nPalette knife painting, egg-oil tempera on canvas\n\nOne of my painting teachers once recommended making a small painting before starting the main work - just to warm up a bit. Unfortunately, by the time I finished that little etude, it was already evening",
+    "size": "30x25 cm",
+    "material": "Palette knife painting, egg-oil tempera on canvas",
+    "description": "One of my painting teachers once recommended making a small painting before starting the main work - just to warm up a bit. Unfortunately, by the time I finished that little etude, it was already evening",
     "sources": [
       {
         "label": "DeviantArt",
@@ -860,7 +901,9 @@
         "height": 2200
       }
     ],
-    "description": "40*30 cm\nEgg-oil tempera on canvas\n\nI painted the underdrawing with antique green earth for the first time, and I really liked its tones —it’s somewhat similar to a warm glauconite. I should try using this paint for a portrait.",
+    "size": "40x30 cm",
+    "material": "Egg-oil tempera on canvas",
+    "description": "I painted the underdrawing with antique green earth for the first time, and I really liked its tones —it’s somewhat similar to a warm glauconite. I should try using this paint for a portrait.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -891,7 +934,9 @@
         "height": 2200
       }
     ],
-    "description": "24*18 cm\nEgg-oil tempera on canvas\n…\nThis impasto is… extremely thick! I think I could make small stands out of boxes so that impasto paintings can dry without worrying about dust.",
+    "size": "24x18 cm",
+    "material": "Egg-oil tempera on canvas",
+    "description": "…\nThis impasto is… extremely thick! I think I could make small stands out of boxes so that impasto paintings can dry without worrying about dust.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -944,7 +989,9 @@
         "height": 1819
       }
     ],
-    "description": "45*55 cm, oil on canvas\n\nThe painting depicts the statue of italian sculptor Antonio Canova Psyche revived by Cupid’s kiss from the Hermitage. This is my first experience with oil paints mixed in mastic varnish. Its very different from dammar varnish; the painting has a noble and kinda glass-like sheen.",
+    "size": "45x55 cm",
+    "material": "oil on canvas",
+    "description": "The painting depicts the statue of italian sculptor Antonio Canova Psyche revived by Cupid’s kiss from the Hermitage. This is my first experience with oil paints mixed in mastic varnish. Its very different from dammar varnish; the painting has a noble and kinda glass-like sheen.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -970,7 +1017,9 @@
         "height": 3545
       }
     ],
-    "description": "Saint Sophia Cathedral, Veliky Novgorod.\n50*40 cm\nEgg-oil tempera on canvas\n\nSurprisingly, I painted this piece…alla prima. A traditional dead-coloring method would probably have been a better fit for the architecture, but I don’t like rigid constraints.",
+    "size": "50x40 cm",
+    "material": "Egg-oil tempera on canvas",
+    "description": "Saint Sophia Cathedral, Veliky Novgorod.\n\nSurprisingly, I painted this piece…alla prima. A traditional dead-coloring method would probably have been a better fit for the architecture, but I don’t like rigid constraints.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -997,7 +1046,9 @@
         "height": 1638
       }
     ],
-    "description": "18*24 cm\nEgg-oil tempera on canvas\n\nSeptember 27\nChurch of St. Nicholas",
+    "size": "18x24 cm",
+    "material": "Egg-oil tempera on canvas",
+    "description": "September 27\nChurch of St. Nicholas",
     "sources": [
       {
         "label": "DeviantArt",
@@ -1024,7 +1075,8 @@
         "height": 1628
       }
     ],
-    "description": "18*24 cm\nEgg-oil tempera on canvas",
+    "size": "18x24 cm",
+    "material": "Egg-oil tempera on canvas",
     "sources": [
       {
         "label": "DeviantArt",
@@ -1069,7 +1121,9 @@
         "height": 1481
       }
     ],
-    "description": "In memory of our little trip.\nPalette knife painting on acrylic gesso panel\n20*30 cm\n\nEgg-oil tempera…as usual. I added a few drops of clove oil to help the emulsion last longer.",
+    "size": "20x30 cm",
+    "material": "Palette knife painting on acrylic gesso panel",
+    "description": "In memory of our little trip.\n\nEgg-oil tempera…as usual. I added a few drops of clove oil to help the emulsion last longer.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -1096,7 +1150,9 @@
         "height": 1757
       }
     ],
-    "description": "24*30 cm\nEgg-oil tempera on canvas\n\nA winter landscape painted in deep blue-green tones over an umber underpainting with pale moonlight falling on the high snowdrifts blanketing a small village.",
+    "size": "24x30 cm",
+    "material": "Egg-oil tempera on canvas",
+    "description": "A winter landscape painted in deep blue-green tones over an umber underpainting with pale moonlight falling on the high snowdrifts blanketing a small village.",
     "sources": [
       {
         "label": "DeviantArt",
@@ -1151,7 +1207,9 @@
         "height": 4272
       }
     ],
-    "description": "30*25 cm\nOil+egg tempera on canvas\n\nWherever I go, I’ll bring winter with me.",
+    "size": "30x25 cm",
+    "material": "Oil+egg tempera on canvas",
+    "description": "Wherever I go, I’ll bring winter with me.",
     "sources": [
       {
         "label": "DeviantArt",

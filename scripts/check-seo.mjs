@@ -20,6 +20,12 @@ const absolute = path => new URL(path, origin).href
 const pagePath = (locale, work) => `/${locale}/${work ? `works/${work.id}/` : ''}`
 const pageUrl = (locale, work) => absolute(pagePath(locale, work))
 const compact = value => value.replace(/\s+/g, ' ').trim()
+const artworkDescription = work => [work.size, work.material, work.description].filter(Boolean).join('\n\n') || undefined
+const sizeParts = (value, label) => {
+  const match = /^(\d+(?:\.\d+)?)x(\d+(?:\.\d+)?)(?: (cm|см))?$/.exec(value)
+  assert.ok(match, `Artwork size must use canonical ASCII x: ${label}`)
+  return [match[1], match[2], match[3]?.replace('см', 'cm')]
+}
 const decode = value => value.replace(/&(#x[\da-f]+|#\d+|amp|quot|apos|lt|gt|nbsp);/gi, (entity, code) => {
   if (code.startsWith('#')) return String.fromCodePoint(Number.parseInt(code.slice(code[1].toLowerCase() === 'x' ? 2 : 1), code[1].toLowerCase() === 'x' ? 16 : 10))
   return { amp: '&', quot: '"', apos: "'", lt: '<', gt: '>', nbsp: ' ' }[code.toLowerCase()] ?? entity
@@ -79,6 +85,14 @@ for (const locale of locales) {
   }
   for (const work of portfolio) {
     const translated = dictionary.artworks[work.id]
+    for (const field of ['size', 'material', 'description']) {
+      assert.equal(Object.hasOwn(translated, field), Object.hasOwn(work, field), `Missing or invented artwork ${field}: ${locale}/${work.id}`)
+      if (Object.hasOwn(work, field)) {
+        assert.equal(typeof work[field], 'string', `Invalid artwork ${field}: ${work.id}`)
+        assert.ok(work[field].trim(), `Empty artwork ${field}: ${work.id}`)
+      }
+    }
+    if (work.size) assert.deepEqual(sizeParts(translated.size, `${locale}/${work.id}`), sizeParts(work.size, work.id), `Translated artwork size changes dimensions or units: ${locale}/${work.id}`)
     assert.equal(translated.images.length, work.images.length, `Wrong photo count: ${locale}/${work.id}`)
     assert.ok(dictionary.categories[work.category], `Missing category: ${locale}/${work.category}`)
     for (const tag of work.tags) assert.ok(dictionary.tags[tag], `Missing subject: ${locale}/${tag}`)
@@ -160,7 +174,8 @@ for (const locale of locales) {
     const translated = work && dictionary.artworks[work.id]
     const title = work ? `${translated.title} — ${names[0]} (${names[1]})` : dictionary.site.pageTitle
     const introduction = work && interpolate(dictionary.ui.paintingIntro, { title: translated.title })
-    const description = work ? `${introduction} ${translated.description ? compact(translated.description) : dictionary.ui.paintingFallback}` : dictionary.site.description
+    const artworkText = work && artworkDescription(translated)
+    const description = work ? `${introduction} ${artworkText ? compact(artworkText) : dictionary.ui.paintingFallback}` : dictionary.site.description
     const firstImage = work?.images[0] ?? portfolio[0].images[0]
     const firstImageText = translated?.images[0] ?? dictionary.artworks[portfolio[0].id].images[0]
     const links = tags('link', html)
@@ -227,11 +242,21 @@ for (const locale of locales) {
     if (work) {
       assert.ok(visibleText.includes(translated.title), `Painting title is not readable without JavaScript: ${label}`)
       if (translated.description) assert.ok(visibleText.includes(compact(translated.description)), `Painting description is not readable without JavaScript: ${label}`)
+      const facts = [...body.matchAll(/<dl\b([^>]*)>([\s\S]*?)<\/dl>/gi)].filter(([, attrs]) => attributes(attrs).class?.split(/\s+/).includes('artwork-facts'))
+      const expectedFacts = [['size', 'artworkSize'], ['material', 'artworkMaterial']].filter(([field]) => translated[field]).flatMap(([field, key]) => [['dt', dictionary.ui[key]], ['dd', compact(translated[field])]])
+      assert.equal(facts.length, expectedFacts.length ? 1 : 0, `Missing or invented artwork facts: ${label}`)
+      if (facts.length) {
+        const entries = [...facts[0][2].matchAll(/<(dt|dd)\b[^>]*>([\s\S]*?)<\/\1>/gi)].map(([, tag, value]) => [tag.toLowerCase(), textContent(value)])
+        assert.deepEqual(entries, expectedFacts, `Artwork facts are missing, untranslated or invented: ${label}`)
+      }
       assert.ok(visibleText.includes(dictionary.categories[work.category]), `Missing translated category: ${label}`)
       for (const tag of work.tags) assert.ok(visibleText.includes(dictionary.tags[tag]), `Missing translated subject ${tag}: ${label}`)
       const painting = schemaOf(schemas, 'VisualArtwork', label)
       assert.equal(painting.name, translated.title, `Untranslated VisualArtwork name: ${label}`)
-      assert.equal(painting.description, translated.description, `Untranslated or invented VisualArtwork description: ${label}`)
+      assert.equal(painting.description, artworkText, `Untranslated or invented VisualArtwork description: ${label}`)
+      assert.equal(Object.hasOwn(painting, 'description'), Boolean(artworkText), `Empty or invented VisualArtwork description: ${label}`)
+      assert.equal(painting.artMedium, translated.material, `Untranslated or invented VisualArtwork material: ${label}`)
+      assert.equal(Object.hasOwn(painting, 'artMedium'), Boolean(translated.material), `Empty or invented VisualArtwork material: ${label}`)
       assert.equal(painting.inLanguage, locale, `Wrong VisualArtwork language: ${label}`)
       assert.equal(painting.url, url, `Wrong VisualArtwork URL: ${label}`)
       assert.equal(painting.creator?.['@id'], `${origin}#artist`, `Wrong artwork creator: ${label}`)
@@ -319,6 +344,12 @@ for (const locale of locales) {
     assert.ok(catalogue.includes(`## ${copy.title}\n`) && catalogue.includes(pageUrl(locale, work)), `Catalogue omits translated painting: ${locale}/${work.id}`)
     assert.ok(catalogue.includes(`${dictionary.ui.category}: ${dictionary.categories[work.category]}`), `Catalogue category is not translated: ${locale}/${work.id}`)
     assert.ok(catalogue.includes(`${dictionary.ui.subjects}: ${work.tags.map(tag => dictionary.tags[tag]).join(', ')}`), `Catalogue subjects are not translated: ${locale}/${work.id}`)
+    const section = catalogue.split(`## ${copy.title}\n`)[1]?.split('\n## ')[0] ?? ''
+    for (const [field, key] of [['size', 'artworkSize'], ['material', 'artworkMaterial']]) {
+      const prefix = `${dictionary.ui[key]}: `
+      if (copy[field]) assert.ok(section.includes(`${prefix}${copy[field]}`), `Catalogue omits translated ${field}: ${locale}/${work.id}`)
+      else assert.ok(!section.split('\n').some(line => line.startsWith(prefix)), `Catalogue invents ${field}: ${locale}/${work.id}`)
+    }
     if (copy.description) assert.ok(catalogue.includes(copy.description), `Catalogue omits translated description: ${locale}/${work.id}`)
     for (const [imageIndex, image] of work.images.entries()) {
       const translated = copy.images[imageIndex]

@@ -1,6 +1,7 @@
 """Check the built container's HTTP contract using only the Python standard library."""
 
 import json
+import re
 import sys
 import time
 from html.parser import HTMLParser
@@ -26,6 +27,17 @@ def artist_names_for(locale):
 def verify_name_localization(text, locale, context):
     if locale != "ru":
         assert not any(name in text for name in ("Алина Плющева", "Алины Плющевой")), f"Russian artist name leaked into another language: {context}"
+
+
+def artwork_description(work):
+    return "\n\n".join(work[field] for field in ("size", "material", "description") if work.get(field)) or None
+
+
+def size_parts(value, context):
+    match = re.fullmatch(r"(\d+(?:\.\d+)?)x(\d+(?:\.\d+)?)(?: (cm|см))?", value)
+    assert match, f"Artwork size must use canonical ASCII x: {context}"
+    first, second, unit = match.groups()
+    return first, second, "cm" if unit == "см" else unit
 
 
 class NoRedirect(HTTPRedirectHandler):
@@ -59,6 +71,10 @@ class Page(HTMLParser):
         self.images = []
         self.links = []
         self.artwork_cards = 0
+        self.artwork_facts = []
+        self.in_artwork_facts = False
+        self.fact_tag = None
+        self.fact_text = None
         self.prerendered = False
         self.in_body = False
         self.in_title = False
@@ -84,6 +100,12 @@ class Page(HTMLParser):
             self.prerendered = attrs.get("data-prerendered") == "true"
         if tag == "article" and "artwork-card" in attrs.get("class", "").split():
             self.artwork_cards += 1
+        if tag == "dl" and "artwork-facts" in attrs.get("class", "").split():
+            self.artwork_facts.append([])
+            self.in_artwork_facts = True
+        if self.in_artwork_facts and tag in ("dt", "dd"):
+            self.fact_tag = tag
+            self.fact_text = []
         if tag == "meta":
             self.metadata[attrs.get("name") or attrs.get("property")] = attrs.get("content", "")
         if tag == "img":
@@ -105,8 +127,16 @@ class Page(HTMLParser):
             self.schema_text.append(data)
         if self.in_body and not self.in_script and not self.in_style:
             self.body_text.append(data)
+            if self.fact_text is not None:
+                self.fact_text.append(data)
 
     def handle_endtag(self, tag):
+        if self.in_artwork_facts and tag == self.fact_tag:
+            self.artwork_facts[-1].append((tag, " ".join("".join(self.fact_text).split())))
+            self.fact_tag = None
+            self.fact_text = None
+        if tag == "dl":
+            self.in_artwork_facts = False
         if tag == "body":
             self.in_body = False
         elif tag == "title":
@@ -221,8 +251,24 @@ def verify_page(path, locale, work=None):
     if work:
         assert title == f'{translated["title"]} — {artist_names[0]} ({artist_names[1]})', f"Wrong localized artwork page title: {path}"
         assert translated["title"] in title and translated["title"] in visible, f"Missing localized artwork title: {path}"
+        for field in ("size", "material", "description"):
+            assert (field in translated) == (field in work), f"Missing or invented artwork {field}: {path}"
+            if field in translated:
+                assert isinstance(translated[field], str) and translated[field].strip(), f"Empty or invalid artwork {field}: {path}"
+        if work.get("size"):
+            assert size_parts(translated["size"], path) == size_parts(work["size"], work["id"]), f"Translated artwork size changes dimensions or units: {path}"
+        expected_facts = []
+        for field, key in (("size", "artworkSize"), ("material", "artworkMaterial")):
+            if translated.get(field):
+                expected_facts.extend((("dt", messages["ui"][key]), ("dd", " ".join(translated[field].split()))))
+        assert page.artwork_facts == ([expected_facts] if expected_facts else []), f"Artwork facts are missing, untranslated or invented: {path}"
         if translated.get("description"):
             assert " ".join(translated["description"].split()) in visible, f"Description inaccessible without JavaScript: {path}"
+        artwork_text = artwork_description(translated)
+        introduction = messages["ui"]["paintingIntro"].replace("{title}", translated["title"])
+        expected_description = introduction + " " + (" ".join(artwork_text.split()) if artwork_text else messages["ui"]["paintingFallback"])
+        assert page.metadata["description"] == expected_description, f"Artwork metadata omits or invents translated details: {path}"
+        assert any(node.get("@type") == "WebPage" and node.get("description") == expected_description for node in nodes), f"WebPage schema description omits or invents translated details: {path}"
         for image, translation in zip(work["images"], translated["images"]):
             assert any(img.get("src") == image["src"] and img.get("alt") == translation["alt"] for img in page.images), f"Photograph or translated alt missing: {path}: {image['src']}"
             assert image["src"] in page.links, f"Missing full image link: {path}: {image['src']}"
@@ -230,7 +276,10 @@ def verify_page(path, locale, work=None):
         assert len(artwork_schemas) == 1, f"Missing or duplicate artwork schema: {path}"
         artwork = artwork_schemas[0]
         assert artwork.get("name") == translated["title"] and artwork.get("url") == expected_url and artwork.get("inLanguage") == locale, f"Wrong localized artwork schema: {path}"
-        assert artwork.get("description") == translated.get("description"), f"Schema description does not match the artwork: {path}"
+        assert artwork.get("description") == artwork_text, f"Schema description does not match the artwork: {path}"
+        assert ("description" in artwork) == bool(artwork_text), f"Empty or invented schema description: {path}"
+        assert artwork.get("artMedium") == translated.get("material"), f"Schema material does not match the artwork: {path}"
+        assert ("artMedium" in artwork) == bool(translated.get("material")), f"Empty or invented schema material: {path}"
         assert artwork.get("keywords") == [messages["tags"][tag] for tag in work["tags"]], f"Schema subjects must be translated: {path}"
     else:
         assert page.artwork_cards == len(portfolio) > 0, f"Expected {len(portfolio)} prerendered artworks, got {page.artwork_cards}: {path}"
@@ -331,6 +380,13 @@ for prefix, locale in [("", "en"), *[(f"/{locale}", locale) for locale in locale
             translated = dictionaries[locale]["artworks"][work["id"]]
             if filename == "llms-full.txt":
                 assert f"## {translated['title']}" in text, f"Text catalogue omits the translated title: {path}: {work['id']}"
+                section = text.split(f"## {translated['title']}\n", 1)[1].split("\n## ", 1)[0]
+                for field, key in (("size", "artworkSize"), ("material", "artworkMaterial")):
+                    field_prefix = dictionaries[locale]["ui"][key] + ": "
+                    if translated.get(field):
+                        assert field_prefix + translated[field] in section, f"Text catalogue omits translated {field}: {path}: {work['id']}"
+                    else:
+                        assert not any(line.startswith(field_prefix) for line in section.splitlines()), f"Text catalogue invents {field}: {path}: {work['id']}"
                 if translated.get("description"):
                     assert translated["description"] in text, f"Text catalogue omits translated description: {path}: {work['id']}"
 

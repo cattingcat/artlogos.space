@@ -14,7 +14,7 @@ export type Messages = {
   site: typeof en.site
   categories: Record<string, string>
   tags: Record<string, string>
-  artworks: Record<string, { title: string; description?: string; images: { label: string; alt: string }[] }>
+  artworks: Record<string, { title: string; size?: string; material?: string; description?: string; images: { label: string; alt: string }[] }>
 }
 export const dictionaries: Record<Locale, Messages> = { en, ru, fr, de, it, es, ja }
 export type MessageKey = keyof typeof en.ui
@@ -32,7 +32,7 @@ export function getArtworks(locale: Locale) {
   if (!result) {
     result = artworks.map(work => {
       const copy = dictionaries[locale].artworks[work.id]
-      return { ...work, title: copy.title, description: copy.description, images: work.images.map((image, index) => ({ ...image, ...copy.images[index] })) }
+      return { ...work, title: copy.title, size: copy.size, material: copy.material, description: copy.description, images: work.images.map((image, index) => ({ ...image, ...copy.images[index] })) }
     })
     localizedArtworks.set(locale, result)
   }

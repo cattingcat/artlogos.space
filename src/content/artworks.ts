@@ -16,6 +16,8 @@ export type ArtworkImage = {
 export type Artwork = {
   id: string
   title: string
+  size?: string
+  material?: string
   description?: string
   sources?: { label: string; url: string }[]
   category: ArtworkCategory

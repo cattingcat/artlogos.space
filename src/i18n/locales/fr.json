@@ -88,6 +88,8 @@
     "category": "Catégorie",
     "subjects": "Sujets",
     "description": "Description",
+    "artworkSize": "Dimensions",
+    "artworkMaterial": "Matériau et technique",
     "dimensions": "Dimensions",
     "pixels": "pixels",
     "publications": "Publications",
@@ -153,7 +155,8 @@
   "artworks": {
     "night": {
       "title": "Un soir à Saint-Pétersbourg",
-      "description": "50 × 60 cm\nHuile sur toile\nPeinture au couteau",
+      "size": "50x60 cm",
+      "material": "Huile sur toile\nPeinture au couteau",
       "images": [
         {
           "label": "Tableau entier",
@@ -163,7 +166,9 @@
     },
     "voice": {
       "title": "Voix",
-      "description": "80 × 60 cm\nHuile sur toile\n\nC’est la plus grande figure que j’ai peinte jusqu’ici. Et, je ne sais trop comment, je l’ai terminée en seulement deux jours.",
+      "size": "80x60 cm",
+      "material": "Huile sur toile",
+      "description": "C’est la plus grande figure que j’ai peinte jusqu’ici. Et, je ne sais trop comment, je l’ai terminée en seulement deux jours.",
       "images": [
         {
           "label": "Tableau entier",
@@ -193,7 +198,9 @@
     },
     "azure": {
       "title": "Azur",
-      "description": "30*30 cm\nTempera à l’œuf et à l’huile sur toile, peinture au couteau.\n\nPeinture représentant une église de village au-delà d’une petite passerelle en bois. Le bleu parcourt le ciel, les coupoles et même la terre et la neige fondante, devenant plus pur vers l’horizon — un bleu qui porte le souffle du printemps.",
+      "size": "30x30 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile, peinture au couteau.",
+      "description": "Peinture représentant une église de village au-delà d’une petite passerelle en bois. Le bleu parcourt le ciel, les coupoles et même la terre et la neige fondante, devenant plus pur vers l’horizon — un bleu qui porte le souffle du printemps.",
       "images": [
         {
           "label": "Tableau entier",
@@ -207,7 +214,9 @@
     },
     "forest-figure": {
       "title": "Vision de midi",
-      "description": "40*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nPar endroits, la toile apparaît : j’en avais assez de mélanger les tons bruns et j’ai tout simplement gratté la peinture.\nJ’ai aussi utilisé du jaune de cobalt pour le corps et du jaune de cadmium, moins cher, pour la verdure.",
+      "size": "40x30 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
+      "description": "Par endroits, la toile apparaît : j’en avais assez de mélanger les tons bruns et j’ai tout simplement gratté la peinture.\nJ’ai aussi utilisé du jaune de cobalt pour le corps et du jaune de cadmium, moins cher, pour la verdure.",
       "images": [
         {
           "label": "Tableau entier",
@@ -229,7 +238,8 @@
     },
     "winter-garden": {
       "title": "Neige de mars",
-      "description": "Peinture au couteau\n18*24 cm\nTempera à l’œuf et à l’huile sur toile",
+      "size": "18x24 cm",
+      "material": "Peinture au couteau\nTempera à l’œuf et à l’huile sur toile",
       "images": [
         {
           "label": "Tableau entier",
@@ -239,7 +249,8 @@
     },
     "blue-night": {
       "title": "À l’aube",
-      "description": "30*25 cm,\nhuile sur toile",
+      "size": "30x25 cm",
+      "material": "huile sur toile",
       "images": [
         {
           "label": "Tableau entier",
@@ -249,7 +260,8 @@
     },
     "countryside": {
       "title": "Ciel bas",
-      "description": "30*25 cm,\ntempera grasse sur carton",
+      "size": "30x25 cm",
+      "material": "tempera grasse sur carton",
       "images": [
         {
           "label": "Tableau entier",
@@ -259,7 +271,9 @@
     },
     "golden-autumn": {
       "title": "Érable au crépuscule",
-      "description": "30*25 cm\nHuile sur toile\nPeinture au couteau\n\nC’était il y a environ un an. Je rentrais chez moi le soir, et les feuilles d’érable étaient si lumineuses dans l’obscurité qu’elles semblaient presque en feu.\nC’est devenu l’un de mes souvenirs préférés de cette année-là. C’était un mois d’octobre froid et calme, et peu d’autres choses m’avaient autant marquée.\n\nJ’ai donc peint ce tableau en deux heures environ. Quelques jours plus tard, la surface était presque sèche, mais elle gardait un bel éclat grâce au médium alkyde que j’avais mélangé à la peinture. D’ailleurs, je n’avais jamais utilisé de médium synthétique auparavant, mais je ne trouvais de résine dammar nulle part pendant mon voyage.",
+      "size": "30x25 cm",
+      "material": "Huile sur toile\nPeinture au couteau",
+      "description": "C’était il y a environ un an. Je rentrais chez moi le soir, et les feuilles d’érable étaient si lumineuses dans l’obscurité qu’elles semblaient presque en feu.\nC’est devenu l’un de mes souvenirs préférés de cette année-là. C’était un mois d’octobre froid et calme, et peu d’autres choses m’avaient autant marquée.\n\nJ’ai donc peint ce tableau en deux heures environ. Quelques jours plus tard, la surface était presque sèche, mais elle gardait un bel éclat grâce au médium alkyde que j’avais mélangé à la peinture. D’ailleurs, je n’avais jamais utilisé de médium synthétique auparavant, mais je ne trouvais de résine dammar nulle part pendant mon voyage.",
       "images": [
         {
           "label": "Tableau entier",
@@ -273,7 +287,9 @@
     },
     "by-the-water": {
       "title": "Rencontre",
-      "description": "60*50\nHuile sur toile\n\nJ’ai commencé ce tableau à la fin du mois de juillet par une esquisse au fusain, puis je l’ai laissé de côté pendant longtemps parce que je ne savais pas quel fixatif choisir.\nFinalement, faute de meilleure solution, j’ai simplement utilisé ma laque pour cheveux ._. J’ai ensuite recouvert l’esquisse d’une imprimatura à l’ocre jaune et continué à peindre à l’huile comme d’habitude.\nMais le paysage d’été s’est peu à peu transformé en paysage d’automne, car j’avais un peu de retard sur le changement de saison 🐌",
+      "size": "60x50",
+      "material": "Huile sur toile",
+      "description": "J’ai commencé ce tableau à la fin du mois de juillet par une esquisse au fusain, puis je l’ai laissé de côté pendant longtemps parce que je ne savais pas quel fixatif choisir.\nFinalement, faute de meilleure solution, j’ai simplement utilisé ma laque pour cheveux ._. J’ai ensuite recouvert l’esquisse d’une imprimatura à l’ocre jaune et continué à peindre à l’huile comme d’habitude.\nMais le paysage d’été s’est peu à peu transformé en paysage d’automne, car j’avais un peu de retard sur le changement de saison 🐌",
       "images": [
         {
           "label": "Tableau entier",
@@ -297,7 +313,9 @@
     },
     "about-zero": {
       "title": "Autour de zéro",
-      "description": "Peinture au couteau\n30*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nUn souvenir du 4 janvier 2016",
+      "size": "30x30 cm",
+      "material": "Peinture au couteau\nTempera à l’œuf et à l’huile sur toile",
+      "description": "Un souvenir du 4 janvier 2016",
       "images": [
         {
           "label": "Tableau entier",
@@ -311,7 +329,9 @@
     },
     "cloud-catcher": {
       "title": "Attrape-nuages",
-      "description": "20*30 cm\nHuile et émulsion à l’œuf sur toile\n\nJ’ai ajouté à mes couleurs à l’huile en tubes une émulsion à l’œuf avec de l’huile cuite et de la térébenthine de Venise. Ce mélange permet de peindre en empâtements tout en conservant des couleurs lumineuses et une pâte épaisse.",
+      "size": "20x30 cm",
+      "material": "Huile et émulsion à l’œuf sur toile",
+      "description": "J’ai ajouté à mes couleurs à l’huile en tubes une émulsion à l’œuf avec de l’huile cuite et de la térébenthine de Venise. Ce mélange permet de peindre en empâtements tout en conservant des couleurs lumineuses et une pâte épaisse.",
       "images": [
         {
           "label": "Tableau entier",
@@ -321,7 +341,9 @@
     },
     "venus": {
       "title": "Vénus",
-      "description": "J’ai pris pour modèle la sculpture « Vénus ôtant sa sandale » d’Ivan Vitali. Au départ, je voulais faire une étude de figure, mais j’ai ensuite ajouté un fond et quelques détails. J’espère pouvoir bientôt la réaliser en grand format, une fois mes toiles et mes châssis transportés.\n\n35*25 cm\nTempera à l’œuf et à l’huile sur toile",
+      "size": "35x25 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
+      "description": "J’ai pris pour modèle la sculpture « Vénus ôtant sa sandale » d’Ivan Vitali. Au départ, je voulais faire une étude de figure, mais j’ai ensuite ajouté un fond et quelques détails. J’espère pouvoir bientôt la réaliser en grand format, une fois mes toiles et mes châssis transportés.",
       "images": [
         {
           "label": "Tableau entier",
@@ -344,7 +366,8 @@
     },
     "saltspring": {
       "title": "Source salée",
-      "description": "Huile et tempera à l’œuf sur panneau de fibres\n20*25 cm",
+      "size": "20x25 cm",
+      "material": "Huile et tempera à l’œuf sur panneau de fibres",
       "images": [
         {
           "label": "Tableau entier",
@@ -358,7 +381,9 @@
     },
     "village-evening": {
       "title": "À 5 heures du matin",
-      "description": "Encore une peinture au couteau aux empâtements très épais. Pour celle-ci, j’ai mélangé mes couleurs à l’huile à un médium fait maison : dammar, huile polymérisée et essence de térébenthine rectifiée. C’est le mélange que j’utilise quand je dois déménager ou que je suis trop fatiguée, ou trop paresseuse, pour préparer une émulsion à l’œuf.\n\nJe doute de revoir un jour ces endroits. Enfant, j’adorais rendre visite à mon oncle à la campagne, près du lac Ilmen, car j’étais totalement libre d’explorer les champs et les bois autour de sa maison et de rentrer quand je le voulais. Cela ne le dérangeait pas.\n\nHuile sur toile\n18*24 cm",
+      "size": "18x24 cm",
+      "material": "Huile sur toile",
+      "description": "Encore une peinture au couteau aux empâtements très épais. Pour celle-ci, j’ai mélangé mes couleurs à l’huile à un médium fait maison : dammar, huile polymérisée et essence de térébenthine rectifiée. C’est le mélange que j’utilise quand je dois déménager ou que je suis trop fatiguée, ou trop paresseuse, pour préparer une émulsion à l’œuf.\n\nJe doute de revoir un jour ces endroits. Enfant, j’adorais rendre visite à mon oncle à la campagne, près du lac Ilmen, car j’étais totalement libre d’explorer les champs et les bois autour de sa maison et de rentrer quand je le voulais. Cela ne le dérangeait pas.",
       "images": [
         {
           "label": "Tableau entier",
@@ -376,7 +401,9 @@
     },
     "my-room": {
       "title": "Ma chambre",
-      "description": "40*30 cm\nHuile sur toile\nJ’espère revenir ici un jour.",
+      "size": "40x30 cm",
+      "material": "Huile sur toile",
+      "description": "J’espère revenir ici un jour.",
       "images": [
         {
           "label": "Tableau entier",
@@ -386,7 +413,9 @@
     },
     "village-church": {
       "title": "Avant l’orage",
-      "description": "Peinture au couteau ;\n20*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nCe tableau a été peint sur un apprêt acrylique transparent. J’aimerais aussi essayer de peindre à la tempera à l’œuf et à l’huile sur un panneau de bois encollé, sans apprêt.",
+      "size": "20x30 cm",
+      "material": "Peinture au couteau ;\nTempera à l’œuf et à l’huile sur toile",
+      "description": "Ce tableau a été peint sur un apprêt acrylique transparent. J’aimerais aussi essayer de peindre à la tempera à l’œuf et à l’huile sur un panneau de bois encollé, sans apprêt.",
       "images": [
         {
           "label": "Tableau entier",
@@ -400,7 +429,9 @@
     },
     "portrait-blue-scarf": {
       "title": "Au musée",
-      "description": "Portrait de ma sœur\n\n50*40 cm, huile sur toile",
+      "size": "50x40 cm",
+      "material": "huile sur toile",
+      "description": "Portrait de ma sœur",
       "images": [
         {
           "label": "Tableau entier",
@@ -410,7 +441,8 @@
     },
     "morning-mist": {
       "title": "Brume matinale",
-      "description": "18*24 cm\nÉtude à l’huile",
+      "size": "18x24 cm",
+      "material": "Étude à l’huile",
       "images": [
         {
           "label": "Tableau entier",
@@ -420,7 +452,9 @@
     },
     "sunlit-trees": {
       "title": "5 novembre",
-      "description": "Soirée au parc\n30*25 cm, huile sur toile",
+      "size": "30x25 cm",
+      "material": "huile sur toile",
+      "description": "Soirée au parc",
       "images": [
         {
           "label": "Tableau entier",
@@ -430,7 +464,9 @@
     },
     "city-portrait": {
       "title": "Portrait de mon père",
-      "description": "Tempera à l’œuf et à l’huile sur toile\n\n50*40 cm\n\nJ’ai enfin terminé ce portrait ! C’était aussi la première fois que je peignais avec une palette restreinte.\nJe n’ai donc utilisé que quatre couleurs pour cette œuvre : rouge de cadmium, ocre jaune, blanc de titane et gris de Payne, qui est actuellement mon noir préféré. J’essaierai d’autres pigments noirs pour mes futurs portraits et je verrai comment ils se comparent.",
+      "size": "50x40 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
+      "description": "J’ai enfin terminé ce portrait ! C’était aussi la première fois que je peignais avec une palette restreinte.\nJe n’ai donc utilisé que quatre couleurs pour cette œuvre : rouge de cadmium, ocre jaune, blanc de titane et gris de Payne, qui est actuellement mon noir préféré. J’essaierai d’autres pigments noirs pour mes futurs portraits et je verrai comment ils se comparent.",
       "images": [
         {
           "label": "Tableau entier",
@@ -448,7 +484,9 @@
     },
     "riverboat": {
       "title": "Bateau fluvial Yunga n°2",
-      "description": "Je rêve souvent de cette vue depuis le pont.\n25*30 cm\nHuile sur carton",
+      "size": "25x30 cm",
+      "material": "Huile sur carton",
+      "description": "Je rêve souvent de cette vue depuis le pont.",
       "images": [
         {
           "label": "Tableau entier",
@@ -458,7 +496,8 @@
     },
     "night-park": {
       "title": "N’importe où",
-      "description": "Peinture au couteau\n30*30 cm\nTempera à l’œuf et à l’huile sur toile",
+      "size": "30x30 cm",
+      "material": "Peinture au couteau\nTempera à l’œuf et à l’huile sur toile",
       "images": [
         {
           "label": "Tableau entier",
@@ -468,7 +507,9 @@
     },
     "park-river": {
       "title": "8 août",
-      "description": "Manoir d’Alexandrino, Saint-Pétersbourg\n\n25*30 cm\nTempera à l’œuf et à l’huile sur toile",
+      "size": "25x30 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
+      "description": "Manoir d’Alexandrino, Saint-Pétersbourg",
       "images": [
         {
           "label": "Tableau entier",
@@ -478,7 +519,9 @@
     },
     "rainy-walk": {
       "title": "Averse",
-      "description": "30*25 cm\nPeinture au couteau, tempera à l’œuf et à l’huile sur toile\n\nUn de mes professeurs de peinture m’a un jour recommandé de réaliser un petit tableau avant de commencer le travail principal, juste pour m’échauffer un peu. Malheureusement, lorsque j’ai terminé cette petite étude, il était déjà le soir.",
+      "size": "30x25 cm",
+      "material": "Peinture au couteau, tempera à l’œuf et à l’huile sur toile",
+      "description": "Un de mes professeurs de peinture m’a un jour recommandé de réaliser un petit tableau avant de commencer le travail principal, juste pour m’échauffer un peu. Malheureusement, lorsque j’ai terminé cette petite étude, il était déjà le soir.",
       "images": [
         {
           "label": "Tableau entier",
@@ -488,7 +531,9 @@
     },
     "forest-bather": {
       "title": "Ève",
-      "description": "40*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nPour la première fois, j’ai réalisé le dessin préparatoire à la terre verte antique, et j’ai beaucoup aimé ses nuances : elle ressemble un peu à une glauconite aux tons chauds. Je devrais essayer cette couleur pour un portrait.",
+      "size": "40x30 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
+      "description": "Pour la première fois, j’ai réalisé le dessin préparatoire à la terre verte antique, et j’ai beaucoup aimé ses nuances : elle ressemble un peu à une glauconite aux tons chauds. Je devrais essayer cette couleur pour un portrait.",
       "images": [
         {
           "label": "Tableau entier",
@@ -498,7 +543,9 @@
     },
     "willow-reflections": {
       "title": "La barque",
-      "description": "24*18 cm\nTempera à l’œuf et à l’huile sur toile\n…\nCet empâtement est… extrêmement épais ! Je pense que je pourrais fabriquer de petits supports avec des boîtes pour laisser sécher les peintures en empâtements sans me soucier de la poussière.",
+      "size": "24x18 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
+      "description": "…\nCet empâtement est… extrêmement épais ! Je pense que je pourrais fabriquer de petits supports avec des boîtes pour laisser sécher les peintures en empâtements sans me soucier de la poussière.",
       "images": [
         {
           "label": "Tableau entier",
@@ -517,7 +564,9 @@
     },
     "sculpture-at-night": {
       "title": "Amour et Psyché",
-      "description": "45*55 cm, huile sur toile\n\nLe tableau représente la sculpture « Psyché ranimée par le baiser de l’Amour » du sculpteur italien Antonio Canova, conservée à l’Ermitage. C’est ma première expérience avec des couleurs à l’huile mélangées à du vernis mastic. Il est très différent du vernis dammar : la peinture a un éclat noble, presque vitreux.",
+      "size": "45x55 cm",
+      "material": "huile sur toile",
+      "description": "Le tableau représente la sculpture « Psyché ranimée par le baiser de l’Amour » du sculpteur italien Antonio Canova, conservée à l’Ermitage. C’est ma première expérience avec des couleurs à l’huile mélangées à du vernis mastic. Il est très différent du vernis dammar : la peinture a un éclat noble, presque vitreux.",
       "images": [
         {
           "label": "Tableau entier",
@@ -527,7 +576,9 @@
     },
     "church-interior": {
       "title": "Cathédrale Sainte-Sophie",
-      "description": "Cathédrale Sainte-Sophie, Veliki Novgorod.\n50*40 cm\nTempera à l’œuf et à l’huile sur toile\n\nÉtonnamment, j’ai peint cette œuvre… alla prima. Une méthode traditionnelle avec une ébauche en tons sourds aurait sans doute mieux convenu à l’architecture, mais je n’aime pas les contraintes rigides.",
+      "size": "50x40 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
+      "description": "Cathédrale Sainte-Sophie, Veliki Novgorod.\n\nÉtonnamment, j’ai peint cette œuvre… alla prima. Une méthode traditionnelle avec une ébauche en tons sourds aurait sans doute mieux convenu à l’architecture, mais je n’aime pas les contraintes rigides.",
       "images": [
         {
           "label": "Tableau entier",
@@ -537,7 +588,9 @@
     },
     "cloudy-evening": {
       "title": "Soir nuageux",
-      "description": "18*24 cm\nTempera à l’œuf et à l’huile sur toile\n\n27 septembre\nÉglise Saint-Nicolas",
+      "size": "18x24 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
+      "description": "27 septembre\nÉglise Saint-Nicolas",
       "images": [
         {
           "label": "Tableau entier",
@@ -547,7 +600,8 @@
     },
     "spring-thaw": {
       "title": "Étude de printemps",
-      "description": "18*24 cm\nTempera à l’œuf et à l’huile sur toile",
+      "size": "18x24 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
       "images": [
         {
           "label": "Tableau entier",
@@ -566,7 +620,9 @@
     },
     "mountain-valley": {
       "title": "Montagnes d’Arménie",
-      "description": "En souvenir de notre petite excursion.\nPeinture au couteau sur panneau enduit de gesso acrylique\n20*30 cm\n\nDe la tempera à l’œuf et à l’huile… comme d’habitude. J’ai ajouté quelques gouttes d’huile de girofle pour que l’émulsion se conserve plus longtemps.",
+      "size": "20x30 cm",
+      "material": "Peinture au couteau sur panneau enduit de gesso acrylique",
+      "description": "En souvenir de notre petite excursion.\n\nDe la tempera à l’œuf et à l’huile… comme d’habitude. J’ai ajouté quelques gouttes d’huile de girofle pour que l’émulsion se conserve plus longtemps.",
       "images": [
         {
           "label": "Tableau entier",
@@ -576,7 +632,9 @@
     },
     "winter-moonlight": {
       "title": "Nuit",
-      "description": "24*30 cm\nTempera à l’œuf et à l’huile sur toile\n\nUn paysage hivernal peint dans des tons bleu-vert profonds sur une ébauche à la terre d’ombre. Une pâle lumière lunaire éclaire les hautes congères qui recouvrent un petit village.",
+      "size": "24x30 cm",
+      "material": "Tempera à l’œuf et à l’huile sur toile",
+      "description": "Un paysage hivernal peint dans des tons bleu-vert profonds sur une ébauche à la terre d’ombre. Une pâle lumière lunaire éclaire les hautes congères qui recouvrent un petit village.",
       "images": [
         {
           "label": "Tableau entier",
@@ -595,7 +653,9 @@
     },
     "sailboat": {
       "title": "Voilier",
-      "description": "30*25 cm\nHuile et tempera à l’œuf sur toile\n\nOù que j’aille, j’emporterai l’hiver avec moi.",
+      "size": "30x25 cm",
+      "material": "Huile et tempera à l’œuf sur toile",
+      "description": "Où que j’aille, j’emporterai l’hiver avec moi.",
       "images": [
         {
           "label": "Tableau entier",

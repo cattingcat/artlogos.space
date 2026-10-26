@@ -88,6 +88,8 @@
     "category": "Categoria",
     "subjects": "Soggetti",
     "description": "Descrizione",
+    "artworkSize": "Dimensioni",
+    "artworkMaterial": "Materiale e tecnica",
     "dimensions": "Dimensioni",
     "pixels": "pixel",
     "publications": "Pubblicazioni",
@@ -153,7 +155,8 @@
   "artworks": {
     "night": {
       "title": "Una sera a San Pietroburgo",
-      "description": "50 × 60 cm\nOlio su tela\nPittura a spatola",
+      "size": "50x60 cm",
+      "material": "Olio su tela\nPittura a spatola",
       "images": [
         {
           "label": "Dipinto completo",
@@ -163,7 +166,9 @@
     },
     "voice": {
       "title": "Voce",
-      "description": "80 × 60 cm\nOlio su tela\n\nÈ la figura più grande che abbia mai dipinto. E in qualche modo l’ho finita in appena un paio di giorni.",
+      "size": "80x60 cm",
+      "material": "Olio su tela",
+      "description": "È la figura più grande che abbia mai dipinto. E in qualche modo l’ho finita in appena un paio di giorni.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -193,7 +198,9 @@
     },
     "azure": {
       "title": "Azzurro",
-      "description": "30*30 cm\nTempera all’uovo e olio su tela, pittura a spatola.\n\nDipinto di una chiesa di villaggio al di là di una piccola passerella in legno. Il blu attraversa il cielo, le cupole e persino la terra e la neve che si scioglie, diventando più puro verso l’orizzonte — un blu che porta con sé il respiro della primavera.",
+      "size": "30x30 cm",
+      "material": "Tempera all’uovo e olio su tela, pittura a spatola.",
+      "description": "Dipinto di una chiesa di villaggio al di là di una piccola passerella in legno. Il blu attraversa il cielo, le cupole e persino la terra e la neve che si scioglie, diventando più puro verso l’orizzonte — un blu che porta con sé il respiro della primavera.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -207,7 +214,9 @@
     },
     "forest-figure": {
       "title": "Visione di mezzogiorno",
-      "description": "40*30 cm\nTempera all’uovo e olio su tela\n\nIn alcune zone del dipinto si intravede la tela, perché mi ero stancata di mescolare i toni del marrone e ho semplicemente raschiato via il colore.\nHo usato anche il giallo di cobalto per il corpo e un giallo di cadmio più economico per la vegetazione.",
+      "size": "40x30 cm",
+      "material": "Tempera all’uovo e olio su tela",
+      "description": "In alcune zone del dipinto si intravede la tela, perché mi ero stancata di mescolare i toni del marrone e ho semplicemente raschiato via il colore.\nHo usato anche il giallo di cobalto per il corpo e un giallo di cadmio più economico per la vegetazione.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -229,7 +238,8 @@
     },
     "winter-garden": {
       "title": "Neve di marzo",
-      "description": "Pittura a spatola\n18*24 cm\nTempera all’uovo e olio su tela",
+      "size": "18x24 cm",
+      "material": "Pittura a spatola\nTempera all’uovo e olio su tela",
       "images": [
         {
           "label": "Dipinto completo",
@@ -239,7 +249,8 @@
     },
     "blue-night": {
       "title": "All’alba",
-      "description": "30*25 cm,\nolio su tela",
+      "size": "30x25 cm",
+      "material": "olio su tela",
       "images": [
         {
           "label": "Dipinto completo",
@@ -249,7 +260,8 @@
     },
     "countryside": {
       "title": "Cielo basso",
-      "description": "30*25 cm,\nTempera grassa su cartone",
+      "size": "30x25 cm",
+      "material": "Tempera grassa su cartone",
       "images": [
         {
           "label": "Dipinto completo",
@@ -259,7 +271,9 @@
     },
     "golden-autumn": {
       "title": "Acero al crepuscolo",
-      "description": "30*25 cm\nOlio su tela\nPittura a spatola\n\nEra circa un anno fa. Tornavo a casa a piedi di sera e le foglie dell’acero sembravano così luminose nel buio, quasi fossero in fiamme.\nÈ diventato uno dei miei ricordi preferiti di quell’anno. Era un ottobre freddo e tranquillo e poche altre cose mi avevano colpita così tanto.\n\nCosì ho dipinto questo quadro in circa due ore. Un paio di giorni dopo, la superficie era quasi asciutta, ma aveva ancora una bella lucentezza grazie al medium alchidico che avevo mescolato al colore. Tra l’altro, non avevo mai usato un medium sintetico prima, ma durante il viaggio non riuscivo a trovare la resina dammar da nessuna parte.",
+      "size": "30x25 cm",
+      "material": "Olio su tela\nPittura a spatola",
+      "description": "Era circa un anno fa. Tornavo a casa a piedi di sera e le foglie dell’acero sembravano così luminose nel buio, quasi fossero in fiamme.\nÈ diventato uno dei miei ricordi preferiti di quell’anno. Era un ottobre freddo e tranquillo e poche altre cose mi avevano colpita così tanto.\n\nCosì ho dipinto questo quadro in circa due ore. Un paio di giorni dopo, la superficie era quasi asciutta, ma aveva ancora una bella lucentezza grazie al medium alchidico che avevo mescolato al colore. Tra l’altro, non avevo mai usato un medium sintetico prima, ma durante il viaggio non riuscivo a trovare la resina dammar da nessuna parte.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -273,7 +287,9 @@
     },
     "by-the-water": {
       "title": "Incontro",
-      "description": "60*50\nOlio su tela\n\nHo iniziato questo dipinto alla fine di luglio con uno schizzo a carboncino, poi l’ho lasciato da parte a lungo perché non sapevo quale fissativo scegliere.\nAlla fine ho usato semplicemente la mia lacca per capelli, non riuscendo a trovare un’alternativa migliore ._. Poi ho steso un’imprimitura di ocra gialla e ho continuato a dipingere a olio come al solito.\nMa il paesaggio estivo si è trasformato gradualmente in uno autunnale, perché sono rimasta un po’ indietro rispetto al cambio di stagione 🐌",
+      "size": "60x50",
+      "material": "Olio su tela",
+      "description": "Ho iniziato questo dipinto alla fine di luglio con uno schizzo a carboncino, poi l’ho lasciato da parte a lungo perché non sapevo quale fissativo scegliere.\nAlla fine ho usato semplicemente la mia lacca per capelli, non riuscendo a trovare un’alternativa migliore ._. Poi ho steso un’imprimitura di ocra gialla e ho continuato a dipingere a olio come al solito.\nMa il paesaggio estivo si è trasformato gradualmente in uno autunnale, perché sono rimasta un po’ indietro rispetto al cambio di stagione 🐌",
       "images": [
         {
           "label": "Dipinto completo",
@@ -297,7 +313,9 @@
     },
     "about-zero": {
       "title": "Intorno allo zero",
-      "description": "Pittura a spatola\n30*30 cm\nTempera all’uovo e olio su tela\n\nUn ricordo del 4 gennaio 2016",
+      "size": "30x30 cm",
+      "material": "Pittura a spatola\nTempera all’uovo e olio su tela",
+      "description": "Un ricordo del 4 gennaio 2016",
       "images": [
         {
           "label": "Dipinto completo",
@@ -311,7 +329,9 @@
     },
     "cloud-catcher": {
       "title": "Acchiappanuvole",
-      "description": "20*30 cm\nOlio + emulsione all’uovo su tela\n\nHo aggiunto ai miei colori a olio in tubetto un’emulsione all’uovo con olio cotto e trementina veneta. Questa miscela permette di dipingere a impasto mantenendo i colori brillanti e la consistenza densa.",
+      "size": "20x30 cm",
+      "material": "Olio + emulsione all’uovo su tela",
+      "description": "Ho aggiunto ai miei colori a olio in tubetto un’emulsione all’uovo con olio cotto e trementina veneta. Questa miscela permette di dipingere a impasto mantenendo i colori brillanti e la consistenza densa.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -321,7 +341,9 @@
     },
     "venus": {
       "title": "Venere",
-      "description": "Ho usato come riferimento la scultura “Venere che si toglie il sandalo” di Ivan Vitali. All’inizio volevo fare uno studio di figura, ma poi ho aggiunto uno sfondo e alcuni dettagli. Spero di riuscire presto a realizzarlo in grande formato, quando avrò trasferito le mie tele e i telai.\n\n35*25 cm\nTempera all’uovo e olio su tela",
+      "size": "35x25 cm",
+      "material": "Tempera all’uovo e olio su tela",
+      "description": "Ho usato come riferimento la scultura “Venere che si toglie il sandalo” di Ivan Vitali. All’inizio volevo fare uno studio di figura, ma poi ho aggiunto uno sfondo e alcuni dettagli. Spero di riuscire presto a realizzarlo in grande formato, quando avrò trasferito le mie tele e i telai.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -344,7 +366,8 @@
     },
     "saltspring": {
       "title": "Sorgente salina",
-      "description": "Olio + tempera all’uovo su pannello di fibra di legno\n20*25 cm",
+      "size": "20x25 cm",
+      "material": "Olio + tempera all’uovo su pannello di fibra di legno",
       "images": [
         {
           "label": "Dipinto completo",
@@ -358,7 +381,9 @@
     },
     "village-evening": {
       "title": "Alle 5 del mattino",
-      "description": "Un altro dipinto a spatola con uno strato di colore molto spesso. Per questo ho mescolato i miei colori a olio con un medium fatto in casa: dammar, olio polimerizzato ed essenza di trementina rettificata. È la miscela a cui ricorro quando devo traslocare o mi sento troppo stanca o pigra per preparare un’emulsione all’uovo.\n\nDubito che rivedrò mai questi luoghi. Da bambina adoravo andare a trovare mio zio nella campagna vicino al lago Ilmen, perché ero completamente libera di esplorare i campi e i boschi intorno a casa sua e tornare quando volevo. A lui andava bene così.\n\nOlio su tela\n18*24 cm",
+      "size": "18x24 cm",
+      "material": "Olio su tela",
+      "description": "Un altro dipinto a spatola con uno strato di colore molto spesso. Per questo ho mescolato i miei colori a olio con un medium fatto in casa: dammar, olio polimerizzato ed essenza di trementina rettificata. È la miscela a cui ricorro quando devo traslocare o mi sento troppo stanca o pigra per preparare un’emulsione all’uovo.\n\nDubito che rivedrò mai questi luoghi. Da bambina adoravo andare a trovare mio zio nella campagna vicino al lago Ilmen, perché ero completamente libera di esplorare i campi e i boschi intorno a casa sua e tornare quando volevo. A lui andava bene così.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -376,7 +401,9 @@
     },
     "my-room": {
       "title": "La mia stanza",
-      "description": "40*30 cm\nOlio su tela\nSpero di tornarci ancora.",
+      "size": "40x30 cm",
+      "material": "Olio su tela",
+      "description": "Spero di tornarci ancora.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -386,7 +413,9 @@
     },
     "village-church": {
       "title": "Prima della tempesta",
-      "description": "Pittura a spatola;\n20*30 cm\nTempera all’uovo e olio su tela\n\nHo realizzato questo dipinto su un fondo acrilico trasparente. Vorrei anche provare a dipingere con tempera all’uovo e olio su una tavola di legno trattata con colla, senza alcuna preparazione di fondo.",
+      "size": "20x30 cm",
+      "material": "Pittura a spatola;\nTempera all’uovo e olio su tela",
+      "description": "Ho realizzato questo dipinto su un fondo acrilico trasparente. Vorrei anche provare a dipingere con tempera all’uovo e olio su una tavola di legno trattata con colla, senza alcuna preparazione di fondo.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -400,7 +429,9 @@
     },
     "portrait-blue-scarf": {
       "title": "Nel museo",
-      "description": "Ritratto di mia sorella\n\n50*40 cm, olio su tela",
+      "size": "50x40 cm",
+      "material": "olio su tela",
+      "description": "Ritratto di mia sorella",
       "images": [
         {
           "label": "Dipinto completo",
@@ -410,7 +441,8 @@
     },
     "morning-mist": {
       "title": "Nebbia mattutina",
-      "description": "18*24 cm\nStudio a olio",
+      "size": "18x24 cm",
+      "material": "Studio a olio",
       "images": [
         {
           "label": "Dipinto completo",
@@ -420,7 +452,9 @@
     },
     "sunlit-trees": {
       "title": "5 novembre",
-      "description": "Sera nel parco\n30*25 cm, olio su tela",
+      "size": "30x25 cm",
+      "material": "olio su tela",
+      "description": "Sera nel parco",
       "images": [
         {
           "label": "Dipinto completo",
@@ -430,7 +464,9 @@
     },
     "city-portrait": {
       "title": "Ritratto di mio padre",
-      "description": "Tempera all’uovo e olio su tela\n\n50*40 cm\n\nHo finalmente finito questo ritratto! Ed è stata la prima volta che ho dipinto con una tavolozza limitata.\nPer quest’opera ho usato solo quattro colori: rosso di cadmio, ocra gialla, bianco di titanio e grigio di Payne, che al momento è il mio nero preferito. In futuro proverò altri pigmenti neri per i ritratti e vedrò come si confrontano.",
+      "size": "50x40 cm",
+      "material": "Tempera all’uovo e olio su tela",
+      "description": "Ho finalmente finito questo ritratto! Ed è stata la prima volta che ho dipinto con una tavolozza limitata.\nPer quest’opera ho usato solo quattro colori: rosso di cadmio, ocra gialla, bianco di titanio e grigio di Payne, che al momento è il mio nero preferito. In futuro proverò altri pigmenti neri per i ritratti e vedrò come si confrontano.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -448,7 +484,9 @@
     },
     "riverboat": {
       "title": "Battello fluviale Yunga #2",
-      "description": "Sogno spesso quella vista dal ponte.\n25*30 cm\nOlio su cartone",
+      "size": "25x30 cm",
+      "material": "Olio su cartone",
+      "description": "Sogno spesso quella vista dal ponte.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -458,7 +496,8 @@
     },
     "night-park": {
       "title": "Ovunque",
-      "description": "Pittura a spatola\n30*30 cm\nTempera all’uovo e olio su tela",
+      "size": "30x30 cm",
+      "material": "Pittura a spatola\nTempera all’uovo e olio su tela",
       "images": [
         {
           "label": "Dipinto completo",
@@ -468,7 +507,9 @@
     },
     "park-river": {
       "title": "8 agosto",
-      "description": "Tenuta di Alexandrino, San Pietroburgo\n\n25*30 cm\nTempera all’uovo e olio su tela",
+      "size": "25x30 cm",
+      "material": "Tempera all’uovo e olio su tela",
+      "description": "Tenuta di Alexandrino, San Pietroburgo",
       "images": [
         {
           "label": "Dipinto completo",
@@ -478,7 +519,9 @@
     },
     "rainy-walk": {
       "title": "Acquazzone",
-      "description": "30*25 cm\nPittura a spatola, tempera all’uovo e olio su tela\n\nUno dei miei insegnanti di pittura mi consigliò una volta di fare un piccolo dipinto prima di iniziare il lavoro principale, giusto per scaldarmi un po’. Purtroppo, quando ho finito quel piccolo studio, era già sera.",
+      "size": "30x25 cm",
+      "material": "Pittura a spatola, tempera all’uovo e olio su tela",
+      "description": "Uno dei miei insegnanti di pittura mi consigliò una volta di fare un piccolo dipinto prima di iniziare il lavoro principale, giusto per scaldarmi un po’. Purtroppo, quando ho finito quel piccolo studio, era già sera.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -488,7 +531,9 @@
     },
     "forest-bather": {
       "title": "Eva",
-      "description": "40*30 cm\nTempera all’uovo e olio su tela\n\nPer la prima volta ho dipinto il disegno preparatorio con terra verde antica e mi sono piaciute molto le sue tonalità: ricorda un po’ una glauconite dai toni caldi. Dovrei provare a usare questo colore per un ritratto.",
+      "size": "40x30 cm",
+      "material": "Tempera all’uovo e olio su tela",
+      "description": "Per la prima volta ho dipinto il disegno preparatorio con terra verde antica e mi sono piaciute molto le sue tonalità: ricorda un po’ una glauconite dai toni caldi. Dovrei provare a usare questo colore per un ritratto.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -498,7 +543,9 @@
     },
     "willow-reflections": {
       "title": "La barca",
-      "description": "24*18 cm\nTempera all’uovo e olio su tela\n…\nQuesto impasto è… incredibilmente spesso! Penso che potrei costruire dei piccoli supporti con delle scatole, così i dipinti a impasto potrebbero asciugare senza che debba preoccuparmi della polvere.",
+      "size": "24x18 cm",
+      "material": "Tempera all’uovo e olio su tela",
+      "description": "…\nQuesto impasto è… incredibilmente spesso! Penso che potrei costruire dei piccoli supporti con delle scatole, così i dipinti a impasto potrebbero asciugare senza che debba preoccuparmi della polvere.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -517,7 +564,9 @@
     },
     "sculpture-at-night": {
       "title": "Amore e Psiche",
-      "description": "45*55 cm, olio su tela\n\nIl dipinto raffigura la scultura “Psiche rianimata dal bacio di Amore” dello scultore italiano Antonio Canova, conservata all’Ermitage. È la mia prima esperienza con colori a olio mescolati a vernice mastice. È molto diversa dalla vernice dammar: il dipinto ha una lucentezza raffinata e quasi vitrea.",
+      "size": "45x55 cm",
+      "material": "olio su tela",
+      "description": "Il dipinto raffigura la scultura “Psiche rianimata dal bacio di Amore” dello scultore italiano Antonio Canova, conservata all’Ermitage. È la mia prima esperienza con colori a olio mescolati a vernice mastice. È molto diversa dalla vernice dammar: il dipinto ha una lucentezza raffinata e quasi vitrea.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -527,7 +576,9 @@
     },
     "church-interior": {
       "title": "Cattedrale di Santa Sofia",
-      "description": "Cattedrale di Santa Sofia, Velikij Novgorod.\n50*40 cm\nTempera all’uovo e olio su tela\n\nSorprendentemente, ho dipinto quest’opera… alla prima. Un metodo tradizionale con un abbozzo a tinte smorte sarebbe probabilmente stato più adatto all’architettura, ma non mi piacciono i vincoli rigidi.",
+      "size": "50x40 cm",
+      "material": "Tempera all’uovo e olio su tela",
+      "description": "Cattedrale di Santa Sofia, Velikij Novgorod.\n\nSorprendentemente, ho dipinto quest’opera… alla prima. Un metodo tradizionale con un abbozzo a tinte smorte sarebbe probabilmente stato più adatto all’architettura, ma non mi piacciono i vincoli rigidi.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -537,7 +588,9 @@
     },
     "cloudy-evening": {
       "title": "Serata nuvolosa",
-      "description": "18*24 cm\nTempera all’uovo e olio su tela\n\n27 settembre\nChiesa di San Nicola",
+      "size": "18x24 cm",
+      "material": "Tempera all’uovo e olio su tela",
+      "description": "27 settembre\nChiesa di San Nicola",
       "images": [
         {
           "label": "Dipinto completo",
@@ -547,7 +600,8 @@
     },
     "spring-thaw": {
       "title": "Studio di primavera",
-      "description": "18*24 cm\nTempera all’uovo e olio su tela",
+      "size": "18x24 cm",
+      "material": "Tempera all’uovo e olio su tela",
       "images": [
         {
           "label": "Dipinto completo",
@@ -566,7 +620,9 @@
     },
     "mountain-valley": {
       "title": "Montagne dell’Armenia",
-      "description": "In ricordo della nostra piccola gita.\nPittura a spatola su pannello preparato con gesso acrilico\n20*30 cm\n\nTempera all’uovo e olio… come al solito. Ho aggiunto qualche goccia di olio di chiodi di garofano per far durare più a lungo l’emulsione.",
+      "size": "20x30 cm",
+      "material": "Pittura a spatola su pannello preparato con gesso acrilico",
+      "description": "In ricordo della nostra piccola gita.\n\nTempera all’uovo e olio… come al solito. Ho aggiunto qualche goccia di olio di chiodi di garofano per far durare più a lungo l’emulsione.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -576,7 +632,9 @@
     },
     "winter-moonlight": {
       "title": "Notte",
-      "description": "24*30 cm\nTempera all’uovo e olio su tela\n\nUn paesaggio invernale dipinto in profondi toni blu-verdi su una stesura di fondo in terra d’ombra. Una pallida luce lunare cade sugli alti cumuli di neve che ricoprono un piccolo villaggio.",
+      "size": "24x30 cm",
+      "material": "Tempera all’uovo e olio su tela",
+      "description": "Un paesaggio invernale dipinto in profondi toni blu-verdi su una stesura di fondo in terra d’ombra. Una pallida luce lunare cade sugli alti cumuli di neve che ricoprono un piccolo villaggio.",
       "images": [
         {
           "label": "Dipinto completo",
@@ -595,7 +653,9 @@
     },
     "sailboat": {
       "title": "Barca a vela",
-      "description": "30*25 cm\nOlio + tempera all’uovo su tela\n\nOvunque vada, porterò l’inverno con me.",
+      "size": "30x25 cm",
+      "material": "Olio + tempera all’uovo su tela",
+      "description": "Ovunque vada, porterò l’inverno con me.",
       "images": [
         {
           "label": "Dipinto completo",

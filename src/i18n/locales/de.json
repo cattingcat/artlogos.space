@@ -88,6 +88,8 @@
     "category": "Kategorie",
     "subjects": "Motive",
     "description": "Beschreibung",
+    "artworkSize": "Größe",
+    "artworkMaterial": "Material und Technik",
     "dimensions": "Maße",
     "pixels": "Pixel",
     "publications": "Veröffentlichungen",
@@ -153,7 +155,8 @@
   "artworks": {
     "night": {
       "title": "Ein Abend in Sankt Petersburg",
-      "description": "50 × 60 cm\nÖl auf Leinwand\nSpachtelmalerei",
+      "size": "50x60 cm",
+      "material": "Öl auf Leinwand\nSpachtelmalerei",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -163,7 +166,9 @@
     },
     "voice": {
       "title": "Stimme",
-      "description": "80 × 60 cm\nÖl auf Leinwand\n\nSie ist die größte Figur, die ich bisher gemalt habe. Und irgendwie habe ich sie in nur ein paar Tagen fertiggestellt.",
+      "size": "80x60 cm",
+      "material": "Öl auf Leinwand",
+      "description": "Sie ist die größte Figur, die ich bisher gemalt habe. Und irgendwie habe ich sie in nur ein paar Tagen fertiggestellt.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -193,7 +198,9 @@
     },
     "azure": {
       "title": "Azur",
-      "description": "30*30 cm\nEi-Öl-Tempera auf Leinwand, Spachtelmalerei.\n\nEin Gemälde einer Dorfkirche hinter einer kleinen hölzernen Fußgängerbrücke. Blau zieht sich durch den Himmel, die Kuppeln und sogar durch die Erde und den schmelzenden Schnee und wird zum Horizont hin immer reiner — ein Blau, das den Hauch des Frühlings in sich trägt.",
+      "size": "30x30 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand, Spachtelmalerei.",
+      "description": "Ein Gemälde einer Dorfkirche hinter einer kleinen hölzernen Fußgängerbrücke. Blau zieht sich durch den Himmel, die Kuppeln und sogar durch die Erde und den schmelzenden Schnee und wird zum Horizont hin immer reiner — ein Blau, das den Hauch des Frühlings in sich trägt.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -207,7 +214,9 @@
     },
     "forest-figure": {
       "title": "Vision am Mittag",
-      "description": "40*30 cm\nEi-Öl-Tempera auf Leinwand\n\nAn manchen Stellen dieses Gemäldes scheint die Leinwand durch, weil ich es leid war, Brauntöne zu mischen, und die Farbe einfach abgekratzt habe.\nFür den Körper habe ich außerdem Kobaltgelb verwendet und für das Grün ein günstigeres Kadmiumgelb.",
+      "size": "40x30 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
+      "description": "An manchen Stellen dieses Gemäldes scheint die Leinwand durch, weil ich es leid war, Brauntöne zu mischen, und die Farbe einfach abgekratzt habe.\nFür den Körper habe ich außerdem Kobaltgelb verwendet und für das Grün ein günstigeres Kadmiumgelb.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -229,7 +238,8 @@
     },
     "winter-garden": {
       "title": "Märzschnee",
-      "description": "Spachtelmalerei\n18*24 cm\nEi-Öl-Tempera auf Leinwand",
+      "size": "18x24 cm",
+      "material": "Spachtelmalerei\nEi-Öl-Tempera auf Leinwand",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -239,7 +249,8 @@
     },
     "blue-night": {
       "title": "Im Morgengrauen",
-      "description": "30*25 cm,\nÖl auf Leinwand",
+      "size": "30x25 cm",
+      "material": "Öl auf Leinwand",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -249,7 +260,8 @@
     },
     "countryside": {
       "title": "Tiefer Himmel",
-      "description": "30*25 cm,\nTempera grassa auf Karton",
+      "size": "30x25 cm",
+      "material": "Tempera grassa auf Karton",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -259,7 +271,9 @@
     },
     "golden-autumn": {
       "title": "Ahorn in der Dämmerung",
-      "description": "30*25 cm\nÖl auf Leinwand\nSpachtelmalerei\n\nDas war vor ungefähr einem Jahr. Ich ging abends nach Hause, und die Ahornblätter leuchteten so hell in der Dunkelheit, als würden sie brennen.\nDas wurde eine meiner liebsten Erinnerungen an dieses Jahr. Es war ein kalter, stiller Oktober, und kaum etwas anderes hat mich so beeindruckt.\n\nAlso malte ich dieses Bild in etwa zwei Stunden. Ein paar Tage später war die Oberfläche fast trocken, hatte aber noch einen schönen Glanz dank des Alkydmalmittels, das ich der Farbe beigemischt hatte. Übrigens hatte ich zuvor noch nie ein synthetisches Malmittel verwendet, aber unterwegs konnte ich nirgends Dammarharz finden.",
+      "size": "30x25 cm",
+      "material": "Öl auf Leinwand\nSpachtelmalerei",
+      "description": "Das war vor ungefähr einem Jahr. Ich ging abends nach Hause, und die Ahornblätter leuchteten so hell in der Dunkelheit, als würden sie brennen.\nDas wurde eine meiner liebsten Erinnerungen an dieses Jahr. Es war ein kalter, stiller Oktober, und kaum etwas anderes hat mich so beeindruckt.\n\nAlso malte ich dieses Bild in etwa zwei Stunden. Ein paar Tage später war die Oberfläche fast trocken, hatte aber noch einen schönen Glanz dank des Alkydmalmittels, das ich der Farbe beigemischt hatte. Übrigens hatte ich zuvor noch nie ein synthetisches Malmittel verwendet, aber unterwegs konnte ich nirgends Dammarharz finden.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -273,7 +287,9 @@
     },
     "by-the-water": {
       "title": "Begegnung",
-      "description": "60*50\nÖl auf Leinwand\n\nIch begann dieses Gemälde Ende Juli mit einer Kohleskizze und ließ es dann lange liegen, weil ich nicht wusste, welches Fixativ ich nehmen sollte.\nAm Ende habe ich einfach mein Haarspray benutzt, weil ich keine bessere Alternative finden konnte ._. Danach legte ich eine Imprimitur aus gelbem Ocker darüber und malte wie gewohnt mit Ölfarben weiter.\nAber die Sommerlandschaft verwandelte sich nach und nach in eine Herbstlandschaft, weil ich dem Wechsel der Jahreszeiten etwas hinterherhinkte 🐌",
+      "size": "60x50",
+      "material": "Öl auf Leinwand",
+      "description": "Ich begann dieses Gemälde Ende Juli mit einer Kohleskizze und ließ es dann lange liegen, weil ich nicht wusste, welches Fixativ ich nehmen sollte.\nAm Ende habe ich einfach mein Haarspray benutzt, weil ich keine bessere Alternative finden konnte ._. Danach legte ich eine Imprimitur aus gelbem Ocker darüber und malte wie gewohnt mit Ölfarben weiter.\nAber die Sommerlandschaft verwandelte sich nach und nach in eine Herbstlandschaft, weil ich dem Wechsel der Jahreszeiten etwas hinterherhinkte 🐌",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -297,7 +313,9 @@
     },
     "about-zero": {
       "title": "Um null",
-      "description": "Spachtelmalerei\n30*30 cm\nEi-Öl-Tempera auf Leinwand\n\nEine Erinnerung an den 4. Januar 2016",
+      "size": "30x30 cm",
+      "material": "Spachtelmalerei\nEi-Öl-Tempera auf Leinwand",
+      "description": "Eine Erinnerung an den 4. Januar 2016",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -311,7 +329,9 @@
     },
     "cloud-catcher": {
       "title": "Wolkenfänger",
-      "description": "20*30 cm\nÖl + Eiemulsion auf Leinwand\n\nIch habe meinen Ölfarben aus der Tube eine Eiemulsion mit gekochtem Öl und Venezianer Terpentin beigemischt. Mit dieser Mischung kann ich pastos malen, während die Farben leuchtend und die Farbmasse dick bleiben.",
+      "size": "20x30 cm",
+      "material": "Öl + Eiemulsion auf Leinwand",
+      "description": "Ich habe meinen Ölfarben aus der Tube eine Eiemulsion mit gekochtem Öl und Venezianer Terpentin beigemischt. Mit dieser Mischung kann ich pastos malen, während die Farben leuchtend und die Farbmasse dick bleiben.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -321,7 +341,9 @@
     },
     "venus": {
       "title": "Venus",
-      "description": "Als Vorlage habe ich die Skulptur „Venus beim Ablegen ihrer Sandale“ von Ivan Vitali verwendet. Zuerst wollte ich eine Figurenstudie malen, doch später ergänzte ich einen Hintergrund und einige Details. Ich hoffe, dass ich das bald im Großformat umsetzen kann, sobald ich meine Leinwände und Keilrahmen zu mir geholt habe.\n\n35*25 cm\nEi-Öl-Tempera auf Leinwand",
+      "size": "35x25 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
+      "description": "Als Vorlage habe ich die Skulptur „Venus beim Ablegen ihrer Sandale“ von Ivan Vitali verwendet. Zuerst wollte ich eine Figurenstudie malen, doch später ergänzte ich einen Hintergrund und einige Details. Ich hoffe, dass ich das bald im Großformat umsetzen kann, sobald ich meine Leinwände und Keilrahmen zu mir geholt habe.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -344,7 +366,8 @@
     },
     "saltspring": {
       "title": "Salzquelle",
-      "description": "Öl + Eitempera auf Hartfaserplatte\n20*25 cm",
+      "size": "20x25 cm",
+      "material": "Öl + Eitempera auf Hartfaserplatte",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -358,7 +381,9 @@
     },
     "village-evening": {
       "title": "Um 5 Uhr morgens",
-      "description": "Noch eine Spachtelmalerei mit sehr dickem Farbauftrag. Hier habe ich meine Ölfarben mit einem selbst gemachten Malmittel vermischt: Dammar, Standöl und gereinigtes Terpentinöl – die Mischung, auf die ich zurückgreife, wenn ich umziehen muss oder zu müde oder zu faul bin, um eine Eiemulsion anzurühren.\n\nIch bezweifle, dass ich diese Orte je wiedersehen werde. Als Kind besuchte ich meinen Onkel auf dem Land in der Nähe des Ilmensees sehr gern, weil ich die Felder und Wälder rund um sein Haus völlig frei erkunden und zurückkommen konnte, wann ich wollte. Ihn störte das nicht.\n\nÖl auf Leinwand\n18*24 cm",
+      "size": "18x24 cm",
+      "material": "Öl auf Leinwand",
+      "description": "Noch eine Spachtelmalerei mit sehr dickem Farbauftrag. Hier habe ich meine Ölfarben mit einem selbst gemachten Malmittel vermischt: Dammar, Standöl und gereinigtes Terpentinöl – die Mischung, auf die ich zurückgreife, wenn ich umziehen muss oder zu müde oder zu faul bin, um eine Eiemulsion anzurühren.\n\nIch bezweifle, dass ich diese Orte je wiedersehen werde. Als Kind besuchte ich meinen Onkel auf dem Land in der Nähe des Ilmensees sehr gern, weil ich die Felder und Wälder rund um sein Haus völlig frei erkunden und zurückkommen konnte, wann ich wollte. Ihn störte das nicht.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -376,7 +401,9 @@
     },
     "my-room": {
       "title": "Mein Zimmer",
-      "description": "40*30 cm\nÖl auf Leinwand\nIch hoffe, dass ich eines Tages hierher zurückkehre.",
+      "size": "40x30 cm",
+      "material": "Öl auf Leinwand",
+      "description": "Ich hoffe, dass ich eines Tages hierher zurückkehre.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -386,7 +413,9 @@
     },
     "village-church": {
       "title": "Vor dem Sturm",
-      "description": "Spachtelmalerei;\n20*30 cm\nEi-Öl-Tempera auf Leinwand\n\nDieses Gemälde entstand auf einer transparenten Acrylgrundierung. Ich würde auch gern ausprobieren, mit Ei-Öl-Tempera auf einer geleimten Holztafel ohne Grundierung zu malen.",
+      "size": "20x30 cm",
+      "material": "Spachtelmalerei;\nEi-Öl-Tempera auf Leinwand",
+      "description": "Dieses Gemälde entstand auf einer transparenten Acrylgrundierung. Ich würde auch gern ausprobieren, mit Ei-Öl-Tempera auf einer geleimten Holztafel ohne Grundierung zu malen.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -400,7 +429,9 @@
     },
     "portrait-blue-scarf": {
       "title": "Im Museum",
-      "description": "Porträt meiner Schwester\n\n50*40 cm, Öl auf Leinwand",
+      "size": "50x40 cm",
+      "material": "Öl auf Leinwand",
+      "description": "Porträt meiner Schwester",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -410,7 +441,8 @@
     },
     "morning-mist": {
       "title": "Morgennebel",
-      "description": "18*24 cm\nÖlstudie",
+      "size": "18x24 cm",
+      "material": "Ölstudie",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -420,7 +452,9 @@
     },
     "sunlit-trees": {
       "title": "5. November",
-      "description": "Abend im Park\n30*25 cm, Öl auf Leinwand",
+      "size": "30x25 cm",
+      "material": "Öl auf Leinwand",
+      "description": "Abend im Park",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -430,7 +464,9 @@
     },
     "city-portrait": {
       "title": "Porträt meines Vaters",
-      "description": "Ei-Öl-Tempera auf Leinwand\n\n50*40 cm\n\nEndlich habe ich dieses Porträt fertiggestellt! Zum ersten Mal habe ich mit einer begrenzten Farbpalette gemalt.\nFür dieses Bild habe ich also nur vier Farben verwendet: Kadmiumrot, gelben Ocker, Titanweiß und Paynesgrau, das derzeit mein liebstes Schwarz ist. Künftig werde ich bei Porträts auch andere Schwarzpigmente ausprobieren und sehen, wie sie sich unterscheiden.",
+      "size": "50x40 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
+      "description": "Endlich habe ich dieses Porträt fertiggestellt! Zum ersten Mal habe ich mit einer begrenzten Farbpalette gemalt.\nFür dieses Bild habe ich also nur vier Farben verwendet: Kadmiumrot, gelben Ocker, Titanweiß und Paynesgrau, das derzeit mein liebstes Schwarz ist. Künftig werde ich bei Porträts auch andere Schwarzpigmente ausprobieren und sehen, wie sie sich unterscheiden.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -448,7 +484,9 @@
     },
     "riverboat": {
       "title": "Flussschiff Yunga #2",
-      "description": "Ich träume oft von diesem Blick von der Brücke.\n25*30 cm\nÖl auf Karton",
+      "size": "25x30 cm",
+      "material": "Öl auf Karton",
+      "description": "Ich träume oft von diesem Blick von der Brücke.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -458,7 +496,8 @@
     },
     "night-park": {
       "title": "Irgendwo",
-      "description": "Spachtelmalerei\n30*30 cm\nEi-Öl-Tempera auf Leinwand",
+      "size": "30x30 cm",
+      "material": "Spachtelmalerei\nEi-Öl-Tempera auf Leinwand",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -468,7 +507,9 @@
     },
     "park-river": {
       "title": "8. August",
-      "description": "Herrenhaus Alexandrino, Sankt Petersburg\n\n25*30 cm\nEi-Öl-Tempera auf Leinwand",
+      "size": "25x30 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
+      "description": "Herrenhaus Alexandrino, Sankt Petersburg",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -478,7 +519,9 @@
     },
     "rainy-walk": {
       "title": "Wolkenbruch",
-      "description": "30*25 cm\nSpachtelmalerei, Ei-Öl-Tempera auf Leinwand\n\nEiner meiner Mallehrer empfahl mir einmal, vor dem eigentlichen Werk ein kleines Bild zu malen – einfach, um ein bisschen warm zu werden. Leider war es schon Abend, als ich diese kleine Studie fertig hatte.",
+      "size": "30x25 cm",
+      "material": "Spachtelmalerei, Ei-Öl-Tempera auf Leinwand",
+      "description": "Einer meiner Mallehrer empfahl mir einmal, vor dem eigentlichen Werk ein kleines Bild zu malen – einfach, um ein bisschen warm zu werden. Leider war es schon Abend, als ich diese kleine Studie fertig hatte.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -488,7 +531,9 @@
     },
     "forest-bather": {
       "title": "Eva",
-      "description": "40*30 cm\nEi-Öl-Tempera auf Leinwand\n\nZum ersten Mal habe ich die Vorzeichnung mit antiker grüner Erde gemalt, und mir gefielen ihre Farbtöne sehr – sie erinnert ein wenig an einen warmen Glaukonit. Ich sollte diese Farbe einmal für ein Porträt ausprobieren.",
+      "size": "40x30 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
+      "description": "Zum ersten Mal habe ich die Vorzeichnung mit antiker grüner Erde gemalt, und mir gefielen ihre Farbtöne sehr – sie erinnert ein wenig an einen warmen Glaukonit. Ich sollte diese Farbe einmal für ein Porträt ausprobieren.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -498,7 +543,9 @@
     },
     "willow-reflections": {
       "title": "Das Boot",
-      "description": "24*18 cm\nEi-Öl-Tempera auf Leinwand\n…\nDieser pastose Farbauftrag ist … unglaublich dick! Ich könnte kleine Halterungen aus Schachteln basteln, damit pastos gemalte Bilder trocknen können, ohne dass ich mir Sorgen um Staub machen muss.",
+      "size": "24x18 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
+      "description": "…\nDieser pastose Farbauftrag ist … unglaublich dick! Ich könnte kleine Halterungen aus Schachteln basteln, damit pastos gemalte Bilder trocknen können, ohne dass ich mir Sorgen um Staub machen muss.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -517,7 +564,9 @@
     },
     "sculpture-at-night": {
       "title": "Amor und Psyche",
-      "description": "45*55 cm, Öl auf Leinwand\n\nDas Gemälde zeigt die Skulptur „Psyche, durch Amors Kuss wiederbelebt“ des italienischen Bildhauers Antonio Canova aus der Eremitage. Hier habe ich zum ersten Mal Ölfarben mit Mastixfirnis vermischt. Er unterscheidet sich sehr von Dammarfirnis; das Gemälde hat einen edlen, fast glasartigen Glanz.",
+      "size": "45x55 cm",
+      "material": "Öl auf Leinwand",
+      "description": "Das Gemälde zeigt die Skulptur „Psyche, durch Amors Kuss wiederbelebt“ des italienischen Bildhauers Antonio Canova aus der Eremitage. Hier habe ich zum ersten Mal Ölfarben mit Mastixfirnis vermischt. Er unterscheidet sich sehr von Dammarfirnis; das Gemälde hat einen edlen, fast glasartigen Glanz.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -527,7 +576,9 @@
     },
     "church-interior": {
       "title": "Sophienkathedrale",
-      "description": "Sophienkathedrale, Weliki Nowgorod.\n50*40 cm\nEi-Öl-Tempera auf Leinwand\n\nÜberraschenderweise habe ich dieses Bild … alla prima gemalt. Eine traditionelle Untermalung in gedämpften Farben hätte wahrscheinlich besser zur Architektur gepasst, aber ich mag keine starren Vorgaben.",
+      "size": "50x40 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
+      "description": "Sophienkathedrale, Weliki Nowgorod.\n\nÜberraschenderweise habe ich dieses Bild … alla prima gemalt. Eine traditionelle Untermalung in gedämpften Farben hätte wahrscheinlich besser zur Architektur gepasst, aber ich mag keine starren Vorgaben.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -537,7 +588,9 @@
     },
     "cloudy-evening": {
       "title": "Bewölkter Abend",
-      "description": "18*24 cm\nEi-Öl-Tempera auf Leinwand\n\n27. September\nNikolauskirche",
+      "size": "18x24 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
+      "description": "27. September\nNikolauskirche",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -547,7 +600,8 @@
     },
     "spring-thaw": {
       "title": "Frühlingsstudie",
-      "description": "18*24 cm\nEi-Öl-Tempera auf Leinwand",
+      "size": "18x24 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -566,7 +620,9 @@
     },
     "mountain-valley": {
       "title": "Berge Armeniens",
-      "description": "Zur Erinnerung an unseren kleinen Ausflug.\nSpachtelmalerei auf einer mit Acrylgesso grundierten Malplatte\n20*30 cm\n\nEi-Öl-Tempera … wie immer. Ich habe ein paar Tropfen Nelkenöl hinzugefügt, damit die Emulsion länger hält.",
+      "size": "20x30 cm",
+      "material": "Spachtelmalerei auf einer mit Acrylgesso grundierten Malplatte",
+      "description": "Zur Erinnerung an unseren kleinen Ausflug.\n\nEi-Öl-Tempera … wie immer. Ich habe ein paar Tropfen Nelkenöl hinzugefügt, damit die Emulsion länger hält.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -576,7 +632,9 @@
     },
     "winter-moonlight": {
       "title": "Nacht",
-      "description": "24*30 cm\nEi-Öl-Tempera auf Leinwand\n\nEine Winterlandschaft, gemalt in tiefen Blaugrüntönen über einer Untermalung in Umbra. Blasses Mondlicht fällt auf die hohen Schneewehen, die ein kleines Dorf bedecken.",
+      "size": "24x30 cm",
+      "material": "Ei-Öl-Tempera auf Leinwand",
+      "description": "Eine Winterlandschaft, gemalt in tiefen Blaugrüntönen über einer Untermalung in Umbra. Blasses Mondlicht fällt auf die hohen Schneewehen, die ein kleines Dorf bedecken.",
       "images": [
         {
           "label": "Gesamtansicht",
@@ -595,7 +653,9 @@
     },
     "sailboat": {
       "title": "Segelboot",
-      "description": "30*25 cm\nÖl + Eitempera auf Leinwand\n\nWohin ich auch gehe, ich nehme den Winter mit.",
+      "size": "30x25 cm",
+      "material": "Öl + Eitempera auf Leinwand",
+      "description": "Wohin ich auch gehe, ich nehme den Winter mit.",
       "images": [
         {
           "label": "Gesamtansicht",

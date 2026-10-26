@@ -12,6 +12,7 @@ import ContactMethods from './ContactMethods'
 import BrandLink from './BrandLink'
 import ImageLightbox from './ImageLightbox'
 import ImageZoomHint from './ImageZoomHint'
+import ArtworkFacts from './ArtworkFacts'
 import './ArtworkPage.css'
 
 export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
@@ -46,6 +47,7 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
           <span className="eyebrow">{category(artwork.category)}</span>
           <h1>{artwork.title}</h1>
           <p className="painting-artist">{t('by')} <a href={`${home}#about`}>{site.artistName}</a><span>{site.fullName}</span></p>
+          <ArtworkFacts artwork={artwork} />
           {artwork.description && <div className="painting-description">{artwork.description.split(/\n\s*\n/).map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>}
           {artwork.tags.length > 0 && <ul className="painting-tags" aria-label={t('artworkSubjects')}>{artwork.tags.map(value => <li key={value}>{tag(value)}</li>)}</ul>}
           {artwork.images.length > 1 && <nav className="painting-photo-index" aria-label={t('photographs')}><h2>{t('viewsPainting')}</h2>{artwork.images.map((image, index) => <a key={image.src} href={`#photo-${index + 1}`}>{index + 1}. {image.label}</a>)}</nav>}
