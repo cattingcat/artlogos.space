@@ -129,12 +129,15 @@
     "Cityscapes": "Paesaggi urbani",
     "Figures": "Figure",
     "Portraits": "Ritratti",
-    "Interiors": "Interni"
+    "Interiors": "Interni",
+    "Still lifes": "Nature morte"
   },
   "tags": {
     "Architecture": "Architettura",
+    "Armenia": "Armenia",
     "Autumn": "Autunno",
     "Boats": "Barche",
+    "Ceramics": "Ceramica",
     "Clouds": "Nuvole",
     "Countryside": "Campagna",
     "Evening": "Sera",
@@ -144,6 +147,7 @@
     "Mountains": "Montagne",
     "Night": "Notte",
     "People": "Persone",
+    "Pomegranates": "Melagrane",
     "Sculpture": "Scultura",
     "Sea": "Mare",
     "Spring": "Primavera",
@@ -664,6 +668,22 @@
         {
           "label": "Dettaglio delle figure e dei riflessi",
           "alt": "Barca a vela — Dettaglio delle figure e dei riflessi"
+        }
+      ]
+    },
+    "still-life-with-pomegranates": {
+      "title": "Natura morta con melagrane",
+      "size": "30x40 cm",
+      "material": "Olio su tela",
+      "description": "La brocca, la tazza e il piattino sono stati realizzati a mano in Armenia. Ho anche un’idea per una natura morta più complessa, ma non so ancora bene dove trovare gli oggetti necessari.",
+      "images": [
+        {
+          "label": "Dipinto completo",
+          "alt": "Natura morta con melagrane — melagrane e ceramica armena fatta a mano"
+        },
+        {
+          "label": "Dettaglio delle melagrane",
+          "alt": "Natura morta con melagrane — dettaglio delle melagrane"
         }
       ]
     }

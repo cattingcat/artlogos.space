@@ -129,12 +129,15 @@
     "Cityscapes": "Paysages urbains",
     "Figures": "Figures",
     "Portraits": "Portraits",
-    "Interiors": "Intérieurs"
+    "Interiors": "Intérieurs",
+    "Still lifes": "Natures mortes"
   },
   "tags": {
     "Architecture": "Architecture",
+    "Armenia": "Arménie",
     "Autumn": "Automne",
     "Boats": "Bateaux",
+    "Ceramics": "Céramique",
     "Clouds": "Nuages",
     "Countryside": "Campagne",
     "Evening": "Soir",
@@ -144,6 +147,7 @@
     "Mountains": "Montagnes",
     "Night": "Nuit",
     "People": "Personnes",
+    "Pomegranates": "Grenades",
     "Sculpture": "Sculpture",
     "Sea": "Mer",
     "Spring": "Printemps",
@@ -664,6 +668,22 @@
         {
           "label": "Détail des personnages et des reflets",
           "alt": "Voilier — détail des personnages et des reflets"
+        }
+      ]
+    },
+    "still-life-with-pomegranates": {
+      "title": "Nature morte aux grenades",
+      "size": "30x40 cm",
+      "material": "Huile sur toile",
+      "description": "Le pichet, la tasse et la soucoupe ont été fabriqués à la main en Arménie. J’ai aussi une idée pour une nature morte plus complexe, mais je ne sais pas encore très bien où trouver les objets nécessaires.",
+      "images": [
+        {
+          "label": "Tableau entier",
+          "alt": "Nature morte aux grenades — grenades et poterie arménienne faite à la main"
+        },
+        {
+          "label": "Détail des grenades",
+          "alt": "Nature morte aux grenades — détail des grenades"
         }
       ]
     }

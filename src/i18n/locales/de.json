@@ -129,12 +129,15 @@
     "Cityscapes": "Stadtansichten",
     "Figures": "Figuren",
     "Portraits": "Porträts",
-    "Interiors": "Innenräume"
+    "Interiors": "Innenräume",
+    "Still lifes": "Stillleben"
   },
   "tags": {
     "Architecture": "Architektur",
+    "Armenia": "Armenien",
     "Autumn": "Herbst",
     "Boats": "Boote",
+    "Ceramics": "Keramik",
     "Clouds": "Wolken",
     "Countryside": "Ländliche Motive",
     "Evening": "Abend",
@@ -144,6 +147,7 @@
     "Mountains": "Berge",
     "Night": "Nacht",
     "People": "Menschen",
+    "Pomegranates": "Granatäpfel",
     "Sculpture": "Skulptur",
     "Sea": "Meer",
     "Spring": "Frühling",
@@ -664,6 +668,22 @@
         {
           "label": "Detail der Figuren und Spiegelungen",
           "alt": "Segelboot — Detail der Figuren und Spiegelungen"
+        }
+      ]
+    },
+    "still-life-with-pomegranates": {
+      "title": "Stillleben mit Granatäpfeln",
+      "size": "30x40 cm",
+      "material": "Öl auf Leinwand",
+      "description": "Der Krug, die Tasse und die Untertasse wurden in Armenien von Hand gefertigt. Ich habe auch eine Idee für ein aufwendigeres Stillleben, aber ich bin mir noch nicht sicher, wo ich die Gegenstände dafür finden kann.",
+      "images": [
+        {
+          "label": "Gesamtansicht",
+          "alt": "Stillleben mit Granatäpfeln — Granatäpfel und handgefertigte armenische Keramik"
+        },
+        {
+          "label": "Detail der Granatäpfel",
+          "alt": "Stillleben mit Granatäpfeln — Detail der Granatäpfel"
         }
       ]
     }

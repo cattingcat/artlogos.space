@@ -3,6 +3,24 @@
   "notes": "Archive photo mapping preserved. Published titles and descriptions verified against DeviantArt, with Saatchi Art checked as a fallback. Source text is plain text with repeated social and video promotion removed. Descriptive titles remain only when no publication was matched. Tags follow visible subjects and explicit author context; no prices or availability are inferred.",
   "artworks": [
     {
+      "id": "still-life-with-pomegranates",
+      "titleSource": "site owner",
+      "descriptionSource": "site owner",
+      "sources": [
+        {
+          "file": "DeviantBigVer.png",
+          "view": "Full painting",
+          "sha256": "9e9499418df902c3bc8204affa7d27c28ed264f3c492830dcb310459c3deaecf"
+        },
+        {
+          "file": "fragmentSmallSize.png",
+          "view": "Pomegranate detail",
+          "sha256": "7134937bc21ae1a283375c73bc63b92f6475b6c5343762d1e6cb0a18a0008b12"
+        }
+      ],
+      "note": "Title, dimensions, medium, artist statement and two photographs supplied by the site owner on 2026-10-29. Full painting is the cover; pomegranate detail is the second view. Full source resolutions and source transparency preserved; previews fit within 720 px. EXIF orientation normalized and embedded color profiles converted to sRGB. Original files unchanged."
+    },
+    {
       "id": "night",
       "titleSource": "site owner",
       "descriptionSource": "site owner",

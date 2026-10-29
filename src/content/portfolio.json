@@ -1,5 +1,36 @@
 [
   {
+    "id": "still-life-with-pomegranates",
+    "title": "Still Life with Pomegranates",
+    "category": "Still lifes",
+    "tags": [
+      "Pomegranates",
+      "Ceramics",
+      "Armenia"
+    ],
+    "images": [
+      {
+        "src": "/portfolio/still-life-with-pomegranates/01.webp",
+        "thumbnail": "/portfolio/still-life-with-pomegranates/01-preview.webp",
+        "alt": "Still Life with Pomegranates — pomegranates and handmade Armenian pottery",
+        "label": "Full painting",
+        "width": 2500,
+        "height": 1883
+      },
+      {
+        "src": "/portfolio/still-life-with-pomegranates/02.webp",
+        "thumbnail": "/portfolio/still-life-with-pomegranates/02-preview.webp",
+        "alt": "Still Life with Pomegranates — pomegranate detail",
+        "label": "Pomegranate detail",
+        "width": 2000,
+        "height": 1608
+      }
+    ],
+    "size": "30x40 cm",
+    "material": "Oil on canvas",
+    "description": "The jug, cup and saucer were handmade in Armenia. I also have an idea for a more complex still life, but I’m not sure where to find the props yet."
+  },
+  {
     "id": "night",
     "title": "An Evening in St Petersburg",
     "category": "Cityscapes",

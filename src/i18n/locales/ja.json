@@ -129,12 +129,15 @@
     "Cityscapes": "都市風景画",
     "Figures": "人物画",
     "Portraits": "肖像画",
-    "Interiors": "室内画"
+    "Interiors": "室内画",
+    "Still lifes": "静物画"
   },
   "tags": {
     "Architecture": "建築",
+    "Armenia": "アルメニア",
     "Autumn": "秋",
     "Boats": "船",
+    "Ceramics": "陶器",
     "Clouds": "雲",
     "Countryside": "田園",
     "Evening": "夕暮れ",
@@ -144,6 +147,7 @@
     "Mountains": "山",
     "Night": "夜",
     "People": "人物",
+    "Pomegranates": "ザクロ",
     "Sculpture": "彫刻",
     "Sea": "海",
     "Spring": "春",
@@ -664,6 +668,22 @@
         {
           "label": "人物と映り込みの細部",
           "alt": "「帆船」— 人物と映り込みの細部"
+        }
+      ]
+    },
+    "still-life-with-pomegranates": {
+      "title": "ザクロのある静物",
+      "size": "30x40 cm",
+      "material": "キャンバスに油彩",
+      "description": "水差しとカップと受け皿は、アルメニアで手作りされたものです。もっと複雑な静物画のアイデアもあるのですが、必要な小道具をどこで見つけられるかはまだわかりません。",
+      "images": [
+        {
+          "label": "作品全体",
+          "alt": "「ザクロのある静物」— ザクロとアルメニアの手作りの陶器"
+        },
+        {
+          "label": "ザクロの細部",
+          "alt": "「ザクロのある静物」— ザクロのクローズアップ"
         }
       ]
     }

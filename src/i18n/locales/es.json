@@ -129,12 +129,15 @@
     "Cityscapes": "Paisajes urbanos",
     "Figures": "Figuras",
     "Portraits": "Retratos",
-    "Interiors": "Interiores"
+    "Interiors": "Interiores",
+    "Still lifes": "Bodegones"
   },
   "tags": {
     "Architecture": "Arquitectura",
+    "Armenia": "Armenia",
     "Autumn": "Otoño",
     "Boats": "Barcos",
+    "Ceramics": "Cerámica",
     "Clouds": "Nubes",
     "Countryside": "Campo",
     "Evening": "Atardecer",
@@ -144,6 +147,7 @@
     "Mountains": "Montañas",
     "Night": "Noche",
     "People": "Personas",
+    "Pomegranates": "Granadas",
     "Sculpture": "Escultura",
     "Sea": "Mar",
     "Spring": "Primavera",
@@ -664,6 +668,22 @@
         {
           "label": "Detalle de las figuras y los reflejos",
           "alt": "Velero — detalle de las figuras y los reflejos"
+        }
+      ]
+    },
+    "still-life-with-pomegranates": {
+      "title": "Bodegón con granadas",
+      "size": "30x40 cm",
+      "material": "Óleo sobre lienzo",
+      "description": "La jarra, la taza y el platillo se hicieron a mano en Armenia. También tengo una idea para un bodegón más complejo, pero aún no estoy segura de dónde encontrar los objetos necesarios.",
+      "images": [
+        {
+          "label": "Pintura completa",
+          "alt": "Bodegón con granadas — granadas y cerámica armenia hecha a mano"
+        },
+        {
+          "label": "Detalle de las granadas",
+          "alt": "Bodegón con granadas — detalle de las granadas"
         }
       ]
     }

@@ -1,6 +1,6 @@
 import collection from './portfolio.json'
 
-export const categories = ['All works', 'Landscapes', 'Cityscapes', 'Figures', 'Portraits', 'Interiors'] as const
+export const categories = ['All works', 'Landscapes', 'Cityscapes', 'Figures', 'Portraits', 'Interiors', 'Still lifes'] as const
 export type Category = (typeof categories)[number]
 export type ArtworkCategory = Exclude<Category, 'All works'>
 

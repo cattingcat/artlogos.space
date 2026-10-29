@@ -129,12 +129,15 @@
     "Cityscapes": "Cityscapes",
     "Figures": "Figures",
     "Portraits": "Portraits",
-    "Interiors": "Interiors"
+    "Interiors": "Interiors",
+    "Still lifes": "Still lifes"
   },
   "tags": {
     "Architecture": "Architecture",
+    "Armenia": "Armenia",
     "Autumn": "Autumn",
     "Boats": "Boats",
+    "Ceramics": "Ceramics",
     "Clouds": "Clouds",
     "Countryside": "Countryside",
     "Evening": "Evening",
@@ -144,6 +147,7 @@
     "Mountains": "Mountains",
     "Night": "Night",
     "People": "People",
+    "Pomegranates": "Pomegranates",
     "Sculpture": "Sculpture",
     "Sea": "Sea",
     "Spring": "Spring",
@@ -664,6 +668,22 @@
         {
           "label": "Figures and reflections detail",
           "alt": "Sailboat — figures and reflections detail"
+        }
+      ]
+    },
+    "still-life-with-pomegranates": {
+      "title": "Still Life with Pomegranates",
+      "size": "30x40 cm",
+      "material": "Oil on canvas",
+      "description": "The jug, cup and saucer were handmade in Armenia. I also have an idea for a more complex still life, but I’m not sure where to find the props yet.",
+      "images": [
+        {
+          "label": "Full painting",
+          "alt": "Still Life with Pomegranates — pomegranates and handmade Armenian pottery"
+        },
+        {
+          "label": "Pomegranate detail",
+          "alt": "Still Life with Pomegranates — pomegranate detail"
         }
       ]
     }

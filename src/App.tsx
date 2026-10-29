@@ -23,6 +23,7 @@ const slugs: Record<Category, string> = {
   Figures: 'figures',
   Portraits: 'portraits',
   Interiors: 'interiors',
+  'Still lifes': 'still-lifes',
 }
 const inCategory = (work: Artwork, category: Category) => category === 'All works' || work.category === category
 
