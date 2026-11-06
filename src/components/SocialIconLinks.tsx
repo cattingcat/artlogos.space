@@ -2,6 +2,7 @@ import type { Artwork } from '../content/artworks'
 import type { SocialPlatform } from '../content/socialIcons'
 import { useI18n } from '../i18n/context'
 import { SocialIcon } from './SocialLinks'
+import { trackContactClick } from '../analytics/analytics'
 import './SocialIconLinks.css'
 
 const platforms = ['artstation', 'youtube', 'instagram', 'x'] as const
@@ -10,7 +11,7 @@ const sourceIcons: Partial<Record<string, SocialPlatform>> = {
   'Saatchi Art': 'saatchiart',
 }
 
-export default function SocialIconLinks({ className = '', sources }: { className?: string; sources?: Artwork['sources'] }) {
+export default function SocialIconLinks({ className = '', sources, placement = 'artwork' }: { className?: string; sources?: Artwork['sources']; placement?: string }) {
   const { site, t } = useI18n()
   return <nav className={`social-icon-links ${className}`} aria-label={t('artistProfiles')}>
     <ul>
@@ -22,7 +23,7 @@ export default function SocialIconLinks({ className = '', sources }: { className
           </a>
         </li>
       })}
-      <li><a href={`mailto:${site.email}`} aria-label={`${t('email')}: ${site.email}`} title={`${t('email')}: ${site.email}`}>
+      <li><a href={`mailto:${site.email}`} aria-label={`${t('email')}: ${site.email}`} title={`${t('email')}: ${site.email}`} onClick={() => trackContactClick('email', placement)}>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
       </a></li>
       {sources?.map(source => {

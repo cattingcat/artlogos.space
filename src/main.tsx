@@ -3,6 +3,7 @@ import { createRoot, hydrateRoot } from 'react-dom/client'
 import App from './App'
 import { artworkIdFromPath } from './content/artwork-pages'
 import { entryRedirect, languageStorageKey, localeFromPath } from './i18n/locale'
+import { initializeAnalytics } from './analytics/analytics'
 import './styles.css'
 
 const root = document.getElementById('root')!
@@ -16,5 +17,8 @@ const app = (
 )
 
 if (redirect) window.location.replace(redirect)
-else if (root.hasAttribute('data-prerendered')) hydrateRoot(root, app)
-else createRoot(root).render(app)
+else {
+  initializeAnalytics(localeFromPath(window.location.pathname) ?? 'en')
+  if (root.hasAttribute('data-prerendered')) hydrateRoot(root, app)
+  else createRoot(root).render(app)
+}

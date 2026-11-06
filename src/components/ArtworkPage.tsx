@@ -1,4 +1,5 @@
-import { useState, type MouseEvent } from 'react'
+import { useEffect, useState, type MouseEvent } from 'react'
+import { setCurrentArtwork } from '../analytics/analytics'
 import type { Artwork } from '../content/artworks'
 import { useI18n } from '../i18n/context'
 import { homePath } from '../i18n/locale'
@@ -19,6 +20,9 @@ export default function ArtworkPage({ artwork }: { artwork: Artwork }) {
   const { locale, site, t, category, tag } = useI18n()
   const home = homePath(locale)
   const [zoomedPhoto, setZoomedPhoto] = useState<number | null>(null)
+  useEffect(() => {
+    setCurrentArtwork({ artwork_id: artwork.id, category: artwork.category, view_mode: 'page' })
+  }, [artwork.id, artwork.category])
   const enlargePhoto = (event: MouseEvent<HTMLAnchorElement>, index: number) => {
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
     event.preventDefault()

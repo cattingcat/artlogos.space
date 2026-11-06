@@ -96,7 +96,17 @@
     "languageVersions": "Autres langues",
     "darkTheme": "Thème sombre",
     "switchToLight": "Passer au thème clair",
-    "switchToDark": "Passer au thème sombre"
+    "switchToDark": "Passer au thème sombre",
+    "privacyButton": "Confidentialité",
+    "privacyTitle": "Confidentialité sur ce site",
+    "privacyAnalytics": "Ce portfolio utilise automatiquement Google Analytics 4 pour mesurer les visites de pages, les consultations d’œuvres et les clics sur les liens de contact par e-mail et Telegram. Des informations comme le type d’appareil et de navigateur et la région géographique approximative sont également collectées. Les cookies d’analyse aident à mesurer les visites et les visiteurs qui reviennent. Ces statistiques servent à améliorer le portfolio.",
+    "privacyGoogle": "Google traite les données d’analyse. La personnalisation publicitaire et les signaux Google sont désactivés dans la configuration analytique de ce site.",
+    "privacyGoogleLink": "Comment Google utilise les données",
+    "privacyPreferences": "Votre navigateur conserve localement vos préférences de thème et de langue pour que le site puisse les mémoriser.",
+    "privacyInfrastructure": "Cloudflare contribue à la diffusion et à la sécurité du site et peut traiter des informations de connexion et des mesures élémentaires de fréquentation.",
+    "privacyContacts": "Les liens e-mail et Telegram ouvrent votre application de messagerie ou le service Telegram. Les messages que vous envoyez sont traités par ce service ; ce site ne propose pas de formulaire de contact et ne reçoit pas leur contenu par l’intermédiaire de l’analyse.",
+    "privacyControls": "Vous pouvez bloquer l’analyse dans les paramètres du navigateur ou avec des extensions, et supprimer les cookies et les données locales du site dans votre navigateur. La suppression des données locales efface aussi les préférences enregistrées.",
+    "privacyQuestions": "Pour toute question sur la confidentialité :"
   },
   "site": {
     "fullName": "Alina Pliushcheva",

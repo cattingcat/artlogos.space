@@ -14,6 +14,9 @@ import ArtworkPage from './components/ArtworkPage'
 import BrandLink from './components/BrandLink'
 import { artworkPath } from './content/artwork-pages'
 import { useMasonryGrid } from './hooks/useMasonryGrid'
+import { preserveAttributionQuery } from './analytics/attribution'
+import { setCurrentArtwork } from './analytics/analytics'
+import PrivacyNotice from './components/PrivacyNotice'
 
 type Sort = 'curated' | 'title'
 const slugs: Record<Category, string> = {
@@ -60,7 +63,7 @@ export default function App({ artworkId, locale = 'en' }: { artworkId?: string; 
 function LocalizedApp({ artworkId }: { artworkId?: string }) {
   const { artworks } = useI18n()
   const artwork = artworks.find(work => work.id === artworkId)
-  return artwork ? <ArtworkPage artwork={artwork} /> : <Gallery />
+  return <>{artwork ? <ArtworkPage artwork={artwork} /> : <Gallery />}<PrivacyNotice /></>
 }
 
 function Gallery() {
@@ -90,7 +93,7 @@ function Gallery() {
   useEffect(() => {
     if (!locationRestored) return
     const url = new URL(window.location.href)
-    url.search = query
+    url.search = preserveAttributionQuery(query, url.search)
     window.history.replaceState(window.history.state, '', url)
   }, [query, locationRestored])
 
@@ -98,7 +101,7 @@ function Gallery() {
     const url = new URL(window.location.href)
     url.pathname = homePath(locale)
     const nextTags = category === location.category ? selectedTags : []
-    url.search = galleryQuery(category, work, nextTags, sort)
+    url.search = preserveAttributionQuery(galleryQuery(category, work, nextTags, sort), url.search)
     url.hash = ''
     const historyState = work ? (replace ? window.history.state : { artworkOverlay: true }) : {}
     window.history[replace ? 'replaceState' : 'pushState'](historyState, '', url)
@@ -122,6 +125,13 @@ function Gallery() {
   const gridRef = useMasonryGrid(`${locale}:${filtered.map(work => work.id).join(',')}`)
 
   const selectedArtwork = artworks.find(work => work.id === location.work)
+  useEffect(() => {
+    if (!locationRestored) return
+    // No cleanup reset: StrictMode replays effects; actual close clears the context.
+    setCurrentArtwork(selectedArtwork ? {
+      artwork_id: selectedArtwork.id, category: selectedArtwork.category, view_mode: 'modal',
+    } : null)
+  }, [locationRestored, selectedArtwork?.id, selectedArtwork?.category])
   const viewerWorks = selectedArtwork && !filtered.some(work => work.id === selectedArtwork.id) ? artworks : filtered
   const selectedIndex = viewerWorks.findIndex(work => work.id === selectedArtwork?.id)
   const resetFilters = () => setSelectedTags([])

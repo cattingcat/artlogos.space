@@ -96,7 +96,17 @@
     "languageVersions": "Weitere Sprachen",
     "darkTheme": "Dunkles Design",
     "switchToLight": "Zum hellen Design wechseln",
-    "switchToDark": "Zum dunklen Design wechseln"
+    "switchToDark": "Zum dunklen Design wechseln",
+    "privacyButton": "Datenschutz",
+    "privacyTitle": "Datenschutz auf dieser Website",
+    "privacyAnalytics": "Dieses Portfolio nutzt automatisch Google Analytics 4, um Seitenbesuche, Aufrufe von Kunstwerken und Klicks auf E-Mail- und Telegram-Kontaktlinks zu messen. Dabei werden auch Angaben wie Geräte- und Browsertyp sowie die ungefähre geografische Region erfasst. Analyse-Cookies helfen, Besuche und wiederkehrende Besucher zu messen. Diese Statistiken dienen der Verbesserung des Portfolios.",
+    "privacyGoogle": "Google verarbeitet die Analysedaten. Anzeigenpersonalisierung und Google-Signale sind in der Analysekonfiguration dieser Website deaktiviert.",
+    "privacyGoogleLink": "Wie Google Daten verwendet",
+    "privacyPreferences": "Ihr Browser speichert Ihre Einstellungen für Design und Sprache lokal, damit die Website sie beibehalten kann.",
+    "privacyInfrastructure": "Cloudflare unterstützt die Auslieferung und Sicherheit dieser Website und kann Verbindungsinformationen und grundlegende Zugriffsstatistiken verarbeiten.",
+    "privacyContacts": "E-Mail- und Telegram-Links öffnen Ihre gewählte E-Mail-App oder den Telegram-Dienst. Gesendete Nachrichten werden vom jeweiligen Dienst verarbeitet; diese Website hat kein Kontaktformular und erhält über die Analyse keine Nachrichteninhalte.",
+    "privacyControls": "Sie können die Analyse über Browsereinstellungen oder Erweiterungen blockieren und Cookies sowie lokale Websitedaten im Browser löschen. Beim Löschen lokaler Daten werden auch gespeicherte Einstellungen entfernt.",
+    "privacyQuestions": "Bei Fragen zum Datenschutz:"
   },
   "site": {
     "fullName": "Alina Pliushcheva",

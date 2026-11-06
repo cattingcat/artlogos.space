@@ -1,0 +1,91 @@
+.privacy-notice {
+  padding-top: 0;
+  padding-bottom: 20px;
+  text-align: right;
+}
+
+.privacy-trigger {
+  min-height: 44px;
+  padding: 8px 0;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.privacy-trigger:hover { color: var(--color-text); }
+
+.privacy-dialog {
+  width: min(640px, calc(100vw - 32px));
+  max-width: none;
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  overflow: auto;
+  overscroll-behavior: contain;
+  text-align: left;
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+.privacy-dialog::backdrop { background: var(--color-overlay); }
+
+.privacy-dialog-inner {
+  position: relative;
+  padding: 36px;
+}
+
+.privacy-dialog h2 {
+  margin: 0 44px 24px 0;
+  font: 36px/1.15 var(--serif);
+  overflow-wrap: anywhere;
+}
+
+.privacy-dialog p {
+  color: var(--color-text-muted);
+  font-size: 14px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.privacy-dialog p + p { margin-top: 16px; }
+
+.privacy-dialog a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.privacy-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  color: var(--color-text);
+  background: var(--color-control-background);
+  font-size: 29px;
+  line-height: 1;
+}
+
+.privacy-close:hover { background: var(--color-hover); }
+
+.privacy-notice button:focus-visible,
+.privacy-dialog :is(button, a):focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 4px;
+}
+
+@media (max-width: 479px) {
+  .privacy-dialog-inner { padding: 28px 22px; }
+  .privacy-dialog h2 {
+    margin-right: 0;
+    padding-top: 36px;
+    font-size: 24px;
+  }
+  .privacy-close { top: 12px; right: 12px; }
+}

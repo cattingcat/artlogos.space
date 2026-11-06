@@ -96,7 +96,17 @@
     "languageVersions": "ほかの言語",
     "darkTheme": "ダークテーマ",
     "switchToLight": "ライトテーマに切り替える",
-    "switchToDark": "ダークテーマに切り替える"
+    "switchToDark": "ダークテーマに切り替える",
+    "privacyButton": "プライバシー",
+    "privacyTitle": "このサイトのプライバシー",
+    "privacyAnalytics": "このポートフォリオでは、Google アナリティクス 4 を自動的に使用し、ページへのアクセス、作品の閲覧、メールや Telegram の連絡先リンクのクリックを測定します。デバイスやブラウザの種類、おおよその地域などの情報も収集します。解析用 Cookie は、訪問回数や再訪問者の測定に使われます。これらの統計はポートフォリオの改善に役立てます。",
+    "privacyGoogle": "解析データは Google が処理します。このサイトの解析設定では、広告のパーソナライズと Google シグナルを無効にしています。",
+    "privacyGoogleLink": "Google によるデータの利用について",
+    "privacyPreferences": "テーマと言語の設定を記憶するため、ブラウザはこれらの設定をローカルに保存します。",
+    "privacyInfrastructure": "Cloudflare はこのサイトの配信と保護を支援し、接続情報や基本的なアクセス指標を処理する場合があります。",
+    "privacyContacts": "メールや Telegram のリンクをクリックすると、選択したメールアプリや Telegram サービスが開きます。送信したメッセージはそのサービスで処理されます。このサイトには問い合わせフォームがなく、解析を通じてメッセージの内容を受信することもありません。",
+    "privacyControls": "ブラウザの設定や拡張機能で解析をブロックでき、ブラウザから Cookie やサイトのローカルデータを削除できます。ローカルデータを削除すると、保存された設定も消去されます。",
+    "privacyQuestions": "プライバシーに関するお問い合わせ："
   },
   "site": {
     "fullName": "Alina Pliushcheva",
