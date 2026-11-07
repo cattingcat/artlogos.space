@@ -64,12 +64,16 @@ export function createAnalyticsController({ window, document }: AnalyticsEnviron
         return
       }
 
-      command('js', new Date())
-      command('config', measurementId, {
+      const defaults = {
         send_page_view: false,
         allow_google_signals: false,
         allow_ad_personalization_signals: false,
-      })
+        site_language: locale,
+      }
+      // The GA destination can fire on tag initialization, before it reads config.
+      command('set', defaults)
+      command('js', new Date())
+      command('config', measurementId, defaults)
       command('event', 'page_view', {
         page_location: window.location.href,
         page_title: document.title,

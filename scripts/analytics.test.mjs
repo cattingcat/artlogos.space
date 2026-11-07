@@ -23,20 +23,23 @@ function browser({ hostname = 'artlogos.space', pathname = '/en/', blockedScript
   }
 }
 
-test('automatic startup queues one explicit document view and disables advertising features', () => {
+test('pageview and advertising defaults precede tag initialization, followed by one localized pageview', () => {
   const page = browser()
   page.controller.initializeAnalytics('en')
   assert.equal(page.scripts.length, 1)
   assert.equal(page.scripts[0].async, true)
   assert.equal(page.scripts[0].src, 'https://www.googletagmanager.com/gtag/js?id=G-MK7GF137Y6')
   const commands = page.commands()
-  assert.equal(commands[0][0], 'js')
-  assert.ok(commands[0][1] instanceof Date)
-  assert.deepEqual(commands[1], ['config', 'G-MK7GF137Y6', {
+  const defaults = {
     send_page_view: false,
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
-  }])
+    site_language: 'en',
+  }
+  assert.deepEqual(commands[0], ['set', defaults])
+  assert.equal(commands[1][0], 'js')
+  assert.ok(commands[1][1] instanceof Date)
+  assert.deepEqual(commands[2], ['config', 'G-MK7GF137Y6', defaults])
   assert.deepEqual(page.events('page_view'), [['event', 'page_view', {
     page_location: 'https://artlogos.space/en/?utm_source=studio',
     page_title: 'Artlogos — Portfolio',
@@ -73,7 +76,8 @@ test('local, preview and neutral redirect documents never start collection', () 
   }
   const www = browser({ hostname: 'www.artlogos.space', pathname: '/ru/' })
   www.controller.initializeAnalytics('ru')
-  assert.equal(www.events('page_view').length, 1)
+  assert.deepEqual(www.events('page_view').map(event => event[2].site_language), ['ru'])
+  assert.equal(www.commands()[0][1].site_language, 'ru')
 })
 
 test('artwork effects deduplicate repeats while next artwork and reopening record fresh views', () => {
